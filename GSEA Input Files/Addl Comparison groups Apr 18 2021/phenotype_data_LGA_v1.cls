@@ -1,3 +1,0 @@
-24	2	1																					
-#	LGA	HGA																					
-LGA	LGA	LGA	LGA	LGA	LGA	LGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA

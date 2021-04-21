@@ -1,3 +1,0 @@
-36	2	1																																	
-#	CRC	HGA																																	
-CRC	CRC	CRC	CRC	CRC	CRC	CRC	CRC	CRC	CRC	CRC	CRC	CRC	CRC	CRC	CRC	CRC	CRC	CRC	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA	HGA
