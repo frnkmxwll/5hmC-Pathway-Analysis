@@ -1,0 +1,56 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CYP2C19	cytochrome P450 family 2 subfamily C member 19 [Source:HGNC Symbol;Acc:HGNC:2621]	15	0.5351577997207642	0.06685502	Yes	
+row_1	CYP2E1	cytochrome P450 family 2 subfamily E member 1 [Source:HGNC Symbol;Acc:HGNC:2631]	20	0.5217536091804504	0.13261932	Yes	
+row_2	PTGES2	prostaglandin E synthase 2 [Source:HGNC Symbol;Acc:HGNC:17822]	142	0.4097268283367157	0.17778677	Yes	
+row_3	CYP4F12	cytochrome P450 family 4 subfamily F member 12 [Source:HGNC Symbol;Acc:HGNC:18857]	366	0.342931866645813	0.20890191	Yes	
+row_4	CYP2B6	cytochrome P450 family 2 subfamily B member 6 [Source:HGNC Symbol;Acc:HGNC:2615]	459	0.3270111083984375	0.2452022	Yes	
+row_5	CYP4A22	cytochrome P450 family 4 subfamily A member 22 [Source:HGNC Symbol;Acc:HGNC:20575]	508	0.31772974133491516	0.28274658	Yes	
+row_6	PLA2G2F	phospholipase A2 group IIF [Source:HGNC Symbol;Acc:HGNC:30040]	715	0.29093870520591736	0.3082205	Yes	
+row_7	CYP2C8	cytochrome P450 family 2 subfamily C member 8 [Source:HGNC Symbol;Acc:HGNC:2622]	893	0.27370285987854004	0.33310828	Yes	
+row_8	CYP2C9	cytochrome P450 family 2 subfamily C member 9 [Source:HGNC Symbol;Acc:HGNC:2623]	1077	0.2592755854129791	0.3558418	Yes	
+row_9	CYP1A1	cytochrome P450 family 1 subfamily A member 1 [Source:HGNC Symbol;Acc:HGNC:2595]	1290	0.244689479470253	0.37513706	Yes	
+row_10	CYP4F11	cytochrome P450 family 4 subfamily F member 11 [Source:HGNC Symbol;Acc:HGNC:13265]	1390	0.23822885751724243	0.39982477	Yes	
+row_11	CYP2J2	cytochrome P450 family 2 subfamily J member 2 [Source:HGNC Symbol;Acc:HGNC:2634]	1725	0.21804623305797577	0.40904653	Yes	
+row_12	PTGDS	prostaglandin D2 synthase [Source:HGNC Symbol;Acc:HGNC:9592]	1847	0.21209248900413513	0.42921996	Yes	
+row_13	ALOX15	arachidonate 15-lipoxygenase [Source:HGNC Symbol;Acc:HGNC:433]	2016	0.2033364176750183	0.44570333	Yes	
+row_14	CYP2A13	cytochrome P450 family 2 subfamily A member 13 [Source:HGNC Symbol;Acc:HGNC:2608]	2178	0.19584503769874573	0.46162394	Yes	
+row_15	ALOX12B	arachidonate 12-lipoxygenase, 12R type [Source:HGNC Symbol;Acc:HGNC:430]	2508	0.18129289150238037	0.46647242	Yes	
+row_16	ALOXE3	arachidonate lipoxygenase 3 [Source:HGNC Symbol;Acc:HGNC:13743]	3478	0.14651277661323547	0.4317537	Yes	
+row_17	EPHX2	epoxide hydrolase 2 [Source:HGNC Symbol;Acc:HGNC:3402]	3641	0.14102348685264587	0.44068632	Yes	
+row_18	ALOX15B	arachidonate 15-lipoxygenase type B [Source:HGNC Symbol;Acc:HGNC:434]	3913	0.13265299797058105	0.44257066	Yes	
+row_19	GPX4	glutathione peroxidase 4 [Source:HGNC Symbol;Acc:HGNC:4556]	4259	0.12183491140604019	0.4390205	Yes	
+row_20	CYP2U1	cytochrome P450 family 2 subfamily U member 1 [Source:HGNC Symbol;Acc:HGNC:20582]	4265	0.12170752882957458	0.45413762	Yes	
+row_21	CYP2S1	cytochrome P450 family 2 subfamily S member 1 [Source:HGNC Symbol;Acc:HGNC:15654]	4595	0.11279423534870148	0.45032334	Yes	
+row_22	CYP1A2	cytochrome P450 family 1 subfamily A member 2 [Source:HGNC Symbol;Acc:HGNC:2596]	4598	0.11270738393068314	0.4644671	Yes	
+row_23	FAAH	fatty acid amide hydrolase [Source:HGNC Symbol;Acc:HGNC:3553]	4741	0.10926037281751633	0.47048178	Yes	
+row_24	CYP2C18	cytochrome P450 family 2 subfamily C member 18 [Source:HGNC Symbol;Acc:HGNC:2620]	4837	0.10678847879171371	0.47876653	Yes	
+row_25	DAGLA	diacylglycerol lipase alpha [Source:HGNC Symbol;Acc:HGNC:1165]	4977	0.10271719843149185	0.48411858	Yes	
+row_26	PTGES	prostaglandin E synthase [Source:HGNC Symbol;Acc:HGNC:9599]	5319	0.09364045411348343	0.4772226	No	
+row_27	PLA2G4C	phospholipase A2 group IVC [Source:HGNC Symbol;Acc:HGNC:9037]	5468	0.08994071930646896	0.48046428	No	
+row_28	PTGIS	prostaglandin I2 synthase [Source:HGNC Symbol;Acc:HGNC:9603]	5655	0.08568888902664185	0.4810801	No	
+row_29	CYP4F2	cytochrome P450 family 4 subfamily F member 2 [Source:HGNC Symbol;Acc:HGNC:2645]	6092	0.07461683452129364	0.46655792	No	
+row_30	CYP4A11	cytochrome P450 family 4 subfamily A member 11 [Source:HGNC Symbol;Acc:HGNC:2642]	6841	0.056165557354688644	0.43255752	No	
+row_31	CYP2F1	cytochrome P450 family 2 subfamily F member 1 [Source:HGNC Symbol;Acc:HGNC:2632]	7238	0.04639958217740059	0.41666487	No	
+row_32	MGLL	monoglyceride lipase [Source:HGNC Symbol;Acc:HGNC:17038]	8378	0.01966073550283909	0.356562	No	
+row_33	CYP1B1	cytochrome P450 family 1 subfamily B member 1 [Source:HGNC Symbol;Acc:HGNC:2597]	8512	0.016971614211797714	0.35139984	No	
+row_34	ALOX5	arachidonate 5-lipoxygenase [Source:HGNC Symbol;Acc:HGNC:435]	8804	0.01012456975877285	0.33668947	No	
+row_35	ALOX12	arachidonate 12-lipoxygenase, 12S type [Source:HGNC Symbol;Acc:HGNC:429]	8847	0.008895174600183964	0.33550647	No	
+row_36	CYP2A7	cytochrome P450 family 2 subfamily A member 7 [Source:HGNC Symbol;Acc:HGNC:2611]	9287	0.0	0.31138295	No	
+row_37	CYP2A6	cytochrome P450 family 2 subfamily A member 6 [Source:HGNC Symbol;Acc:HGNC:2610]	9288	0.0	0.31138295	No	
+row_38	AKR1C3	aldo-keto reductase family 1 member C3 [Source:HGNC Symbol;Acc:HGNC:386]	9445	0.0	0.30281058	No	
+row_39	PLA2G4B	phospholipase A2 group IVB [Source:HGNC Symbol;Acc:HGNC:9036]	9454	0.0	0.30237097	No	
+row_40	CBR1	carbonyl reductase 1 [Source:HGNC Symbol;Acc:HGNC:1548]	10283	0.0	0.25687146	No	
+row_41	PTGS1	prostaglandin-endoperoxide synthase 1 [Source:HGNC Symbol;Acc:HGNC:9604]	10436	-0.001040745060890913	0.2486505	No	
+row_42	CYP2D6	cytochrome P450 family 2 subfamily D member 6 [Source:HGNC Symbol;Acc:HGNC:2625]	10498	-0.002547395881265402	0.24562064	No	
+row_43	DAGLB	diacylglycerol lipase beta [Source:HGNC Symbol;Acc:HGNC:28923]	11124	-0.017530420795083046	0.21349321	No	
+row_44	EPHX1	epoxide hydrolase 1 [Source:HGNC Symbol;Acc:HGNC:3401]	11463	-0.026943190023303032	0.19832714	No	
+row_45	MAPK3	mitogen-activated protein kinase 3 [Source:HGNC Symbol;Acc:HGNC:6877]	11488	-0.027536459267139435	0.20049074	No	
+row_46	GPX1	glutathione peroxidase 1 [Source:HGNC Symbol;Acc:HGNC:4553]	12144	-0.04628743603825569	0.17035156	No	
+row_47	TBXAS1	thromboxane A synthase 1 [Source:HGNC Symbol;Acc:HGNC:11609]	12488	-0.05511736869812012	0.15847382	No	
+row_48	PNPLA8	patatin like phospholipase domain containing 8 [Source:HGNC Symbol;Acc:HGNC:28900]	13436	-0.08272702991962433	0.116897285	No	
+row_49	CYP4F3	cytochrome P450 family 4 subfamily F member 3 [Source:HGNC Symbol;Acc:HGNC:2646]	13896	-0.09764102846384048	0.104023	No	
+row_50	PTGES3	prostaglandin E synthase 3 [Source:HGNC Symbol;Acc:HGNC:16049]	14099	-0.10348287224769592	0.10600995	No	
+row_51	PLA2G10	phospholipase A2 group X [Source:HGNC Symbol;Acc:HGNC:9029]	15086	-0.13781650364398956	0.06925728	No	
+row_52	HPGDS	hematopoietic prostaglandin D synthase [Source:HGNC Symbol;Acc:HGNC:17890]	15538	-0.15405401587486267	0.06395694	No	
+row_53	PTGS2	prostaglandin-endoperoxide synthase 2 [Source:HGNC Symbol;Acc:HGNC:9605]	17652	-0.2918696701526642	-0.015243126	No	
+row_54	PLA2G4A	phospholipase A2 group IVA [Source:HGNC Symbol;Acc:HGNC:9035]	18089	-0.3808037340641022	0.008956935	No	

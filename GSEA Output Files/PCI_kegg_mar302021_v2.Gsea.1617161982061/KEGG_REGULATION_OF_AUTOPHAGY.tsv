@@ -1,0 +1,35 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	BECN1	beclin 1 [Source:HGNC Symbol;Acc:HGNC:1034]	1622	0.18373747169971466	-0.042038795	No	
+row_1	INS	insulin [Source:HGNC Symbol;Acc:HGNC:6081]	2108	0.16046571731567383	-0.027621744	No	
+row_2	ULK3	unc-51 like kinase 3 [Source:HGNC Symbol;Acc:HGNC:19703]	2503	0.14415901899337769	-0.012380195	No	
+row_3	ATG4B	autophagy related 4B cysteine peptidase [Source:HGNC Symbol;Acc:HGNC:20790]	2840	0.1321256011724472	0.0029674082	No	
+row_4	IFNA4	interferon alpha 4 [Source:HGNC Symbol;Acc:HGNC:5425]	3460	0.11399728059768677	-0.0018543717	No	
+row_5	IFNA8	interferon alpha 8 [Source:HGNC Symbol;Acc:HGNC:5429]	3564	0.11117082834243774	0.020923091	No	
+row_6	IFNA5	interferon alpha 5 [Source:HGNC Symbol;Acc:HGNC:5426]	4125	0.0958872139453888	0.014708209	No	
+row_7	IFNA13	interferon alpha 13 [Source:HGNC Symbol;Acc:HGNC:5419]	4702	0.08273425698280334	0.0042513767	No	
+row_8	ULK2	unc-51 like autophagy activating kinase 2 [Source:HGNC Symbol;Acc:HGNC:13480]	5503	0.06461064517498016	-0.023135258	No	
+row_9	ULK1	unc-51 like autophagy activating kinase 1 [Source:HGNC Symbol;Acc:HGNC:12558]	7953	0.013604329898953438	-0.15407619	No	
+row_10	IFNA6	interferon alpha 6 [Source:HGNC Symbol;Acc:HGNC:5427]	8218	0.008573844097554684	-0.16637388	No	
+row_11	IFNA16	interferon alpha 16 [Source:HGNC Symbol;Acc:HGNC:5421]	9294	0.0	-0.22537822	No	
+row_12	IFNA10	interferon alpha 10 [Source:HGNC Symbol;Acc:HGNC:5418]	9297	0.0	-0.22548798	No	
+row_13	IFNA7	interferon alpha 7 [Source:HGNC Symbol;Acc:HGNC:5428]	9492	0.0	-0.23613621	No	
+row_14	IFNA14	interferon alpha 14 [Source:HGNC Symbol;Acc:HGNC:5420]	10423	-0.011044126003980637	-0.2843574	No	
+row_15	ATG4D	autophagy related 4D cysteine peptidase [Source:HGNC Symbol;Acc:HGNC:20789]	10845	-0.0195454228669405	-0.30246657	No	
+row_16	BECN2	beclin 2 [Source:HGNC Symbol;Acc:HGNC:38606]	11521	-0.03305412083864212	-0.33106253	No	
+row_17	GABARAPL1	GABA type A receptor associated protein like 1 [Source:HGNC Symbol;Acc:HGNC:4068]	11642	-0.03552499786019325	-0.32856387	No	
+row_18	IFNA2	interferon alpha 2 [Source:HGNC Symbol;Acc:HGNC:5423]	12972	-0.06407539546489716	-0.385123	No	
+row_19	GABARAPL2	GABA type A receptor associated protein like 2 [Source:HGNC Symbol;Acc:HGNC:13291]	13485	-0.07646504044532776	-0.39367032	No	
+row_20	IFNA21	interferon alpha 21 [Source:HGNC Symbol;Acc:HGNC:5424]	13673	-0.0810432955622673	-0.38320827	No	
+row_21	ATG7	autophagy related 7 [Source:HGNC Symbol;Acc:HGNC:16935]	13748	-0.08266631513834	-0.36612883	No	
+row_22	IFNA17	interferon alpha 17 [Source:HGNC Symbol;Acc:HGNC:5422]	14519	-0.10265768319368362	-0.38213864	No	
+row_23	PIK3C3	phosphatidylinositol 3-kinase catalytic subunit type 3 [Source:HGNC Symbol;Acc:HGNC:8974]	15197	-0.12188179045915604	-0.38812754	No	
+row_24	PRKAA1	protein kinase AMP-activated catalytic subunit alpha 1 [Source:HGNC Symbol;Acc:HGNC:9376]	16651	-0.17602163553237915	-0.42286354	Yes	
+row_25	IFNG	interferon gamma [Source:HGNC Symbol;Acc:HGNC:5438]	16710	-0.1793852299451828	-0.38017094	Yes	
+row_26	ATG5	autophagy related 5 [Source:HGNC Symbol;Acc:HGNC:589]	16782	-0.18313951790332794	-0.33723176	Yes	
+row_27	ATG4C	autophagy related 4C cysteine peptidase [Source:HGNC Symbol;Acc:HGNC:16040]	16875	-0.1878446340560913	-0.2942419	Yes	
+row_28	IFNA1	interferon alpha 1 [Source:HGNC Symbol;Acc:HGNC:5417]	17137	-0.20414328575134277	-0.25635988	Yes	
+row_29	PIK3R4	phosphoinositide-3-kinase regulatory subunit 4 [Source:HGNC Symbol;Acc:HGNC:8982]	17173	-0.20682309567928314	-0.20538786	Yes	
+row_30	PRKAA2	protein kinase AMP-activated catalytic subunit alpha 2 [Source:HGNC Symbol;Acc:HGNC:9377]	17247	-0.21241320669651031	-0.15507197	Yes	
+row_31	ATG3	autophagy related 3 [Source:HGNC Symbol;Acc:HGNC:20962]	17302	-0.21548689901828766	-0.10292715	Yes	
+row_32	GABARAP	GABA type A receptor-associated protein [Source:HGNC Symbol;Acc:HGNC:4067]	17321	-0.2164764702320099	-0.048553288	Yes	
+row_33	ATG12	autophagy related 12 [Source:HGNC Symbol;Acc:HGNC:588]	18177	-0.3894525170326233	0.0041165296	Yes	

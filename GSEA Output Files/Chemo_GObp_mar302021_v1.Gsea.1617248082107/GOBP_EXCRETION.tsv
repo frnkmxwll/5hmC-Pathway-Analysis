@@ -1,0 +1,58 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TAC1	tachykinin precursor 1 [Source:HGNC Symbol;Acc:HGNC:11517]	146	0.40777406096458435	0.03878921	Yes	
+row_1	AGT	angiotensinogen [Source:HGNC Symbol;Acc:HGNC:333]	215	0.38195520639419556	0.078901045	Yes	
+row_2	ATP6V1B1	ATPase H+ transporting V1 subunit B1 [Source:HGNC Symbol;Acc:HGNC:853]	482	0.3232468068599701	0.10139157	Yes	
+row_3	CLN3	CLN3 lysosomal/endosomal transmembrane protein, battenin [Source:HGNC Symbol;Acc:HGNC:2074]	622	0.30089375376701355	0.12829548	Yes	
+row_4	CLCNKA	chloride voltage-gated channel Ka [Source:HGNC Symbol;Acc:HGNC:2026]	764	0.2865927517414093	0.15344772	Yes	
+row_5	AVP	arginine vasopressin [Source:HGNC Symbol;Acc:HGNC:894]	790	0.2843744158744812	0.18472031	Yes	
+row_6	OXT	oxytocin/neurophysin I prepropeptide [Source:HGNC Symbol;Acc:HGNC:8528]	952	0.26915913820266724	0.20677201	Yes	
+row_7	SCNN1G	sodium channel epithelial 1 subunit gamma [Source:HGNC Symbol;Acc:HGNC:10602]	1064	0.25995320081710815	0.2305147	Yes	
+row_8	SLC22A18	solute carrier family 22 member 18 [Source:HGNC Symbol;Acc:HGNC:10964]	1144	0.25397124886512756	0.25532928	Yes	
+row_9	DRD2	dopamine receptor D2 [Source:HGNC Symbol;Acc:HGNC:3023]	1668	0.22084297239780426	0.25193974	Yes	
+row_10	ABCG8	ATP binding cassette subfamily G member 8 [Source:HGNC Symbol;Acc:HGNC:13887]	1702	0.21933577954769135	0.27530617	Yes	
+row_11	GUCA2B	guanylate cyclase activator 2B [Source:HGNC Symbol;Acc:HGNC:4683]	1797	0.2146381437778473	0.2947809	Yes	
+row_12	NPHS2	NPHS2 stomatin family member, podocin [Source:HGNC Symbol;Acc:HGNC:13394]	2055	0.20157910883426666	0.30379847	Yes	
+row_13	CHRNB4	cholinergic receptor nicotinic beta 4 subunit [Source:HGNC Symbol;Acc:HGNC:1964]	2401	0.18598319590091705	0.30618936	Yes	
+row_14	CHRNB2	cholinergic receptor nicotinic beta 2 subunit [Source:HGNC Symbol;Acc:HGNC:1962]	2490	0.18194450438022614	0.32224056	Yes	
+row_15	KCNMA1	potassium calcium-activated channel subfamily M alpha 1 [Source:HGNC Symbol;Acc:HGNC:6284]	2652	0.17668913304805756	0.33367658	Yes	
+row_16	MLLT6	MLLT6, PHD finger containing [Source:HGNC Symbol;Acc:HGNC:7138]	2662	0.1762738823890686	0.35341844	Yes	
+row_17	AMN	amnion associated transmembrane protein [Source:HGNC Symbol;Acc:HGNC:14604]	2788	0.17119069397449493	0.36620167	Yes	
+row_18	SCNN1B	sodium channel epithelial 1 subunit beta [Source:HGNC Symbol;Acc:HGNC:10600]	2890	0.1672549545764923	0.3798521	Yes	
+row_19	ADRA1A	adrenoceptor alpha 1A [Source:HGNC Symbol;Acc:HGNC:277]	2980	0.16396068036556244	0.39378378	Yes	
+row_20	GRHPR	glyoxylate and hydroxypyruvate reductase [Source:HGNC Symbol;Acc:HGNC:4570]	3083	0.15987780690193176	0.40653232	Yes	
+row_21	HMOX1	heme oxygenase 1 [Source:HGNC Symbol;Acc:HGNC:5013]	3174	0.15660487115383148	0.4195646	Yes	
+row_22	NPR1	natriuretic peptide receptor 1 [Source:HGNC Symbol;Acc:HGNC:7943]	3652	0.14059776067733765	0.40949082	Yes	
+row_23	CLCNKB	chloride voltage-gated channel Kb [Source:HGNC Symbol;Acc:HGNC:2027]	3827	0.13534745573997498	0.41546634	Yes	
+row_24	GNAI2	G protein subunit alpha i2 [Source:HGNC Symbol;Acc:HGNC:4385]	4175	0.12407074868679047	0.4106397	Yes	
+row_25	NEDD4L	NEDD4 like E3 ubiquitin protein ligase [Source:HGNC Symbol;Acc:HGNC:7728]	4199	0.12352733314037323	0.42355677	Yes	
+row_26	ABCG5	ATP binding cassette subfamily G member 5 [Source:HGNC Symbol;Acc:HGNC:13886]	4399	0.11792923510074615	0.4261587	Yes	
+row_27	AQP6	aquaporin 6 [Source:HGNC Symbol;Acc:HGNC:639]	4447	0.11688023060560226	0.43699372	Yes	
+row_28	UMOD	uromodulin [Source:HGNC Symbol;Acc:HGNC:12559]	4490	0.115605428814888	0.44795716	Yes	
+row_29	EDN1	endothelin 1 [Source:HGNC Symbol;Acc:HGNC:3176]	4590	0.11286250501871109	0.45547315	Yes	
+row_30	NPHS1	NPHS1 adhesion molecule, nephrin [Source:HGNC Symbol;Acc:HGNC:7908]	4687	0.11081380397081375	0.46291882	Yes	
+row_31	AVPR1A	arginine vasopressin receptor 1A [Source:HGNC Symbol;Acc:HGNC:895]	4688	0.11080408841371536	0.47563925	Yes	
+row_32	KCNK5	potassium two pore domain channel subfamily K member 5 [Source:HGNC Symbol;Acc:HGNC:6280]	4828	0.10686656087636948	0.48026863	Yes	
+row_33	CHRNA3	cholinergic receptor nicotinic alpha 3 subunit [Source:HGNC Symbol;Acc:HGNC:1957]	5471	0.08974671363830566	0.45528919	No	
+row_34	ADORA1	adenosine A1 receptor [Source:HGNC Symbol;Acc:HGNC:262]	5820	0.08160917460918427	0.44553292	No	
+row_35	DRD3	dopamine receptor D3 [Source:HGNC Symbol;Acc:HGNC:3024]	6264	0.0698840543627739	0.4292097	No	
+row_36	NPHP1	nephrocystin 1 [Source:HGNC Symbol;Acc:HGNC:7905]	6719	0.05855216458439827	0.41098103	No	
+row_37	ATP6V0A4	ATPase H+ transporting V0 subunit a4 [Source:HGNC Symbol;Acc:HGNC:866]	6775	0.05737404152750969	0.41454497	No	
+row_38	STC1	stanniocalcin 1 [Source:HGNC Symbol;Acc:HGNC:11373]	7212	0.04707781970500946	0.39598826	No	
+row_39	ABCG2	ATP binding cassette subfamily G member 2 (Junior blood group) [Source:HGNC Symbol;Acc:HGNC:74]	7731	0.035055238753557205	0.37154484	No	
+row_40	SLC26A3	solute carrier family 26 member 3 [Source:HGNC Symbol;Acc:HGNC:3018]	8546	0.016170386224985123	0.32866612	No	
+row_41	AQP9	aquaporin 9 [Source:HGNC Symbol;Acc:HGNC:643]	9838	0.0	0.25771645	No	
+row_42	UGT1A7	UDP glucuronosyltransferase family 1 member A7 [Source:HGNC Symbol;Acc:HGNC:12539]	10275	0.0	0.23375516	No	
+row_43	KCNJ1	potassium inwardly rectifying channel subfamily J member 1 [Source:HGNC Symbol;Acc:HGNC:6255]	10406	-2.1740380907431245E-4	0.22663568	No	
+row_44	CLDN16	claudin 16 [Source:HGNC Symbol;Acc:HGNC:2037]	10923	-0.012515002861618996	0.19971454	No	
+row_45	SLC9A3R1	SLC9A3 regulator 1 [Source:HGNC Symbol;Acc:HGNC:11075]	10986	-0.014007353223860264	0.19791526	No	
+row_46	CORIN	corin, serine peptidase [Source:HGNC Symbol;Acc:HGNC:19012]	11255	-0.021370962262153625	0.18564016	No	
+row_47	TACR2	tachykinin receptor 2 [Source:HGNC Symbol;Acc:HGNC:11527]	11886	-0.03880446404218674	0.15547197	No	
+row_48	POU3F3	POU class 3 homeobox 3 [Source:HGNC Symbol;Acc:HGNC:9216]	12370	-0.05218508839607239	0.13491857	No	
+row_49	ADORA2B	adenosine A2b receptor [Source:HGNC Symbol;Acc:HGNC:264]	12596	-0.05862616375088692	0.12928358	No	
+row_50	NPPB	natriuretic peptide B [Source:HGNC Symbol;Acc:HGNC:7940]	13995	-0.1004631519317627	0.06398679	No	
+row_51	NFAT5	nuclear factor of activated T cells 5 [Source:HGNC Symbol;Acc:HGNC:7774]	15372	-0.1490890234708786	0.0054813735	No	
+row_52	AGTR1	angiotensin II receptor type 1 [Source:HGNC Symbol;Acc:HGNC:336]	15506	-0.153019517660141	0.015738899	No	
+row_53	SNX5	sorting nexin 5 [Source:HGNC Symbol;Acc:HGNC:14969]	16550	-0.20285993814468384	-0.018292828	No	
+row_54	SPX	spexin hormone [Source:HGNC Symbol;Acc:HGNC:28139]	17191	-0.24442049860954285	-0.025405627	No	
+row_55	EDNRB	endothelin receptor type B [Source:HGNC Symbol;Acc:HGNC:3180]	17213	-0.2454826682806015	0.0016219765	No	
+row_56	ADORA2A	adenosine A2a receptor [Source:HGNC Symbol;Acc:HGNC:263]	18220	-0.4827791154384613	0.0017587207	No	

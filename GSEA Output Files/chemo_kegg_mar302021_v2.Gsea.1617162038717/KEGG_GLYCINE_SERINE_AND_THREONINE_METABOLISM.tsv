@@ -1,0 +1,29 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SARDH	sarcosine dehydrogenase [Source:HGNC Symbol;Acc:HGNC:10536]	763	0.2866424024105072	0.02657285	Yes	
+row_1	SHMT2	serine hydroxymethyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:10852]	898	0.27325278520584106	0.084461845	Yes	
+row_2	PSAT1	phosphoserine aminotransferase 1 [Source:HGNC Symbol;Acc:HGNC:19129]	1210	0.24960678815841675	0.12699321	Yes	
+row_3	GNMT	glycine N-methyltransferase [Source:HGNC Symbol;Acc:HGNC:4415]	1252	0.24727852642536163	0.1837835	Yes	
+row_4	AMT	aminomethyltransferase [Source:HGNC Symbol;Acc:HGNC:473]	1257	0.24692697823047638	0.24252002	Yes	
+row_5	GLDC	glycine decarboxylase [Source:HGNC Symbol;Acc:HGNC:4313]	1457	0.2341732382774353	0.2875119	Yes	
+row_6	CBS	cystathionine beta-synthase [Source:HGNC Symbol;Acc:HGNC:1550]	1586	0.22504490613937378	0.33422005	Yes	
+row_7	SHMT1	serine hydroxymethyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:10850]	1852	0.2119126319885254	0.37027562	Yes	
+row_8	SDS	serine dehydratase [Source:HGNC Symbol;Acc:HGNC:10691]	1876	0.21068988740444183	0.4193177	Yes	
+row_9	GCAT	glycine C-acetyltransferase [Source:HGNC Symbol;Acc:HGNC:4188]	3113	0.15897467732429504	0.38945538	Yes	
+row_10	DAO	D-amino acid oxidase [Source:HGNC Symbol;Acc:HGNC:2671]	3119	0.15887117385864258	0.42711294	Yes	
+row_11	AGXT2	alanine--glyoxylate aminotransferase 2 [Source:HGNC Symbol;Acc:HGNC:14412]	3286	0.1529841125011444	0.45453086	Yes	
+row_12	PHGDH	phosphoglycerate dehydrogenase [Source:HGNC Symbol;Acc:HGNC:8923]	3782	0.13681170344352722	0.46003538	Yes	
+row_13	GAMT	guanidinoacetate N-methyltransferase [Source:HGNC Symbol;Acc:HGNC:4136]	4638	0.11182745546102524	0.4398216	Yes	
+row_14	PSPH	phosphoserine phosphatase [Source:HGNC Symbol;Acc:HGNC:9577]	5196	0.09666929394006729	0.43233985	Yes	
+row_15	DMGDH	dimethylglycine dehydrogenase [Source:HGNC Symbol;Acc:HGNC:24475]	5277	0.09462670236825943	0.45054322	Yes	
+row_16	GATM	glycine amidinotransferase [Source:HGNC Symbol;Acc:HGNC:4175]	5434	0.09079720824956894	0.4636622	Yes	
+row_17	AOC2	amine oxidase copper containing 2 [Source:HGNC Symbol;Acc:HGNC:549]	5815	0.08187887072563171	0.46236104	No	
+row_18	GLYCTK	glycerate kinase [Source:HGNC Symbol;Acc:HGNC:24247]	6245	0.07043638080358505	0.45563924	No	
+row_19	AGXT	alanine--glyoxylate and serine--pyruvate aminotransferase [Source:HGNC Symbol;Acc:HGNC:341]	6980	0.052512411028146744	0.4279027	No	
+row_20	CHDH	choline dehydrogenase [Source:HGNC Symbol;Acc:HGNC:24288]	7160	0.04826894775032997	0.42960566	No	
+row_21	AOC3	amine oxidase copper containing 3 [Source:HGNC Symbol;Acc:HGNC:550]	7874	0.03133278712630272	0.39796457	No	
+row_22	PIPOX	pipecolic acid and sarcosine oxidase [Source:HGNC Symbol;Acc:HGNC:17804]	8764	0.011069074273109436	0.35182825	No	
+row_23	BHMT	betaine--homocysteine S-methyltransferase [Source:HGNC Symbol;Acc:HGNC:1047]	9411	0.0	0.31638244	No	
+row_24	CTH	cystathionine gamma-lyase [Source:HGNC Symbol;Acc:HGNC:2501]	12748	-0.06309285014867783	0.14840116	No	
+row_25	SRR	serine racemase [Source:HGNC Symbol;Acc:HGNC:14398]	14727	-0.12456762045621872	0.06961054	No	
+row_26	ALAS1	5'-aminolevulinate synthase 1 [Source:HGNC Symbol;Acc:HGNC:396]	16003	-0.17466098070144653	0.04135356	No	
+row_27	DLD	dihydrolipoamide dehydrogenase [Source:HGNC Symbol;Acc:HGNC:2898]	17958	-0.3434154689311981	0.016131686	No	

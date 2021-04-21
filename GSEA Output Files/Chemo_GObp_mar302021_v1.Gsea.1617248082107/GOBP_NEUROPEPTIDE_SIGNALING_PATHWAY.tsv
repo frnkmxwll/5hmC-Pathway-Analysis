@@ -1,0 +1,98 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MCHR1	melanin concentrating hormone receptor 1 [Source:HGNC Symbol;Acc:HGNC:4479]	65	0.46062150597572327	0.02981251	Yes	
+row_1	TAC1	tachykinin precursor 1 [Source:HGNC Symbol;Acc:HGNC:11517]	146	0.40777406096458435	0.05496769	Yes	
+row_2	NTSR2	neurotensin receptor 2 [Source:HGNC Symbol;Acc:HGNC:8040]	194	0.38618990778923035	0.080375716	Yes	
+row_3	KISS1R	KISS1 receptor [Source:HGNC Symbol;Acc:HGNC:4510]	268	0.3690720796585083	0.10311075	Yes	
+row_4	SORCS2	sortilin related VPS10 domain containing receptor 2 [Source:HGNC Symbol;Acc:HGNC:16698]	276	0.36505335569381714	0.12918961	Yes	
+row_5	PPY	pancreatic polypeptide [Source:HGNC Symbol;Acc:HGNC:9327]	321	0.35227710008621216	0.15230438	Yes	
+row_6	MCHR2	melanin concentrating hormone receptor 2 [Source:HGNC Symbol;Acc:HGNC:20867]	406	0.3361906409263611	0.17204984	Yes	
+row_7	GPR139	G protein-coupled receptor 139 [Source:HGNC Symbol;Acc:HGNC:19995]	473	0.32500535249710083	0.19197582	Yes	
+row_8	NPW	neuropeptide W [Source:HGNC Symbol;Acc:HGNC:30509]	595	0.3048250377178192	0.20740953	Yes	
+row_9	PYY	peptide YY [Source:HGNC Symbol;Acc:HGNC:9748]	784	0.2848694622516632	0.21770634	Yes	
+row_10	ADCYAP1	adenylate cyclase activating polypeptide 1 [Source:HGNC Symbol;Acc:HGNC:241]	938	0.2704291343688965	0.22888404	Yes	
+row_11	NPFFR2	neuropeptide FF receptor 2 [Source:HGNC Symbol;Acc:HGNC:4525]	982	0.2662201523780823	0.2458152	Yes	
+row_12	OPRL1	opioid related nociceptin receptor 1 [Source:HGNC Symbol;Acc:HGNC:8155]	993	0.26559606194496155	0.2645187	Yes	
+row_13	MC2R	melanocortin 2 receptor [Source:HGNC Symbol;Acc:HGNC:6930]	996	0.26501110196113586	0.28362045	Yes	
+row_14	UCN	urocortin [Source:HGNC Symbol;Acc:HGNC:12516]	1098	0.2569328546524048	0.2966838	Yes	
+row_15	NPY2R	neuropeptide Y receptor Y2 [Source:HGNC Symbol;Acc:HGNC:7957]	1102	0.25658416748046875	0.31511953	Yes	
+row_16	SSTR5	somatostatin receptor 5 [Source:HGNC Symbol;Acc:HGNC:11334]	1174	0.2519945800304413	0.32947725	Yes	
+row_17	NPBWR2	neuropeptides B and W receptor 2 [Source:HGNC Symbol;Acc:HGNC:4530]	1225	0.24880312383174896	0.34476024	Yes	
+row_18	OPRD1	opioid receptor delta 1 [Source:HGNC Symbol;Acc:HGNC:8153]	1356	0.2399531900882721	0.3549954	Yes	
+row_19	NXPH4	neurexophilin 4 [Source:HGNC Symbol;Acc:HGNC:8078]	1443	0.23476232588291168	0.36727768	Yes	
+row_20	GALR1	galanin receptor 1 [Source:HGNC Symbol;Acc:HGNC:4132]	1477	0.23192858695983887	0.38227367	Yes	
+row_21	PTH2	parathyroid hormone 2 [Source:HGNC Symbol;Acc:HGNC:30828]	1485	0.2314784973859787	0.39866906	Yes	
+row_22	GRP	gastrin releasing peptide [Source:HGNC Symbol;Acc:HGNC:4605]	1521	0.22883816063404083	0.41333088	Yes	
+row_23	GPR83	G protein-coupled receptor 83 [Source:HGNC Symbol;Acc:HGNC:4523]	1531	0.228118434548378	0.42937255	Yes	
+row_24	LTB4R2	leukotriene B4 receptor 2 [Source:HGNC Symbol;Acc:HGNC:19260]	1707	0.2190953940153122	0.4356171	Yes	
+row_25	NPPA	natriuretic peptide A [Source:HGNC Symbol;Acc:HGNC:7939]	1743	0.21713456511497498	0.44943047	Yes	
+row_26	NXPH3	neurexophilin 3 [Source:HGNC Symbol;Acc:HGNC:8077]	1794	0.21468107402324677	0.46223977	Yes	
+row_27	SSTR1	somatostatin receptor 1 [Source:HGNC Symbol;Acc:HGNC:11330]	2111	0.198805570602417	0.45924738	Yes	
+row_28	NPY	neuropeptide Y [Source:HGNC Symbol;Acc:HGNC:7955]	2182	0.19569863379001617	0.469579	Yes	
+row_29	GPR37	G protein-coupled receptor 37 [Source:HGNC Symbol;Acc:HGNC:4494]	2309	0.18999531865119934	0.4764128	Yes	
+row_30	ECEL1	endothelin converting enzyme like 1 [Source:HGNC Symbol;Acc:HGNC:3147]	2457	0.18334068357944489	0.48160753	Yes	
+row_31	GLRA1	glycine receptor alpha 1 [Source:HGNC Symbol;Acc:HGNC:4326]	2642	0.17700719833374023	0.4843052	Yes	
+row_32	SORCS3	sortilin related VPS10 domain containing receptor 3 [Source:HGNC Symbol;Acc:HGNC:16699]	3004	0.16310080885887146	0.4762459	Yes	
+row_33	SORCS1	sortilin related VPS10 domain containing receptor 1 [Source:HGNC Symbol;Acc:HGNC:16697]	3129	0.15824607014656067	0.48088822	Yes	
+row_34	NTS	neurotensin [Source:HGNC Symbol;Acc:HGNC:8038]	3250	0.15426236391067505	0.485462	Yes	
+row_35	CRCP	CGRP receptor component [Source:HGNC Symbol;Acc:HGNC:17888]	3600	0.14217491447925568	0.47654665	No	
+row_36	NPS	neuropeptide S [Source:HGNC Symbol;Acc:HGNC:33940]	3787	0.1366971880197525	0.4762119	No	
+row_37	TYRO3	TYRO3 protein tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:12446]	3912	0.13266822695732117	0.47899994	No	
+row_38	UTS2R	urotensin 2 receptor [Source:HGNC Symbol;Acc:HGNC:4468]	4205	0.12330561876296997	0.47185612	No	
+row_39	GPR149	G protein-coupled receptor 149 [Source:HGNC Symbol;Acc:HGNC:23627]	4412	0.11763451993465424	0.46903786	No	
+row_40	NPBWR1	neuropeptides B and W receptor 1 [Source:HGNC Symbol;Acc:HGNC:4522]	4587	0.11290770024061203	0.46763948	No	
+row_41	NTSR1	neurotensin receptor 1 [Source:HGNC Symbol;Acc:HGNC:8039]	4761	0.10857537388801575	0.46598208	No	
+row_42	GAL	galanin and GMAP prepropeptide [Source:HGNC Symbol;Acc:HGNC:4114]	5249	0.09530724585056305	0.44606823	No	
+row_43	HCRTR1	hypocretin receptor 1 [Source:HGNC Symbol;Acc:HGNC:4848]	5335	0.09329086542129517	0.44814968	No	
+row_44	AGRP	agouti related neuropeptide [Source:HGNC Symbol;Acc:HGNC:330]	5470	0.0897650197148323	0.44727668	No	
+row_45	NPFFR1	neuropeptide FF receptor 1 [Source:HGNC Symbol;Acc:HGNC:17425]	5695	0.08464954793453217	0.4410758	No	
+row_46	SORL1	sortilin related receptor 1 [Source:HGNC Symbol;Acc:HGNC:11185]	5751	0.08322176337242126	0.44407964	No	
+row_47	SSTR2	somatostatin receptor 2 [Source:HGNC Symbol;Acc:HGNC:11331]	5831	0.0813455879688263	0.44562557	No	
+row_48	NPSR1	neuropeptide S receptor 1 [Source:HGNC Symbol;Acc:HGNC:23631]	5930	0.07847654819488525	0.44591704	No	
+row_49	HCRT	hypocretin neuropeptide precursor [Source:HGNC Symbol;Acc:HGNC:4847]	6095	0.07457435876131058	0.44229046	No	
+row_50	PENK	proenkephalin [Source:HGNC Symbol;Acc:HGNC:8831]	6262	0.06991766393184662	0.43821612	No	
+row_51	PDYN	prodynorphin [Source:HGNC Symbol;Acc:HGNC:8820]	6367	0.06710176169872284	0.4373525	No	
+row_52	NPB	neuropeptide B [Source:HGNC Symbol;Acc:HGNC:30099]	7126	0.04884275421500206	0.39914405	No	
+row_53	GPR1	G protein-coupled receptor 1 [Source:HGNC Symbol;Acc:HGNC:4463]	7164	0.048193469643592834	0.40059996	No	
+row_54	SCG5	secretogranin V [Source:HGNC Symbol;Acc:HGNC:10816]	7201	0.0473828949034214	0.40205213	No	
+row_55	POMC	proopiomelanocortin [Source:HGNC Symbol;Acc:HGNC:9201]	7272	0.04566359147429466	0.40150702	No	
+row_56	CARTPT	CART prepropeptide [Source:HGNC Symbol;Acc:HGNC:24323]	7566	0.03901492804288864	0.38819748	No	
+row_57	CPE	carboxypeptidase E [Source:HGNC Symbol;Acc:HGNC:2303]	8183	0.0241450984030962	0.3560197	No	
+row_58	PROKR2	prokineticin receptor 2 [Source:HGNC Symbol;Acc:HGNC:15836]	8362	0.02002931572496891	0.34766778	No	
+row_59	NPY5R	neuropeptide Y receptor Y5 [Source:HGNC Symbol;Acc:HGNC:7958]	8398	0.019363900646567345	0.34714383	No	
+row_60	PRLHR	prolactin releasing hormone receptor [Source:HGNC Symbol;Acc:HGNC:4464]	8496	0.01722787320613861	0.34305018	No	
+row_61	SSTR3	somatostatin receptor 3 [Source:HGNC Symbol;Acc:HGNC:11332]	8553	0.01599115878343582	0.34112507	No	
+row_62	PNOC	prepronociceptin [Source:HGNC Symbol;Acc:HGNC:9163]	8565	0.01566479168832302	0.34165484	No	
+row_63	OPRK1	opioid receptor kappa 1 [Source:HGNC Symbol;Acc:HGNC:8154]	8656	0.013601575046777725	0.33768383	No	
+row_64	NPVF	neuropeptide VF precursor [Source:HGNC Symbol;Acc:HGNC:13782]	8894	0.007738242857158184	0.32519126	No	
+row_65	NPFF	neuropeptide FF-amide peptide precursor [Source:HGNC Symbol;Acc:HGNC:7901]	9576	0.0	0.287683	No	
+row_66	GALR2	galanin receptor 2 [Source:HGNC Symbol;Acc:HGNC:4133]	9759	0.0	0.2776588	No	
+row_67	CALCA	calcitonin related polypeptide alpha [Source:HGNC Symbol;Acc:HGNC:1437]	10021	0.0	0.26328337	No	
+row_68	TAC3	tachykinin precursor 3 [Source:HGNC Symbol;Acc:HGNC:11521]	10563	-0.004197326954454184	0.23379034	No	
+row_69	CYSLTR2	cysteinyl leukotriene receptor 2 [Source:HGNC Symbol;Acc:HGNC:18274]	10829	-0.01029627863317728	0.21994103	No	
+row_70	GALP	galanin like peptide [Source:HGNC Symbol;Acc:HGNC:24840]	11260	-0.021428018808364868	0.19781081	No	
+row_71	OPRM1	opioid receptor mu 1 [Source:HGNC Symbol;Acc:HGNC:8156]	11353	-0.023764939978718758	0.19446646	No	
+row_72	PROKR1	prokineticin receptor 1 [Source:HGNC Symbol;Acc:HGNC:4524]	11366	-0.024279626086354256	0.19556566	No	
+row_73	RXFP4	relaxin family peptide/INSL5 receptor 4 [Source:HGNC Symbol;Acc:HGNC:14666]	11819	-0.036695994436740875	0.17333058	No	
+row_74	NMB	neuromedin B [Source:HGNC Symbol;Acc:HGNC:7842]	12029	-0.043068572878837585	0.16494147	No	
+row_75	PTGDR2	prostaglandin D2 receptor 2 [Source:HGNC Symbol;Acc:HGNC:4502]	12618	-0.05935114249587059	0.13685812	No	
+row_76	HCRTR2	hypocretin receptor 2 [Source:HGNC Symbol;Acc:HGNC:4849]	12715	-0.062312185764312744	0.13608791	No	
+row_77	NMS	neuromedin S [Source:HGNC Symbol;Acc:HGNC:32203]	12759	-0.06345111131668091	0.13831942	No	
+row_78	GLRB	glycine receptor beta [Source:HGNC Symbol;Acc:HGNC:4329]	12784	-0.06408306956291199	0.14164321	No	
+row_79	NPY1R	neuropeptide Y receptor Y1 [Source:HGNC Symbol;Acc:HGNC:7956]	12798	-0.06435909867286682	0.14559288	No	
+row_80	RXFP3	relaxin family peptide receptor 3 [Source:HGNC Symbol;Acc:HGNC:24883]	12952	-0.06893061846494675	0.14216302	No	
+row_81	GALR3	galanin receptor 3 [Source:HGNC Symbol;Acc:HGNC:4134]	13035	-0.07123580574989319	0.14281082	No	
+row_82	GLRA3	glycine receptor alpha 3 [Source:HGNC Symbol;Acc:HGNC:4328]	13166	-0.07491990178823471	0.14108194	No	
+row_83	NXPH2	neurexophilin 2 [Source:HGNC Symbol;Acc:HGNC:8076]	13247	-0.07745201885700226	0.14229055	No	
+row_84	QRFPR	pyroglutamylated RFamide peptide receptor [Source:HGNC Symbol;Acc:HGNC:15565]	13527	-0.08643261343240738	0.13318963	No	
+row_85	NMUR2	neuromedin U receptor 2 [Source:HGNC Symbol;Acc:HGNC:16454]	13619	-0.08907338976860046	0.13463485	No	
+row_86	LTB4R	leukotriene B4 receptor [Source:HGNC Symbol;Acc:HGNC:6713]	13873	-0.09698806703090668	0.12773119	No	
+row_87	NPPB	natriuretic peptide B [Source:HGNC Symbol;Acc:HGNC:7940]	13995	-0.1004631519317627	0.12834977	No	
+row_88	GPR84	G protein-coupled receptor 84 [Source:HGNC Symbol;Acc:HGNC:4535]	14060	-0.1022815927863121	0.13223962	No	
+row_89	NMUR1	neuromedin U receptor 1 [Source:HGNC Symbol;Acc:HGNC:4518]	14110	-0.10385310649871826	0.13706958	No	
+row_90	QRFP	pyroglutamylated RFamide peptide [Source:HGNC Symbol;Acc:HGNC:29982]	14429	-0.11459770053625107	0.12786244	No	
+row_91	NMU	neuromedin U [Source:HGNC Symbol;Acc:HGNC:7859]	14879	-0.13020411133766174	0.11257142	No	
+row_92	SORT1	sortilin 1 [Source:HGNC Symbol;Acc:HGNC:11186]	15612	-0.15697510540485382	0.08363403	No	
+row_93	SSTR4	somatostatin receptor 4 [Source:HGNC Symbol;Acc:HGNC:11333]	15778	-0.16416777670383453	0.0864474	No	
+row_94	PMCH	pro-melanin concentrating hormone [Source:HGNC Symbol;Acc:HGNC:9109]	16207	-0.18426570296287537	0.07623221	No	
+row_95	RAPGEF2	Rap guanine nucleotide exchange factor 2 [Source:HGNC Symbol;Acc:HGNC:16854]	16981	-0.22953230142593384	0.050296612	No	
+row_96	PROK2	prokineticin 2 [Source:HGNC Symbol;Acc:HGNC:18455]	17484	-0.2710966467857361	0.042300407	No	

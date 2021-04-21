@@ -1,0 +1,67 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IL2	interleukin 2 [Source:HGNC Symbol;Acc:HGNC:6001]	159	0.36573526263237	0.03758237	Yes	
+row_1	IL24	interleukin 24 [Source:HGNC Symbol;Acc:HGNC:11346]	259	0.32566142082214355	0.07338796	Yes	
+row_2	EPO	erythropoietin [Source:HGNC Symbol;Acc:HGNC:3415]	330	0.3116800785064697	0.10901718	Yes	
+row_3	SOCS3	suppressor of cytokine signaling 3 [Source:HGNC Symbol;Acc:HGNC:19391]	401	0.2957022190093994	0.1426226	Yes	
+row_4	CSH2	chorionic somatomammotropin hormone 2 [Source:HGNC Symbol;Acc:HGNC:2441]	507	0.27899169921875	0.17218699	Yes	
+row_5	LEP	leptin [Source:HGNC Symbol;Acc:HGNC:6553]	569	0.27135103940963745	0.2032029	Yes	
+row_6	IL6	interleukin 6 [Source:HGNC Symbol;Acc:HGNC:6018]	624	0.26449698209762573	0.23373555	Yes	
+row_7	CCL5	C-C motif chemokine ligand 5 [Source:HGNC Symbol;Acc:HGNC:10632]	647	0.2614396810531616	0.26564047	Yes	
+row_8	IL12A	interleukin 12A [Source:HGNC Symbol;Acc:HGNC:5969]	869	0.2350585013628006	0.28326198	Yes	
+row_9	HES5	hes family bHLH transcription factor 5 [Source:HGNC Symbol;Acc:HGNC:19764]	947	0.22760668396949768	0.30785736	Yes	
+row_10	ISL1	ISL LIM homeobox 1 [Source:HGNC Symbol;Acc:HGNC:6132]	958	0.2269189953804016	0.33604962	Yes	
+row_11	IFNL1	interferon lambda 1 [Source:HGNC Symbol;Acc:HGNC:18363]	1284	0.20370399951934814	0.34398133	Yes	
+row_12	FGFR3	fibroblast growth factor receptor 3 [Source:HGNC Symbol;Acc:HGNC:3690]	1558	0.18750765919685364	0.35272077	Yes	
+row_13	TNFSF18	TNF superfamily member 18 [Source:HGNC Symbol;Acc:HGNC:11932]	1956	0.1671406328678131	0.35206243	Yes	
+row_14	CSF1R	colony stimulating factor 1 receptor [Source:HGNC Symbol;Acc:HGNC:2433]	1985	0.1657145470380783	0.37151265	Yes	
+row_15	TNF	tumor necrosis factor [Source:HGNC Symbol;Acc:HGNC:11892]	2264	0.15385892987251282	0.37571514	Yes	
+row_16	IL3	interleukin 3 [Source:HGNC Symbol;Acc:HGNC:6011]	2314	0.15194755792617798	0.39226693	Yes	
+row_17	IL4	interleukin 4 [Source:HGNC Symbol;Acc:HGNC:6014]	2516	0.1439073383808136	0.39944273	Yes	
+row_18	LIF	LIF interleukin 6 family cytokine [Source:HGNC Symbol;Acc:HGNC:6596]	2577	0.14150287210941315	0.41406676	Yes	
+row_19	IL20	interleukin 20 [Source:HGNC Symbol;Acc:HGNC:6002]	2738	0.13527919352054596	0.42240402	Yes	
+row_20	STAP2	signal transducing adaptor family member 2 [Source:HGNC Symbol;Acc:HGNC:30430]	2782	0.1340729147195816	0.4370217	Yes	
+row_21	TSLP	thymic stromal lymphopoietin [Source:HGNC Symbol;Acc:HGNC:30743]	3458	0.11401886492967606	0.41434917	No	
+row_22	HSF1	heat shock transcription factor 1 [Source:HGNC Symbol;Acc:HGNC:5224]	3922	0.10158149898052216	0.401758	No	
+row_23	TNFRSF1A	TNF receptor superfamily member 1A [Source:HGNC Symbol;Acc:HGNC:11916]	4087	0.09692496061325073	0.4050173	No	
+row_24	CSHL1	chorionic somatomammotropin hormone like 1 [Source:HGNC Symbol;Acc:HGNC:2442]	4485	0.08739738166332245	0.39425847	No	
+row_25	IL31RA	interleukin 31 receptor A [Source:HGNC Symbol;Acc:HGNC:18969]	4496	0.08698473870754242	0.4047263	No	
+row_26	CD40	CD40 molecule [Source:HGNC Symbol;Acc:HGNC:11919]	4524	0.08631398528814316	0.41417447	No	
+row_27	IL12B	interleukin 12B [Source:HGNC Symbol;Acc:HGNC:5970]	4603	0.084832563996315	0.42063078	No	
+row_28	TNFRSF18	TNF receptor superfamily member 18 [Source:HGNC Symbol;Acc:HGNC:11914]	4889	0.07846608757972717	0.41489893	No	
+row_29	CRLF1	cytokine receptor like factor 1 [Source:HGNC Symbol;Acc:HGNC:2364]	5407	0.0669611319899559	0.3949535	No	
+row_30	IL23R	interleukin 23 receptor [Source:HGNC Symbol;Acc:HGNC:19100]	5585	0.06285717338323593	0.3931829	No	
+row_31	CSH1	chorionic somatomammotropin hormone 1 [Source:HGNC Symbol;Acc:HGNC:2440]	5964	0.05414069816470146	0.37925643	No	
+row_32	IL21	interleukin 21 [Source:HGNC Symbol;Acc:HGNC:6005]	6610	0.040196895599365234	0.34888294	No	
+row_33	CTF1	cardiotrophin 1 [Source:HGNC Symbol;Acc:HGNC:2499]	7825	0.01619887165725231	0.28418377	No	
+row_34	LYN	LYN proto-oncogene, Src family tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:6735]	8359	0.0058279880322515965	0.25561532	No	
+row_35	FYN	FYN proto-oncogene, Src family tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:4037]	8467	0.00396299920976162	0.25023395	No	
+row_36	IL13	interleukin 13 [Source:HGNC Symbol;Acc:HGNC:5973]	8474	0.0038252396043390036	0.25038856	No	
+row_37	PTK6	protein tyrosine kinase 6 [Source:HGNC Symbol;Acc:HGNC:9617]	8652	1.8883498341892846E-5	0.24065873	No	
+row_38	IL18	interleukin 18 [Source:HGNC Symbol;Acc:HGNC:5986]	8832	0.0	0.23081653	No	
+row_39	GH1	growth hormone 1 [Source:HGNC Symbol;Acc:HGNC:4261]	9161	0.0	0.21278167	No	
+row_40	CLCF1	cardiotrophin like cytokine factor 1 [Source:HGNC Symbol;Acc:HGNC:17412]	9471	0.0	0.19579151	No	
+row_41	IL23A	interleukin 23 subunit alpha [Source:HGNC Symbol;Acc:HGNC:15488]	9983	-0.0022525498643517494	0.16797984	No	
+row_42	IL6R	interleukin 6 receptor [Source:HGNC Symbol;Acc:HGNC:6019]	10467	-0.011989531107246876	0.14294103	No	
+row_43	CNTF	ciliary neurotrophic factor [Source:HGNC Symbol;Acc:HGNC:2169]	10928	-0.021533608436584473	0.12037573	No	
+row_44	ARL2BP	ADP ribosylation factor like GTPase 2 binding protein [Source:HGNC Symbol;Acc:HGNC:17146]	11034	-0.023498348891735077	0.11757873	No	
+row_45	HPX	hemopexin [Source:HGNC Symbol;Acc:HGNC:5171]	11086	-0.02434065006673336	0.117857575	No	
+row_46	ERBB4	erb-b2 receptor tyrosine kinase 4 [Source:HGNC Symbol;Acc:HGNC:3432]	11210	-0.026790553703904152	0.11448786	No	
+row_47	IGF1	insulin like growth factor 1 [Source:HGNC Symbol;Acc:HGNC:5464]	11504	-0.032709695398807526	0.10252053	No	
+row_48	KIT	KIT proto-oncogene, receptor tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:6342]	12111	-0.04555102810263634	0.074969634	No	
+row_49	PARP9	poly(ADP-ribose) polymerase family member 9 [Source:HGNC Symbol;Acc:HGNC:24118]	12397	-0.05104120075702667	0.06576409	No	
+row_50	GHR	growth hormone receptor [Source:HGNC Symbol;Acc:HGNC:4263]	12888	-0.06215376406908035	0.046694316	No	
+row_51	OSM	oncostatin M [Source:HGNC Symbol;Acc:HGNC:8506]	12927	-0.06298349797725677	0.052582547	No	
+row_52	IFNA2	interferon alpha 2 [Source:HGNC Symbol;Acc:HGNC:5423]	12972	-0.06407539546489716	0.058279175	No	
+row_53	HDAC2	histone deacetylase 2 [Source:HGNC Symbol;Acc:HGNC:4853]	12993	-0.06448423862457275	0.06534721	No	
+row_54	JAK2	Janus kinase 2 [Source:HGNC Symbol;Acc:HGNC:6192]	13276	-0.0713883638381958	0.05888385	No	
+row_55	STAT3	signal transducer and activator of transcription 3 [Source:HGNC Symbol;Acc:HGNC:11364]	13291	-0.07168054580688477	0.06719329	No	
+row_56	HCLS1	hematopoietic cell-specific Lyn substrate 1 [Source:HGNC Symbol;Acc:HGNC:4844]	13528	-0.07748308777809143	0.06403118	No	
+row_57	IL15	interleukin 15 [Source:HGNC Symbol;Acc:HGNC:5977]	14589	-0.10480375587940216	0.019022482	No	
+row_58	CSF2	colony stimulating factor 2 [Source:HGNC Symbol;Acc:HGNC:2434]	14707	-0.10791435092687607	0.026258	No	
+row_59	IL6ST	interleukin 6 signal transducer [Source:HGNC Symbol;Acc:HGNC:6021]	14760	-0.10952814668416977	0.037271902	No	
+row_60	PIBF1	progesterone immunomodulatory binding factor 1 [Source:HGNC Symbol;Acc:HGNC:23352]	14778	-0.11023160815238953	0.05029936	No	
+row_61	PARP14	poly(ADP-ribose) polymerase family member 14 [Source:HGNC Symbol;Acc:HGNC:29232]	15116	-0.11982506513595581	0.046946965	No	
+row_62	FLT3	fms related receptor tyrosine kinase 3 [Source:HGNC Symbol;Acc:HGNC:3765]	16081	-0.15201538801193237	0.0131966965	No	
+row_63	IFNG	interferon gamma [Source:HGNC Symbol;Acc:HGNC:5438]	16710	-0.1793852299451828	0.0013878904	No	
+row_64	GH2	growth hormone 2 [Source:HGNC Symbol;Acc:HGNC:4262]	17558	-0.23828792572021484	-0.015001731	No	
+row_65	HES1	hes family bHLH transcription factor 1 [Source:HGNC Symbol;Acc:HGNC:5192]	18206	-0.41927269101142883	0.0025294637	No	

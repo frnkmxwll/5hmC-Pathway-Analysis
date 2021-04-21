@@ -1,0 +1,18 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FTCD	formimidoyltransferase cyclodeaminase [Source:HGNC Symbol;Acc:HGNC:3974]	130	0.38537532091140747	0.20010278	Yes	
+row_1	MTHFR	methylenetetrahydrofolate reductase [Source:HGNC Symbol;Acc:HGNC:7436]	1175	0.21134638786315918	0.2565027	Yes	
+row_2	AMT	aminomethyltransferase [Source:HGNC Symbol;Acc:HGNC:473]	2369	0.1494493931531906	0.27144748	Yes	
+row_3	SHMT2	serine hydroxymethyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:10852]	2757	0.13470473885536194	0.3226618	Yes	
+row_4	MTHFD2	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2, methenyltetrahydrofolate cyclohydrolase [Source:HGNC Symbol;Acc:HGNC:7434]	2761	0.13463175296783447	0.3948941	Yes	
+row_5	ALDH1L1	aldehyde dehydrogenase 1 family member L1 [Source:HGNC Symbol;Acc:HGNC:3978]	3420	0.11491765826940536	0.4206074	Yes	
+row_6	SHMT1	serine hydroxymethyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:10850]	3505	0.11279059946537018	0.4766531	Yes	
+row_7	ATIC	5-aminoimidazole-4-carboxamide ribonucleotide formyltransferase/IMP cyclohydrolase [Source:HGNC Symbol;Acc:HGNC:794]	6436	0.04415257275104523	0.33972448	No	
+row_8	MTR	5-methyltetrahydrofolate-homocysteine methyltransferase [Source:HGNC Symbol;Acc:HGNC:7468]	7344	0.025944393128156662	0.303939	No	
+row_9	MTHFD1L	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 1 like [Source:HGNC Symbol;Acc:HGNC:21055]	7723	0.0182028841227293	0.29299918	No	
+row_10	MTHFD2L	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2 like [Source:HGNC Symbol;Acc:HGNC:31865]	7920	0.014251337386667728	0.28991473	No	
+row_11	TYMS	thymidylate synthetase [Source:HGNC Symbol;Acc:HGNC:12441]	8043	0.01173175685107708	0.2895333	No	
+row_12	MTHFD1	methylenetetrahydrofolate dehydrogenase, cyclohydrolase and formyltetrahydrofolate synthetase 1 [Source:HGNC Symbol;Acc:HGNC:7432]	10970	-0.022291237488389015	0.14106832	No	
+row_13	MTHFS	methenyltetrahydrofolate synthetase [Source:HGNC Symbol;Acc:HGNC:7437]	11978	-0.04271172359585762	0.10881566	No	
+row_14	MTFMT	mitochondrial methionyl-tRNA formyltransferase [Source:HGNC Symbol;Acc:HGNC:29666]	14815	-0.1109008938074112	0.012934897	No	
+row_15	DHFR	dihydrofolate reductase [Source:HGNC Symbol;Acc:HGNC:2861]	15191	-0.12175120413303375	0.057841614	No	
+row_16	GART	phosphoribosylglycinamide formyltransferase, phosphoribosylglycinamide synthetase, phosphoribosylaminoimidazole synthetase [Source:HGNC Symbol;Acc:HGNC:4163]	17143	-0.20448274910449982	0.06081389	No	

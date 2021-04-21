@@ -1,0 +1,30 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	RXRB	retinoid X receptor beta [Source:HGNC Symbol;Acc:HGNC:10478]	208	0.44091346859931946	0.096000865	No	
+row_1	CDH1	cadherin 1 [Source:HGNC Symbol;Acc:HGNC:1748]	1464	0.25557464361190796	0.089398175	No	
+row_2	TP53	tumor protein p53 [Source:HGNC Symbol;Acc:HGNC:11998]	3345	0.15600477159023285	0.024243051	No	
+row_3	NTRK1	neurotrophic receptor tyrosine kinase 1 [Source:HGNC Symbol;Acc:HGNC:8031]	4190	0.12696543335914612	0.008861539	No	
+row_4	RET	ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967]	4847	0.1067819893360138	-0.0011209536	No	
+row_5	PAX8	paired box 8 [Source:HGNC Symbol;Acc:HGNC:8622]	4887	0.10567229241132736	0.022482667	No	
+row_6	HRAS	HRas proto-oncogene, GTPase [Source:HGNC Symbol;Acc:HGNC:5173]	5899	0.07602531462907791	-0.014472507	No	
+row_7	MAP2K1	mitogen-activated protein kinase kinase 1 [Source:HGNC Symbol;Acc:HGNC:6840]	7017	0.048018768429756165	-0.06406708	No	
+row_8	MAP2K2	mitogen-activated protein kinase kinase 2 [Source:HGNC Symbol;Acc:HGNC:6842]	7256	0.04226643964648247	-0.06682992	No	
+row_9	RXRG	retinoid X receptor gamma [Source:HGNC Symbol;Acc:HGNC:10479]	7459	0.03710045665502548	-0.06887587	No	
+row_10	RXRA	retinoid X receptor alpha [Source:HGNC Symbol;Acc:HGNC:10477]	7587	0.033327702432870865	-0.06772549	No	
+row_11	TCF7	transcription factor 7 [Source:HGNC Symbol;Acc:HGNC:11639]	10672	-0.010275963693857193	-0.23444948	No	
+row_12	MAPK3	mitogen-activated protein kinase 3 [Source:HGNC Symbol;Acc:HGNC:6877]	11325	-0.025825373828411102	-0.26393494	No	
+row_13	TCF7L2	transcription factor 7 like 2 [Source:HGNC Symbol;Acc:HGNC:11641]	11478	-0.029577918350696564	-0.2650699	No	
+row_14	CCDC6	coiled-coil domain containing 6 [Source:HGNC Symbol;Acc:HGNC:18782]	11814	-0.03801608458161354	-0.27419084	No	
+row_15	LEF1	lymphoid enhancer binding factor 1 [Source:HGNC Symbol;Acc:HGNC:6551]	11836	-0.038650427013635635	-0.26592726	No	
+row_16	TPM3	tropomyosin 3 [Source:HGNC Symbol;Acc:HGNC:12012]	12691	-0.06040893495082855	-0.29807183	No	
+row_17	TCF7L1	transcription factor 7 like 1 [Source:HGNC Symbol;Acc:HGNC:11640]	13579	-0.08461566269397736	-0.32613003	No	
+row_18	MAPK1	mitogen-activated protein kinase 1 [Source:HGNC Symbol;Acc:HGNC:6871]	13856	-0.09310879558324814	-0.31859192	No	
+row_19	NRAS	NRAS proto-oncogene, GTPase [Source:HGNC Symbol;Acc:HGNC:7989]	14989	-0.12788961827754974	-0.34955162	Yes	
+row_20	CCND1	cyclin D1 [Source:HGNC Symbol;Acc:HGNC:1582]	15238	-0.13767528533935547	-0.3296199	Yes	
+row_21	BRAF	B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]	15867	-0.1623043268918991	-0.32453972	Yes	
+row_22	TFG	trafficking from ER to golgi regulator [Source:HGNC Symbol;Acc:HGNC:11758]	16887	-0.21128301322460175	-0.3289827	Yes	
+row_23	PPARG	peroxisome proliferator activated receptor gamma [Source:HGNC Symbol;Acc:HGNC:9236]	16976	-0.21595098078250885	-0.281202	Yes	
+row_24	NCOA4	nuclear receptor coactivator 4 [Source:HGNC Symbol;Acc:HGNC:7671]	17429	-0.2508469223976135	-0.24489366	Yes	
+row_25	TPR	translocated promoter region, nuclear basket protein [Source:HGNC Symbol;Acc:HGNC:12017]	17537	-0.2631016671657562	-0.18666878	Yes	
+row_26	CTNNB1	catenin beta 1 [Source:HGNC Symbol;Acc:HGNC:2514]	17836	-0.30449965596199036	-0.1288393	Yes	
+row_27	KRAS	KRAS proto-oncogene, GTPase [Source:HGNC Symbol;Acc:HGNC:6407]	17845	-0.3052714467048645	-0.054908704	Yes	
+row_28	MYC	MYC proto-oncogene, bHLH transcription factor [Source:HGNC Symbol;Acc:HGNC:7553]	17908	-0.31683626770973206	0.018876154	Yes	

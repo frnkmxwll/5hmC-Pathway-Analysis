@@ -1,0 +1,37 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	YKT6	YKT6 v-SNARE homolog [Source:HGNC Symbol;Acc:HGNC:16959]	1183	0.2774614691734314	0.0030527657	No	
+row_1	STX1A	syntaxin 1A [Source:HGNC Symbol;Acc:HGNC:11433]	3204	0.1607794463634491	-0.06843357	No	
+row_2	BNIP1	BCL2 interacting protein 1 [Source:HGNC Symbol;Acc:HGNC:1082]	3240	0.159337118268013	-0.031309187	No	
+row_3	VAMP5	vesicle associated membrane protein 5 [Source:HGNC Symbol;Acc:HGNC:12646]	3555	0.14837557077407837	-0.012186309	No	
+row_4	TSNARE1	t-SNARE domain containing 1 [Source:HGNC Symbol;Acc:HGNC:26437]	4011	0.13246533274650574	-0.004702267	No	
+row_5	STX10	syntaxin 10 [Source:HGNC Symbol;Acc:HGNC:11428]	4220	0.12591704726219177	0.0147358775	No	
+row_6	USE1	unconventional SNARE in the ER 1 [Source:HGNC Symbol;Acc:HGNC:30882]	4456	0.11821027100086212	0.03080334	No	
+row_7	VAMP2	vesicle associated membrane protein 2 [Source:HGNC Symbol;Acc:HGNC:12643]	5699	0.08161383122205734	-0.017375214	No	
+row_8	SNAP47	synaptosome associated protein 47 [Source:HGNC Symbol;Acc:HGNC:30669]	5944	0.07475072890520096	-0.012451584	No	
+row_9	VAMP8	vesicle associated membrane protein 8 [Source:HGNC Symbol;Acc:HGNC:12647]	6177	0.068956658244133	-0.008289069	No	
+row_10	VAMP1	vesicle associated membrane protein 1 [Source:HGNC Symbol;Acc:HGNC:12642]	6209	0.06811019033193588	0.0066996682	No	
+row_11	STX2	syntaxin 2 [Source:HGNC Symbol;Acc:HGNC:3403]	6736	0.05489678308367729	-0.008721968	No	
+row_12	STX1B	syntaxin 1B [Source:HGNC Symbol;Acc:HGNC:18539]	6906	0.050600986927747726	-0.005599214	No	
+row_13	STX3	syntaxin 3 [Source:HGNC Symbol;Acc:HGNC:11438]	7333	0.04022441431879997	-0.019126946	No	
+row_14	STX4	syntaxin 4 [Source:HGNC Symbol;Acc:HGNC:11439]	8259	0.01773621141910553	-0.06555742	No	
+row_15	STX19	syntaxin 19 [Source:HGNC Symbol;Acc:HGNC:19300]	9334	0.0	-0.12451334	No	
+row_16	GOSR2	golgi SNAP receptor complex member 2 [Source:HGNC Symbol;Acc:HGNC:4431]	9484	0.0	-0.13269252	No	
+row_17	STX8	syntaxin 8 [Source:HGNC Symbol;Acc:HGNC:11443]	10547	-0.007627690210938454	-0.18912053	No	
+row_18	BET1L	Bet1 golgi vesicular membrane trafficking protein like [Source:HGNC Symbol;Acc:HGNC:19348]	10639	-0.009652821347117424	-0.19175044	No	
+row_19	STX16	syntaxin 16 [Source:HGNC Symbol;Acc:HGNC:11431]	11092	-0.02034386247396469	-0.21157715	No	
+row_20	SNAP29	synaptosome associated protein 29 [Source:HGNC Symbol;Acc:HGNC:11133]	11425	-0.028324034065008163	-0.22286107	No	
+row_21	STX18	syntaxin 18 [Source:HGNC Symbol;Acc:HGNC:15942]	11844	-0.03884335234761238	-0.23628807	No	
+row_22	STX12	syntaxin 12 [Source:HGNC Symbol;Acc:HGNC:11430]	12019	-0.0435379296541214	-0.2351706	No	
+row_23	GOSR1	golgi SNAP receptor complex member 1 [Source:HGNC Symbol;Acc:HGNC:4430]	13259	-0.07596708834171295	-0.28456822	No	
+row_24	STX7	syntaxin 7 [Source:HGNC Symbol;Acc:HGNC:11442]	14408	-0.1097850650548935	-0.32068336	Yes	
+row_25	STX5	syntaxin 5 [Source:HGNC Symbol;Acc:HGNC:11440]	14531	-0.1133078783750534	-0.29961425	Yes	
+row_26	STX6	syntaxin 6 [Source:HGNC Symbol;Acc:HGNC:11441]	15320	-0.1408301591873169	-0.30836	Yes	
+row_27	VTI1A	vesicle transport through interaction with t-SNAREs 1A [Source:HGNC Symbol;Acc:HGNC:17792]	15358	-0.14209745824337006	-0.27557003	Yes	
+row_28	SNAP23	synaptosome associated protein 23 [Source:HGNC Symbol;Acc:HGNC:11131]	15540	-0.14845144748687744	-0.24912769	Yes	
+row_29	VAMP4	vesicle associated membrane protein 4 [Source:HGNC Symbol;Acc:HGNC:12645]	15809	-0.1593785583972931	-0.2247834	Yes	
+row_30	SNAP25	synaptosome associated protein 25 [Source:HGNC Symbol;Acc:HGNC:11132]	16273	-0.1800866425037384	-0.20606887	Yes	
+row_31	STX11	syntaxin 11 [Source:HGNC Symbol;Acc:HGNC:11429]	16906	-0.21229474246501923	-0.1887388	Yes	
+row_32	VAMP3	vesicle associated membrane protein 3 [Source:HGNC Symbol;Acc:HGNC:12644]	17100	-0.22414934635162354	-0.14440535	Yes	
+row_33	STX17	syntaxin 17 [Source:HGNC Symbol;Acc:HGNC:11432]	17519	-0.25992894172668457	-0.1036552	Yes	
+row_34	BET1	Bet1 golgi vesicular membrane trafficking protein [Source:HGNC Symbol;Acc:HGNC:14562]	17728	-0.28530722856521606	-0.045158394	Yes	
+row_35	VTI1B	vesicle transport through interaction with t-SNAREs 1B [Source:HGNC Symbol;Acc:HGNC:17793]	17817	-0.3014388680458069	0.023878738	Yes	

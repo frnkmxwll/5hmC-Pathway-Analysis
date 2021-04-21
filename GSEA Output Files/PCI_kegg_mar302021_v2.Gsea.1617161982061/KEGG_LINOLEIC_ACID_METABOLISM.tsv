@@ -1,0 +1,30 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	AKR1B10	aldo-keto reductase family 1 member B10 [Source:HGNC Symbol;Acc:HGNC:382]	41	0.46712881326675415	0.13906018	Yes	
+row_1	PLA2G2D	phospholipase A2 group IID [Source:HGNC Symbol;Acc:HGNC:9033]	74	0.429013192653656	0.26708394	Yes	
+row_2	CYP2E1	cytochrome P450 family 2 subfamily E member 1 [Source:HGNC Symbol;Acc:HGNC:2631]	887	0.23335589468479156	0.29311922	Yes	
+row_3	JMJD7-PLA2G4B	JMJD7-PLA2G4B readthrough [Source:HGNC Symbol;Acc:HGNC:34449]	1293	0.20322228968143463	0.33237204	Yes	
+row_4	CYP3A4	cytochrome P450 family 3 subfamily A member 4 [Source:HGNC Symbol;Acc:HGNC:2637]	1551	0.18806011974811554	0.37515935	Yes	
+row_5	PLA2G2F	phospholipase A2 group IIF [Source:HGNC Symbol;Acc:HGNC:30040]	1678	0.18052299320697784	0.42285496	Yes	
+row_6	PLA2G5	phospholipase A2 group V [Source:HGNC Symbol;Acc:HGNC:9038]	1704	0.17901138961315155	0.4756354	Yes	
+row_7	CYP1A2	cytochrome P450 family 1 subfamily A member 2 [Source:HGNC Symbol;Acc:HGNC:2596]	1908	0.16915787756443024	0.5156678	Yes	
+row_8	PLA2G4E	phospholipase A2 group IVE [Source:HGNC Symbol;Acc:HGNC:24791]	2405	0.1480681300163269	0.53324264	Yes	
+row_9	CYP2C18	cytochrome P450 family 2 subfamily C member 18 [Source:HGNC Symbol;Acc:HGNC:2620]	3242	0.11982271820306778	0.5236163	Yes	
+row_10	CYP3A43	cytochrome P450 family 3 subfamily A member 43 [Source:HGNC Symbol;Acc:HGNC:17450]	3654	0.10872844606637955	0.53395486	Yes	
+row_11	PLA2G12B	phospholipase A2 group XIIB [Source:HGNC Symbol;Acc:HGNC:18555]	5003	0.07560897618532181	0.48285872	No	
+row_12	ALOX15	arachidonate 15-lipoxygenase [Source:HGNC Symbol;Acc:HGNC:433]	5134	0.07279732078313828	0.497747	No	
+row_13	CYP2C9	cytochrome P450 family 2 subfamily C member 9 [Source:HGNC Symbol;Acc:HGNC:2623]	5260	0.07008832693099976	0.51209015	No	
+row_14	CYP2J2	cytochrome P450 family 2 subfamily J member 2 [Source:HGNC Symbol;Acc:HGNC:2634]	6120	0.05075404420495033	0.480308	No	
+row_15	PLA2G3	phospholipase A2 group III [Source:HGNC Symbol;Acc:HGNC:17934]	6337	0.04614964500069618	0.4824161	No	
+row_16	PLA2G6	phospholipase A2 group VI [Source:HGNC Symbol;Acc:HGNC:9039]	6774	0.03703779727220535	0.4696958	No	
+row_17	PLA2G10	phospholipase A2 group X [Source:HGNC Symbol;Acc:HGNC:9029]	7175	0.029412291944026947	0.45664418	No	
+row_18	PLA2G2A	phospholipase A2 group IIA [Source:HGNC Symbol;Acc:HGNC:9031]	7670	0.019291866570711136	0.435373	No	
+row_19	CYP2C8	cytochrome P450 family 2 subfamily C member 8 [Source:HGNC Symbol;Acc:HGNC:2622]	7797	0.016703831031918526	0.43351206	No	
+row_20	PLA2G2C	phospholipase A2 group IIC [Source:HGNC Symbol;Acc:HGNC:9032]	8242	0.007975732907652855	0.4115613	No	
+row_21	PLA2G4B	phospholipase A2 group IVB [Source:HGNC Symbol;Acc:HGNC:9036]	9246	0.0	0.356524	No	
+row_22	CYP3A5	cytochrome P450 family 3 subfamily A member 5 [Source:HGNC Symbol;Acc:HGNC:2638]	10673	-0.015899090096354485	0.28308514	No	
+row_23	PLA2G2E	phospholipase A2 group IIE [Source:HGNC Symbol;Acc:HGNC:13414]	11045	-0.023749833926558495	0.26991186	No	
+row_24	CYP2C19	cytochrome P450 family 2 subfamily C member 19 [Source:HGNC Symbol;Acc:HGNC:2621]	11988	-0.04283996671438217	0.23118119	No	
+row_25	CYP3A7	cytochrome P450 family 3 subfamily A member 7 [Source:HGNC Symbol;Acc:HGNC:2640]	12500	-0.05310160666704178	0.21920487	No	
+row_26	PLA2G4A	phospholipase A2 group IVA [Source:HGNC Symbol;Acc:HGNC:9035]	13336	-0.07286258786916733	0.19542764	No	
+row_27	PLA2G12A	phospholipase A2 group XIIA [Source:HGNC Symbol;Acc:HGNC:18554]	13962	-0.08808821439743042	0.18777956	No	
+row_28	PLA2G1B	phospholipase A2 group IB [Source:HGNC Symbol;Acc:HGNC:9030]	16220	-0.15725022554397583	0.11150125	No	

@@ -1,0 +1,26 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	HS3ST2	heparan sulfate-glucosamine 3-sulfotransferase 2 [Source:HGNC Symbol;Acc:HGNC:5195]	275	0.4164009094238281	0.106349766	Yes	
+row_1	B3GALT6	beta-1,3-galactosyltransferase 6 [Source:HGNC Symbol;Acc:HGNC:17978]	415	0.3811321258544922	0.20987503	Yes	
+row_2	HS6ST3	heparan sulfate 6-O-sulfotransferase 3 [Source:HGNC Symbol;Acc:HGNC:19134]	426	0.37847572565078735	0.31970263	Yes	
+row_3	B4GALT7	beta-1,4-galactosyltransferase 7 [Source:HGNC Symbol;Acc:HGNC:930]	763	0.3242911100387573	0.39584357	Yes	
+row_4	B3GAT1	beta-1,3-glucuronyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:921]	1613	0.24582375586032867	0.42095733	Yes	
+row_5	HS3ST3B1	heparan sulfate-glucosamine 3-sulfotransferase 3B1 [Source:HGNC Symbol;Acc:HGNC:5198]	2976	0.1716051995754242	0.39628294	No	
+row_6	B3GAT2	beta-1,3-glucuronyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:922]	3663	0.14491158723831177	0.4009096	No	
+row_7	NDST2	N-deacetylase and N-sulfotransferase 2 [Source:HGNC Symbol;Acc:HGNC:7681]	4950	0.10405976325273514	0.3607061	No	
+row_8	EXTL1	exostosin like glycosyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:3515]	5054	0.10114102065563202	0.38455155	No	
+row_9	B3GAT3	beta-1,3-glucuronyltransferase 3 [Source:HGNC Symbol;Acc:HGNC:923]	5628	0.08341321349143982	0.3774425	No	
+row_10	NDST4	N-deacetylase and N-sulfotransferase 4 [Source:HGNC Symbol;Acc:HGNC:20779]	5655	0.08261404186487198	0.40010914	No	
+row_11	NDST3	N-deacetylase and N-sulfotransferase 3 [Source:HGNC Symbol;Acc:HGNC:7682]	7253	0.04233330115675926	0.32484248	No	
+row_12	HS3ST5	heparan sulfate-glucosamine 3-sulfotransferase 5 [Source:HGNC Symbol;Acc:HGNC:19419]	8213	0.01857887953519821	0.27764934	No	
+row_13	HS3ST1	heparan sulfate-glucosamine 3-sulfotransferase 1 [Source:HGNC Symbol;Acc:HGNC:5194]	8323	0.01633410155773163	0.2764331	No	
+row_14	NDST1	N-deacetylase and N-sulfotransferase 1 [Source:HGNC Symbol;Acc:HGNC:7680]	8427	0.014144564978778362	0.27490747	No	
+row_15	HS3ST3A1	heparan sulfate-glucosamine 3-sulfotransferase 3A1 [Source:HGNC Symbol;Acc:HGNC:5196]	8707	0.007363672833889723	0.26174885	No	
+row_16	HS6ST1	heparan sulfate 6-O-sulfotransferase 1 [Source:HGNC Symbol;Acc:HGNC:5201]	8883	0.0030094431713223457	0.2530259	No	
+row_17	EXTL3	exostosin like glycosyltransferase 3 [Source:HGNC Symbol;Acc:HGNC:3518]	11103	-0.02048589661717415	0.13726448	No	
+row_18	XYLT2	xylosyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:15517]	12038	-0.044012024998664856	0.09886	No	
+row_19	EXT2	exostosin glycosyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:3513]	12197	-0.04766610264778137	0.104093045	No	
+row_20	EXT1	exostosin glycosyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:3512]	12494	-0.05491207167506218	0.10386849	No	
+row_21	XYLT1	xylosyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:15516]	12986	-0.06862066686153412	0.096944	No	
+row_22	HS2ST1	heparan sulfate 2-O-sulfotransferase 1 [Source:HGNC Symbol;Acc:HGNC:5193]	13450	-0.08109055459499359	0.09519223	No	
+row_23	GLCE	glucuronic acid epimerase [Source:HGNC Symbol;Acc:HGNC:17855]	16496	-0.19062206149101257	-0.016266683	No	
+row_24	EXTL2	exostosin like glycosyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:3516]	18124	-0.385919988155365	0.00702222	No	

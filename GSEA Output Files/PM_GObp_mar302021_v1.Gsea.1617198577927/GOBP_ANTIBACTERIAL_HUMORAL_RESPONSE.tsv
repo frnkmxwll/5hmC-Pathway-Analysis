@@ -1,0 +1,57 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	KLK5	kallikrein related peptidase 5 [Source:HGNC Symbol;Acc:HGNC:6366]	2	0.7800540328025818	0.08230127	Yes	
+row_1	KLK7	kallikrein related peptidase 7 [Source:HGNC Symbol;Acc:HGNC:6368]	40	0.5648561716079712	0.13994391	Yes	
+row_2	H2BC8	H2B clustered histone 8 [Source:HGNC Symbol;Acc:HGNC:4746]	441	0.3746728301048279	0.15754572	Yes	
+row_3	BPIFA1	BPI fold containing family A member 1 [Source:HGNC Symbol;Acc:HGNC:15749]	597	0.34839051961898804	0.1858346	Yes	
+row_4	TF	transferrin [Source:HGNC Symbol;Acc:HGNC:11740]	613	0.34697118401527405	0.22166711	Yes	
+row_5	WFDC12	WAP four-disulfide core domain 12 [Source:HGNC Symbol;Acc:HGNC:16115]	732	0.3291517198085785	0.24995676	Yes	
+row_6	WFDC11	WAP four-disulfide core domain 11 [Source:HGNC Symbol;Acc:HGNC:20478]	970	0.297722727060318	0.26838645	Yes	
+row_7	WFDC9	WAP four-disulfide core domain 9 [Source:HGNC Symbol;Acc:HGNC:20380]	1031	0.2923642694950104	0.29597694	Yes	
+row_8	DMBT1	deleted in malignant brain tumors 1 [Source:HGNC Symbol;Acc:HGNC:2926]	1036	0.2920360565185547	0.32661015	Yes	
+row_9	HLA-A	major histocompatibility complex, class I, A [Source:HGNC Symbol;Acc:HGNC:4931]	1054	0.29018279910087585	0.35633317	Yes	
+row_10	KLK3	kallikrein related peptidase 3 [Source:HGNC Symbol;Acc:HGNC:6364]	1076	0.2882644832134247	0.3856337	Yes	
+row_11	SEMG1	semenogelin 1 [Source:HGNC Symbol;Acc:HGNC:10742]	1080	0.2879018783569336	0.41588512	Yes	
+row_12	PGC	progastricsin [Source:HGNC Symbol;Acc:HGNC:8890]	1244	0.2724316418170929	0.43570945	Yes	
+row_13	CAMP	cathelicidin antimicrobial peptide [Source:HGNC Symbol;Acc:HGNC:1472]	1516	0.2526717782020569	0.44751117	Yes	
+row_14	WFDC13	WAP four-disulfide core domain 13 [Source:HGNC Symbol;Acc:HGNC:16131]	1558	0.2494235336780548	0.47160915	Yes	
+row_15	PI3	peptidase inhibitor 3 [Source:HGNC Symbol;Acc:HGNC:8947]	1578	0.24797160923480988	0.49676275	Yes	
+row_16	ELANE	elastase, neutrophil expressed [Source:HGNC Symbol;Acc:HGNC:3309]	1672	0.2425713986158371	0.5172792	Yes	
+row_17	DEFA6	defensin alpha 6 [Source:HGNC Symbol;Acc:HGNC:2765]	1684	0.24131998419761658	0.5421697	Yes	
+row_18	WFDC5	WAP four-disulfide core domain 5 [Source:HGNC Symbol;Acc:HGNC:20477]	2022	0.2185882329940796	0.5467436	Yes	
+row_19	DEFB1	defensin beta 1 [Source:HGNC Symbol;Acc:HGNC:2766]	2220	0.20749489963054657	0.55783904	Yes	
+row_20	H2BC11	H2B clustered histone 11 [Source:HGNC Symbol;Acc:HGNC:4761]	2306	0.20317117869853973	0.5746326	Yes	
+row_21	DEFA5	defensin alpha 5 [Source:HGNC Symbol;Acc:HGNC:2764]	3775	0.14072559773921967	0.5088273	No	
+row_22	SFTPD	surfactant protein D [Source:HGNC Symbol;Acc:HGNC:10803]	4338	0.12218338996171951	0.49085155	No	
+row_23	H2BC12	H2B clustered histone 12 [Source:HGNC Symbol;Acc:HGNC:13954]	4521	0.11629290878772736	0.49313602	No	
+row_24	FGB	fibrinogen beta chain [Source:HGNC Symbol;Acc:HGNC:3662]	4817	0.10768400132656097	0.48830116	No	
+row_25	DEFA4	defensin alpha 4 [Source:HGNC Symbol;Acc:HGNC:2763]	5044	0.10139947384595871	0.48659417	No	
+row_26	LTF	lactotransferrin [Source:HGNC Symbol;Acc:HGNC:6720]	5334	0.0926353931427002	0.48049918	No	
+row_27	WFDC3	WAP four-disulfide core domain 3 [Source:HGNC Symbol;Acc:HGNC:15957]	5440	0.08953925967216492	0.48418865	No	
+row_28	RNASE3	ribonuclease A family member 3 [Source:HGNC Symbol;Acc:HGNC:10046]	6329	0.06509289145469666	0.44226635	No	
+row_29	PLA2G1B	phospholipase A2 group IB [Source:HGNC Symbol;Acc:HGNC:9030]	6584	0.059133194386959076	0.4345553	No	
+row_30	WFDC10B	WAP four-disulfide core domain 10B [Source:HGNC Symbol;Acc:HGNC:20479]	6915	0.0502670556306839	0.42173105	No	
+row_31	NOD2	nucleotide binding oligomerization domain containing 2 [Source:HGNC Symbol;Acc:HGNC:5331]	7202	0.0437154620885849	0.41063264	No	
+row_32	DEFA1	defensin alpha 1 [Source:HGNC Symbol;Acc:HGNC:2761]	7394	0.0386367104947567	0.4042183	No	
+row_33	OCIAD2	OCIA domain containing 2 [Source:HGNC Symbol;Acc:HGNC:28685]	7607	0.032940737903118134	0.39604813	No	
+row_34	DEFA3	defensin alpha 3 [Source:HGNC Symbol;Acc:HGNC:2762]	9459	0.0	0.29432806	No	
+row_35	WFDC10A	WAP four-disulfide core domain 10A [Source:HGNC Symbol;Acc:HGNC:16139]	9631	0.0	0.2849309	No	
+row_36	RNASE7	ribonuclease A family member 7 [Source:HGNC Symbol;Acc:HGNC:19278]	9694	0.0	0.28152376	No	
+row_37	H2BC4	H2B clustered histone 4 [Source:HGNC Symbol;Acc:HGNC:4757]	9785	0.0	0.2765779	No	
+row_38	DEFA1B	defensin alpha 1B [Source:HGNC Symbol;Acc:HGNC:33596]	9863	0.0	0.27234644	No	
+row_39	H2BS1	H2B.S histone 1 [Source:HGNC Symbol;Acc:HGNC:4762]	9883	0.0	0.2713023	No	
+row_40	ANG	angiogenin [Source:HGNC Symbol;Acc:HGNC:483]	10211	0.0	0.25333232	No	
+row_41	JCHAIN	joining chain of multimeric IgA and IgM [Source:HGNC Symbol;Acc:HGNC:5713]	10221	0.0	0.25283772	No	
+row_42	SLPI	secretory leukocyte peptidase inhibitor [Source:HGNC Symbol;Acc:HGNC:11092]	10744	-0.011930983513593674	0.22541216	No	
+row_43	PLA2G6	phospholipase A2 group VI [Source:HGNC Symbol;Acc:HGNC:9039]	11590	-0.03250734135508537	0.18241027	No	
+row_44	WFDC2	WAP four-disulfide core domain 2 [Source:HGNC Symbol;Acc:HGNC:15939]	11751	-0.0366327278316021	0.17748778	No	
+row_45	HLA-E	major histocompatibility complex, class I, E [Source:HGNC Symbol;Acc:HGNC:4962]	12632	-0.05864708125591278	0.1353241	No	
+row_46	H2BC10	H2B clustered histone 10 [Source:HGNC Symbol;Acc:HGNC:4756]	12839	-0.06440690159797668	0.13080803	No	
+row_47	CTSG	cathepsin G [Source:HGNC Symbol;Acc:HGNC:2532]	13287	-0.07686617970466614	0.114364296	No	
+row_48	SEMG2	semenogelin 2 [Source:HGNC Symbol;Acc:HGNC:10743]	14321	-0.10664422065019608	0.06886345	No	
+row_49	H2BC6	H2B clustered histone 6 [Source:HGNC Symbol;Acc:HGNC:4753]	14984	-0.12761889398097992	0.045966513	No	
+row_50	H2BC21	H2B clustered histone 21 [Source:HGNC Symbol;Acc:HGNC:4760]	15426	-0.14461848139762878	0.037010405	No	
+row_51	FGA	fibrinogen alpha chain [Source:HGNC Symbol;Acc:HGNC:3661]	16213	-0.17704743146896362	0.012521187	No	
+row_52	RNASE6	ribonuclease A family member k6 [Source:HGNC Symbol;Acc:HGNC:10048]	16285	-0.18053828179836273	0.027692959	No	
+row_53	OCIAD1	OCIA domain containing 1 [Source:HGNC Symbol;Acc:HGNC:16074]	16317	-0.18220718204975128	0.04523921	No	
+row_54	SPINK5	serine peptidase inhibitor Kazal type 5 [Source:HGNC Symbol;Acc:HGNC:15464]	16993	-0.21684423089027405	0.031054351	No	
+row_55	H2BC7	H2B clustered histone 7 [Source:HGNC Symbol;Acc:HGNC:4752]	18069	-0.36042407155036926	0.010056775	No	

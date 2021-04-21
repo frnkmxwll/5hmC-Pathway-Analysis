@@ -1,0 +1,17 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CS	citrate synthase [Source:HGNC Symbol;Acc:HGNC:2422]	1110	0.28485485911369324	0.12534228	Yes	
+row_1	HYI	hydroxypyruvate isomerase (putative) [Source:HGNC Symbol;Acc:HGNC:26948]	2444	0.19625049829483032	0.18053663	Yes	
+row_2	GLYCTK	glycerate kinase [Source:HGNC Symbol;Acc:HGNC:24247]	2905	0.17457810044288635	0.26943362	Yes	
+row_3	MDH2	malate dehydrogenase 2 [Source:HGNC Symbol;Acc:HGNC:6971]	3243	0.15918850898742676	0.35501507	Yes	
+row_4	GRHPR	glyoxylate and hydroxypyruvate reductase [Source:HGNC Symbol;Acc:HGNC:4570]	3953	0.13446909189224243	0.40403953	Yes	
+row_5	HAO2	hydroxyacid oxidase 2 [Source:HGNC Symbol;Acc:HGNC:4810]	4569	0.11465104669332504	0.44526342	Yes	
+row_6	ACO2	aconitase 2 [Source:HGNC Symbol;Acc:HGNC:118]	5368	0.09160075336694717	0.46138498	Yes	
+row_7	ACO1	aconitase 1 [Source:HGNC Symbol;Acc:HGNC:117]	7887	0.026839377358555794	0.34085873	No	
+row_8	MTHFD2	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2, methenyltetrahydrofolate cyclohydrolase [Source:HGNC Symbol;Acc:HGNC:7434]	8128	0.021487101912498474	0.34174463	No	
+row_9	HAO1	hydroxyacid oxidase 1 [Source:HGNC Symbol;Acc:HGNC:4809]	8507	0.012078856118023396	0.3289134	No	
+row_10	AFMID	arylformamidase [Source:HGNC Symbol;Acc:HGNC:20910]	8669	0.008154703304171562	0.32541585	No	
+row_11	MDH1	malate dehydrogenase 1 [Source:HGNC Symbol;Acc:HGNC:6970]	9167	0.0	0.29816356	No	
+row_12	PGP	phosphoglycolate phosphatase [Source:HGNC Symbol;Acc:HGNC:8909]	10978	-0.01779025048017502	0.21054414	No	
+row_13	MTHFD1L	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 1 like [Source:HGNC Symbol;Acc:HGNC:21055]	12084	-0.04504748806357384	0.17940025	No	
+row_14	MTHFD1	methylenetetrahydrofolate dehydrogenase, cyclohydrolase and formyltetrahydrofolate synthetase 1 [Source:HGNC Symbol;Acc:HGNC:7432]	13753	-0.08983226120471954	0.14666054	No	
+row_15	MTHFD2L	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2 like [Source:HGNC Symbol;Acc:HGNC:31865]	15659	-0.1529478132724762	0.14218344	No	

@@ -1,0 +1,52 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	APOM	apolipoprotein M [Source:HGNC Symbol;Acc:HGNC:13916]	313	0.35433995723724365	0.043383993	Yes	
+row_1	APOC1	apolipoprotein C1 [Source:HGNC Symbol;Acc:HGNC:607]	516	0.3159080147743225	0.08629569	Yes	
+row_2	APOB	apolipoprotein B [Source:HGNC Symbol;Acc:HGNC:603]	1092	0.25775429606437683	0.09877284	Yes	
+row_3	TSKU	tsukushi, small leucine rich proteoglycan [Source:HGNC Symbol;Acc:HGNC:28850]	1122	0.25550830364227295	0.14086272	Yes	
+row_4	YJEFN3	YjeF N-terminal domain containing 3 [Source:HGNC Symbol;Acc:HGNC:24785]	1260	0.24677254259586334	0.17552567	Yes	
+row_5	CES1	carboxylesterase 1 [Source:HGNC Symbol;Acc:HGNC:1863]	1402	0.23754297196865082	0.2083909	Yes	
+row_6	LRP1	LDL receptor related protein 1 [Source:HGNC Symbol;Acc:HGNC:6692]	1564	0.22649633884429932	0.2382688	Yes	
+row_7	ABCG8	ATP binding cassette subfamily G member 8 [Source:HGNC Symbol;Acc:HGNC:13887]	1702	0.21933577954769135	0.268241	Yes	
+row_8	APOA4	apolipoprotein A4 [Source:HGNC Symbol;Acc:HGNC:602]	1949	0.20705457031726837	0.2901252	Yes	
+row_9	APOA2	apolipoprotein A2 [Source:HGNC Symbol;Acc:HGNC:601]	1971	0.20607253909111023	0.32420275	Yes	
+row_10	NR1H2	nuclear receptor subfamily 1 group H member 2 [Source:HGNC Symbol;Acc:HGNC:7965]	2412	0.18531207740306854	0.33171156	Yes	
+row_11	PON1	paraoxonase 1 [Source:HGNC Symbol;Acc:HGNC:9204]	2661	0.17631469666957855	0.34823042	Yes	
+row_12	ABCG4	ATP binding cassette subfamily G member 4 [Source:HGNC Symbol;Acc:HGNC:13884]	2834	0.16932089626789093	0.36772892	Yes	
+row_13	ABCA12	ATP binding cassette subfamily A member 12 [Source:HGNC Symbol;Acc:HGNC:14637]	3318	0.15182527899742126	0.36715028	Yes	
+row_14	ZDHHC8	zinc finger DHHC-type palmitoyltransferase 8 [Source:HGNC Symbol;Acc:HGNC:18474]	3397	0.1493782252073288	0.38840353	Yes	
+row_15	SHH	sonic hedgehog signaling molecule [Source:HGNC Symbol;Acc:HGNC:10848]	3543	0.14369533956050873	0.40500432	Yes	
+row_16	ABCA1	ATP binding cassette subfamily A member 1 [Source:HGNC Symbol;Acc:HGNC:29]	3680	0.1396334320306778	0.42140514	Yes	
+row_17	ABCA3	ATP binding cassette subfamily A member 3 [Source:HGNC Symbol;Acc:HGNC:33]	4306	0.1208881139755249	0.40773594	Yes	
+row_18	ABCG5	ATP binding cassette subfamily G member 5 [Source:HGNC Symbol;Acc:HGNC:13886]	4399	0.11792923510074615	0.42284337	Yes	
+row_19	SOAT2	sterol O-acyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:11178]	4755	0.1087075024843216	0.42192525	No	
+row_20	NPC1	NPC intracellular cholesterol transporter 1 [Source:HGNC Symbol;Acc:HGNC:7897]	5340	0.09313171356916428	0.40576318	No	
+row_21	SCARB1	scavenger receptor class B member 1 [Source:HGNC Symbol;Acc:HGNC:1664]	5796	0.08223370462656021	0.39482504	No	
+row_22	SREBF2	sterol regulatory element binding transcription factor 2 [Source:HGNC Symbol;Acc:HGNC:11290]	6545	0.06300272792577744	0.36450195	No	
+row_23	NR1H3	nuclear receptor subfamily 1 group H member 3 [Source:HGNC Symbol;Acc:HGNC:7966]	6998	0.05216310918331146	0.34858763	No	
+row_24	ABCA2	ATP binding cassette subfamily A member 2 [Source:HGNC Symbol;Acc:HGNC:32]	7002	0.05210115388035774	0.3573303	No	
+row_25	APOA1	apolipoprotein A1 [Source:HGNC Symbol;Acc:HGNC:600]	7014	0.05149200186133385	0.36552933	No	
+row_26	APOC3	apolipoprotein C3 [Source:HGNC Symbol;Acc:HGNC:610]	7163	0.04820920526981354	0.36564046	No	
+row_27	CETP	cholesteryl ester transfer protein [Source:HGNC Symbol;Acc:HGNC:1869]	7705	0.03578406199812889	0.3420363	No	
+row_28	CAV1	caveolin 1 [Source:HGNC Symbol;Acc:HGNC:1527]	8265	0.022449949756264687	0.31516355	No	
+row_29	APOE	apolipoprotein E [Source:HGNC Symbol;Acc:HGNC:613]	8354	0.020272303372621536	0.3137948	No	
+row_30	ABCA7	ATP binding cassette subfamily A member 7 [Source:HGNC Symbol;Acc:HGNC:37]	8793	0.010372648946940899	0.29150486	No	
+row_31	NAXE	NAD(P)HX epimerase [Source:HGNC Symbol;Acc:HGNC:18453]	8805	0.010054667480289936	0.29261953	No	
+row_32	GPS2	G protein pathway suppressor 2 [Source:HGNC Symbol;Acc:HGNC:4550]	9110	0.0019193475600332022	0.27624622	No	
+row_33	APOC2	apolipoprotein C2 [Source:HGNC Symbol;Acc:HGNC:609]	9257	0.0	0.2682251	No	
+row_34	LAMTOR1	late endosomal/lysosomal adaptor, MAPK and MTOR activator 1 [Source:HGNC Symbol;Acc:HGNC:26068]	9607	0.0	0.24905139	No	
+row_35	STX12	syntaxin 12 [Source:HGNC Symbol;Acc:HGNC:11430]	10566	-0.004252084065228701	0.19714677	No	
+row_36	PTCH1	patched 1 [Source:HGNC Symbol;Acc:HGNC:9585]	10591	-0.004805136006325483	0.19664976	No	
+row_37	EEPD1	endonuclease/exonuclease/phosphatase family domain containing 1 [Source:HGNC Symbol;Acc:HGNC:22223]	10671	-0.00663343258202076	0.19344366	No	
+row_38	ABCA8	ATP binding cassette subfamily A member 8 [Source:HGNC Symbol;Acc:HGNC:38]	10696	-0.007075432687997818	0.19333477	No	
+row_39	ABCG1	ATP binding cassette subfamily G member 1 [Source:HGNC Symbol;Acc:HGNC:73]	12123	-0.045627739280462265	0.12279251	No	
+row_40	NPC2	NPC intracellular cholesterol transporter 2 [Source:HGNC Symbol;Acc:HGNC:14537]	12334	-0.051372867077589035	0.1200383	No	
+row_41	ADIPOQ	adiponectin, C1Q and collagen domain containing [Source:HGNC Symbol;Acc:HGNC:13633]	12958	-0.06905921548604965	0.097618036	No	
+row_42	SOAT1	sterol O-acyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:11177]	13037	-0.07125525176525116	0.10551499	No	
+row_43	EGF	epidermal growth factor [Source:HGNC Symbol;Acc:HGNC:3229]	13732	-0.092366524040699	0.083178796	No	
+row_44	SIRT1	sirtuin 1 [Source:HGNC Symbol;Acc:HGNC:14929]	13789	-0.09414254873991013	0.09619734	No	
+row_45	PLTP	phospholipid transfer protein [Source:HGNC Symbol;Acc:HGNC:9093]	13979	-0.10001236200332642	0.10291253	No	
+row_46	TTC39B	tetratricopeptide repeat domain 39B [Source:HGNC Symbol;Acc:HGNC:23704]	14327	-0.11023440957069397	0.10269497	No	
+row_47	APOA5	apolipoprotein A5 [Source:HGNC Symbol;Acc:HGNC:17288]	14329	-0.11040588468313217	0.12151563	No	
+row_48	PLA2G10	phospholipase A2 group X [Source:HGNC Symbol;Acc:HGNC:9029]	15086	-0.13781650364398956	0.1035436	No	
+row_49	NFKBIA	NFKB inhibitor alpha [Source:HGNC Symbol;Acc:HGNC:7797]	15466	-0.15139545500278473	0.10860511	No	
+row_50	ABCA5	ATP binding cassette subfamily A member 5 [Source:HGNC Symbol;Acc:HGNC:35]	17363	-0.25970160961151123	0.048840746	No	

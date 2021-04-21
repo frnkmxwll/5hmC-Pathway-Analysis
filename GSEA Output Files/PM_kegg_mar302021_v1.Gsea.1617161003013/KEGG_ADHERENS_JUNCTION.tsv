@@ -1,0 +1,73 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CTNNA2	catenin alpha 2 [Source:HGNC Symbol;Acc:HGNC:2510]	875	0.3104188144207001	-0.015095053	No	
+row_1	NECTIN4	nectin cell adhesion molecule 4 [Source:HGNC Symbol;Acc:HGNC:19688]	1406	0.25956952571868896	-0.0166252	No	
+row_2	ERBB2	erb-b2 receptor tyrosine kinase 2 [Source:HGNC Symbol;Acc:HGNC:3430]	1428	0.2582477033138275	0.0097002555	No	
+row_3	CDH1	cadherin 1 [Source:HGNC Symbol;Acc:HGNC:1748]	1464	0.25557464361190796	0.034971233	No	
+row_4	RAC3	Rac family small GTPase 3 [Source:HGNC Symbol;Acc:HGNC:9803]	1514	0.25288552045822144	0.05918602	No	
+row_5	PTPN6	protein tyrosine phosphatase non-receptor type 6 [Source:HGNC Symbol;Acc:HGNC:9658]	2292	0.20411351323127747	0.03816911	No	
+row_6	ACTN3	actinin alpha 3 (gene/pseudogene) [Source:HGNC Symbol;Acc:HGNC:165]	3474	0.15093788504600525	-0.010727297	No	
+row_7	PTPRF	protein tyrosine phosphatase receptor type F [Source:HGNC Symbol;Acc:HGNC:9670]	4511	0.11654926091432571	-0.055307686	No	
+row_8	NECTIN1	nectin cell adhesion molecule 1 [Source:HGNC Symbol;Acc:HGNC:9706]	4631	0.11329339444637299	-0.04979727	No	
+row_9	FGFR1	fibroblast growth factor receptor 1 [Source:HGNC Symbol;Acc:HGNC:3688]	5072	0.1006968691945076	-0.06328306	No	
+row_10	SNAI1	snail family transcriptional repressor 1 [Source:HGNC Symbol;Acc:HGNC:11128]	5121	0.09926563501358032	-0.05536018	No	
+row_11	SNAI2	snail family transcriptional repressor 2 [Source:HGNC Symbol;Acc:HGNC:11094]	5522	0.08645563572645187	-0.0681613	No	
+row_12	RAC2	Rac family small GTPase 2 [Source:HGNC Symbol;Acc:HGNC:9802]	5825	0.07801388204097748	-0.07647048	No	
+row_13	ACTN2	actinin alpha 2 [Source:HGNC Symbol;Acc:HGNC:164]	6102	0.0709398090839386	-0.084102355	No	
+row_14	ACP1	acid phosphatase 1 [Source:HGNC Symbol;Acc:HGNC:122]	6155	0.06954090297222137	-0.07956254	No	
+row_15	ACTG1	actin gamma 1 [Source:HGNC Symbol;Acc:HGNC:144]	6737	0.05488751456141472	-0.10567832	No	
+row_16	NECTIN3	nectin cell adhesion molecule 3 [Source:HGNC Symbol;Acc:HGNC:17664]	6921	0.05014926940202713	-0.110407315	No	
+row_17	PTPRJ	protein tyrosine phosphatase receptor type J [Source:HGNC Symbol;Acc:HGNC:9673]	7551	0.034291718155145645	-0.14135484	No	
+row_18	ACTB	actin beta [Source:HGNC Symbol;Acc:HGNC:132]	8140	0.020895589143037796	-0.17147276	No	
+row_19	SRC	SRC proto-oncogene, non-receptor tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:11283]	8216	0.01849014312028885	-0.17363039	No	
+row_20	CSNK2B	casein kinase 2 beta [Source:HGNC Symbol;Acc:HGNC:2460]	9247	0.0	-0.23028293	No	
+row_21	TCF7	transcription factor 7 [Source:HGNC Symbol;Acc:HGNC:11639]	10672	-0.010275963693857193	-0.30751297	No	
+row_22	MAPK3	mitogen-activated protein kinase 3 [Source:HGNC Symbol;Acc:HGNC:6877]	11325	-0.025825373828411102	-0.34062648	No	
+row_23	NECTIN2	nectin cell adhesion molecule 2 [Source:HGNC Symbol;Acc:HGNC:9707]	11442	-0.02871922217309475	-0.34395072	No	
+row_24	TCF7L2	transcription factor 7 like 2 [Source:HGNC Symbol;Acc:HGNC:11641]	11478	-0.029577918350696564	-0.34272838	No	
+row_25	SMAD3	SMAD family member 3 [Source:HGNC Symbol;Acc:HGNC:6769]	11695	-0.035316482186317444	-0.35085082	No	
+row_26	FARP2	FERM, ARH/RhoGEF and pleckstrin domain protein 2 [Source:HGNC Symbol;Acc:HGNC:16460]	11733	-0.036181751638650894	-0.34903577	No	
+row_27	LEF1	lymphoid enhancer binding factor 1 [Source:HGNC Symbol;Acc:HGNC:6551]	11836	-0.038650427013635635	-0.35053316	No	
+row_28	ACTN4	actinin alpha 4 [Source:HGNC Symbol;Acc:HGNC:166]	11922	-0.040989868342876434	-0.3508466	No	
+row_29	BAIAP2	BAR/IMD domain containing adaptor protein 2 [Source:HGNC Symbol;Acc:HGNC:947]	12057	-0.04446713998913765	-0.3534851	No	
+row_30	EGFR	epidermal growth factor receptor [Source:HGNC Symbol;Acc:HGNC:3236]	12157	-0.04677627608180046	-0.35395283	No	
+row_31	CTNNA3	catenin alpha 3 [Source:HGNC Symbol;Acc:HGNC:2511]	12233	-0.048414941877126694	-0.3529261	No	
+row_32	CSNK2A1	casein kinase 2 alpha 1 [Source:HGNC Symbol;Acc:HGNC:2457]	12241	-0.048591550439596176	-0.34814042	No	
+row_33	LMO7	LIM domain 7 [Source:HGNC Symbol;Acc:HGNC:6646]	12502	-0.0551692433655262	-0.35657042	No	
+row_34	PTPRM	protein tyrosine phosphatase receptor type M [Source:HGNC Symbol;Acc:HGNC:9675]	12570	-0.05689173936843872	-0.35420167	No	
+row_35	INSR	insulin receptor [Source:HGNC Symbol;Acc:HGNC:6091]	12744	-0.061902016401290894	-0.35713002	No	
+row_36	ACTN1	actinin alpha 1 [Source:HGNC Symbol;Acc:HGNC:163]	13285	-0.0768217071890831	-0.37865666	Yes	
+row_37	SORBS1	sorbin and SH3 domain containing 1 [Source:HGNC Symbol;Acc:HGNC:14565]	13294	-0.07707810401916504	-0.37089467	Yes	
+row_38	TCF7L1	transcription factor 7 like 1 [Source:HGNC Symbol;Acc:HGNC:11640]	13579	-0.08461566269397736	-0.3775113	Yes	
+row_39	CREBBP	CREB binding protein [Source:HGNC Symbol;Acc:HGNC:2348]	13598	-0.08513326942920685	-0.3694422	Yes	
+row_40	MAPK1	mitogen-activated protein kinase 1 [Source:HGNC Symbol;Acc:HGNC:6871]	13856	-0.09310879558324814	-0.37366998	Yes	
+row_41	RHOA	ras homolog family member A [Source:HGNC Symbol;Acc:HGNC:667]	13939	-0.09541390091180801	-0.36802706	Yes	
+row_42	CTNNA1	catenin alpha 1 [Source:HGNC Symbol;Acc:HGNC:2509]	13989	-0.09656210243701935	-0.36044687	Yes	
+row_43	WASF3	WASP family member 3 [Source:HGNC Symbol;Acc:HGNC:12734]	14213	-0.10302013903856277	-0.3617499	Yes	
+row_44	IGF1R	insulin like growth factor 1 receptor [Source:HGNC Symbol;Acc:HGNC:5465]	14239	-0.10370314866304398	-0.35208976	Yes	
+row_45	WASF2	WASP family member 2 [Source:HGNC Symbol;Acc:HGNC:12733]	14285	-0.10507486015558243	-0.3433837	Yes	
+row_46	PTPN1	protein tyrosine phosphatase non-receptor type 1 [Source:HGNC Symbol;Acc:HGNC:9642]	14317	-0.10656479746103287	-0.3337491	Yes	
+row_47	CSNK2A2	casein kinase 2 alpha 2 [Source:HGNC Symbol;Acc:HGNC:2459]	14477	-0.11185705661773682	-0.3305916	Yes	
+row_48	CTNND1	catenin delta 1 [Source:HGNC Symbol;Acc:HGNC:2515]	14577	-0.11455804854631424	-0.32384655	Yes	
+row_49	RAC1	Rac family small GTPase 1 [Source:HGNC Symbol;Acc:HGNC:9801]	14769	-0.12010761350393295	-0.3215712	Yes	
+row_50	TJP1	tight junction protein 1 [Source:HGNC Symbol;Acc:HGNC:11827]	14961	-0.12693077325820923	-0.31856978	Yes	
+row_51	SMAD4	SMAD family member 4 [Source:HGNC Symbol;Acc:HGNC:6770]	15090	-0.1314542442560196	-0.31162187	Yes	
+row_52	EP300	E1A binding protein p300 [Source:HGNC Symbol;Acc:HGNC:3373]	15279	-0.13938064873218536	-0.30713063	Yes	
+row_53	IQGAP1	IQ motif containing GTPase activating protein 1 [Source:HGNC Symbol;Acc:HGNC:6110]	15680	-0.15361174941062927	-0.3127856	Yes	
+row_54	VCL	vinculin [Source:HGNC Symbol;Acc:HGNC:12665]	15688	-0.1539757400751114	-0.29678583	Yes	
+row_55	TGFBR2	transforming growth factor beta receptor 2 [Source:HGNC Symbol;Acc:HGNC:11773]	15823	-0.16001778841018677	-0.28712845	Yes	
+row_56	PTPRB	protein tyrosine phosphatase receptor type B [Source:HGNC Symbol;Acc:HGNC:9665]	16161	-0.17486661672592163	-0.28705648	Yes	
+row_57	CDC42	cell division cycle 42 [Source:HGNC Symbol;Acc:HGNC:1736]	16201	-0.17673757672309875	-0.27039465	Yes	
+row_58	MET	MET proto-oncogene, receptor tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:7029]	16507	-0.191057488322258	-0.2668397	Yes	
+row_59	AFDN	afadin, adherens junction formation factor [Source:HGNC Symbol;Acc:HGNC:7137]	16600	-0.1954490840435028	-0.25110194	Yes	
+row_60	SMAD2	SMAD family member 2 [Source:HGNC Symbol;Acc:HGNC:6768]	16667	-0.19843699038028717	-0.23361613	Yes	
+row_61	TGFBR1	transforming growth factor beta receptor 1 [Source:HGNC Symbol;Acc:HGNC:11772]	16919	-0.2130400538444519	-0.22475185	Yes	
+row_62	FYN	FYN proto-oncogene, Src family tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:4037]	17026	-0.21917490661144257	-0.2072594	Yes	
+row_63	FER	FER tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:3655]	17217	-0.23246462643146515	-0.19297297	Yes	
+row_64	NLK	nemo like kinase [Source:HGNC Symbol;Acc:HGNC:29858]	17461	-0.2536231577396393	-0.17935017	Yes	
+row_65	YES1	YES proto-oncogene 1, Src family tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:12841]	17562	-0.2664690613746643	-0.15649506	Yes	
+row_66	PARD3	par-3 family cell polarity regulator [Source:HGNC Symbol;Acc:HGNC:16051]	17639	-0.27388957142829895	-0.13153027	Yes	
+row_67	WASF1	WASP family member 1 [Source:HGNC Symbol;Acc:HGNC:12732]	17654	-0.2751801609992981	-0.10301799	Yes	
+row_68	SSX2IP	SSX family member 2 interacting protein [Source:HGNC Symbol;Acc:HGNC:16509]	17729	-0.28549009561538696	-0.076708764	Yes	
+row_69	CTNNB1	catenin beta 1 [Source:HGNC Symbol;Acc:HGNC:2514]	17836	-0.30449965596199036	-0.050136782	Yes	
+row_70	MAP3K7	mitogen-activated protein kinase kinase kinase 7 [Source:HGNC Symbol;Acc:HGNC:6859]	17877	-0.3121505677700043	-0.019120494	Yes	
+row_71	WASL	WASP like actin nucleation promoting factor [Source:HGNC Symbol;Acc:HGNC:12735]	18098	-0.3729999363422394	0.008470417	Yes	

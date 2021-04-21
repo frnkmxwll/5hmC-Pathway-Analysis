@@ -1,0 +1,127 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	UBE2M	ubiquitin conjugating enzyme E2 M [Source:HGNC Symbol;Acc:HGNC:12491]	690	0.33595001697540283	-0.01685233	No	
+row_1	UBE2Q1	ubiquitin conjugating enzyme E2 Q1 [Source:HGNC Symbol;Acc:HGNC:15698]	968	0.2980160415172577	-0.013316181	No	
+row_2	FBXO2	F-box protein 2 [Source:HGNC Symbol;Acc:HGNC:13581]	1250	0.27211520075798035	-0.011636119	No	
+row_3	DDB1	damage specific DNA binding protein 1 [Source:HGNC Symbol;Acc:HGNC:2717]	1442	0.2571635842323303	-0.0059351567	No	
+row_4	CUL7	cullin 7 [Source:HGNC Symbol;Acc:HGNC:21024]	1603	0.24643951654434204	7.988255E-4	No	
+row_5	ANAPC2	anaphase promoting complex subunit 2 [Source:HGNC Symbol;Acc:HGNC:19989]	1604	0.2463701367378235	0.01635504	No	
+row_6	UBA7	ubiquitin like modifier activating enzyme 7 [Source:HGNC Symbol;Acc:HGNC:12471]	2433	0.1970798671245575	-0.016878733	No	
+row_7	PIAS3	protein inhibitor of activated STAT 3 [Source:HGNC Symbol;Acc:HGNC:16861]	2575	0.18877054750919342	-0.012737903	No	
+row_8	CDC26	cell division cycle 26 [Source:HGNC Symbol;Acc:HGNC:17839]	2932	0.17338502407073975	-0.0214293	No	
+row_9	SOCS3	suppressor of cytokine signaling 3 [Source:HGNC Symbol;Acc:HGNC:19391]	3496	0.15033338963985443	-0.042995647	No	
+row_10	AIRE	autoimmune regulator [Source:HGNC Symbol;Acc:HGNC:360]	3602	0.1469709575176239	-0.039508123	No	
+row_11	UBE2D4	ubiquitin conjugating enzyme E2 D4 (putative) [Source:HGNC Symbol;Acc:HGNC:21647]	4070	0.13055819272994995	-0.05702714	No	
+row_12	CDC23	cell division cycle 23 [Source:HGNC Symbol;Acc:HGNC:1724]	4101	0.12925304472446442	-0.05052088	No	
+row_13	CDC34	cell division cycle 34, ubiqiutin conjugating enzyme [Source:HGNC Symbol;Acc:HGNC:1734]	4423	0.1195363774895668	-0.060681548	No	
+row_14	PRPF19	pre-mRNA processing factor 19 [Source:HGNC Symbol;Acc:HGNC:17896]	4556	0.11513298004865646	-0.06069382	No	
+row_15	ELOB	elongin B [Source:HGNC Symbol;Acc:HGNC:11619]	4634	0.11325079202651978	-0.057790782	No	
+row_16	UBE2F	ubiquitin conjugating enzyme E2 F (putative) [Source:HGNC Symbol;Acc:HGNC:12480]	4665	0.11229317635297775	-0.052355397	No	
+row_17	UBE2S	ubiquitin conjugating enzyme E2 S [Source:HGNC Symbol;Acc:HGNC:17895]	4819	0.10761918127536774	-0.054000594	No	
+row_18	UBE2QL1	ubiquitin conjugating enzyme E2 Q family like 1 [Source:HGNC Symbol;Acc:HGNC:37269]	4822	0.10755789279937744	-0.047319546	No	
+row_19	ANAPC11	anaphase promoting complex subunit 11 [Source:HGNC Symbol;Acc:HGNC:14452]	4830	0.10726932436227798	-0.04093255	No	
+row_20	ANAPC4	anaphase promoting complex subunit 4 [Source:HGNC Symbol;Acc:HGNC:19990]	4949	0.10406266152858734	-0.04087149	No	
+row_21	PIAS4	protein inhibitor of activated STAT 4 [Source:HGNC Symbol;Acc:HGNC:17002]	5096	0.1000501736998558	-0.04260844	No	
+row_22	PPIL2	peptidylprolyl isomerase like 2 [Source:HGNC Symbol;Acc:HGNC:9261]	5467	0.08811395615339279	-0.057456322	No	
+row_23	UBOX5	U-box domain containing 5 [Source:HGNC Symbol;Acc:HGNC:17777]	5643	0.08293402940034866	-0.06187384	No	
+row_24	UBE2J2	ubiquitin conjugating enzyme E2 J2 [Source:HGNC Symbol;Acc:HGNC:19268]	5924	0.07536444813013077	-0.07256178	No	
+row_25	NEDD4L	NEDD4 like E3 ubiquitin protein ligase [Source:HGNC Symbol;Acc:HGNC:7728]	6722	0.05528106912970543	-0.1130388	No	
+row_26	FZR1	fizzy and cell division cycle 20 related 1 [Source:HGNC Symbol;Acc:HGNC:24824]	6802	0.05332615599036217	-0.11402984	No	
+row_27	UBE2L3	ubiquitin conjugating enzyme E2 L3 [Source:HGNC Symbol;Acc:HGNC:12488]	7312	0.040737997740507126	-0.13953723	No	
+row_28	SYVN1	synoviolin 1 [Source:HGNC Symbol;Acc:HGNC:20738]	7324	0.04042011871933937	-0.13759187	No	
+row_29	UBE3B	ubiquitin protein ligase E3B [Source:HGNC Symbol;Acc:HGNC:13478]	7431	0.037754204124212265	-0.14105564	No	
+row_30	MGRN1	mahogunin ring finger 1 [Source:HGNC Symbol;Acc:HGNC:20254]	8049	0.023111417889595032	-0.17363396	No	
+row_31	BRCA1	BRCA1 DNA repair associated [Source:HGNC Symbol;Acc:HGNC:1100]	8603	0.009614423848688602	-0.20353387	No	
+row_32	ANAPC7	anaphase promoting complex subunit 7 [Source:HGNC Symbol;Acc:HGNC:17380]	8735	0.006722548510879278	-0.2103362	No	
+row_33	RHOBTB2	Rho related BTB domain containing 2 [Source:HGNC Symbol;Acc:HGNC:18756]	8755	0.006354468874633312	-0.21098313	No	
+row_34	ANAPC5	anaphase promoting complex subunit 5 [Source:HGNC Symbol;Acc:HGNC:15713]	8819	0.0046900552697479725	-0.21416245	No	
+row_35	HERC3	HECT and RLD domain containing E3 ubiquitin protein ligase 3 [Source:HGNC Symbol;Acc:HGNC:4876]	8855	0.0036325936671346426	-0.21586391	No	
+row_36	UBE2Z	ubiquitin conjugating enzyme E2 Z [Source:HGNC Symbol;Acc:HGNC:25847]	8868	0.0033571834210306406	-0.21631393	No	
+row_37	SOCS1	suppressor of cytokine signaling 1 [Source:HGNC Symbol;Acc:HGNC:19383]	9171	0.0	-0.23297416	No	
+row_38	STUB1	STIP1 homology and U-box containing protein 1 [Source:HGNC Symbol;Acc:HGNC:11427]	9244	0.0	-0.23694614	No	
+row_39	UBE2W	ubiquitin conjugating enzyme E2 W [Source:HGNC Symbol;Acc:HGNC:25616]	9794	0.0	-0.26723245	No	
+row_40	TRIM32	tripartite motif containing 32 [Source:HGNC Symbol;Acc:HGNC:16380]	9933	0.0	-0.2748454	No	
+row_41	CDC20	cell division cycle 20 [Source:HGNC Symbol;Acc:HGNC:1723]	10408	-0.0041760546155273914	-0.30073056	No	
+row_42	UBE4A	ubiquitination factor E4A [Source:HGNC Symbol;Acc:HGNC:12499]	10496	-0.006431393325328827	-0.30512396	No	
+row_43	CUL4A	cullin 4A [Source:HGNC Symbol;Acc:HGNC:2554]	10517	-0.006774096749722958	-0.30579954	No	
+row_44	DDB2	damage specific DNA binding protein 2 [Source:HGNC Symbol;Acc:HGNC:2718]	10819	-0.013877961784601212	-0.32152832	No	
+row_45	ANAPC1	anaphase promoting complex subunit 1 [Source:HGNC Symbol;Acc:HGNC:19988]	10858	-0.014794734306633472	-0.3226905	No	
+row_46	UBE4B	ubiquitination factor E4B [Source:HGNC Symbol;Acc:HGNC:12500]	10999	-0.01823573373258114	-0.32926235	No	
+row_47	KEAP1	kelch like ECH associated protein 1 [Source:HGNC Symbol;Acc:HGNC:23177]	11039	-0.019037388265132904	-0.33021176	No	
+row_48	UBE2I	ubiquitin conjugating enzyme E2 I [Source:HGNC Symbol;Acc:HGNC:12485]	11040	-0.019037794321775436	-0.32900968	No	
+row_49	ELOC	elongin C [Source:HGNC Symbol;Acc:HGNC:11617]	11046	-0.019125651568174362	-0.3280779	No	
+row_50	HERC2	HECT and RLD domain containing E3 ubiquitin protein ligase 2 [Source:HGNC Symbol;Acc:HGNC:4868]	11352	-0.02643577568233013	-0.34323442	No	
+row_51	CBLC	Cbl proto-oncogene C [Source:HGNC Symbol;Acc:HGNC:15961]	11382	-0.027150209993124008	-0.34311995	No	
+row_52	UBA2	ubiquitin like modifier activating enzyme 2 [Source:HGNC Symbol;Acc:HGNC:30661]	11401	-0.02755044959485531	-0.34237337	No	
+row_53	UBE2O	ubiquitin conjugating enzyme E2 O [Source:HGNC Symbol;Acc:HGNC:29554]	11489	-0.029973872005939484	-0.34528023	No	
+row_54	WWP2	WW domain containing E3 ubiquitin protein ligase 2 [Source:HGNC Symbol;Acc:HGNC:16804]	11491	-0.03003009781241417	-0.34343925	No	
+row_55	FBXO4	F-box protein 4 [Source:HGNC Symbol;Acc:HGNC:13583]	11787	-0.037329647690057755	-0.35735625	No	
+row_56	RNF7	ring finger protein 7 [Source:HGNC Symbol;Acc:HGNC:10070]	11883	-0.0400112010538578	-0.36007068	No	
+row_57	SIAH1	siah E3 ubiquitin protein ligase 1 [Source:HGNC Symbol;Acc:HGNC:10857]	12064	-0.0445704460144043	-0.36718637	No	
+row_58	UBE2L6	ubiquitin conjugating enzyme E2 L6 [Source:HGNC Symbol;Acc:HGNC:12490]	12245	-0.048630550503730774	-0.3740457	No	
+row_59	UBE3C	ubiquitin protein ligase E3C [Source:HGNC Symbol;Acc:HGNC:16803]	12336	-0.05079572647809982	-0.37580335	No	
+row_60	SKP1	S-phase kinase associated protein 1 [Source:HGNC Symbol;Acc:HGNC:10899]	12582	-0.05721157044172287	-0.38570666	No	
+row_61	CDC16	cell division cycle 16 [Source:HGNC Symbol;Acc:HGNC:1720]	12707	-0.06086144223809242	-0.3887044	No	
+row_62	DET1	DET1 partner of COP1 E3 ubiquitin ligase [Source:HGNC Symbol;Acc:HGNC:25477]	12781	-0.06273169815540314	-0.38877055	No	
+row_63	UBE2D2	ubiquitin conjugating enzyme E2 D2 [Source:HGNC Symbol;Acc:HGNC:12475]	12791	-0.06293970346450806	-0.38529295	No	
+row_64	TRIM37	tripartite motif containing 37 [Source:HGNC Symbol;Acc:HGNC:7523]	12865	-0.0651027262210846	-0.38520938	No	
+row_65	RBX1	ring-box 1 [Source:HGNC Symbol;Acc:HGNC:9928]	13109	-0.07212622463703156	-0.39406064	No	
+row_66	SAE1	SUMO1 activating enzyme subunit 1 [Source:HGNC Symbol;Acc:HGNC:30660]	13199	-0.07451599836349487	-0.39426538	No	
+row_67	UBE2G2	ubiquitin conjugating enzyme E2 G2 [Source:HGNC Symbol;Acc:HGNC:12483]	13339	-0.07806787639856339	-0.39700416	No	
+row_68	ANAPC10	anaphase promoting complex subunit 10 [Source:HGNC Symbol;Acc:HGNC:24077]	13539	-0.08362618088722229	-0.40270197	No	
+row_69	UBE2H	ubiquitin conjugating enzyme E2 H [Source:HGNC Symbol;Acc:HGNC:12484]	13708	-0.08841857314109802	-0.406387	Yes	
+row_70	UBE2D1	ubiquitin conjugating enzyme E2 D1 [Source:HGNC Symbol;Acc:HGNC:12474]	13767	-0.09008809924125671	-0.40389836	Yes	
+row_71	FBXW8	F-box and WD repeat domain containing 8 [Source:HGNC Symbol;Acc:HGNC:13597]	13789	-0.0910319834947586	-0.39930892	Yes	
+row_72	PML	promyelocytic leukemia [Source:HGNC Symbol;Acc:HGNC:9113]	13974	-0.09615442901849747	-0.4033882	Yes	
+row_73	CUL5	cullin 5 [Source:HGNC Symbol;Acc:HGNC:2556]	13979	-0.09635726362466812	-0.39752468	Yes	
+row_74	UBE2J1	ubiquitin conjugating enzyme E2 J1 [Source:HGNC Symbol;Acc:HGNC:17598]	14068	-0.09899388998746872	-0.39612868	Yes	
+row_75	PIAS2	protein inhibitor of activated STAT 2 [Source:HGNC Symbol;Acc:HGNC:17311]	14101	-0.0998297929763794	-0.3915906	Yes	
+row_76	CUL2	cullin 2 [Source:HGNC Symbol;Acc:HGNC:2552]	14116	-0.10032695531845093	-0.3860281	Yes	
+row_77	SKP2	S-phase kinase associated protein 2 [Source:HGNC Symbol;Acc:HGNC:10901]	14251	-0.10408449172973633	-0.38684836	Yes	
+row_78	CUL1	cullin 1 [Source:HGNC Symbol;Acc:HGNC:2551]	14424	-0.1104251816868782	-0.38936454	Yes	
+row_79	ANAPC13	anaphase promoting complex subunit 13 [Source:HGNC Symbol;Acc:HGNC:24540]	14491	-0.11235899478197098	-0.385911	Yes	
+row_80	UBE2C	ubiquitin conjugating enzyme E2 C [Source:HGNC Symbol;Acc:HGNC:15937]	14505	-0.11274006962776184	-0.37950954	Yes	
+row_81	PRKN	parkin RBR E3 ubiquitin protein ligase [Source:HGNC Symbol;Acc:HGNC:8607]	14632	-0.1159755140542984	-0.3791376	Yes	
+row_82	UBE3A	ubiquitin protein ligase E3A [Source:HGNC Symbol;Acc:HGNC:12496]	14635	-0.11598894000053406	-0.37192422	Yes	
+row_83	UBE2K	ubiquitin conjugating enzyme E2 K [Source:HGNC Symbol;Acc:HGNC:4914]	14700	-0.11810000985860825	-0.36799783	Yes	
+row_84	UBE2R2	ubiquitin conjugating enzyme E2 R2 [Source:HGNC Symbol;Acc:HGNC:19907]	14856	-0.12337756901979446	-0.36875835	Yes	
+row_85	HERC4	HECT and RLD domain containing E3 ubiquitin protein ligase 4 [Source:HGNC Symbol;Acc:HGNC:24521]	14899	-0.12489646673202515	-0.36318916	Yes	
+row_86	ERCC8	ERCC excision repair 8, CSA ubiquitin ligase complex subunit [Source:HGNC Symbol;Acc:HGNC:3439]	14929	-0.12571778893470764	-0.35685098	Yes	
+row_87	UBE2G1	ubiquitin conjugating enzyme E2 G1 [Source:HGNC Symbol;Acc:HGNC:12482]	15005	-0.12856949865818024	-0.35287035	Yes	
+row_88	SMURF1	SMAD specific E3 ubiquitin protein ligase 1 [Source:HGNC Symbol;Acc:HGNC:16807]	15084	-0.13125844299793243	-0.34888545	Yes	
+row_89	BTRC	beta-transducin repeat containing E3 ubiquitin protein ligase [Source:HGNC Symbol;Acc:HGNC:1144]	15215	-0.13644994795322418	-0.3474414	Yes	
+row_90	UBE2Q2	ubiquitin conjugating enzyme E2 Q2 [Source:HGNC Symbol;Acc:HGNC:19248]	15311	-0.14056383073329926	-0.34380677	Yes	
+row_91	UBE2E1	ubiquitin conjugating enzyme E2 E1 [Source:HGNC Symbol;Acc:HGNC:12477]	15507	-0.14726205170154572	-0.34526584	Yes	
+row_92	TRIP12	thyroid hormone receptor interactor 12 [Source:HGNC Symbol;Acc:HGNC:12306]	15654	-0.15280663967132568	-0.34367165	Yes	
+row_93	NEDD4	NEDD4 E3 ubiquitin protein ligase [Source:HGNC Symbol;Acc:HGNC:7727]	15656	-0.15284718573093414	-0.3340758	Yes	
+row_94	UBE2D3	ubiquitin conjugating enzyme E2 D3 [Source:HGNC Symbol;Acc:HGNC:12476]	15744	-0.15632003545761108	-0.32900497	Yes	
+row_95	UBA6	ubiquitin like modifier activating enzyme 6 [Source:HGNC Symbol;Acc:HGNC:25581]	15756	-0.15684153139591217	-0.3197086	Yes	
+row_96	FANCL	FA complementation group L [Source:HGNC Symbol;Acc:HGNC:20748]	15916	-0.16412220895290375	-0.31811708	Yes	
+row_97	UBE2U	ubiquitin conjugating enzyme E2 U [Source:HGNC Symbol;Acc:HGNC:28559]	15943	-0.16585102677345276	-0.3090793	Yes	
+row_98	FBXW11	F-box and WD repeat domain containing 11 [Source:HGNC Symbol;Acc:HGNC:13607]	16059	-0.17110037803649902	-0.30461985	Yes	
+row_99	NHLRC1	NHL repeat containing E3 ubiquitin protein ligase 1 [Source:HGNC Symbol;Acc:HGNC:21576]	16138	-0.17400434613227844	-0.2979359	Yes	
+row_100	UBE2B	ubiquitin conjugating enzyme E2 B [Source:HGNC Symbol;Acc:HGNC:12473]	16152	-0.17459028959274292	-0.28762916	Yes	
+row_101	HERC1	HECT and RLD domain containing E3 ubiquitin protein ligase family member 1 [Source:HGNC Symbol;Acc:HGNC:4867]	16167	-0.1751592606306076	-0.27734163	Yes	
+row_102	ITCH	itchy E3 ubiquitin protein ligase [Source:HGNC Symbol;Acc:HGNC:13890]	16253	-0.1789579540491104	-0.2707311	Yes	
+row_103	MAP3K1	mitogen-activated protein kinase kinase kinase 1 [Source:HGNC Symbol;Acc:HGNC:6848]	16505	-0.1910220831632614	-0.27251637	Yes	
+row_104	SMURF2	SMAD specific E3 ubiquitin protein ligase 2 [Source:HGNC Symbol;Acc:HGNC:16809]	16588	-0.19471043348312378	-0.26474568	Yes	
+row_105	VHL	von Hippel-Lindau tumor suppressor [Source:HGNC Symbol;Acc:HGNC:12687]	16604	-0.19579969346523285	-0.25321007	Yes	
+row_106	WWP1	WW domain containing E3 ubiquitin protein ligase 1 [Source:HGNC Symbol;Acc:HGNC:17004]	16685	-0.19946406781673431	-0.24502888	Yes	
+row_107	UBA3	ubiquitin like modifier activating enzyme 3 [Source:HGNC Symbol;Acc:HGNC:12470]	16775	-0.2039826661348343	-0.2370589	Yes	
+row_108	FBXW7	F-box and WD repeat domain containing 7 [Source:HGNC Symbol;Acc:HGNC:16712]	16867	-0.21012374758720398	-0.22881147	Yes	
+row_109	BIRC6	baculoviral IAP repeat containing 6 [Source:HGNC Symbol;Acc:HGNC:13516]	17030	-0.21957874298095703	-0.22388385	Yes	
+row_110	CDC27	cell division cycle 27 [Source:HGNC Symbol;Acc:HGNC:1728]	17068	-0.2219948172569275	-0.2119079	Yes	
+row_111	PIAS1	protein inhibitor of activated STAT 1 [Source:HGNC Symbol;Acc:HGNC:2752]	17183	-0.22977158427238464	-0.2036887	Yes	
+row_112	UBR5	ubiquitin protein ligase E3 component n-recognin 5 [Source:HGNC Symbol;Acc:HGNC:16806]	17208	-0.23175032436847687	-0.19037959	Yes	
+row_113	MDM2	MDM2 proto-oncogene [Source:HGNC Symbol;Acc:HGNC:6973]	17246	-0.2344578057527542	-0.1776167	Yes	
+row_114	CBL	Cbl proto-oncogene [Source:HGNC Symbol;Acc:HGNC:1541]	17293	-0.23766212165355682	-0.16514798	Yes	
+row_115	CUL3	cullin 3 [Source:HGNC Symbol;Acc:HGNC:2553]	17316	-0.23937562108039856	-0.15124707	Yes	
+row_116	UBE2E2	ubiquitin conjugating enzyme E2 E2 [Source:HGNC Symbol;Acc:HGNC:12478]	17338	-0.241581991314888	-0.13715167	Yes	
+row_117	COP1	COP1 E3 ubiquitin ligase [Source:HGNC Symbol;Acc:HGNC:17440]	17432	-0.2511054575443268	-0.12642694	Yes	
+row_118	KLHL9	kelch like family member 9 [Source:HGNC Symbol;Acc:HGNC:18732]	17436	-0.251310795545578	-0.110724255	Yes	
+row_119	CBLB	Cbl proto-oncogene B [Source:HGNC Symbol;Acc:HGNC:1542]	17604	-0.2699708342552185	-0.10289063	Yes	
+row_120	BIRC2	baculoviral IAP repeat containing 2 [Source:HGNC Symbol;Acc:HGNC:590]	17755	-0.28979501128196716	-0.09286745	Yes	
+row_121	UBE2N	ubiquitin conjugating enzyme E2 N [Source:HGNC Symbol;Acc:HGNC:12492]	17955	-0.32495903968811035	-0.0833271	Yes	
+row_122	TRAF6	TNF receptor associated factor 6 [Source:HGNC Symbol;Acc:HGNC:12036]	17962	-0.3258427679538727	-0.06308385	Yes	
+row_123	BIRC3	baculoviral IAP repeat containing 3 [Source:HGNC Symbol;Acc:HGNC:591]	18133	-0.390210896730423	-0.047823574	Yes	
+row_124	UBE2E3	ubiquitin conjugating enzyme E2 E3 [Source:HGNC Symbol;Acc:HGNC:12479]	18184	-0.423103004693985	-0.023866475	Yes	
+row_125	RCHY1	ring finger and CHY zinc finger domain containing 1 [Source:HGNC Symbol;Acc:HGNC:17479]	18192	-0.43652164936065674	0.0033100524	Yes	

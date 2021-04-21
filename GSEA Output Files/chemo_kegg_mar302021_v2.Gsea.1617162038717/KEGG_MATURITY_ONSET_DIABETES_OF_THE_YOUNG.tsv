@@ -1,0 +1,26 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FOXA3	forkhead box A3 [Source:HGNC Symbol;Acc:HGNC:5023]	260	0.37063854932785034	0.06816545	Yes	
+row_1	PDX1	pancreatic and duodenal homeobox 1 [Source:HGNC Symbol;Acc:HGNC:6107]	283	0.36176130175590515	0.14741346	Yes	
+row_2	FOXA2	forkhead box A2 [Source:HGNC Symbol;Acc:HGNC:5022]	427	0.3326914310455322	0.21355824	Yes	
+row_3	HNF1B	HNF1 homeobox B [Source:HGNC Symbol;Acc:HGNC:11630]	751	0.2873455882072449	0.2597433	Yes	
+row_4	BHLHA15	basic helix-loop-helix family member a15 [Source:HGNC Symbol;Acc:HGNC:22265]	766	0.28652703762054443	0.32269824	Yes	
+row_5	MAFA	MAF bZIP transcription factor A [Source:HGNC Symbol;Acc:HGNC:23145]	815	0.2812631130218506	0.38261726	Yes	
+row_6	PAX4	paired box 4 [Source:HGNC Symbol;Acc:HGNC:8618]	953	0.26907235383987427	0.43494245	Yes	
+row_7	NEUROD1	neuronal differentiation 1 [Source:HGNC Symbol;Acc:HGNC:7762]	1319	0.2423786222934723	0.4688228	Yes	
+row_8	ONECUT1	one cut homeobox 1 [Source:HGNC Symbol;Acc:HGNC:8138]	1456	0.23418520390987396	0.51344407	Yes	
+row_9	GCK	glucokinase [Source:HGNC Symbol;Acc:HGNC:4195]	1767	0.21612024307250977	0.5445019	Yes	
+row_10	NEUROG3	neurogenin 3 [Source:HGNC Symbol;Acc:HGNC:13806]	2505	0.18134741485118866	0.5444009	Yes	
+row_11	PKLR	pyruvate kinase L/R [Source:HGNC Symbol;Acc:HGNC:9020]	2862	0.1681591272354126	0.56226873	Yes	
+row_12	HNF4A	hepatocyte nuclear factor 4 alpha [Source:HGNC Symbol;Acc:HGNC:5024]	3156	0.15733671188354492	0.58118594	Yes	
+row_13	NKX6-1	NK6 homeobox 1 [Source:HGNC Symbol;Acc:HGNC:7839]	3931	0.13221986591815948	0.5681292	No	
+row_14	INS	insulin [Source:HGNC Symbol;Acc:HGNC:6081]	4763	0.10857205092906952	0.5466862	No	
+row_15	HNF4G	hepatocyte nuclear factor 4 gamma [Source:HGNC Symbol;Acc:HGNC:5026]	5066	0.10010319948196411	0.552381	No	
+row_16	PAX6	paired box 6 [Source:HGNC Symbol;Acc:HGNC:8620]	5477	0.08959675580263138	0.5498142	No	
+row_17	HNF1A	HNF1 homeobox A [Source:HGNC Symbol;Acc:HGNC:11621]	5798	0.08222948014736176	0.55054647	No	
+row_18	IAPP	islet amyloid polypeptide [Source:HGNC Symbol;Acc:HGNC:5329]	9611	0.0	0.34141767	No	
+row_19	NR5A2	nuclear receptor subfamily 5 group A member 2 [Source:HGNC Symbol;Acc:HGNC:7984]	10424	-7.35447509214282E-4	0.29703438	No	
+row_20	NKX2-2	NK2 homeobox 2 [Source:HGNC Symbol;Acc:HGNC:7835]	10732	-0.007934502325952053	0.2819568	No	
+row_21	MNX1	motor neuron and pancreas homeobox 1 [Source:HGNC Symbol;Acc:HGNC:4979]	11939	-0.040480837225914	0.22479768	No	
+row_22	HHEX	hematopoietically expressed homeobox [Source:HGNC Symbol;Acc:HGNC:4901]	12987	-0.07018265873193741	0.18296705	No	
+row_23	SLC2A2	solute carrier family 2 member 2 [Source:HGNC Symbol;Acc:HGNC:11006]	15328	-0.14732962846755981	0.087358914	No	
+row_24	HES1	hes family bHLH transcription factor 1 [Source:HGNC Symbol;Acc:HGNC:5192]	17894	-0.3282354474067688	0.019640192	No	

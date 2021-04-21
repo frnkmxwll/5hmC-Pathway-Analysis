@@ -1,0 +1,81 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MAD2L2	mitotic arrest deficient 2 like 2 [Source:HGNC Symbol;Acc:HGNC:6764]	2097	0.19939319789409637	-0.09457386	No	
+row_1	MAPK12	mitogen-activated protein kinase 12 [Source:HGNC Symbol;Acc:HGNC:6874]	2179	0.19581669569015503	-0.07858732	No	
+row_2	ADCY5	adenylate cyclase 5 [Source:HGNC Symbol;Acc:HGNC:236]	2478	0.18241280317306519	-0.07594097	No	
+row_3	IGF1	insulin like growth factor 1 [Source:HGNC Symbol;Acc:HGNC:5464]	2660	0.1763160079717636	-0.06749301	No	
+row_4	ADCY8	adenylate cyclase 8 [Source:HGNC Symbol;Acc:HGNC:239]	2831	0.16941547393798828	-0.059160188	No	
+row_5	ADCY1	adenylate cyclase 1 [Source:HGNC Symbol;Acc:HGNC:232]	2842	0.16898542642593384	-0.042067993	No	
+row_6	CDC26	cell division cycle 26 [Source:HGNC Symbol;Acc:HGNC:17839]	2878	0.1677038073539734	-0.02648527	No	
+row_7	MOS	MOS proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:7199]	3099	0.15937554836273193	-0.021951975	No	
+row_8	PRKACA	protein kinase cAMP-activated catalytic subunit alpha [Source:HGNC Symbol;Acc:HGNC:9380]	3448	0.14748796820640564	-0.025703186	No	
+row_9	CDC25A	cell division cycle 25A [Source:HGNC Symbol;Acc:HGNC:1725]	4169	0.12414678186178207	-0.052361198	No	
+row_10	GNAI2	G protein subunit alpha i2 [Source:HGNC Symbol;Acc:HGNC:4385]	4175	0.12407074868679047	-0.039683063	No	
+row_11	PRKACG	protein kinase cAMP-activated catalytic subunit gamma [Source:HGNC Symbol;Acc:HGNC:9382]	4290	0.12113606929779053	-0.03330923	No	
+row_12	PKMYT1	protein kinase, membrane associated tyrosine/threonine 1 [Source:HGNC Symbol;Acc:HGNC:29650]	4604	0.1125209778547287	-0.038785137	No	
+row_13	ANAPC13	anaphase promoting complex subunit 13 [Source:HGNC Symbol;Acc:HGNC:24540]	4758	0.10866843909025192	-0.03585899	No	
+row_14	INS	insulin [Source:HGNC Symbol;Acc:HGNC:6081]	4763	0.10857205092906952	-0.02474393	No	
+row_15	CDC25C	cell division cycle 25C [Source:HGNC Symbol;Acc:HGNC:1727]	4996	0.10226520895957947	-0.026833402	No	
+row_16	ADCY7	adenylate cyclase 7 [Source:HGNC Symbol;Acc:HGNC:238]	5067	0.10006830841302872	-0.020237911	No	
+row_17	FZR1	fizzy and cell division cycle 20 related 1 [Source:HGNC Symbol;Acc:HGNC:24824]	5378	0.0923282578587532	-0.027656907	No	
+row_18	CCNA1	cyclin A1 [Source:HGNC Symbol;Acc:HGNC:1577]	5463	0.09010007232427597	-0.022872496	No	
+row_19	PLK1	polo like kinase 1 [Source:HGNC Symbol;Acc:HGNC:9077]	5963	0.07776834070682526	-0.042211626	No	
+row_20	ADCY2	adenylate cyclase 2 [Source:HGNC Symbol;Acc:HGNC:233]	6040	0.07605790346860886	-0.038453035	No	
+row_21	CPEB1	cytoplasmic polyadenylation element binding protein 1 [Source:HGNC Symbol;Acc:HGNC:21744]	6199	0.07162577658891678	-0.03966936	No	
+row_22	SPDYC	speedy/RINGO cell cycle regulator family member C [Source:HGNC Symbol;Acc:HGNC:32681]	6253	0.07020089775323868	-0.035256643	No	
+row_23	ANAPC11	anaphase promoting complex subunit 11 [Source:HGNC Symbol;Acc:HGNC:14452]	6394	0.06644171476364136	-0.036023714	No	
+row_24	ADCY6	adenylate cyclase 6 [Source:HGNC Symbol;Acc:HGNC:237]	6469	0.06449674814939499	-0.033362083	No	
+row_25	AKT2	AKT serine/threonine kinase 2 [Source:HGNC Symbol;Acc:HGNC:392]	6501	0.06365515291690826	-0.028422168	No	
+row_26	CDC25B	cell division cycle 25B [Source:HGNC Symbol;Acc:HGNC:1726]	6505	0.06358470022678375	-0.021948861	No	
+row_27	RPS6KA1	ribosomal protein S6 kinase A1 [Source:HGNC Symbol;Acc:HGNC:10430]	6527	0.06326647102832794	-0.016499259	No	
+row_28	ANAPC2	anaphase promoting complex subunit 2 [Source:HGNC Symbol;Acc:HGNC:19989]	6672	0.05972565710544586	-0.018187609	No	
+row_29	ADCY9	adenylate cyclase 9 [Source:HGNC Symbol;Acc:HGNC:240]	6807	0.056765876710414886	-0.019634698	No	
+row_30	HSP90AB1	heat shock protein 90 alpha family class B member 1 [Source:HGNC Symbol;Acc:HGNC:5258]	6913	0.05441268905997276	-0.019731693	No	
+row_31	AKT1	AKT serine/threonine kinase 1 [Source:HGNC Symbol;Acc:HGNC:391]	7115	0.049050576984882355	-0.025671067	No	
+row_32	ANAPC7	anaphase promoting complex subunit 7 [Source:HGNC Symbol;Acc:HGNC:17380]	7585	0.038688041269779205	-0.047439463	No	
+row_33	CDC16	cell division cycle 16 [Source:HGNC Symbol;Acc:HGNC:1720]	7752	0.03443736210465431	-0.052978557	No	
+row_34	MAPK9	mitogen-activated protein kinase 9 [Source:HGNC Symbol;Acc:HGNC:6886]	7780	0.03360572084784508	-0.050955765	No	
+row_35	MAPK11	mitogen-activated protein kinase 11 [Source:HGNC Symbol;Acc:HGNC:6873]	8238	0.022897331044077873	-0.07371242	No	
+row_36	PIK3R2	phosphoinositide-3-kinase regulatory subunit 2 [Source:HGNC Symbol;Acc:HGNC:8980]	8458	0.017901664599776268	-0.0838943	No	
+row_37	CDC23	cell division cycle 23 [Source:HGNC Symbol;Acc:HGNC:1724]	8669	0.013286961242556572	-0.094062716	No	
+row_38	CDK2	cyclin dependent kinase 2 [Source:HGNC Symbol;Acc:HGNC:1771]	10366	0.0	-0.18738797	No	
+row_39	MAPK13	mitogen-activated protein kinase 13 [Source:HGNC Symbol;Acc:HGNC:6875]	10659	-0.006274276413023472	-0.20280072	No	
+row_40	ADCY4	adenylate cyclase 4 [Source:HGNC Symbol;Acc:HGNC:235]	10914	-0.012250389903783798	-0.21549854	No	
+row_41	HSP90AA1	heat shock protein 90 alpha family class A member 1 [Source:HGNC Symbol;Acc:HGNC:5253]	11293	-0.022212879732251167	-0.23397954	No	
+row_42	SPDYA	speedy/RINGO cell cycle regulator family member A [Source:HGNC Symbol;Acc:HGNC:30613]	11297	-0.02230948954820633	-0.23181546	No	
+row_43	MAPK3	mitogen-activated protein kinase 3 [Source:HGNC Symbol;Acc:HGNC:6877]	11488	-0.027536459267139435	-0.23939566	No	
+row_44	RAF1	Raf-1 proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:9829]	11553	-0.029633816331624985	-0.23982354	No	
+row_45	PIK3R5	phosphoinositide-3-kinase regulatory subunit 5 [Source:HGNC Symbol;Acc:HGNC:30035]	11717	-0.03412622585892677	-0.24523003	No	
+row_46	ANAPC5	anaphase promoting complex subunit 5 [Source:HGNC Symbol;Acc:HGNC:15713]	11735	-0.03455669805407524	-0.24255769	No	
+row_47	CCNB2	cyclin B2 [Source:HGNC Symbol;Acc:HGNC:1580]	11904	-0.039430201053619385	-0.24768557	No	
+row_48	PGR	progesterone receptor [Source:HGNC Symbol;Acc:HGNC:8910]	11969	-0.04131053015589714	-0.24689436	No	
+row_49	PIK3R3	phosphoinositide-3-kinase regulatory subunit 3 [Source:HGNC Symbol;Acc:HGNC:8981]	12040	-0.04323764890432358	-0.24623212	No	
+row_50	ANAPC1	anaphase promoting complex subunit 1 [Source:HGNC Symbol;Acc:HGNC:19988]	12107	-0.045204512774944305	-0.24514443	No	
+row_51	PDE3B	phosphodiesterase 3B [Source:HGNC Symbol;Acc:HGNC:8779]	12296	-0.05038224160671234	-0.25022942	No	
+row_52	MAP2K1	mitogen-activated protein kinase kinase 1 [Source:HGNC Symbol;Acc:HGNC:6840]	12417	-0.05332457646727562	-0.25126544	No	
+row_53	ADCY3	adenylate cyclase 3 [Source:HGNC Symbol;Acc:HGNC:234]	12776	-0.06387507915496826	-0.2642963	No	
+row_54	CCNA2	cyclin A2 [Source:HGNC Symbol;Acc:HGNC:1578]	13048	-0.07156079262495041	-0.2717374	No	
+row_55	PIK3CB	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [Source:HGNC Symbol;Acc:HGNC:8976]	13626	-0.08927727490663528	-0.29416704	No	
+row_56	PIK3CD	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [Source:HGNC Symbol;Acc:HGNC:8977]	14078	-0.10282886773347855	-0.30824852	No	
+row_57	MAPK14	mitogen-activated protein kinase 14 [Source:HGNC Symbol;Acc:HGNC:6876]	15629	-0.15760833024978638	-0.37708524	Yes	
+row_58	MAPK1	mitogen-activated protein kinase 1 [Source:HGNC Symbol;Acc:HGNC:6871]	15703	-0.1608590930700302	-0.36430812	Yes	
+row_59	MAPK10	mitogen-activated protein kinase 10 [Source:HGNC Symbol;Acc:HGNC:6872]	15808	-0.16621507704257965	-0.35267767	Yes	
+row_60	RPS6KA2	ribosomal protein S6 kinase A2 [Source:HGNC Symbol;Acc:HGNC:10431]	15909	-0.1704302728176117	-0.34038705	Yes	
+row_61	ANAPC4	anaphase promoting complex subunit 4 [Source:HGNC Symbol;Acc:HGNC:19990]	15974	-0.17325915396213531	-0.3258201	Yes	
+row_62	GNAI1	G protein subunit alpha i1 [Source:HGNC Symbol;Acc:HGNC:4384]	16099	-0.17879894375801086	-0.31397638	Yes	
+row_63	KRAS	KRAS proto-oncogene, GTPase [Source:HGNC Symbol;Acc:HGNC:6407]	16153	-0.1819571554660797	-0.29789606	Yes	
+row_64	CDC27	cell division cycle 27 [Source:HGNC Symbol;Acc:HGNC:1728]	16170	-0.18294480443000793	-0.27967665	Yes	
+row_65	ANAPC10	anaphase promoting complex subunit 10 [Source:HGNC Symbol;Acc:HGNC:24077]	16382	-0.1930033266544342	-0.2711373	Yes	
+row_66	GNAI3	G protein subunit alpha i3 [Source:HGNC Symbol;Acc:HGNC:4387]	16554	-0.20308932662010193	-0.25934386	Yes	
+row_67	MAPK8	mitogen-activated protein kinase 8 [Source:HGNC Symbol;Acc:HGNC:6881]	16832	-0.22033211588859558	-0.2515831	Yes	
+row_68	PIK3R1	phosphoinositide-3-kinase regulatory subunit 1 [Source:HGNC Symbol;Acc:HGNC:8979]	16853	-0.2215074896812439	-0.22955774	Yes	
+row_69	IGF1R	insulin like growth factor 1 receptor [Source:HGNC Symbol;Acc:HGNC:5465]	16867	-0.22245624661445618	-0.20704815	Yes	
+row_70	PIK3CG	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma [Source:HGNC Symbol;Acc:HGNC:8978]	16927	-0.226335808634758	-0.18666476	Yes	
+row_71	MAD2L1	mitotic arrest deficient 2 like 1 [Source:HGNC Symbol;Acc:HGNC:6763]	16945	-0.22706998884677887	-0.1638936	Yes	
+row_72	AKT3	AKT serine/threonine kinase 3 [Source:HGNC Symbol;Acc:HGNC:393]	16948	-0.22731436789035797	-0.14027151	Yes	
+row_73	BRAF	B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]	17065	-0.23503823578357697	-0.12211608	Yes	
+row_74	CCNB1	cyclin B1 [Source:HGNC Symbol;Acc:HGNC:1579]	17181	-0.24370558559894562	-0.10300074	Yes	
+row_75	BUB1	BUB1 mitotic checkpoint serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1148]	17388	-0.26159217953681946	-0.08702542	Yes	
+row_76	PRKACB	protein kinase cAMP-activated catalytic subunit beta [Source:HGNC Symbol;Acc:HGNC:9381]	17448	-0.26699298620224	-0.062397324	Yes	
+row_77	PIK3CA	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [Source:HGNC Symbol;Acc:HGNC:8975]	17880	-0.3250686228275299	-0.05217593	Yes	
+row_78	PDE3A	phosphodiesterase 3A [Source:HGNC Symbol;Acc:HGNC:8778]	17936	-0.33901447057724	-0.019808523	Yes	
+row_79	CDK1	cyclin dependent kinase 1 [Source:HGNC Symbol;Acc:HGNC:1722]	18017	-0.3557577431201935	0.012931253	Yes	

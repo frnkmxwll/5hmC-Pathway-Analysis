@@ -1,0 +1,40 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PCK1	phosphoenolpyruvate carboxykinase 1 [Source:HGNC Symbol;Acc:HGNC:8724]	179	0.39187562465667725	0.06994643	Yes	
+row_1	ALDH1B1	aldehyde dehydrogenase 1 family member B1 [Source:HGNC Symbol;Acc:HGNC:407]	392	0.3374370336532593	0.12699902	Yes	
+row_2	HAGH	hydroxyacylglutathione hydrolase [Source:HGNC Symbol;Acc:HGNC:4805]	623	0.30009725689888	0.17546211	Yes	
+row_3	LDHAL6A	lactate dehydrogenase A like 6A [Source:HGNC Symbol;Acc:HGNC:28335]	672	0.29484501481056213	0.2328483	Yes	
+row_4	ACOT12	acyl-CoA thioesterase 12 [Source:HGNC Symbol;Acc:HGNC:24436]	1543	0.22753365337848663	0.23140183	Yes	
+row_5	PDHB	pyruvate dehydrogenase E1 subunit beta [Source:HGNC Symbol;Acc:HGNC:8808]	1918	0.20835143327713013	0.25328222	Yes	
+row_6	PC	pyruvate carboxylase [Source:HGNC Symbol;Acc:HGNC:8636]	2166	0.19661158323287964	0.27974543	Yes	
+row_7	ALDH2	aldehyde dehydrogenase 2 family member [Source:HGNC Symbol;Acc:HGNC:404]	2317	0.18958018720149994	0.3101028	Yes	
+row_8	ACACB	acetyl-CoA carboxylase beta [Source:HGNC Symbol;Acc:HGNC:85]	2440	0.1841820925474167	0.34089857	Yes	
+row_9	ALDH7A1	aldehyde dehydrogenase 7 family member A1 [Source:HGNC Symbol;Acc:HGNC:877]	2655	0.17664825916290283	0.3651096	Yes	
+row_10	PKLR	pyruvate kinase L/R [Source:HGNC Symbol;Acc:HGNC:9020]	2862	0.1681591272354126	0.38803175	Yes	
+row_11	MDH2	malate dehydrogenase 2 [Source:HGNC Symbol;Acc:HGNC:6971]	2877	0.16771098971366882	0.421404	Yes	
+row_12	GRHPR	glyoxylate and hydroxypyruvate reductase [Source:HGNC Symbol;Acc:HGNC:4570]	3083	0.15987780690193176	0.4426952	Yes	
+row_13	LDHC	lactate dehydrogenase C [Source:HGNC Symbol;Acc:HGNC:6544]	3173	0.1566390097141266	0.46969584	Yes	
+row_14	ACSS1	acyl-CoA synthetase short chain family member 1 [Source:HGNC Symbol;Acc:HGNC:16091]	4668	0.11122803390026093	0.41031367	No	
+row_15	LDHA	lactate dehydrogenase A [Source:HGNC Symbol;Acc:HGNC:6535]	4715	0.10990811884403229	0.43016213	No	
+row_16	AKR1B1	aldo-keto reductase family 1 member B [Source:HGNC Symbol;Acc:HGNC:381]	5769	0.08289317041635513	0.389224	No	
+row_17	ACAT2	acetyl-CoA acetyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:94]	6018	0.0764407068490982	0.3911691	No	
+row_18	PDHA2	pyruvate dehydrogenase E1 subunit alpha 2 [Source:HGNC Symbol;Acc:HGNC:8807]	7837	0.032113607972860336	0.29789314	No	
+row_19	LDHD	lactate dehydrogenase D [Source:HGNC Symbol;Acc:HGNC:19708]	8503	0.01710742712020874	0.2648653	No	
+row_20	ALDH3A2	aldehyde dehydrogenase 3 family member A2 [Source:HGNC Symbol;Acc:HGNC:403]	9076	0.002729539293795824	0.23401655	No	
+row_21	MDH1	malate dehydrogenase 1 [Source:HGNC Symbol;Acc:HGNC:6970]	9278	0.0	0.2229811	No	
+row_22	HAGHL	hydroxyacylglutathione hydrolase like [Source:HGNC Symbol;Acc:HGNC:14177]	9791	0.0	0.19487084	No	
+row_23	LDHAL6B	lactate dehydrogenase A like 6B [Source:HGNC Symbol;Acc:HGNC:21481]	9821	0.0	0.19327867	No	
+row_24	PCK2	phosphoenolpyruvate carboxykinase 2, mitochondrial [Source:HGNC Symbol;Acc:HGNC:8725]	10102	0.0	0.17790587	No	
+row_25	ACACA	acetyl-CoA carboxylase alpha [Source:HGNC Symbol;Acc:HGNC:84]	11200	-0.019855067133903503	0.12171937	No	
+row_26	ACYP2	acylphosphatase 2 [Source:HGNC Symbol;Acc:HGNC:180]	11232	-0.020691605284810066	0.124229565	No	
+row_27	ACAT1	acetyl-CoA acetyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:93]	11517	-0.028357427567243576	0.11440989	No	
+row_28	ME3	malic enzyme 3 [Source:HGNC Symbol;Acc:HGNC:6985]	11899	-0.03925108537077904	0.10148224	No	
+row_29	ME1	malic enzyme 1 [Source:HGNC Symbol;Acc:HGNC:6983]	11993	-0.042064350098371506	0.10493931	No	
+row_30	ACSS2	acyl-CoA synthetase short chain family member 2 [Source:HGNC Symbol;Acc:HGNC:15814]	12155	-0.04650389403104782	0.10556675	No	
+row_31	DLAT	dihydrolipoamide S-acetyltransferase [Source:HGNC Symbol;Acc:HGNC:2896]	12721	-0.06243429705500603	0.08725639	No	
+row_32	PKM	pyruvate kinase M1/2 [Source:HGNC Symbol;Acc:HGNC:9021]	12802	-0.06446578353643417	0.09598745	No	
+row_33	GLO1	glyoxalase I [Source:HGNC Symbol;Acc:HGNC:4323]	13807	-0.0947570875287056	0.060154695	No	
+row_34	ALDH9A1	aldehyde dehydrogenase 9 family member A1 [Source:HGNC Symbol;Acc:HGNC:412]	14276	-0.10882536321878433	0.05661373	No	
+row_35	ACYP1	acylphosphatase 1 [Source:HGNC Symbol;Acc:HGNC:179]	14999	-0.13461627066135406	0.0443777	No	
+row_36	LDHB	lactate dehydrogenase B [Source:HGNC Symbol;Acc:HGNC:6541]	15551	-0.1543974131345749	0.045556895	No	
+row_37	ME2	malic enzyme 2 [Source:HGNC Symbol;Acc:HGNC:6984]	15701	-0.1607147455215454	0.07009304	No	
+row_38	DLD	dihydrolipoamide dehydrogenase [Source:HGNC Symbol;Acc:HGNC:2898]	17958	-0.3434154689311981	0.016141288	No	

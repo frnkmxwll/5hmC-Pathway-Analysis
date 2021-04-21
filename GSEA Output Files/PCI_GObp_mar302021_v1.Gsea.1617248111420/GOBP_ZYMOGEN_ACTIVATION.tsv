@@ -1,0 +1,57 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	KLK3	kallikrein related peptidase 3 [Source:HGNC Symbol;Acc:HGNC:6364]	2	0.6559439897537231	0.10246702	Yes	
+row_1	CUZD1	CUB and zona pellucida like domains 1 [Source:HGNC Symbol;Acc:HGNC:17937]	227	0.3382730782032013	0.14305666	Yes	
+row_2	SERPINF2	serpin family F member 2 [Source:HGNC Symbol;Acc:HGNC:9075]	354	0.30538445711135864	0.18388866	Yes	
+row_3	H2BC1	H2B clustered histone 1 [Source:HGNC Symbol;Acc:HGNC:18730]	676	0.25773319602012634	0.20655286	Yes	
+row_4	HGFAC	HGF activator [Source:HGNC Symbol;Acc:HGNC:4894]	690	0.2559075355529785	0.24585745	Yes	
+row_5	PLAU	plasminogen activator, urokinase [Source:HGNC Symbol;Acc:HGNC:9052]	763	0.24787183105945587	0.2806631	Yes	
+row_6	SERPINE1	serpin family E member 1 [Source:HGNC Symbol;Acc:HGNC:8583]	867	0.2354481965303421	0.31182235	Yes	
+row_7	GGT1	gamma-glutamyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:4250]	1009	0.22272160649299622	0.3389032	Yes	
+row_8	F12	coagulation factor XII [Source:HGNC Symbol;Acc:HGNC:3530]	1213	0.20858359336853027	0.36036593	Yes	
+row_9	KLK2	kallikrein related peptidase 2 [Source:HGNC Symbol;Acc:HGNC:6363]	1337	0.20015524327754974	0.38490698	Yes	
+row_10	FGB	fibrinogen beta chain [Source:HGNC Symbol;Acc:HGNC:3662]	1436	0.19445447623729706	0.40993038	Yes	
+row_11	OMA1	OMA1 zinc metallopeptidase [Source:HGNC Symbol;Acc:HGNC:29661]	1471	0.1925729513168335	0.43817663	Yes	
+row_12	C1R	complement C1r [Source:HGNC Symbol;Acc:HGNC:1246]	1822	0.17235401272773743	0.44589552	Yes	
+row_13	HPN	hepsin [Source:HGNC Symbol;Acc:HGNC:5155]	1984	0.16572809219360352	0.46296456	Yes	
+row_14	FADD	Fas associated via death domain [Source:HGNC Symbol;Acc:HGNC:3573]	2148	0.15914228558540344	0.47889382	Yes	
+row_15	MELTF	melanotransferrin [Source:HGNC Symbol;Acc:HGNC:7037]	3874	0.10289109498262405	0.40018815	No	
+row_16	PRSS3	serine protease 3 [Source:HGNC Symbol;Acc:HGNC:9486]	4035	0.09827475994825363	0.40676376	No	
+row_17	LGMN	legumain [Source:HGNC Symbol;Acc:HGNC:9472]	4793	0.08077370375394821	0.37779492	No	
+row_18	GRIN2A	glutamate ionotropic receptor NMDA type subunit 2A [Source:HGNC Symbol;Acc:HGNC:4585]	5200	0.07133505493402481	0.366639	No	
+row_19	KLK1	kallikrein 1 [Source:HGNC Symbol;Acc:HGNC:6357]	5420	0.06660336256027222	0.3650195	No	
+row_20	THBS1	thrombospondin 1 [Source:HGNC Symbol;Acc:HGNC:11785]	5500	0.0647316724061966	0.3708009	No	
+row_21	RUNX1	RUNX family transcription factor 1 [Source:HGNC Symbol;Acc:HGNC:10471]	5963	0.05414114147424698	0.35387874	No	
+row_22	CPB2	carboxypeptidase B2 [Source:HGNC Symbol;Acc:HGNC:2300]	6150	0.050137221813201904	0.35149777	No	
+row_23	CD5L	CD5 molecule like [Source:HGNC Symbol;Acc:HGNC:1690]	6236	0.04815870150923729	0.35435775	No	
+row_24	ENO1	enolase 1 [Source:HGNC Symbol;Acc:HGNC:3350]	6761	0.037212833762168884	0.33138117	No	
+row_25	APOH	apolipoprotein H [Source:HGNC Symbol;Acc:HGNC:616]	6847	0.03552387282252312	0.33226532	No	
+row_26	C1RL	complement C1r subcomponent like [Source:HGNC Symbol;Acc:HGNC:21265]	6949	0.03368733078241348	0.33198297	No	
+row_27	BAD	BCL2 associated agonist of cell death [Source:HGNC Symbol;Acc:HGNC:936]	6991	0.032988518476486206	0.33488864	No	
+row_28	PYCARD	PYD and CARD domain containing [Source:HGNC Symbol;Acc:HGNC:16608]	7147	0.029924867674708366	0.33105043	No	
+row_29	BAK1	BCL2 antagonist/killer 1 [Source:HGNC Symbol;Acc:HGNC:949]	7411	0.024498360231518745	0.32042855	No	
+row_30	SERPINE2	serpin family E member 2 [Source:HGNC Symbol;Acc:HGNC:8951]	7590	0.020995914936065674	0.31393006	No	
+row_31	PLGRKT	plasminogen receptor with a C-terminal lysine [Source:HGNC Symbol;Acc:HGNC:23633]	7999	0.012670694850385189	0.29349023	No	
+row_32	PLAT	plasminogen activator, tissue type [Source:HGNC Symbol;Acc:HGNC:9051]	8272	0.007422773167490959	0.2797035	No	
+row_33	CYFIP2	cytoplasmic FMR1 interacting protein 2 [Source:HGNC Symbol;Acc:HGNC:13760]	8298	0.006896855775266886	0.2794082	No	
+row_34	VSIR	V-set immunoregulatory receptor [Source:HGNC Symbol;Acc:HGNC:30085]	8889	0.0	0.24698526	No	
+row_35	CIDEB	cell death inducing DFFA like effector b [Source:HGNC Symbol;Acc:HGNC:1977]	8941	0.0	0.2441826	No	
+row_36	HP	haptoglobin [Source:HGNC Symbol;Acc:HGNC:5141]	9072	0.0	0.23703857	No	
+row_37	HPR	haptoglobin-related protein [Source:HGNC Symbol;Acc:HGNC:5156]	9199	0.0	0.23011434	No	
+row_38	CTSZ	cathepsin Z [Source:HGNC Symbol;Acc:HGNC:2547]	10108	-0.004312653094530106	0.18089043	No	
+row_39	FURIN	furin, paired basic amino acid cleaving enzyme [Source:HGNC Symbol;Acc:HGNC:8568]	10636	-0.015225129202008247	0.15431052	No	
+row_40	CTSH	cathepsin H [Source:HGNC Symbol;Acc:HGNC:2535]	11006	-0.022917892783880234	0.13761637	No	
+row_41	MMP14	matrix metallopeptidase 14 [Source:HGNC Symbol;Acc:HGNC:7160]	11107	-0.024685224518179893	0.13598125	No	
+row_42	PRSS12	serine protease 12 [Source:HGNC Symbol;Acc:HGNC:9477]	11443	-0.03170722350478172	0.12253001	No	
+row_43	F11	coagulation factor XI [Source:HGNC Symbol;Acc:HGNC:3529]	11865	-0.040479060262441635	0.10572447	No	
+row_44	CTSL	cathepsin L [Source:HGNC Symbol;Acc:HGNC:2537]	11892	-0.04110280051827431	0.11072335	No	
+row_45	KLKB1	kallikrein B1 [Source:HGNC Symbol;Acc:HGNC:6371]	12581	-0.05497397854924202	0.08151178	No	
+row_46	NLRC4	NLR family CARD domain containing 4 [Source:HGNC Symbol;Acc:HGNC:16412]	12962	-0.06384512782096863	0.07061336	No	
+row_47	TBC1D10A	TBC1 domain family member 10A [Source:HGNC Symbol;Acc:HGNC:23609]	13218	-0.07005998492240906	0.06755608	No	
+row_48	CASP8	caspase 8 [Source:HGNC Symbol;Acc:HGNC:1509]	13593	-0.07887761294841766	0.05933818	No	
+row_49	PERP	p53 apoptosis effector related to PMP22 [Source:HGNC Symbol;Acc:HGNC:17637]	14251	-0.09543011337518692	0.038156744	No	
+row_50	FGA	fibrinogen alpha chain [Source:HGNC Symbol;Acc:HGNC:3661]	14314	-0.09729772061109543	0.04996507	No	
+row_51	ASPH	aspartate beta-hydroxylase [Source:HGNC Symbol;Acc:HGNC:757]	15179	-0.1213676705956459	0.021464268	No	
+row_52	FGG	fibrinogen gamma chain [Source:HGNC Symbol;Acc:HGNC:3694]	15685	-0.13738414645195007	0.01519666	No	
+row_53	IFI16	interferon gamma inducible protein 16 [Source:HGNC Symbol;Acc:HGNC:5395]	16476	-0.1681627631187439	-0.0019196908	No	
+row_54	RIPK2	receptor interacting serine/threonine kinase 2 [Source:HGNC Symbol;Acc:HGNC:10020]	17062	-0.1991342157125473	-0.0029271143	No	
+row_55	CLEC3B	C-type lectin domain family 3 member B [Source:HGNC Symbol;Acc:HGNC:11891]	18215	-0.43654677271842957	0.002033203	No	

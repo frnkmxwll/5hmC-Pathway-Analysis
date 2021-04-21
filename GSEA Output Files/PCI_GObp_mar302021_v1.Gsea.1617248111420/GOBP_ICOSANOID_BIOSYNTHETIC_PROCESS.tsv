@@ -1,0 +1,52 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	LTC4S	leukotriene C4 synthase [Source:HGNC Symbol;Acc:HGNC:6719]	70	0.43188416957855225	0.056632187	Yes	
+row_1	EDN2	endothelin 2 [Source:HGNC Symbol;Acc:HGNC:3177]	128	0.38584303855895996	0.10753132	Yes	
+row_2	GGT2	gamma-glutamyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:4251]	192	0.35037246346473694	0.15313376	Yes	
+row_3	PRG3	proteoglycan 3, pro eosinophil major basic protein 2 [Source:HGNC Symbol;Acc:HGNC:9363]	228	0.33806341886520386	0.19855085	Yes	
+row_4	AVP	arginine vasopressin [Source:HGNC Symbol;Acc:HGNC:894]	808	0.24146881699562073	0.2005547	Yes	
+row_5	PRXL2B	peroxiredoxin like 2B [Source:HGNC Symbol;Acc:HGNC:28390]	830	0.23941251635551453	0.23292656	Yes	
+row_6	PLA2G4F	phospholipase A2 group IVF [Source:HGNC Symbol;Acc:HGNC:27396]	879	0.2339807003736496	0.26305446	Yes	
+row_7	GGT1	gamma-glutamyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:4250]	1009	0.22272160649299622	0.28715563	Yes	
+row_8	PTGDS	prostaglandin D2 synthase [Source:HGNC Symbol;Acc:HGNC:9592]	1247	0.20633995532989502	0.30302942	Yes	
+row_9	AVPR1A	arginine vasopressin receptor 1A [Source:HGNC Symbol;Acc:HGNC:895]	1358	0.19886019825935364	0.32483307	Yes	
+row_10	CYP4A22	cytochrome P450 family 4 subfamily A member 22 [Source:HGNC Symbol;Acc:HGNC:20575]	1468	0.19290393590927124	0.3458576	Yes	
+row_11	GGTLC3	gamma-glutamyltransferase light chain family member 3 [Source:HGNC Symbol;Acc:HGNC:33426]	1490	0.19146327674388885	0.37151498	Yes	
+row_12	PLA2G5	phospholipase A2 group V [Source:HGNC Symbol;Acc:HGNC:9038]	1704	0.17901138961315155	0.38488042	Yes	
+row_13	PTGS1	prostaglandin-endoperoxide synthase 1 [Source:HGNC Symbol;Acc:HGNC:9604]	1868	0.17065182328224182	0.3998222	Yes	
+row_14	PTGES	prostaglandin E synthase [Source:HGNC Symbol;Acc:HGNC:9599]	1882	0.17015738785266876	0.4229356	Yes	
+row_15	PTGES2	prostaglandin E synthase 2 [Source:HGNC Symbol;Acc:HGNC:17822]	1955	0.16728587448596954	0.4424055	Yes	
+row_16	GGT7	gamma-glutamyltransferase 7 [Source:HGNC Symbol;Acc:HGNC:4259]	2116	0.1602662056684494	0.45605776	Yes	
+row_17	GGT6	gamma-glutamyltransferase 6 [Source:HGNC Symbol;Acc:HGNC:26891]	2804	0.13332459330558777	0.43698448	No	
+row_18	GGTLC1	gamma-glutamyltransferase light chain 1 [Source:HGNC Symbol;Acc:HGNC:16437]	3527	0.11209200322628021	0.41301504	No	
+row_19	IL1B	interleukin 1 beta [Source:HGNC Symbol;Acc:HGNC:5992]	4344	0.09076981991529465	0.38089556	No	
+row_20	TBXAS1	thromboxane A synthase 1 [Source:HGNC Symbol;Acc:HGNC:11609]	4424	0.08905204385519028	0.38902557	No	
+row_21	SYK	spleen associated tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:11491]	4511	0.08651202917098999	0.39641532	No	
+row_22	PTGS2	prostaglandin-endoperoxide synthase 2 [Source:HGNC Symbol;Acc:HGNC:9605]	5165	0.0720820352435112	0.370634	No	
+row_23	CYP2C9	cytochrome P450 family 2 subfamily C member 9 [Source:HGNC Symbol;Acc:HGNC:2623]	5260	0.07008832693099976	0.3752844	No	
+row_24	CYP4A11	cytochrome P450 family 4 subfamily A member 11 [Source:HGNC Symbol;Acc:HGNC:2642]	5675	0.060692355036735535	0.36103857	No	
+row_25	PLA2G3	phospholipase A2 group III [Source:HGNC Symbol;Acc:HGNC:17934]	6337	0.04614964500069618	0.33118632	No	
+row_26	EDN1	endothelin 1 [Source:HGNC Symbol;Acc:HGNC:3176]	6416	0.044656552374362946	0.33315447	No	
+row_27	ALOX5	arachidonate 5-lipoxygenase [Source:HGNC Symbol;Acc:HGNC:435]	7671	0.01929152011871338	0.26696238	No	
+row_28	CYP2C8	cytochrome P450 family 2 subfamily C member 8 [Source:HGNC Symbol;Acc:HGNC:2622]	7797	0.016703831031918526	0.2624341	No	
+row_29	MGST2	microsomal glutathione S-transferase 2 [Source:HGNC Symbol;Acc:HGNC:7063]	7883	0.01509246788918972	0.2598777	No	
+row_30	FADS1	fatty acid desaturase 1 [Source:HGNC Symbol;Acc:HGNC:3574]	9011	0.0	0.19796143	No	
+row_31	AKR1C3	aldo-keto reductase family 1 member C3 [Source:HGNC Symbol;Acc:HGNC:386]	9237	0.0	0.18560016	No	
+row_32	CBR1	carbonyl reductase 1 [Source:HGNC Symbol;Acc:HGNC:1548]	9747	0.0	0.1576362	No	
+row_33	CD74	CD74 molecule [Source:HGNC Symbol;Acc:HGNC:1697]	10164	-0.005471641663461924	0.13554777	No	
+row_34	HPGDS	hematopoietic prostaglandin D synthase [Source:HGNC Symbol;Acc:HGNC:17890]	10223	-0.006639115046709776	0.133291	No	
+row_35	GGT5	gamma-glutamyltransferase 5 [Source:HGNC Symbol;Acc:HGNC:4260]	10630	-0.015106039121747017	0.11310111	No	
+row_36	ALOX5AP	arachidonate 5-lipoxygenase activating protein [Source:HGNC Symbol;Acc:HGNC:436]	12331	-0.049689099192619324	0.026662879	No	
+row_37	PTGIS	prostaglandin I2 synthase [Source:HGNC Symbol;Acc:HGNC:9603]	12643	-0.056275151669979095	0.017457208	No	
+row_38	PLA2G4A	phospholipase A2 group IVA [Source:HGNC Symbol;Acc:HGNC:9035]	13336	-0.07286258786916733	-0.010357445	No	
+row_39	SIRT1	sirtuin 1 [Source:HGNC Symbol;Acc:HGNC:14929]	13442	-0.07527069747447968	-0.0055856803	No	
+row_40	DAGLB	diacylglycerol lipase beta [Source:HGNC Symbol;Acc:HGNC:28923]	14745	-0.10909248143434525	-0.061839763	No	
+row_41	PIBF1	progesterone immunomodulatory binding factor 1 [Source:HGNC Symbol;Acc:HGNC:23352]	14778	-0.11023160815238953	-0.04816178	No	
+row_42	MGST3	microsomal glutathione S-transferase 3 [Source:HGNC Symbol;Acc:HGNC:7064]	15687	-0.13748346269130707	-0.07879422	No	
+row_43	PNPLA8	patatin like phospholipase domain containing 8 [Source:HGNC Symbol;Acc:HGNC:28900]	16089	-0.15237227082252502	-0.07948766	No	
+row_44	PLA2G1B	phospholipase A2 group IB [Source:HGNC Symbol;Acc:HGNC:9030]	16220	-0.15725022554397583	-0.06460956	No	
+row_45	GGTLC2	gamma-glutamyltransferase light chain 2 [Source:HGNC Symbol;Acc:HGNC:18596]	16543	-0.1709551215171814	-0.05836061	No	
+row_46	LTA4H	leukotriene A4 hydrolase [Source:HGNC Symbol;Acc:HGNC:6710]	16602	-0.17363803088665009	-0.037232064	No	
+row_47	MIF	macrophage migration inhibitory factor [Source:HGNC Symbol;Acc:HGNC:7097]	16609	-0.17390874028205872	-0.013208783	No	
+row_48	PTGES3	prostaglandin E synthase 3 [Source:HGNC Symbol;Acc:HGNC:16049]	16963	-0.193628191947937	-0.0054879724	No	
+row_49	ANXA1	annexin A1 [Source:HGNC Symbol;Acc:HGNC:533]	17687	-0.2535037100315094	-0.009710065	No	
+row_50	FABP5	fatty acid binding protein 5 [Source:HGNC Symbol;Acc:HGNC:3560]	17927	-0.2906145453453064	0.017855057	No	

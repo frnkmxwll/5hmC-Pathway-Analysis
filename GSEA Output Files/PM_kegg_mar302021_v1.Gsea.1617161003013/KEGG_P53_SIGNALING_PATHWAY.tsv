@@ -1,0 +1,68 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GADD45G	growth arrest and DNA damage inducible gamma [Source:HGNC Symbol;Acc:HGNC:4097]	483	0.3668406307697296	0.019279368	No	
+row_1	BBC3	BCL2 binding component 3 [Source:HGNC Symbol;Acc:HGNC:17868]	1531	0.25145983695983887	-0.006871438	No	
+row_2	CCNG2	cyclin G2 [Source:HGNC Symbol;Acc:HGNC:1593]	2696	0.18288110196590424	-0.048024964	No	
+row_3	CYCS	cytochrome c, somatic [Source:HGNC Symbol;Acc:HGNC:19986]	3005	0.17011100053787231	-0.04370499	No	
+row_4	CDK4	cyclin dependent kinase 4 [Source:HGNC Symbol;Acc:HGNC:1773]	3028	0.1693098396062851	-0.023758747	No	
+row_5	RPRM	reprimo, TP53 dependent G2 arrest mediator homolog [Source:HGNC Symbol;Acc:HGNC:24201]	3040	0.16867142915725708	-0.0032874122	No	
+row_6	CDKN1A	cyclin dependent kinase inhibitor 1A [Source:HGNC Symbol;Acc:HGNC:1784]	3195	0.16103364527225494	0.008366358	No	
+row_7	TP53	tumor protein p53 [Source:HGNC Symbol;Acc:HGNC:11998]	3345	0.15600477159023285	0.019666687	No	
+row_8	ADGRB1	adhesion G protein-coupled receptor B1 [Source:HGNC Symbol;Acc:HGNC:943]	3941	0.1351432055234909	0.0038359163	No	
+row_9	CCNE1	cyclin E1 [Source:HGNC Symbol;Acc:HGNC:1589]	4266	0.12428567558526993	0.0015500251	No	
+row_10	GADD45A	growth arrest and DNA damage inducible alpha [Source:HGNC Symbol;Acc:HGNC:4095]	4284	0.12359458953142166	0.016058898	No	
+row_11	GTSE1	G2 and S-phase expressed 1 [Source:HGNC Symbol;Acc:HGNC:13698]	4741	0.11002910137176514	0.0047332575	No	
+row_12	SERPINE1	serpin family E member 1 [Source:HGNC Symbol;Acc:HGNC:8583]	5160	0.09798438847064972	-0.0060078995	No	
+row_13	TSC2	TSC complex subunit 2 [Source:HGNC Symbol;Acc:HGNC:12363]	6054	0.07213552296161652	-0.04609797	No	
+row_14	SERPINB5	serpin family B member 5 [Source:HGNC Symbol;Acc:HGNC:8949]	6055	0.07211877405643463	-0.03708643	No	
+row_15	SFN	stratifin [Source:HGNC Symbol;Acc:HGNC:10773]	6592	0.05899377167224884	-0.059188135	No	
+row_16	IGF1	insulin like growth factor 1 [Source:HGNC Symbol;Acc:HGNC:5464]	6626	0.05784493684768677	-0.05377475	No	
+row_17	CCND2	cyclin D2 [Source:HGNC Symbol;Acc:HGNC:1583]	6776	0.053938377648591995	-0.055228043	No	
+row_18	PERP	p53 apoptosis effector related to PMP22 [Source:HGNC Symbol;Acc:HGNC:17637]	6880	0.05138090252876282	-0.05447148	No	
+row_19	TP73	tumor protein p73 [Source:HGNC Symbol;Acc:HGNC:12003]	6905	0.05060526356101036	-0.049467843	No	
+row_20	STEAP3	STEAP3 metalloreductase [Source:HGNC Symbol;Acc:HGNC:24592]	7700	0.031219135969877243	-0.08922684	No	
+row_21	CCNB2	cyclin B2 [Source:HGNC Symbol;Acc:HGNC:1580]	7836	0.02786654233932495	-0.09316809	No	
+row_22	IGFBP3	insulin like growth factor binding protein 3 [Source:HGNC Symbol;Acc:HGNC:5472]	8659	0.00849104393273592	-0.1373067	No	
+row_23	TNFRSF10B	TNF receptor superfamily member 10b [Source:HGNC Symbol;Acc:HGNC:11905]	8737	0.006717936601489782	-0.1407013	No	
+row_24	CDKN2A	cyclin dependent kinase inhibitor 2A [Source:HGNC Symbol;Acc:HGNC:1787]	9086	0.0	-0.15983689	No	
+row_25	TP53I3	tumor protein p53 inducible protein 3 [Source:HGNC Symbol;Acc:HGNC:19373]	9914	0.0	-0.20531143	No	
+row_26	CDK2	cyclin dependent kinase 2 [Source:HGNC Symbol;Acc:HGNC:1771]	10205	0.0	-0.22125776	No	
+row_27	CHEK2	checkpoint kinase 2 [Source:HGNC Symbol;Acc:HGNC:16627]	10567	-0.008073514327406883	-0.24009939	No	
+row_28	CD82	CD82 molecule [Source:HGNC Symbol;Acc:HGNC:6210]	10644	-0.009768077172338963	-0.24305786	No	
+row_29	DDB2	damage specific DNA binding protein 2 [Source:HGNC Symbol;Acc:HGNC:2718]	10819	-0.013877961784601212	-0.25089154	No	
+row_30	SESN2	sestrin 2 [Source:HGNC Symbol;Acc:HGNC:20746]	11226	-0.02351636067032814	-0.27027795	No	
+row_31	SHISA5	shisa family member 5 [Source:HGNC Symbol;Acc:HGNC:30376]	11261	-0.024401122704148293	-0.2690985	No	
+row_32	BAX	BCL2 associated X, apoptosis regulator [Source:HGNC Symbol;Acc:HGNC:959]	11300	-0.025362752377986908	-0.26801884	No	
+row_33	EI24	EI24 autophagy associated transmembrane protein [Source:HGNC Symbol;Acc:HGNC:13276]	11471	-0.02949955314397812	-0.2736806	No	
+row_34	PIDD1	p53-induced death domain protein 1 [Source:HGNC Symbol;Acc:HGNC:16491]	11979	-0.04262060299515724	-0.29623356	No	
+row_35	SIAH1	siah E3 ubiquitin protein ligase 1 [Source:HGNC Symbol;Acc:HGNC:10857]	12064	-0.0445704460144043	-0.29528323	No	
+row_36	CASP9	caspase 9 [Source:HGNC Symbol;Acc:HGNC:1511]	12146	-0.04649791121482849	-0.2939271	No	
+row_37	BID	BH3 interacting domain death agonist [Source:HGNC Symbol;Acc:HGNC:1050]	12510	-0.0553700216114521	-0.30696878	No	
+row_38	RRM2	ribonucleotide reductase regulatory subunit M2 [Source:HGNC Symbol;Acc:HGNC:10452]	12711	-0.06092153489589691	-0.31035388	No	
+row_39	APAF1	apoptotic peptidase activating factor 1 [Source:HGNC Symbol;Acc:HGNC:576]	12967	-0.06816153228282928	-0.31585857	No	
+row_40	CASP8	caspase 8 [Source:HGNC Symbol;Acc:HGNC:1509]	13061	-0.07081279903650284	-0.31212404	No	
+row_41	ZMAT3	zinc finger matrin-type 3 [Source:HGNC Symbol;Acc:HGNC:29983]	13232	-0.07539448887109756	-0.31205103	No	
+row_42	GADD45B	growth arrest and DNA damage inducible beta [Source:HGNC Symbol;Acc:HGNC:4096]	13317	-0.07768675684928894	-0.3069627	No	
+row_43	MDM4	MDM4 regulator of p53 [Source:HGNC Symbol;Acc:HGNC:6974]	13697	-0.08811671286821365	-0.31679234	No	
+row_44	TP53AIP1	tumor protein p53 regulated apoptosis inducing protein 1 [Source:HGNC Symbol;Acc:HGNC:29984]	13863	-0.09329361468553543	-0.31420785	No	
+row_45	ATR	ATR serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:882]	13965	-0.09597310423851013	-0.30776933	No	
+row_46	CHEK1	checkpoint kinase 1 [Source:HGNC Symbol;Acc:HGNC:1925]	14268	-0.10456467419862747	-0.31130973	No	
+row_47	CCND1	cyclin D1 [Source:HGNC Symbol;Acc:HGNC:1582]	15238	-0.13767528533935547	-0.34738937	Yes	
+row_48	CCNB1	cyclin B1 [Source:HGNC Symbol;Acc:HGNC:1579]	15544	-0.14861923456192017	-0.3455899	Yes	
+row_49	RRM2B	ribonucleotide reductase regulatory TP53 inducible subunit M2B [Source:HGNC Symbol;Acc:HGNC:17296]	15553	-0.14887018501758575	-0.32742786	Yes	
+row_50	FAS	Fas cell surface death receptor [Source:HGNC Symbol;Acc:HGNC:11920]	15749	-0.15655219554901123	-0.31858855	Yes	
+row_51	PMAIP1	phorbol-12-myristate-13-acetate-induced protein 1 [Source:HGNC Symbol;Acc:HGNC:9108]	15754	-0.15673120319843292	-0.2992243	Yes	
+row_52	CCND3	cyclin D3 [Source:HGNC Symbol;Acc:HGNC:1585]	16007	-0.16883128881454468	-0.29198492	Yes	
+row_53	SESN1	sestrin 1 [Source:HGNC Symbol;Acc:HGNC:21595]	16044	-0.1705549955368042	-0.27265292	Yes	
+row_54	ATM	ATM serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:795]	16046	-0.17056280374526978	-0.25139537	Yes	
+row_55	SESN3	sestrin 3 [Source:HGNC Symbol;Acc:HGNC:23060]	16401	-0.18614841997623444	-0.24760087	Yes	
+row_56	PPM1D	protein phosphatase, Mg2+/Mn2+ dependent 1D [Source:HGNC Symbol;Acc:HGNC:9277]	16451	-0.18856953084468842	-0.22673272	Yes	
+row_57	CCNE2	cyclin E2 [Source:HGNC Symbol;Acc:HGNC:1590]	16475	-0.1899017095565796	-0.20426841	Yes	
+row_58	THBS1	thrombospondin 1 [Source:HGNC Symbol;Acc:HGNC:11785]	17069	-0.22201478481292725	-0.20913424	Yes	
+row_59	CCNG1	cyclin G1 [Source:HGNC Symbol;Acc:HGNC:1592]	17086	-0.2236388772726059	-0.18206944	Yes	
+row_60	MDM2	MDM2 proto-oncogene [Source:HGNC Symbol;Acc:HGNC:6973]	17246	-0.2344578057527542	-0.16151595	Yes	
+row_61	COP1	COP1 E3 ubiquitin ligase [Source:HGNC Symbol;Acc:HGNC:17440]	17432	-0.2511054575443268	-0.14031194	Yes	
+row_62	CDK1	cyclin dependent kinase 1 [Source:HGNC Symbol;Acc:HGNC:1722]	17441	-0.25203242897987366	-0.10925934	Yes	
+row_63	CDK6	cyclin dependent kinase 6 [Source:HGNC Symbol;Acc:HGNC:1777]	17481	-0.2554296553134918	-0.07948685	Yes	
+row_64	CASP3	caspase 3 [Source:HGNC Symbol;Acc:HGNC:1504]	17563	-0.26655006408691406	-0.050634287	Yes	
+row_65	PTEN	phosphatase and tensin homolog [Source:HGNC Symbol;Acc:HGNC:9588]	17613	-0.2710222005844116	-0.019463321	Yes	
+row_66	RCHY1	ring finger and CHY zinc finger domain containing 1 [Source:HGNC Symbol;Acc:HGNC:17479]	18192	-0.43652164936065674	0.0032991832	Yes	

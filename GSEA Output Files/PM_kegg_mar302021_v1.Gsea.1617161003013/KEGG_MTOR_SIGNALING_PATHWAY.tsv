@@ -1,0 +1,50 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	EIF4E1B	eukaryotic translation initiation factor 4E family member 1B [Source:HGNC Symbol;Acc:HGNC:33179]	1104	0.28540587425231934	-0.009869515	No	
+row_1	RPS6KB2	ribosomal protein S6 kinase B2 [Source:HGNC Symbol;Acc:HGNC:10437]	3241	0.1592564880847931	-0.09887308	No	
+row_2	VEGFA	vascular endothelial growth factor A [Source:HGNC Symbol;Acc:HGNC:12680]	3577	0.14777182042598724	-0.090985574	No	
+row_3	VEGFB	vascular endothelial growth factor B [Source:HGNC Symbol;Acc:HGNC:12681]	3690	0.14395904541015625	-0.07152634	No	
+row_4	INS	insulin [Source:HGNC Symbol;Acc:HGNC:6081]	4416	0.11966830492019653	-0.09006259	No	
+row_5	MTOR	mechanistic target of rapamycin kinase [Source:HGNC Symbol;Acc:HGNC:3942]	4513	0.11650373041629791	-0.074609004	No	
+row_6	PIK3R2	phosphoinositide-3-kinase regulatory subunit 2 [Source:HGNC Symbol;Acc:HGNC:8980]	4723	0.11058281362056732	-0.066416234	No	
+row_7	EIF4EBP1	eukaryotic translation initiation factor 4E binding protein 1 [Source:HGNC Symbol;Acc:HGNC:3288]	4864	0.10624217987060547	-0.055205327	No	
+row_8	RPS6KA1	ribosomal protein S6 kinase A1 [Source:HGNC Symbol;Acc:HGNC:10430]	5856	0.07710403949022293	-0.09592635	No	
+row_9	TSC2	TSC complex subunit 2 [Source:HGNC Symbol;Acc:HGNC:12363]	6054	0.07213552296161652	-0.09391453	No	
+row_10	EIF4E2	eukaryotic translation initiation factor 4E family member 2 [Source:HGNC Symbol;Acc:HGNC:3293]	6115	0.07072041183710098	-0.08462866	No	
+row_11	ULK1	unc-51 like autophagy activating kinase 1 [Source:HGNC Symbol;Acc:HGNC:12558]	6157	0.06947402656078339	-0.0745208	No	
+row_12	PIK3R5	phosphoinositide-3-kinase regulatory subunit 5 [Source:HGNC Symbol;Acc:HGNC:30035]	6219	0.06785272806882858	-0.06580005	No	
+row_13	IGF1	insulin like growth factor 1 [Source:HGNC Symbol;Acc:HGNC:5464]	6626	0.05784493684768677	-0.07781166	No	
+row_14	PGF	placental growth factor [Source:HGNC Symbol;Acc:HGNC:8893]	7299	0.04104361683130264	-0.10742456	No	
+row_15	STK11	serine/threonine kinase 11 [Source:HGNC Symbol;Acc:HGNC:11389]	7790	0.028930287808179855	-0.12919474	No	
+row_16	MLST8	MTOR associated protein, LST8 homolog [Source:HGNC Symbol;Acc:HGNC:24825]	7974	0.02490750513970852	-0.13481618	No	
+row_17	PIK3CD	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [Source:HGNC Symbol;Acc:HGNC:8977]	8311	0.016639474779367447	-0.15031335	No	
+row_18	TSC1	TSC complex subunit 1 [Source:HGNC Symbol;Acc:HGNC:12362]	8426	0.014155764132738113	-0.15405725	No	
+row_19	PDPK1	3-phosphoinositide dependent protein kinase 1 [Source:HGNC Symbol;Acc:HGNC:8816]	8679	0.007939639501273632	-0.16648783	No	
+row_20	AKT1	AKT serine/threonine kinase 1 [Source:HGNC Symbol;Acc:HGNC:391]	10435	-0.004881765227764845	-0.2620267	No	
+row_21	DDIT4	DNA damage inducible transcript 4 [Source:HGNC Symbol;Acc:HGNC:24944]	10631	-0.009395317174494267	-0.2710671	No	
+row_22	AKT2	AKT serine/threonine kinase 2 [Source:HGNC Symbol;Acc:HGNC:392]	10643	-0.009761721827089787	-0.26993465	No	
+row_23	STRADA	STE20 related adaptor alpha [Source:HGNC Symbol;Acc:HGNC:30172]	10775	-0.012865240685641766	-0.27484202	No	
+row_24	RPTOR	regulatory associated protein of MTOR complex 1 [Source:HGNC Symbol;Acc:HGNC:30287]	11006	-0.018377317115664482	-0.2842071	No	
+row_25	MAPK3	mitogen-activated protein kinase 3 [Source:HGNC Symbol;Acc:HGNC:6877]	11325	-0.025825373828411102	-0.2970812	No	
+row_26	RPS6KB1	ribosomal protein S6 kinase B1 [Source:HGNC Symbol;Acc:HGNC:10436]	11494	-0.030099287629127502	-0.300955	No	
+row_27	ULK2	unc-51 like autophagy activating kinase 2 [Source:HGNC Symbol;Acc:HGNC:13480]	11980	-0.042665138840675354	-0.32000694	No	
+row_28	EIF4B	eukaryotic translation initiation factor 4B [Source:HGNC Symbol;Acc:HGNC:3285]	11992	-0.04297700896859169	-0.31296518	No	
+row_29	PRKAA2	protein kinase AMP-activated catalytic subunit alpha 2 [Source:HGNC Symbol;Acc:HGNC:9377]	12357	-0.05114152655005455	-0.3238622	No	
+row_30	CAB39	calcium binding protein 39 [Source:HGNC Symbol;Acc:HGNC:20292]	12956	-0.06783374398946762	-0.34464383	No	
+row_31	PIK3R3	phosphoinositide-3-kinase regulatory subunit 3 [Source:HGNC Symbol;Acc:HGNC:8981]	13335	-0.07800338417291641	-0.35153094	No	
+row_32	CAB39L	calcium binding protein 39 like [Source:HGNC Symbol;Acc:HGNC:20290]	13359	-0.07866647839546204	-0.33879888	No	
+row_33	PIK3CB	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [Source:HGNC Symbol;Acc:HGNC:8976]	13364	-0.07878924906253815	-0.3250012	No	
+row_34	MAPK1	mitogen-activated protein kinase 1 [Source:HGNC Symbol;Acc:HGNC:6871]	13856	-0.09310879558324814	-0.33540836	No	
+row_35	ULK3	unc-51 like kinase 3 [Source:HGNC Symbol;Acc:HGNC:19703]	14166	-0.10172674059867859	-0.33428445	No	
+row_36	PRKAA1	protein kinase AMP-activated catalytic subunit alpha 1 [Source:HGNC Symbol;Acc:HGNC:9376]	15256	-0.13847140967845917	-0.36947104	Yes	
+row_37	EIF4E	eukaryotic translation initiation factor 4E [Source:HGNC Symbol;Acc:HGNC:3287]	15501	-0.1471632719039917	-0.3566929	Yes	
+row_38	BRAF	B-Raf proto-oncogene, serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:1097]	15867	-0.1623043268918991	-0.34786794	Yes	
+row_39	RHEB	Ras homolog, mTORC1 binding [Source:HGNC Symbol;Acc:HGNC:10011]	15955	-0.16636773943901062	-0.32304865	Yes	
+row_40	PIK3R1	phosphoinositide-3-kinase regulatory subunit 1 [Source:HGNC Symbol;Acc:HGNC:8979]	16215	-0.1771414428949356	-0.3057611	Yes	
+row_41	HIF1A	hypoxia inducible factor 1 subunit alpha [Source:HGNC Symbol;Acc:HGNC:4910]	16259	-0.17933431267738342	-0.27621788	Yes	
+row_42	RPS6KA2	ribosomal protein S6 kinase A2 [Source:HGNC Symbol;Acc:HGNC:10431]	16985	-0.21646523475646973	-0.277533	Yes	
+row_43	PIK3CG	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma [Source:HGNC Symbol;Acc:HGNC:8978]	17114	-0.2250880002975464	-0.24451907	Yes	
+row_44	AKT3	AKT serine/threonine kinase 3 [Source:HGNC Symbol;Acc:HGNC:393]	17148	-0.22758573293685913	-0.20584214	Yes	
+row_45	RICTOR	RPTOR independent companion of MTOR complex 2 [Source:HGNC Symbol;Acc:HGNC:28611]	17746	-0.2881549298763275	-0.18737154	Yes	
+row_46	PIK3CA	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [Source:HGNC Symbol;Acc:HGNC:8975]	17873	-0.31129536032676697	-0.1389106	Yes	
+row_47	RPS6	ribosomal protein S6 [Source:HGNC Symbol;Acc:HGNC:10429]	18159	-0.40357133746147156	-0.08276721	Yes	
+row_48	VEGFC	vascular endothelial growth factor C [Source:HGNC Symbol;Acc:HGNC:12682]	18226	-0.4936261475086212	0.0014281381	Yes	

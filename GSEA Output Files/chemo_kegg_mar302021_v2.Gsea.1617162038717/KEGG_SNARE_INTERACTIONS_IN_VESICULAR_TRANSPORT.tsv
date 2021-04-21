@@ -1,0 +1,37 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	YKT6	YKT6 v-SNARE homolog [Source:HGNC Symbol;Acc:HGNC:16959]	59	0.46628323197364807	0.105186574	No	
+row_1	STX1B	syntaxin 1B [Source:HGNC Symbol;Acc:HGNC:18539]	2432	0.18475085496902466	0.01793883	No	
+row_2	TSNARE1	t-SNARE domain containing 1 [Source:HGNC Symbol;Acc:HGNC:26437]	3050	0.16124027967453003	0.02156273	No	
+row_3	STX1A	syntaxin 1A [Source:HGNC Symbol;Acc:HGNC:11433]	4588	0.11287027597427368	-0.03656317	No	
+row_4	SNAP47	synaptosome associated protein 47 [Source:HGNC Symbol;Acc:HGNC:30669]	4732	0.1094883605837822	-0.018953541	No	
+row_5	STX10	syntaxin 10 [Source:HGNC Symbol;Acc:HGNC:11428]	5620	0.08642598986625671	-0.0475476	No	
+row_6	USE1	unconventional SNARE in the ER 1 [Source:HGNC Symbol;Acc:HGNC:30882]	6639	0.0604100301861763	-0.08938226	No	
+row_7	BNIP1	BCL2 interacting protein 1 [Source:HGNC Symbol;Acc:HGNC:1082]	7733	0.034969840198755264	-0.1412496	No	
+row_8	VAMP5	vesicle associated membrane protein 5 [Source:HGNC Symbol;Acc:HGNC:12646]	7946	0.02957160212099552	-0.14601076	No	
+row_9	STX2	syntaxin 2 [Source:HGNC Symbol;Acc:HGNC:3403]	8149	0.02476721629500389	-0.15134016	No	
+row_10	STX8	syntaxin 8 [Source:HGNC Symbol;Acc:HGNC:11443]	8373	0.019725698977708817	-0.15899463	No	
+row_11	VAMP8	vesicle associated membrane protein 8 [Source:HGNC Symbol;Acc:HGNC:12647]	8555	0.015914304181933403	-0.16522984	No	
+row_12	SNAP29	synaptosome associated protein 29 [Source:HGNC Symbol;Acc:HGNC:11133]	9148	0.0010273425141349435	-0.19748807	No	
+row_13	STX19	syntaxin 19 [Source:HGNC Symbol;Acc:HGNC:19300]	9442	0.0	-0.21357194	No	
+row_14	GOSR2	golgi SNAP receptor complex member 2 [Source:HGNC Symbol;Acc:HGNC:4431]	9592	0.0	-0.22175111	No	
+row_15	STX12	syntaxin 12 [Source:HGNC Symbol;Acc:HGNC:11430]	10566	-0.004252084065228701	-0.274174	No	
+row_16	STX4	syntaxin 4 [Source:HGNC Symbol;Acc:HGNC:11439]	10974	-0.013753079809248447	-0.29331776	No	
+row_17	BET1L	Bet1 golgi vesicular membrane trafficking protein like [Source:HGNC Symbol;Acc:HGNC:19348]	11059	-0.015790080651640892	-0.29425716	No	
+row_18	STX18	syntaxin 18 [Source:HGNC Symbol;Acc:HGNC:15942]	11760	-0.035210832953453064	-0.3244952	No	
+row_19	SNAP25	synaptosome associated protein 25 [Source:HGNC Symbol;Acc:HGNC:11132]	13360	-0.08076483011245728	-0.39349002	Yes	
+row_20	SNAP23	synaptosome associated protein 23 [Source:HGNC Symbol;Acc:HGNC:11131]	13468	-0.08406543731689453	-0.37981585	Yes	
+row_21	STX3	syntaxin 3 [Source:HGNC Symbol;Acc:HGNC:11438]	13703	-0.09142420440912247	-0.37140203	Yes	
+row_22	GOSR1	golgi SNAP receptor complex member 1 [Source:HGNC Symbol;Acc:HGNC:4430]	13736	-0.0924578458070755	-0.3516593	Yes	
+row_23	STX5	syntaxin 5 [Source:HGNC Symbol;Acc:HGNC:11440]	13902	-0.09784137457609177	-0.33796564	Yes	
+row_24	VTI1B	vesicle transport through interaction with t-SNAREs 1B [Source:HGNC Symbol;Acc:HGNC:17793]	14641	-0.12144024670124054	-0.35023862	Yes	
+row_25	VTI1A	vesicle transport through interaction with t-SNAREs 1A [Source:HGNC Symbol;Acc:HGNC:17792]	14758	-0.1254660189151764	-0.32743156	Yes	
+row_26	VAMP1	vesicle associated membrane protein 1 [Source:HGNC Symbol;Acc:HGNC:12642]	14957	-0.13327930867671967	-0.30730894	Yes	
+row_27	STX16	syntaxin 16 [Source:HGNC Symbol;Acc:HGNC:11431]	15741	-0.1626918762922287	-0.3124599	Yes	
+row_28	STX6	syntaxin 6 [Source:HGNC Symbol;Acc:HGNC:11441]	15856	-0.16800127923488617	-0.27965227	Yes	
+row_29	VAMP2	vesicle associated membrane protein 2 [Source:HGNC Symbol;Acc:HGNC:12643]	16441	-0.19644686579704285	-0.26603025	Yes	
+row_30	VAMP4	vesicle associated membrane protein 4 [Source:HGNC Symbol;Acc:HGNC:12645]	16501	-0.19991689920425415	-0.22278209	Yes	
+row_31	STX17	syntaxin 17 [Source:HGNC Symbol;Acc:HGNC:11432]	17053	-0.23391923308372498	-0.19863509	Yes	
+row_32	STX11	syntaxin 11 [Source:HGNC Symbol;Acc:HGNC:11429]	17212	-0.2454352229833603	-0.15023701	Yes	
+row_33	VAMP3	vesicle associated membrane protein 3 [Source:HGNC Symbol;Acc:HGNC:12644]	17471	-0.2691251039505005	-0.10181968	Yes	
+row_34	STX7	syntaxin 7 [Source:HGNC Symbol;Acc:HGNC:11442]	17643	-0.2906152307987213	-0.043629464	Yes	
+row_35	BET1	Bet1 golgi vesicular membrane trafficking protein [Source:HGNC Symbol;Acc:HGNC:14562]	17905	-0.3311595618724823	0.019048125	Yes	

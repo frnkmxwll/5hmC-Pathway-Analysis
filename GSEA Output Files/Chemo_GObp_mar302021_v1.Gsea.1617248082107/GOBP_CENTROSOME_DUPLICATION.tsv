@@ -1,0 +1,71 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	C10orf90	chromosome 10 open reading frame 90 [Source:HGNC Symbol;Acc:HGNC:26563]	1179	0.2517441213130951	-0.034404796	No	
+row_1	XRCC3	X-ray repair cross complementing 3 [Source:HGNC Symbol;Acc:HGNC:12830]	1224	0.24882979691028595	-0.006740993	No	
+row_2	KAT2A	lysine acetyltransferase 2A [Source:HGNC Symbol;Acc:HGNC:4201]	2028	0.2027253359556198	-0.026393529	No	
+row_3	CCNF	cyclin F [Source:HGNC Symbol;Acc:HGNC:1591]	3473	0.1466023027896881	-0.08808408	No	
+row_4	PKHD1	PKHD1 ciliary IPT domain containing fibrocystin/polyductin [Source:HGNC Symbol;Acc:HGNC:9016]	3549	0.14346151053905487	-0.07486424	No	
+row_5	CHMP1A	charged multivesicular body protein 1A [Source:HGNC Symbol;Acc:HGNC:8740]	3556	0.14332889020442963	-0.057865687	No	
+row_6	CHMP2A	charged multivesicular body protein 2A [Source:HGNC Symbol;Acc:HGNC:30216]	3971	0.1309567391872406	-0.06480147	No	
+row_7	NUBP1	nucleotide binding protein 1 [Source:HGNC Symbol;Acc:HGNC:8041]	4793	0.10768666118383408	-0.09693417	No	
+row_8	NAT10	N-acetyltransferase 10 [Source:HGNC Symbol;Acc:HGNC:29830]	5376	0.09236850589513779	-0.11777469	No	
+row_9	CHMP5	charged multivesicular body protein 5 [Source:HGNC Symbol;Acc:HGNC:26942]	5742	0.08346445858478546	-0.12775749	No	
+row_10	CEP131	centrosomal protein 131 [Source:HGNC Symbol;Acc:HGNC:29511]	6520	0.0633588507771492	-0.1628296	No	
+row_11	CDK5RAP2	CDK5 regulatory subunit associated protein 2 [Source:HGNC Symbol;Acc:HGNC:18672]	6546	0.06292340904474258	-0.15659703	No	
+row_12	BRSK1	BR serine/threonine kinase 1 [Source:HGNC Symbol;Acc:HGNC:18994]	6928	0.05387340113520622	-0.17103735	No	
+row_13	WDR62	WD repeat domain 62 [Source:HGNC Symbol;Acc:HGNC:24502]	6959	0.0529450885951519	-0.16628616	No	
+row_14	SAC3D1	SAC3 domain containing 1 [Source:HGNC Symbol;Acc:HGNC:30179]	7265	0.04572313651442528	-0.17753212	No	
+row_15	KIAA0753	KIAA0753 [Source:HGNC Symbol;Acc:HGNC:29110]	7490	0.040737077593803406	-0.18492618	No	
+row_16	CHMP3	charged multivesicular body protein 3 [Source:HGNC Symbol;Acc:HGNC:29865]	7814	0.03274332359433174	-0.19873135	No	
+row_17	DEUP1	deuterosome assembly protein 1 [Source:HGNC Symbol;Acc:HGNC:26344]	7894	0.03084198571741581	-0.19934724	No	
+row_18	NDE1	nudE neurodevelopment protein 1 [Source:HGNC Symbol;Acc:HGNC:17619]	7975	0.028917482122778893	-0.20025082	No	
+row_19	CEP72	centrosomal protein 72 [Source:HGNC Symbol;Acc:HGNC:25547]	8052	0.026888582855463028	-0.20117971	No	
+row_20	CCDC57	coiled-coil domain containing 57 [Source:HGNC Symbol;Acc:HGNC:27564]	8318	0.021320275962352753	-0.21317613	No	
+row_21	RBM14	RNA binding motif protein 14 [Source:HGNC Symbol;Acc:HGNC:14219]	9589	0.0	-0.2830216	No	
+row_22	CEP76	centrosomal protein 76 [Source:HGNC Symbol;Acc:HGNC:25727]	9676	0.0	-0.2877513	No	
+row_23	FBXW5	F-box and WD repeat domain containing 5 [Source:HGNC Symbol;Acc:HGNC:13613]	9803	0.0	-0.29468083	No	
+row_24	CEP295NL	CEP295 N-terminal like [Source:HGNC Symbol;Acc:HGNC:44659]	9835	0.0	-0.29638574	No	
+row_25	GEN1	GEN1 Holliday junction 5' flap endonuclease [Source:HGNC Symbol;Acc:HGNC:26881]	9952	0.0	-0.3027653	No	
+row_26	CHMP1B	charged multivesicular body protein 1B [Source:HGNC Symbol;Acc:HGNC:24287]	10282	0.0	-0.32085913	No	
+row_27	NUP62	nucleoporin 62 [Source:HGNC Symbol;Acc:HGNC:8066]	10335	0.0	-0.32371894	No	
+row_28	CDK2	cyclin dependent kinase 2 [Source:HGNC Symbol;Acc:HGNC:1771]	10366	0.0	-0.32536885	No	
+row_29	CEP63	centrosomal protein 63 [Source:HGNC Symbol;Acc:HGNC:25815]	11280	-0.022020356729626656	-0.3729183	No	
+row_30	NPM1	nucleophosmin 1 [Source:HGNC Symbol;Acc:HGNC:7910]	11756	-0.03512188047170639	-0.39479536	No	
+row_31	CEP192	centrosomal protein 192 [Source:HGNC Symbol;Acc:HGNC:25515]	11955	-0.040878064930438995	-0.40074247	No	
+row_32	CHMP4C	charged multivesicular body protein 4C [Source:HGNC Symbol;Acc:HGNC:30599]	12004	-0.04239145293831825	-0.39825714	No	
+row_33	ALMS1	ALMS1 centrosome and basal body associated protein [Source:HGNC Symbol;Acc:HGNC:428]	12219	-0.048465847969055176	-0.40416685	No	
+row_34	CEP120	centrosomal protein 120 [Source:HGNC Symbol;Acc:HGNC:26690]	12394	-0.052704643458127975	-0.4073642	No	
+row_35	BRCA1	BRCA1 DNA repair associated [Source:HGNC Symbol;Acc:HGNC:1100]	12527	-0.05646207183599472	-0.40779743	No	
+row_36	PLK2	polo like kinase 2 [Source:HGNC Symbol;Acc:HGNC:19699]	12541	-0.056968264281749725	-0.4016249	No	
+row_37	TRIM37	tripartite motif containing 37 [Source:HGNC Symbol;Acc:HGNC:7523]	12968	-0.069344162940979	-0.41666964	No	
+row_38	CNTROB	centrobin, centriole duplication and spindle assembly protein [Source:HGNC Symbol;Acc:HGNC:29616]	12993	-0.07035275548696518	-0.40948385	No	
+row_39	C2CD3	C2 domain containing 3 centriole elongation regulator [Source:HGNC Symbol;Acc:HGNC:24564]	13200	-0.07582990825176239	-0.41164523	No	
+row_40	KAT2B	lysine acetyltransferase 2B [Source:HGNC Symbol;Acc:HGNC:8638]	13487	-0.08483441174030304	-0.4171177	No	
+row_41	SIRT1	sirtuin 1 [Source:HGNC Symbol;Acc:HGNC:14929]	13789	-0.09414254873991013	-0.42228976	No	
+row_42	RAB6C	RAB6C, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:16525]	13919	-0.09825830906629562	-0.41750482	No	
+row_43	PKD2	polycystin 2, transient receptor potential cation channel [Source:HGNC Symbol;Acc:HGNC:9009]	14637	-0.12129608541727066	-0.44227248	Yes	
+row_44	USP33	ubiquitin specific peptidase 33 [Source:HGNC Symbol;Acc:HGNC:20059]	14867	-0.12979860603809357	-0.43917397	Yes	
+row_45	CHMP4B	charged multivesicular body protein 4B [Source:HGNC Symbol;Acc:HGNC:16171]	14892	-0.130784809589386	-0.42468193	Yes	
+row_46	VPS4B	vacuolar protein sorting 4 homolog B [Source:HGNC Symbol;Acc:HGNC:10895]	15174	-0.14042314887046814	-0.42315868	Yes	
+row_47	CETN1	centrin 1 [Source:HGNC Symbol;Acc:HGNC:1866]	15210	-0.141851007938385	-0.4079337	Yes	
+row_48	PDCD6IP	programmed cell death 6 interacting protein [Source:HGNC Symbol;Acc:HGNC:8766]	15243	-0.14309409260749817	-0.39239344	Yes	
+row_49	STIL	STIL centriolar assembly protein [Source:HGNC Symbol;Acc:HGNC:10879]	15362	-0.14862285554409027	-0.38091445	Yes	
+row_50	CKAP5	cytoskeleton associated protein 5 [Source:HGNC Symbol;Acc:HGNC:28959]	15426	-0.1504802405834198	-0.36618608	Yes	
+row_51	RTTN	rotatin [Source:HGNC Symbol;Acc:HGNC:18654]	15463	-0.15129414200782776	-0.3498744	Yes	
+row_52	ARHGEF10	Rho guanine nucleotide exchange factor 10 [Source:HGNC Symbol;Acc:HGNC:14103]	15491	-0.15250903367996216	-0.3329209	Yes	
+row_53	MDM1	Mdm1 nuclear protein [Source:HGNC Symbol;Acc:HGNC:29917]	15607	-0.1567990630865097	-0.32028842	Yes	
+row_54	POC1B	POC1 centriolar protein B [Source:HGNC Symbol;Acc:HGNC:30836]	15836	-0.16722479462623596	-0.31261003	Yes	
+row_55	CHORDC1	cysteine and histidine rich domain containing 1 [Source:HGNC Symbol;Acc:HGNC:14525]	15850	-0.16781499981880188	-0.29303607	Yes	
+row_56	CEP44	centrosomal protein 44 [Source:HGNC Symbol;Acc:HGNC:29356]	15970	-0.17302606999874115	-0.2786617	Yes	
+row_57	CEP135	centrosomal protein 135 [Source:HGNC Symbol;Acc:HGNC:29086]	16275	-0.18705634772777557	-0.27276543	Yes	
+row_58	SPICE1	spindle and centriole associated protein 1 [Source:HGNC Symbol;Acc:HGNC:25083]	16354	-0.19133085012435913	-0.25392315	Yes	
+row_59	CENPJ	centromere protein J [Source:HGNC Symbol;Acc:HGNC:17272]	16535	-0.20199479162693024	-0.23940124	Yes	
+row_60	SASS6	SAS-6 centriolar assembly protein [Source:HGNC Symbol;Acc:HGNC:25403]	16884	-0.22343739867210388	-0.2315263	Yes	
+row_61	CEP295	centrosomal protein 295 [Source:HGNC Symbol;Acc:HGNC:29366]	17027	-0.23211510479450226	-0.21127295	Yes	
+row_62	CCP110	centriolar coiled-coil protein 110 [Source:HGNC Symbol;Acc:HGNC:24342]	17126	-0.23952564597129822	-0.18770385	Yes	
+row_63	CEP152	centrosomal protein 152 [Source:HGNC Symbol;Acc:HGNC:29298]	17283	-0.25241637229919434	-0.16576602	Yes	
+row_64	ROCK2	Rho associated coiled-coil containing protein kinase 2 [Source:HGNC Symbol;Acc:HGNC:10252]	17488	-0.2713967561721802	-0.1441733	Yes	
+row_65	BRCA2	BRCA2 DNA repair associated [Source:HGNC Symbol;Acc:HGNC:1101]	17493	-0.2720646262168884	-0.11150053	Yes	
+row_66	TMEM67	transmembrane protein 67 [Source:HGNC Symbol;Acc:HGNC:28396]	17555	-0.27908554673194885	-0.08111374	Yes	
+row_67	NDC80	NDC80 kinetochore complex component [Source:HGNC Symbol;Acc:HGNC:16909]	17578	-0.28233960270881653	-0.048188664	Yes	
+row_68	CHMP2B	charged multivesicular body protein 2B [Source:HGNC Symbol;Acc:HGNC:24537]	17861	-0.32173672318458557	-0.024799526	Yes	
+row_69	PLK4	polo like kinase 4 [Source:HGNC Symbol;Acc:HGNC:11397]	18094	-0.3825286626815796	0.008689206	Yes	

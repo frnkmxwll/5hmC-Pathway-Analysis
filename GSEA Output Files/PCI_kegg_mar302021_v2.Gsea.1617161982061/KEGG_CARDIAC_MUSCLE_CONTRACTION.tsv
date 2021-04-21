@@ -1,0 +1,70 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	UQCRC1	ubiquinol-cytochrome c reductase core protein 1 [Source:HGNC Symbol;Acc:HGNC:12585]	108	0.4002196192741394	0.03477607	Yes	
+row_1	COX5B	cytochrome c oxidase subunit 5B [Source:HGNC Symbol;Acc:HGNC:2269]	274	0.323100209236145	0.058571957	Yes	
+row_2	CACNG5	calcium voltage-gated channel auxiliary subunit gamma 5 [Source:HGNC Symbol;Acc:HGNC:1409]	293	0.3209478557109833	0.09023291	Yes	
+row_3	COX4I2	cytochrome c oxidase subunit 4I2 [Source:HGNC Symbol;Acc:HGNC:16232]	526	0.2761649489402771	0.1055694	Yes	
+row_4	MYL2	myosin light chain 2 [Source:HGNC Symbol;Acc:HGNC:7583]	706	0.2535440921783447	0.12151927	Yes	
+row_5	COX6A2	cytochrome c oxidase subunit 6A2 [Source:HGNC Symbol;Acc:HGNC:2279]	759	0.24854235351085663	0.14394444	Yes	
+row_6	CACNG3	calcium voltage-gated channel auxiliary subunit gamma 3 [Source:HGNC Symbol;Acc:HGNC:1407]	796	0.24284148216247559	0.16666956	Yes	
+row_7	ATP1A2	ATPase Na+/K+ transporting subunit alpha 2 [Source:HGNC Symbol;Acc:HGNC:800]	804	0.24185049533843994	0.19088867	Yes	
+row_8	MYH7	myosin heavy chain 7 [Source:HGNC Symbol;Acc:HGNC:7577]	844	0.23791775107383728	0.2129479	Yes	
+row_9	MYL3	myosin light chain 3 [Source:HGNC Symbol;Acc:HGNC:7584]	864	0.23557068407535553	0.23586823	Yes	
+row_10	ACTC1	actin alpha cardiac muscle 1 [Source:HGNC Symbol;Acc:HGNC:143]	878	0.2340671569108963	0.25896555	Yes	
+row_11	CACNG4	calcium voltage-gated channel auxiliary subunit gamma 4 [Source:HGNC Symbol;Acc:HGNC:1408]	983	0.22446653246879578	0.2760818	Yes	
+row_12	CYC1	cytochrome c1 [Source:HGNC Symbol;Acc:HGNC:2579]	1280	0.20389246940612793	0.28054625	Yes	
+row_13	UQCRQ	ubiquinol-cytochrome c reductase complex III subunit VII [Source:HGNC Symbol;Acc:HGNC:29594]	1309	0.2019367516040802	0.29954997	Yes	
+row_14	CACNG1	calcium voltage-gated channel auxiliary subunit gamma 1 [Source:HGNC Symbol;Acc:HGNC:1405]	1313	0.2016354501247406	0.31989786	Yes	
+row_15	CACNA1S	calcium voltage-gated channel subunit alpha1 S [Source:HGNC Symbol;Acc:HGNC:1397]	1342	0.19983652234077454	0.33868793	Yes	
+row_16	UQCR11	ubiquinol-cytochrome c reductase, complex III subunit XI [Source:HGNC Symbol;Acc:HGNC:30862]	1394	0.19695115089416504	0.3559196	Yes	
+row_17	TPM2	tropomyosin 2 [Source:HGNC Symbol;Acc:HGNC:12011]	1595	0.18512587249279022	0.36375424	Yes	
+row_18	COX6B1	cytochrome c oxidase subunit 6B1 [Source:HGNC Symbol;Acc:HGNC:2280]	1637	0.18262624740600586	0.38007855	Yes	
+row_19	CACNA2D2	calcium voltage-gated channel auxiliary subunit alpha2delta 2 [Source:HGNC Symbol;Acc:HGNC:1400]	1706	0.1788666695356369	0.39453557	Yes	
+row_20	TNNT2	troponin T2, cardiac type [Source:HGNC Symbol;Acc:HGNC:11949]	1787	0.17440423369407654	0.40787867	Yes	
+row_21	CACNB3	calcium voltage-gated channel auxiliary subunit beta 3 [Source:HGNC Symbol;Acc:HGNC:1403]	1828	0.17198531329631805	0.42317542	Yes	
+row_22	ATP1A3	ATPase Na+/K+ transporting subunit alpha 3 [Source:HGNC Symbol;Acc:HGNC:801]	1848	0.17130926251411438	0.43955827	Yes	
+row_23	TNNC1	troponin C1, slow skeletal and cardiac type [Source:HGNC Symbol;Acc:HGNC:11943]	1857	0.17098785936832428	0.45651338	Yes	
+row_24	CACNG2	calcium voltage-gated channel auxiliary subunit gamma 2 [Source:HGNC Symbol;Acc:HGNC:1406]	1899	0.16954277455806732	0.47150666	Yes	
+row_25	CACNA2D3	calcium voltage-gated channel auxiliary subunit alpha2delta 3 [Source:HGNC Symbol;Acc:HGNC:15460]	2063	0.1619216799736023	0.47901544	Yes	
+row_26	CACNB1	calcium voltage-gated channel auxiliary subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:1401]	2065	0.16183626651763916	0.49542445	Yes	
+row_27	MYH6	myosin heavy chain 6 [Source:HGNC Symbol;Acc:HGNC:7576]	2308	0.15215027332305908	0.49759468	Yes	
+row_28	CACNB2	calcium voltage-gated channel auxiliary subunit beta 2 [Source:HGNC Symbol;Acc:HGNC:1402]	2990	0.1267322450876236	0.47303697	Yes	
+row_29	UQCRHL	ubiquinol-cytochrome c reductase hinge protein like [Source:HGNC Symbol;Acc:HGNC:51714]	3028	0.12542696297168732	0.4837622	Yes	
+row_30	CACNG7	calcium voltage-gated channel auxiliary subunit gamma 7 [Source:HGNC Symbol;Acc:HGNC:13626]	3359	0.11639633774757385	0.47745568	Yes	
+row_31	COX7B2	cytochrome c oxidase subunit 7B2 [Source:HGNC Symbol;Acc:HGNC:24381]	3545	0.11166208237409592	0.47864157	Yes	
+row_32	CACNG6	calcium voltage-gated channel auxiliary subunit gamma 6 [Source:HGNC Symbol;Acc:HGNC:13625]	3558	0.11122442036867142	0.4892968	Yes	
+row_33	CACNA1D	calcium voltage-gated channel subunit alpha1 D [Source:HGNC Symbol;Acc:HGNC:1391]	3788	0.10505907982587814	0.48739123	Yes	
+row_34	RYR2	ryanodine receptor 2 [Source:HGNC Symbol;Acc:HGNC:10484]	3882	0.1026478260755539	0.49271947	Yes	
+row_35	SLC9A1	solute carrier family 9 member A1 [Source:HGNC Symbol;Acc:HGNC:11071]	3942	0.10098505765199661	0.49974832	Yes	
+row_36	CACNA2D4	calcium voltage-gated channel auxiliary subunit alpha2delta 4 [Source:HGNC Symbol;Acc:HGNC:20202]	4093	0.09673038125038147	0.5013399	Yes	
+row_37	ATP1A4	ATPase Na+/K+ transporting subunit alpha 4 [Source:HGNC Symbol;Acc:HGNC:14073]	4564	0.08547000586986542	0.4841881	No	
+row_38	CACNG8	calcium voltage-gated channel auxiliary subunit gamma 8 [Source:HGNC Symbol;Acc:HGNC:13628]	4866	0.07908132672309875	0.47568023	No	
+row_39	TPM1	tropomyosin 1 [Source:HGNC Symbol;Acc:HGNC:12010]	5059	0.0742928683757782	0.4726795	No	
+row_40	ATP1B2	ATPase Na+/K+ transporting subunit beta 2 [Source:HGNC Symbol;Acc:HGNC:805]	5164	0.07212306559085846	0.47429746	No	
+row_41	COX6A1	cytochrome c oxidase subunit 6A1 [Source:HGNC Symbol;Acc:HGNC:2277]	5309	0.06909113377332687	0.47340724	No	
+row_42	TPM4	tropomyosin 4 [Source:HGNC Symbol;Acc:HGNC:12013]	5475	0.0653003379702568	0.47097647	No	
+row_43	COX5A	cytochrome c oxidase subunit 5A [Source:HGNC Symbol;Acc:HGNC:2267]	6137	0.050338152796030045	0.43974686	No	
+row_44	CACNA1C	calcium voltage-gated channel subunit alpha1 C [Source:HGNC Symbol;Acc:HGNC:1390]	6845	0.03556136414408684	0.40448427	No	
+row_45	CACNB4	calcium voltage-gated channel auxiliary subunit beta 4 [Source:HGNC Symbol;Acc:HGNC:1404]	7095	0.03086516633629799	0.3939309	No	
+row_46	FXYD2	FXYD domain containing ion transport regulator 2 [Source:HGNC Symbol;Acc:HGNC:4026]	7949	0.013754567131400108	0.34842083	No	
+row_47	COX8A	cytochrome c oxidase subunit 8A [Source:HGNC Symbol;Acc:HGNC:2294]	8988	0.0	0.2913377	No	
+row_48	COX8C	cytochrome c oxidase subunit 8C [Source:HGNC Symbol;Acc:HGNC:24382]	8989	0.0	0.2913377	No	
+row_49	UQCR10	ubiquinol-cytochrome c reductase, complex III subunit X [Source:HGNC Symbol;Acc:HGNC:30863]	10021	-0.002874179044738412	0.23493189	No	
+row_50	TNNI3	troponin I3, cardiac type [Source:HGNC Symbol;Acc:HGNC:11947]	10281	-0.007880710996687412	0.22149032	No	
+row_51	COX4I1	cytochrome c oxidase subunit 4I1 [Source:HGNC Symbol;Acc:HGNC:2265]	10398	-0.01053701527416706	0.21618304	No	
+row_52	ATP1A1	ATPase Na+/K+ transporting subunit alpha 1 [Source:HGNC Symbol;Acc:HGNC:799]	10465	-0.01192705798894167	0.21376684	No	
+row_53	UQCRB	ubiquinol-cytochrome c reductase binding protein [Source:HGNC Symbol;Acc:HGNC:12582]	10536	-0.01330823265016079	0.21127118	No	
+row_54	TPM3	tropomyosin 3 [Source:HGNC Symbol;Acc:HGNC:12012]	11494	-0.03253292664885521	0.16195217	No	
+row_55	UQCRH	ubiquinol-cytochrome c reductase hinge protein [Source:HGNC Symbol;Acc:HGNC:12590]	11495	-0.032539624720811844	0.1652625	No	
+row_56	ATP2A2	ATPase sarcoplasmic/endoplasmic reticulum Ca2+ transporting 2 [Source:HGNC Symbol;Acc:HGNC:812]	12114	-0.045624662190675735	0.1359181	No	
+row_57	COX7A2L	cytochrome c oxidase subunit 7A2 like [Source:HGNC Symbol;Acc:HGNC:2289]	12134	-0.04589282348752022	0.13954201	No	
+row_58	COX7A1	cytochrome c oxidase subunit 7A1 [Source:HGNC Symbol;Acc:HGNC:2287]	12213	-0.047312770038843155	0.14006577	No	
+row_59	COX7A2	cytochrome c oxidase subunit 7A2 [Source:HGNC Symbol;Acc:HGNC:2288]	12555	-0.05432579293847084	0.12683973	No	
+row_60	ATP1B3	ATPase Na+/K+ transporting subunit beta 3 [Source:HGNC Symbol;Acc:HGNC:806]	13340	-0.07290906459093094	0.09114212	No	
+row_61	COX7C	cytochrome c oxidase subunit 7C [Source:HGNC Symbol;Acc:HGNC:2292]	14247	-0.09535897523164749	0.051019207	No	
+row_62	COX6B2	cytochrome c oxidase subunit 6B2 [Source:HGNC Symbol;Acc:HGNC:24380]	14967	-0.11533690989017487	0.023212466	No	
+row_63	ATP1B1	ATPase Na+/K+ transporting subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:804]	15531	-0.13186703622341156	0.0056663486	No	
+row_64	CACNA2D1	calcium voltage-gated channel auxiliary subunit alpha2delta 1 [Source:HGNC Symbol;Acc:HGNC:1399]	16518	-0.16981437802314758	-0.031281497	No	
+row_65	SLC8A1	solute carrier family 8 member A1 [Source:HGNC Symbol;Acc:HGNC:11068]	17727	-0.25894707441329956	-0.071370184	No	
+row_66	UQCRC2	ubiquinol-cytochrome c reductase core protein 2 [Source:HGNC Symbol;Acc:HGNC:12586]	17956	-0.2960931658744812	-0.053786375	No	
+row_67	COX6C	cytochrome c oxidase subunit 6C [Source:HGNC Symbol;Acc:HGNC:2285]	17977	-0.30022236704826355	-0.024343863	No	
+row_68	UQCRFS1	ubiquinol-cytochrome c reductase, Rieske iron-sulfur polypeptide 1 [Source:HGNC Symbol;Acc:HGNC:12587]	18173	-0.387409508228302	0.004344572	No	

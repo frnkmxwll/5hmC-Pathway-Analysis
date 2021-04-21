@@ -1,0 +1,82 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	NOS2	nitric oxide synthase 2 [Source:HGNC Symbol;Acc:HGNC:7873]	1085	0.2587769627571106	-0.03420624	No	
+row_1	RXRB	retinoid X receptor beta [Source:HGNC Symbol;Acc:HGNC:10478]	1395	0.23789146542549133	-0.027767567	No	
+row_2	TRAF4	TNF receptor associated factor 4 [Source:HGNC Symbol;Acc:HGNC:12034]	1461	0.2339325100183487	-0.008291776	No	
+row_3	E2F1	E2F transcription factor 1 [Source:HGNC Symbol;Acc:HGNC:3113]	2342	0.1884545385837555	-0.0381468	No	
+row_4	PIAS3	protein inhibitor of activated STAT 3 [Source:HGNC Symbol;Acc:HGNC:16861]	2356	0.18800373375415802	-0.020335484	No	
+row_5	TP53	tumor protein p53 [Source:HGNC Symbol;Acc:HGNC:11998]	2533	0.1805998682975769	-0.012223623	No	
+row_6	LAMB2	laminin subunit beta 2 [Source:HGNC Symbol;Acc:HGNC:6487]	2704	0.17470166087150574	-0.0043628174	No	
+row_7	CDK4	cyclin dependent kinase 4 [Source:HGNC Symbol;Acc:HGNC:1773]	2884	0.16744790971279144	0.0022879045	No	
+row_8	LAMA5	laminin subunit alpha 5 [Source:HGNC Symbol;Acc:HGNC:6485]	3086	0.1598132997751236	0.0069756266	No	
+row_9	CYCS	cytochrome c, somatic [Source:HGNC Symbol;Acc:HGNC:19986]	3268	0.1534596085548401	0.012137822	No	
+row_10	LAMA1	laminin subunit alpha 1 [Source:HGNC Symbol;Acc:HGNC:6481]	3724	0.13825085759162903	7.2313944E-4	No	
+row_11	ITGA3	integrin subunit alpha 3 [Source:HGNC Symbol;Acc:HGNC:6139]	4018	0.1293906569480896	-0.002649852	No	
+row_12	RXRA	retinoid X receptor alpha [Source:HGNC Symbol;Acc:HGNC:10477]	4079	0.1272457391023636	0.0065877107	No	
+row_13	PIAS4	protein inhibitor of activated STAT 4 [Source:HGNC Symbol;Acc:HGNC:17002]	4559	0.11351175606250763	-0.008585583	No	
+row_14	TRAF1	TNF receptor associated factor 1 [Source:HGNC Symbol;Acc:HGNC:12031]	4969	0.10294797271490097	-0.0209478	No	
+row_15	FN1	fibronectin 1 [Source:HGNC Symbol;Acc:HGNC:3778]	5492	0.08928491175174713	-0.040874787	No	
+row_16	E2F2	E2F transcription factor 2 [Source:HGNC Symbol;Acc:HGNC:3114]	5531	0.08839627355337143	-0.034254964	No	
+row_17	RELA	RELA proto-oncogene, NF-kB subunit [Source:HGNC Symbol;Acc:HGNC:9955]	5536	0.08823215961456299	-0.025780305	No	
+row_18	LAMB3	laminin subunit beta 3 [Source:HGNC Symbol;Acc:HGNC:6490]	5871	0.08002380281686783	-0.03627434	No	
+row_19	BCL2L1	BCL2 like 1 [Source:HGNC Symbol;Acc:HGNC:992]	6366	0.06717897951602936	-0.05683891	No	
+row_20	AKT2	AKT serine/threonine kinase 2 [Source:HGNC Symbol;Acc:HGNC:392]	6501	0.06365515291690826	-0.05794004	No	
+row_21	AKT1	AKT serine/threonine kinase 1 [Source:HGNC Symbol;Acc:HGNC:391]	7115	0.049050576984882355	-0.086839594	No	
+row_22	CCND1	cyclin D1 [Source:HGNC Symbol;Acc:HGNC:1582]	7149	0.04839498922228813	-0.08388653	No	
+row_23	CASP9	caspase 9 [Source:HGNC Symbol;Acc:HGNC:1511]	8312	0.021428566426038742	-0.1457194	No	
+row_24	RXRG	retinoid X receptor gamma [Source:HGNC Symbol;Acc:HGNC:10479]	8345	0.020496491342782974	-0.14546053	No	
+row_25	COL4A4	collagen type IV alpha 4 chain [Source:HGNC Symbol;Acc:HGNC:2206]	8350	0.020371299237012863	-0.14367317	No	
+row_26	PIK3R2	phosphoinositide-3-kinase regulatory subunit 2 [Source:HGNC Symbol;Acc:HGNC:8980]	8458	0.017901664599776268	-0.14779724	No	
+row_27	ITGA2B	integrin subunit alpha 2b [Source:HGNC Symbol;Acc:HGNC:6138]	8505	0.01708115078508854	-0.14864536	No	
+row_28	TRAF3	TNF receptor associated factor 3 [Source:HGNC Symbol;Acc:HGNC:12033]	8871	0.008331887423992157	-0.16791014	No	
+row_29	LAMB4	laminin subunit beta 4 [Source:HGNC Symbol;Acc:HGNC:6491]	8993	0.004850393161177635	-0.17409076	No	
+row_30	CDKN2B	cyclin dependent kinase inhibitor 2B [Source:HGNC Symbol;Acc:HGNC:1788]	9836	0.0	-0.22042578	No	
+row_31	CDK2	cyclin dependent kinase 2 [Source:HGNC Symbol;Acc:HGNC:1771]	10366	0.0	-0.2495365	No	
+row_32	TRAF2	TNF receptor associated factor 2 [Source:HGNC Symbol;Acc:HGNC:12032]	10371	0.0	-0.24975662	No	
+row_33	LAMC3	laminin subunit gamma 3 [Source:HGNC Symbol;Acc:HGNC:6494]	10772	-0.008821802213788033	-0.27089918	No	
+row_34	FHIT	fragile histidine triad diadenosine triphosphatase [Source:HGNC Symbol;Acc:HGNC:3701]	10865	-0.010937100276350975	-0.2748841	No	
+row_35	PIAS2	protein inhibitor of activated STAT 2 [Source:HGNC Symbol;Acc:HGNC:17311]	11123	-0.017432017251849174	-0.28730893	No	
+row_36	LAMB1	laminin subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:6486]	11198	-0.01976791024208069	-0.28943312	No	
+row_37	TRAF5	TNF receptor associated factor 5 [Source:HGNC Symbol;Acc:HGNC:12035]	11444	-0.026386812329292297	-0.3003151	No	
+row_38	IKBKB	inhibitor of nuclear factor kappa B kinase subunit beta [Source:HGNC Symbol;Acc:HGNC:5960]	11489	-0.02754807099699974	-0.3000217	No	
+row_39	RARB	retinoic acid receptor beta [Source:HGNC Symbol;Acc:HGNC:9865]	11537	-0.029056387022137642	-0.29974478	No	
+row_40	LAMA3	laminin subunit alpha 3 [Source:HGNC Symbol;Acc:HGNC:6483]	11710	-0.03398103266954422	-0.30586123	No	
+row_41	PIK3R5	phosphoinositide-3-kinase regulatory subunit 5 [Source:HGNC Symbol;Acc:HGNC:30035]	11717	-0.03412622585892677	-0.3028285	No	
+row_42	CKS1B	CDC28 protein kinase regulatory subunit 1B [Source:HGNC Symbol;Acc:HGNC:19083]	11736	-0.03459864482283592	-0.30040953	No	
+row_43	LAMC2	laminin subunit gamma 2 [Source:HGNC Symbol;Acc:HGNC:6493]	11802	-0.03635286167263985	-0.30040407	No	
+row_44	PIK3R3	phosphoinositide-3-kinase regulatory subunit 3 [Source:HGNC Symbol;Acc:HGNC:8981]	12040	-0.04323764890432358	-0.3091853	No	
+row_45	MAX	MYC associated factor X [Source:HGNC Symbol;Acc:HGNC:6913]	12288	-0.05033241584897041	-0.31781766	No	
+row_46	CHUK	component of inhibitor of nuclear factor kappa B kinase complex [Source:HGNC Symbol;Acc:HGNC:1974]	13020	-0.0710146576166153	-0.3510463	No	
+row_47	BCL2	BCL2 apoptosis regulator [Source:HGNC Symbol;Acc:HGNC:990]	13293	-0.0789356678724289	-0.35823572	No	
+row_48	PTK2	protein tyrosine kinase 2 [Source:HGNC Symbol;Acc:HGNC:9611]	13422	-0.08236778527498245	-0.35716262	No	
+row_49	LAMA4	laminin subunit alpha 4 [Source:HGNC Symbol;Acc:HGNC:6484]	13549	-0.08727141469717026	-0.3554963	No	
+row_50	COL4A2	collagen type IV alpha 2 chain [Source:HGNC Symbol;Acc:HGNC:2203]	13567	-0.08774138987064362	-0.34778535	No	
+row_51	PIK3CB	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [Source:HGNC Symbol;Acc:HGNC:8976]	13626	-0.08927727490663528	-0.34217933	No	
+row_52	PIK3CD	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [Source:HGNC Symbol;Acc:HGNC:8977]	14078	-0.10282886773347855	-0.3568645	No	
+row_53	SKP2	S-phase kinase associated protein 2 [Source:HGNC Symbol;Acc:HGNC:10901]	14146	-0.10525403171777725	-0.3501793	No	
+row_54	ITGA6	integrin subunit alpha 6 [Source:HGNC Symbol;Acc:HGNC:6142]	14180	-0.1064443588256836	-0.34150583	No	
+row_55	APAF1	apoptotic peptidase activating factor 1 [Source:HGNC Symbol;Acc:HGNC:576]	14214	-0.10734253376722336	-0.3327438	No	
+row_56	LAMA2	laminin subunit alpha 2 [Source:HGNC Symbol;Acc:HGNC:6482]	14437	-0.11479949206113815	-0.33364755	No	
+row_57	CCNE1	cyclin E1 [Source:HGNC Symbol;Acc:HGNC:1589]	14760	-0.12551534175872803	-0.3389983	No	
+row_58	NFKBIA	NFKB inhibitor alpha [Source:HGNC Symbol;Acc:HGNC:7797]	15466	-0.15139545500278473	-0.36287507	Yes	
+row_59	E2F3	E2F transcription factor 3 [Source:HGNC Symbol;Acc:HGNC:3115]	15534	-0.1539868414402008	-0.35138756	Yes	
+row_60	RB1	RB transcriptional corepressor 1 [Source:HGNC Symbol;Acc:HGNC:9884]	15813	-0.16645313799381256	-0.3502828	Yes	
+row_61	COL4A1	collagen type IV alpha 1 chain [Source:HGNC Symbol;Acc:HGNC:2202]	15930	-0.1713177114725113	-0.33978385	Yes	
+row_62	LAMC1	laminin subunit gamma 1 [Source:HGNC Symbol;Acc:HGNC:6492]	16032	-0.17597299814224243	-0.32800072	Yes	
+row_63	CDKN1B	cyclin dependent kinase inhibitor 1B [Source:HGNC Symbol;Acc:HGNC:1785]	16262	-0.186285138130188	-0.32224518	Yes	
+row_64	ITGA2	integrin subunit alpha 2 [Source:HGNC Symbol;Acc:HGNC:6137]	16367	-0.19197489321231842	-0.30905023	Yes	
+row_65	CDK6	cyclin dependent kinase 6 [Source:HGNC Symbol;Acc:HGNC:1777]	16450	-0.19721320271492004	-0.29412842	Yes	
+row_66	PIK3R1	phosphoinositide-3-kinase regulatory subunit 1 [Source:HGNC Symbol;Acc:HGNC:8979]	16853	-0.2215074896812439	-0.29442206	Yes	
+row_67	MYC	MYC proto-oncogene, bHLH transcription factor [Source:HGNC Symbol;Acc:HGNC:7553]	16925	-0.226302832365036	-0.2760283	Yes	
+row_68	PIK3CG	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma [Source:HGNC Symbol;Acc:HGNC:8978]	16927	-0.226335808634758	-0.25377923	Yes	
+row_69	AKT3	AKT serine/threonine kinase 3 [Source:HGNC Symbol;Acc:HGNC:393]	16948	-0.22731436789035797	-0.23247929	Yes	
+row_70	ITGAV	integrin subunit alpha V [Source:HGNC Symbol;Acc:HGNC:6150]	17010	-0.23109018802642822	-0.21306346	Yes	
+row_71	ITGB1	integrin subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:6153]	17102	-0.2377185821533203	-0.19464536	Yes	
+row_72	CCNE2	cyclin E2 [Source:HGNC Symbol;Acc:HGNC:1590]	17201	-0.24480870366096497	-0.17591377	Yes	
+row_73	NFKB1	nuclear factor kappa B subunit 1 [Source:HGNC Symbol;Acc:HGNC:7794]	17358	-0.2594310939311981	-0.15893294	Yes	
+row_74	BIRC2	baculoviral IAP repeat containing 2 [Source:HGNC Symbol;Acc:HGNC:590]	17359	-0.2595100402832031	-0.13335969	Yes	
+row_75	PTEN	phosphatase and tensin homolog [Source:HGNC Symbol;Acc:HGNC:9588]	17474	-0.2692851722240448	-0.11309655	Yes	
+row_76	PIAS1	protein inhibitor of activated STAT 1 [Source:HGNC Symbol;Acc:HGNC:2752]	17596	-0.2845483422279358	-0.091714524	Yes	
+row_77	PTGS2	prostaglandin-endoperoxide synthase 2 [Source:HGNC Symbol;Acc:HGNC:9605]	17652	-0.2918696701526642	-0.065979056	Yes	
+row_78	PIK3CA	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [Source:HGNC Symbol;Acc:HGNC:8975]	17880	-0.3250686228275299	-0.046437133	Yes	
+row_79	BIRC3	baculoviral IAP repeat containing 3 [Source:HGNC Symbol;Acc:HGNC:591]	17921	-0.33485326170921326	-0.015640428	Yes	
+row_80	TRAF6	TNF receptor associated factor 6 [Source:HGNC Symbol;Acc:HGNC:12036]	17955	-0.3429969251155853	0.01634399	Yes	

@@ -1,0 +1,78 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	EN1	engrailed homeobox 1 [Source:HGNC Symbol;Acc:HGNC:3342]	50	0.5502865314483643	0.041941807	Yes	
+row_1	LHX3	LIM homeobox 3 [Source:HGNC Symbol;Acc:HGNC:6595]	56	0.5411492586135864	0.085617304	Yes	
+row_2	ASCL1	achaete-scute family bHLH transcription factor 1 [Source:HGNC Symbol;Acc:HGNC:738]	170	0.453286737203598	0.11621496	Yes	
+row_3	LHX1	LIM homeobox 1 [Source:HGNC Symbol;Acc:HGNC:6593]	253	0.4239906370639801	0.14613882	Yes	
+row_4	FGF8	fibroblast growth factor 8 [Source:HGNC Symbol;Acc:HGNC:3686]	273	0.4168911874294281	0.17895219	Yes	
+row_5	SP8	Sp8 transcription factor [Source:HGNC Symbol;Acc:HGNC:19196]	336	0.4013708233833313	0.20813927	Yes	
+row_6	GSC	goosecoid homeobox [Source:HGNC Symbol;Acc:HGNC:4612]	524	0.3603247106075287	0.22711551	Yes	
+row_7	DBX1	developing brain homeobox 1 [Source:HGNC Symbol;Acc:HGNC:33185]	549	0.35651353001594543	0.2547501	Yes	
+row_8	SIX3	SIX homeobox 3 [Source:HGNC Symbol;Acc:HGNC:10889]	879	0.3095286190509796	0.26178834	Yes	
+row_9	SOX1	SRY-box transcription factor 1 [Source:HGNC Symbol;Acc:HGNC:11189]	925	0.3027551770210266	0.28390145	Yes	
+row_10	FOXN4	forkhead box N4 [Source:HGNC Symbol;Acc:HGNC:21399]	1058	0.28995585441589355	0.3001885	Yes	
+row_11	LMX1B	LIM homeobox transcription factor 1 beta [Source:HGNC Symbol;Acc:HGNC:6654]	1122	0.2827848196029663	0.31968936	Yes	
+row_12	WNT3A	Wnt family member 3A [Source:HGNC Symbol;Acc:HGNC:15983]	1159	0.28013554215431213	0.34046054	Yes	
+row_13	NBL1	NBL1, DAN family BMP antagonist [Source:HGNC Symbol;Acc:HGNC:7650]	1214	0.2750276029109955	0.35982653	Yes	
+row_14	GREM1	gremlin 1, DAN family BMP antagonist [Source:HGNC Symbol;Acc:HGNC:2001]	1598	0.24665892124176025	0.35878772	Yes	
+row_15	WNT3	Wnt family member 3 [Source:HGNC Symbol;Acc:HGNC:12782]	1601	0.2465222328901291	0.3786995	Yes	
+row_16	GLI1	GLI family zinc finger 1 [Source:HGNC Symbol;Acc:HGNC:4317]	1632	0.24488171935081482	0.39693758	Yes	
+row_17	NOG	noggin [Source:HGNC Symbol;Acc:HGNC:7866]	1896	0.22598133981227875	0.40082148	Yes	
+row_18	NKX2-1	NK2 homeobox 1 [Source:HGNC Symbol;Acc:HGNC:11825]	1987	0.2204187661409378	0.4137717	Yes	
+row_19	HOXD11	homeobox D11 [Source:HGNC Symbol;Acc:HGNC:5134]	2118	0.21307919919490814	0.42392507	Yes	
+row_20	WNT7A	Wnt family member 7A [Source:HGNC Symbol;Acc:HGNC:12786]	2204	0.2081739455461502	0.43615586	Yes	
+row_21	FOXG1	forkhead box G1 [Source:HGNC Symbol;Acc:HGNC:3811]	2256	0.205825075507164	0.4500665	Yes	
+row_22	RFX4	regulatory factor X4 [Source:HGNC Symbol;Acc:HGNC:9985]	2664	0.1842246651649475	0.44263652	Yes	
+row_23	DMRT3	doublesex and mab-3 related transcription factor 3 [Source:HGNC Symbol;Acc:HGNC:13909]	2927	0.1736040860414505	0.44232154	Yes	
+row_24	TBX20	T-box transcription factor 20 [Source:HGNC Symbol;Acc:HGNC:11598]	3011	0.16991470754146576	0.45155507	Yes	
+row_25	WNT8B	Wnt family member 8B [Source:HGNC Symbol;Acc:HGNC:12789]	3126	0.16428589820861816	0.45862588	Yes	
+row_26	IFT172	intraflagellar transport 172 [Source:HGNC Symbol;Acc:HGNC:30391]	3742	0.14189408719539642	0.43631428	Yes	
+row_27	ACVRL1	activin A receptor like type 1 [Source:HGNC Symbol;Acc:HGNC:175]	3778	0.14062316715717316	0.44580966	Yes	
+row_28	OVOL2	ovo like zinc finger 2 [Source:HGNC Symbol;Acc:HGNC:15804]	3902	0.13619272410869598	0.4501037	Yes	
+row_29	FBXL15	F-box and leucine rich repeat protein 15 [Source:HGNC Symbol;Acc:HGNC:28155]	4028	0.13205841183662415	0.4539519	Yes	
+row_30	DLL4	delta like canonical Notch ligand 4 [Source:HGNC Symbol;Acc:HGNC:2910]	4165	0.12779970467090607	0.45684904	Yes	
+row_31	PRKACA	protein kinase cAMP-activated catalytic subunit alpha [Source:HGNC Symbol;Acc:HGNC:9380]	4170	0.12766356766223907	0.4669974	Yes	
+row_32	NOTO	notochord homeobox [Source:HGNC Symbol;Acc:HGNC:31839]	4451	0.1184060350060463	0.4612091	No	
+row_33	SFRP1	secreted frizzled related protein 1 [Source:HGNC Symbol;Acc:HGNC:10776]	4621	0.11378844082355499	0.46115267	No	
+row_34	FKBP8	FKBP prolyl isomerase 8 [Source:HGNC Symbol;Acc:HGNC:3724]	5081	0.10047915577888489	0.44406024	No	
+row_35	GLI2	GLI family zinc finger 2 [Source:HGNC Symbol;Acc:HGNC:4318]	5151	0.09844915568828583	0.44825977	No	
+row_36	BMP4	bone morphogenetic protein 4 [Source:HGNC Symbol;Acc:HGNC:1071]	5324	0.09295801818370819	0.44634652	No	
+row_37	NKX2-2	NK2 homeobox 2 [Source:HGNC Symbol;Acc:HGNC:7835]	5533	0.08606657385826111	0.44189295	No	
+row_38	GPR161	G protein-coupled receptor 161 [Source:HGNC Symbol;Acc:HGNC:23694]	5735	0.08080610632896423	0.43739724	No	
+row_39	DSCAML1	DS cell adhesion molecule like 1 [Source:HGNC Symbol;Acc:HGNC:14656]	5835	0.0776439681649208	0.43825653	No	
+row_40	FOXA1	forkhead box A1 [Source:HGNC Symbol;Acc:HGNC:5021]	6227	0.06779835373163223	0.42225102	No	
+row_41	VAX2	ventral anterior homeobox 2 [Source:HGNC Symbol;Acc:HGNC:12661]	6309	0.06566448509693146	0.42312768	No	
+row_42	IFT52	intraflagellar transport 52 [Source:HGNC Symbol;Acc:HGNC:15901]	6734	0.05493016168475151	0.4042615	No	
+row_43	DDIT3	DNA damage inducible transcript 3 [Source:HGNC Symbol;Acc:HGNC:2726]	6886	0.05111537501215935	0.40010527	No	
+row_44	TCTN1	tectonic family member 1 [Source:HGNC Symbol;Acc:HGNC:26113]	6971	0.048981599509716034	0.39946193	No	
+row_45	WDR19	WD repeat domain 19 [Source:HGNC Symbol;Acc:HGNC:18340]	7074	0.04658352583646774	0.39763352	No	
+row_46	SHH	sonic hedgehog signaling molecule [Source:HGNC Symbol;Acc:HGNC:10848]	7429	0.03780036047101021	0.3812273	No	
+row_47	MDFI	MyoD family inhibitor [Source:HGNC Symbol;Acc:HGNC:6967]	7480	0.03661945462226868	0.38145056	No	
+row_48	LRP4	LDL receptor related protein 4 [Source:HGNC Symbol;Acc:HGNC:6696]	8344	0.016053063794970512	0.33527416	No	
+row_49	TBC1D32	TBC1 domain family member 32 [Source:HGNC Symbol;Acc:HGNC:21485]	8523	0.011613676324486732	0.32642427	No	
+row_50	GSX2	GS homeobox 2 [Source:HGNC Symbol;Acc:HGNC:24959]	9168	0.0	0.29099292	No	
+row_51	CHRD	chordin [Source:HGNC Symbol;Acc:HGNC:1949]	9206	0.0	0.28895727	No	
+row_52	PSEN1	presenilin 1 [Source:HGNC Symbol;Acc:HGNC:9508]	10288	-0.001413277699612081	0.22959803	No	
+row_53	SUFU	SUFU negative regulator of hedgehog signaling [Source:HGNC Symbol;Acc:HGNC:16466]	10375	-0.0032578064128756523	0.2251311	No	
+row_54	SMAD6	SMAD family member 6 [Source:HGNC Symbol;Acc:HGNC:6772]	10434	-0.004879160318523645	0.22233635	No	
+row_55	CER1	cerberus 1, DAN family BMP antagonist [Source:HGNC Symbol;Acc:HGNC:1862]	10605	-0.008895648643374443	0.21370584	No	
+row_56	SMO	smoothened, frizzled class receptor [Source:HGNC Symbol;Acc:HGNC:11119]	10784	-0.013085928745567799	0.2049755	No	
+row_57	SENP2	SUMO specific peptidase 2 [Source:HGNC Symbol;Acc:HGNC:23116]	10994	-0.0181891992688179	0.1949541	No	
+row_58	HOXA11	homeobox A11 [Source:HGNC Symbol;Acc:HGNC:5101]	11443	-0.028728624805808067	0.17263947	No	
+row_59	HOXA2	homeobox A2 [Source:HGNC Symbol;Acc:HGNC:5103]	11455	-0.02914644032716751	0.17440146	No	
+row_60	AIDA	axin interactor, dorsalization associated [Source:HGNC Symbol;Acc:HGNC:25761]	11465	-0.029384106397628784	0.17629279	No	
+row_61	CXXC4	CXXC finger protein 4 [Source:HGNC Symbol;Acc:HGNC:24593]	12097	-0.045330677181482315	0.14525832	No	
+row_62	BMPR1B	bone morphogenetic protein receptor type 1B [Source:HGNC Symbol;Acc:HGNC:1077]	12136	-0.046294305473566055	0.14692754	No	
+row_63	TULP3	TUB like protein 3 [Source:HGNC Symbol;Acc:HGNC:12425]	12643	-0.058865487575531006	0.123869516	No	
+row_64	GLI3	GLI family zinc finger 3 [Source:HGNC Symbol;Acc:HGNC:4319]	13804	-0.09146002680063248	0.06747722	No	
+row_65	BMPR1A	bone morphogenetic protein receptor type 1A [Source:HGNC Symbol;Acc:HGNC:1076]	13852	-0.09301631152629852	0.07244591	No	
+row_66	ACVR1	activin A receptor type 1 [Source:HGNC Symbol;Acc:HGNC:171]	14210	-0.10293087363243103	0.06116437	No	
+row_67	INTU	inturned planar cell polarity protein [Source:HGNC Symbol;Acc:HGNC:29239]	15237	-0.1376136839389801	0.015892895	No	
+row_68	HOXB2	homeobox B2 [Source:HGNC Symbol;Acc:HGNC:5113]	15272	-0.13915643095970154	0.025324183	No	
+row_69	GORAB	golgin, RAB6 interacting [Source:HGNC Symbol;Acc:HGNC:25676]	15290	-0.13976579904556274	0.03574026	No	
+row_70	EDN1	endothelin 1 [Source:HGNC Symbol;Acc:HGNC:3176]	15629	-0.1519327610731125	0.02948385	No	
+row_71	HHIP	hedgehog interacting protein [Source:HGNC Symbol;Acc:HGNC:14866]	16154	-0.17469321191310883	0.014842705	No	
+row_72	SOSTDC1	sclerostin domain containing 1 [Source:HGNC Symbol;Acc:HGNC:21748]	16464	-0.18945220112800598	0.013229028	No	
+row_73	SMAD2	SMAD family member 2 [Source:HGNC Symbol;Acc:HGNC:6768]	16667	-0.19843699038028717	0.018231953	No	
+row_74	PRKACB	protein kinase cAMP-activated catalytic subunit beta [Source:HGNC Symbol;Acc:HGNC:9381]	17507	-0.2585756480693817	-0.006927046	No	
+row_75	DYNC2H1	dynein cytoplasmic 2 heavy chain 1 [Source:HGNC Symbol;Acc:HGNC:2962]	17661	-0.27707433700561523	0.007158441	No	
+row_76	PTCH1	patched 1 [Source:HGNC Symbol;Acc:HGNC:9585]	17874	-0.31153297424316406	0.02079652	No	

@@ -1,0 +1,69 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	DIO2	iodothyronine deiodinase 2 [Source:HGNC Symbol;Acc:HGNC:2884]	84	0.4430530071258545	0.03663099	Yes	
+row_1	RDH8	retinol dehydrogenase 8 [Source:HGNC Symbol;Acc:HGNC:14423]	168	0.39536580443382263	0.068877086	Yes	
+row_2	CACNA1H	calcium voltage-gated channel subunit alpha1 H [Source:HGNC Symbol;Acc:HGNC:1395]	220	0.3809978663921356	0.10154515	Yes	
+row_3	DIO1	iodothyronine deiodinase 1 [Source:HGNC Symbol;Acc:HGNC:2883]	285	0.36077407002449036	0.13161542	Yes	
+row_4	CYP11B2	cytochrome P450 family 11 subfamily B member 2 [Source:HGNC Symbol;Acc:HGNC:2592]	360	0.34423524141311646	0.15959595	Yes	
+row_5	DUOX2	dual oxidase 2 [Source:HGNC Symbol;Acc:HGNC:13273]	418	0.33421576023101807	0.18757845	Yes	
+row_6	HSD3B2	hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 2 [Source:HGNC Symbol;Acc:HGNC:5218]	615	0.3017843961715698	0.20489779	Yes	
+row_7	STC2	stanniocalcin 2 [Source:HGNC Symbol;Acc:HGNC:11374]	668	0.29516929388046265	0.22951986	Yes	
+row_8	CHST9	carbohydrate sulfotransferase 9 [Source:HGNC Symbol;Acc:HGNC:19898]	711	0.29131367802619934	0.25433284	Yes	
+row_9	AKR1B15	aldo-keto reductase family 1 member B15 [Source:HGNC Symbol;Acc:HGNC:37281]	765	0.28655293583869934	0.2780977	Yes	
+row_10	LHB	luteinizing hormone subunit beta [Source:HGNC Symbol;Acc:HGNC:6584]	920	0.27170059084892273	0.2949257	Yes	
+row_11	FDXR	ferredoxin reductase [Source:HGNC Symbol;Acc:HGNC:3642]	1101	0.2567169666290283	0.3089289	Yes	
+row_12	EGR1	early growth response 1 [Source:HGNC Symbol;Acc:HGNC:3238]	1125	0.2552022933959961	0.3314246	Yes	
+row_13	CHST8	carbohydrate sulfotransferase 8 [Source:HGNC Symbol;Acc:HGNC:15993]	1305	0.24318906664848328	0.3442233	Yes	
+row_14	DHRS11	dehydrogenase/reductase 11 [Source:HGNC Symbol;Acc:HGNC:28639]	1329	0.24165409803390503	0.36545756	Yes	
+row_15	SRD5A1	steroid 5 alpha-reductase 1 [Source:HGNC Symbol;Acc:HGNC:11284]	1355	0.239960715174675	0.38642418	Yes	
+row_16	TSPOAP1	TSPO associated protein 1 [Source:HGNC Symbol;Acc:HGNC:16831]	1579	0.22542142868041992	0.39514908	Yes	
+row_17	HSD17B14	hydroxysteroid 17-beta dehydrogenase 14 [Source:HGNC Symbol;Acc:HGNC:23238]	1708	0.2190539389848709	0.4085052	Yes	
+row_18	DKK3	dickkopf WNT signaling pathway inhibitor 3 [Source:HGNC Symbol;Acc:HGNC:2893]	1775	0.21584880352020264	0.4249723	Yes	
+row_19	HSD17B8	hydroxysteroid 17-beta dehydrogenase 8 [Source:HGNC Symbol;Acc:HGNC:3554]	1902	0.20929446816444397	0.43752974	Yes	
+row_20	HSD17B3	hydroxysteroid 17-beta dehydrogenase 3 [Source:HGNC Symbol;Acc:HGNC:5212]	2364	0.18776024878025055	0.4296605	Yes	
+row_21	DUOX1	dual oxidase 1 [Source:HGNC Symbol;Acc:HGNC:3062]	2569	0.17923250794410706	0.4351298	Yes	
+row_22	SRD5A2	steroid 5 alpha-reductase 2 [Source:HGNC Symbol;Acc:HGNC:11285]	2934	0.1659466177225113	0.43056366	Yes	
+row_23	HSD17B2	hydroxysteroid 17-beta dehydrogenase 2 [Source:HGNC Symbol;Acc:HGNC:5211]	2970	0.164237380027771	0.4439302	Yes	
+row_24	HSD3B1	hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 1 [Source:HGNC Symbol;Acc:HGNC:5217]	3254	0.15390485525131226	0.44269714	Yes	
+row_25	CYP27B1	cytochrome P450 family 27 subfamily B member 1 [Source:HGNC Symbol;Acc:HGNC:2606]	3428	0.148320272564888	0.44699308	Yes	
+row_26	CYP11A1	cytochrome P450 family 11 subfamily A member 1 [Source:HGNC Symbol;Acc:HGNC:2590]	3489	0.1461019515991211	0.4572964	Yes	
+row_27	CYP17A1	cytochrome P450 family 17 subfamily A member 1 [Source:HGNC Symbol;Acc:HGNC:2593]	3587	0.14260601997375488	0.46523958	Yes	
+row_28	DGKQ	diacylglycerol kinase theta [Source:HGNC Symbol;Acc:HGNC:2856]	3593	0.14241890609264374	0.47822446	Yes	
+row_29	DHCR7	7-dehydrocholesterol reductase [Source:HGNC Symbol;Acc:HGNC:2860]	4269	0.12163159251213074	0.45243037	Yes	
+row_30	TPO	thyroid peroxidase [Source:HGNC Symbol;Acc:HGNC:12015]	4297	0.12100010365247726	0.46221128	Yes	
+row_31	ADM	adrenomedullin [Source:HGNC Symbol;Acc:HGNC:259]	4449	0.11684522777795792	0.46478653	Yes	
+row_32	AANAT	aralkylamine N-acetyltransferase [Source:HGNC Symbol;Acc:HGNC:19]	4452	0.11678200215101242	0.4755495	Yes	
+row_33	PPARGC1A	PPARG coactivator 1 alpha [Source:HGNC Symbol;Acc:HGNC:9237]	4565	0.11343233287334442	0.4799516	Yes	
+row_34	HSD17B7	hydroxysteroid 17-beta dehydrogenase 7 [Source:HGNC Symbol;Acc:HGNC:5215]	4585	0.11293921619653702	0.48942193	Yes	
+row_35	CYP21A2	cytochrome P450 family 21 subfamily A member 2 [Source:HGNC Symbol;Acc:HGNC:2600]	4854	0.10623911768198013	0.48457584	No	
+row_36	ATP1A1	ATPase Na+/K+ transporting subunit alpha 1 [Source:HGNC Symbol;Acc:HGNC:799]	4982	0.10256899893283844	0.48714167	No	
+row_37	FFAR3	free fatty acid receptor 3 [Source:HGNC Symbol;Acc:HGNC:4499]	5645	0.08595770597457886	0.4587411	No	
+row_38	AKR1B1	aldo-keto reductase family 1 member B [Source:HGNC Symbol;Acc:HGNC:381]	5769	0.08289317041635513	0.45969498	No	
+row_39	SCARB1	scavenger receptor class B member 1 [Source:HGNC Symbol;Acc:HGNC:1664]	5796	0.08223370462656021	0.46592155	No	
+row_40	WNT4	Wnt family member 4 [Source:HGNC Symbol;Acc:HGNC:12783]	6829	0.056310877203941345	0.4144143	No	
+row_41	STARD3	StAR related lipid transfer domain containing 3 [Source:HGNC Symbol;Acc:HGNC:17579]	7047	0.05056305229663849	0.407189	No	
+row_42	TSPO	translocator protein [Source:HGNC Symbol;Acc:HGNC:1158]	7365	0.043417807668447495	0.39379945	No	
+row_43	HSD17B6	hydroxysteroid 17-beta dehydrogenase 6 [Source:HGNC Symbol;Acc:HGNC:23316]	7595	0.03837300464510918	0.38477936	No	
+row_44	SRD5A3	steroid 5 alpha-reductase 3 [Source:HGNC Symbol;Acc:HGNC:25812]	8671	0.013255867175757885	0.32689887	No	
+row_45	CLCN2	chloride voltage-gated channel 2 [Source:HGNC Symbol;Acc:HGNC:2020]	9749	0.0	0.26767424	No	
+row_46	CYP11B1	cytochrome P450 family 11 subfamily B member 1 [Source:HGNC Symbol;Acc:HGNC:2591]	10025	0.0	0.25255188	No	
+row_47	FDX2	ferredoxin 2 [Source:HGNC Symbol;Acc:HGNC:30546]	10035	0.0	0.25205696	No	
+row_48	MED1	mediator complex subunit 1 [Source:HGNC Symbol;Acc:HGNC:9234]	10466	-0.0017888322472572327	0.22857766	No	
+row_49	FDX1	ferredoxin 1 [Source:HGNC Symbol;Acc:HGNC:3638]	10507	-0.0027615183498710394	0.22663514	No	
+row_50	TG	thyroglobulin [Source:HGNC Symbol;Acc:HGNC:11764]	10824	-0.010144360363483429	0.21020268	No	
+row_51	H6PD	hexose-6-phosphate dehydrogenase/glucose 1-dehydrogenase [Source:HGNC Symbol;Acc:HGNC:4795]	11043	-0.01540203858166933	0.19964877	No	
+row_52	STAR	steroidogenic acute regulatory protein [Source:HGNC Symbol;Acc:HGNC:11359]	11339	-0.023268751800060272	0.18559304	No	
+row_53	FSHB	follicle stimulating hormone subunit beta [Source:HGNC Symbol;Acc:HGNC:3964]	12045	-0.04338887706398964	0.15086451	No	
+row_54	ARNT	aryl hydrocarbon receptor nuclear translocator [Source:HGNC Symbol;Acc:HGNC:700]	12732	-0.0627908781170845	0.11898722	No	
+row_55	DIO3	iodothyronine deiodinase 3 [Source:HGNC Symbol;Acc:HGNC:2885]	12782	-0.06404116749763489	0.122255206	No	
+row_56	CYP19A1	cytochrome P450 family 19 subfamily A member 1 [Source:HGNC Symbol;Acc:HGNC:2594]	12917	-0.06752002984285355	0.121172905	No	
+row_57	BMP6	bone morphogenetic protein 6 [Source:HGNC Symbol;Acc:HGNC:1073]	13103	-0.07299323379993439	0.117795676	No	
+row_58	HSD17B1	hydroxysteroid 17-beta dehydrogenase 1 [Source:HGNC Symbol;Acc:HGNC:5210]	13225	-0.07676607370376587	0.1182891	No	
+row_59	HSD17B12	hydroxysteroid 17-beta dehydrogenase 12 [Source:HGNC Symbol;Acc:HGNC:18646]	13308	-0.07923576235771179	0.12115709	No	
+row_60	BMP5	bone morphogenetic protein 5 [Source:HGNC Symbol;Acc:HGNC:1072]	14325	-0.1102236732840538	0.07554917	No	
+row_61	HSD17B11	hydroxysteroid 17-beta dehydrogenase 11 [Source:HGNC Symbol;Acc:HGNC:22960]	15014	-0.13498060405254364	0.050283078	No	
+row_62	GFI1	growth factor independent 1 transcriptional repressor [Source:HGNC Symbol;Acc:HGNC:4237]	16000	-0.17450186610221863	0.012364448	No	
+row_63	REST	RE1 silencing transcription factor [Source:HGNC Symbol;Acc:HGNC:9966]	16208	-0.18427537381649017	0.01813829	No	
+row_64	HIF1A	hypoxia inducible factor 1 subunit alpha [Source:HGNC Symbol;Acc:HGNC:4910]	16816	-0.21958954632282257	0.0052038818	No	
+row_65	STARD3NL	STARD3 N-terminal like [Source:HGNC Symbol;Acc:HGNC:19169]	16862	-0.2218259871006012	0.023382291	No	
+row_66	NFKB1	nuclear factor kappa B subunit 1 [Source:HGNC Symbol;Acc:HGNC:7794]	17358	-0.2594310939311981	0.020316228	No	
+row_67	BMP2	bone morphogenetic protein 2 [Source:HGNC Symbol;Acc:HGNC:1069]	17782	-0.3092258870601654	0.02584559	No	

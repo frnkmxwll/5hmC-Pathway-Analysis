@@ -1,0 +1,32 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	IL7R	interleukin 7 receptor [Source:HGNC Symbol;Acc:HGNC:6024]	870	0.23499134182929993	0.040598154	Yes	
+row_1	CD19	CD19 molecule [Source:HGNC Symbol;Acc:HGNC:1633]	1437	0.1943543702363968	0.082602374	Yes	
+row_2	RAG2	recombination activating 2 [Source:HGNC Symbol;Acc:HGNC:9832]	1553	0.18786661326885223	0.1469179	Yes	
+row_3	CD8A	CD8a molecule [Source:HGNC Symbol;Acc:HGNC:1706]	1877	0.1703076809644699	0.19321753	Yes	
+row_4	CD8B	CD8b molecule [Source:HGNC Symbol;Acc:HGNC:1707]	1952	0.16739530861377716	0.2520871	Yes	
+row_5	TNFRSF13B	TNF receptor superfamily member 13B [Source:HGNC Symbol;Acc:HGNC:18153]	2207	0.15651379525661469	0.29698768	Yes	
+row_6	AIRE	autoimmune regulator [Source:HGNC Symbol;Acc:HGNC:360]	2461	0.1459008902311325	0.33795336	Yes	
+row_7	RFX5	regulatory factor X5 [Source:HGNC Symbol;Acc:HGNC:9986]	4032	0.09831356257200241	0.28875378	Yes	
+row_8	CD40	CD40 molecule [Source:HGNC Symbol;Acc:HGNC:11919]	4524	0.08631398528814316	0.2942572	Yes	
+row_9	JAK3	Janus kinase 3 [Source:HGNC Symbol;Acc:HGNC:6193]	4621	0.08448628336191177	0.3207506	Yes	
+row_10	BLNK	B cell linker [Source:HGNC Symbol;Acc:HGNC:14211]	4631	0.08431920409202576	0.35195565	Yes	
+row_11	CD4	CD4 molecule [Source:HGNC Symbol;Acc:HGNC:1678]	5306	0.06921108812093735	0.3409866	Yes	
+row_12	AICDA	activation induced cytidine deaminase [Source:HGNC Symbol;Acc:HGNC:13203]	5343	0.0684349536895752	0.3647384	Yes	
+row_13	ZAP70	zeta chain of T cell receptor associated protein kinase 70 [Source:HGNC Symbol;Acc:HGNC:12858]	5732	0.05930822715163231	0.36574182	Yes	
+row_14	LCK	LCK proto-oncogene, Src family tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:6524]	5978	0.05391787365078926	0.3725664	Yes	
+row_15	CD79A	CD79a molecule [Source:HGNC Symbol;Acc:HGNC:1698]	6118	0.05079159513115883	0.38403285	Yes	
+row_16	RFXANK	regulatory factor X associated ankyrin containing protein [Source:HGNC Symbol;Acc:HGNC:9987]	6182	0.04941460117697716	0.39915243	Yes	
+row_17	UNG	uracil DNA glycosylase [Source:HGNC Symbol;Acc:HGNC:12572]	6464	0.04356619343161583	0.40010977	Yes	
+row_18	RFXAP	regulatory factor X associated protein [Source:HGNC Symbol;Acc:HGNC:9988]	7243	0.027764178812503815	0.3678518	No	
+row_19	CD3E	CD3e molecule [Source:HGNC Symbol;Acc:HGNC:1674]	8388	0.005342832766473293	0.30707914	No	
+row_20	ADA	adenosine deaminase [Source:HGNC Symbol;Acc:HGNC:186]	8480	0.003645670600235462	0.3034557	No	
+row_21	TAP2	transporter 2, ATP binding cassette subfamily B member [Source:HGNC Symbol;Acc:HGNC:44]	9400	0.0	0.25302216	No	
+row_22	TAP1	transporter 1, ATP binding cassette subfamily B member [Source:HGNC Symbol;Acc:HGNC:43]	9401	0.0	0.25302216	No	
+row_23	ICOS	inducible T cell costimulator [Source:HGNC Symbol;Acc:HGNC:5351]	9959	-0.0018377283122390509	0.2231456	No	
+row_24	IGLL1	immunoglobulin lambda like polypeptide 1 [Source:HGNC Symbol;Acc:HGNC:5870]	10711	-0.016605814918875694	0.18817447	No	
+row_25	CIITA	class II major histocompatibility complex transactivator [Source:HGNC Symbol;Acc:HGNC:7067]	11285	-0.028145700693130493	0.16731007	No	
+row_26	TNFRSF13C	TNF receptor superfamily member 13C [Source:HGNC Symbol;Acc:HGNC:17755]	12883	-0.06206745654344559	0.10300239	No	
+row_27	RAG1	recombination activating 1 [Source:HGNC Symbol;Acc:HGNC:9831]	13535	-0.077616386115551	0.09645545	No	
+row_28	DCLRE1C	DNA cross-link repair 1C [Source:HGNC Symbol;Acc:HGNC:17642]	14548	-0.10340333729982376	0.079791635	No	
+row_29	CD3D	CD3d molecule [Source:HGNC Symbol;Acc:HGNC:1673]	16168	-0.15503859519958496	0.0492282	No	
+row_30	PTPRC	protein tyrosine phosphatase receptor type C [Source:HGNC Symbol;Acc:HGNC:9666]	16589	-0.1731240451335907	0.09126338	No	

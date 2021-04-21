@@ -1,0 +1,66 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	RBM15B	RNA binding motif protein 15B [Source:HGNC Symbol;Acc:HGNC:24303]	994	0.2237008661031723	-0.026839476	No	
+row_1	CELF3	CUGBP Elav-like family member 3 [Source:HGNC Symbol;Acc:HGNC:11967]	1254	0.20611490309238434	-0.015454094	No	
+row_2	CELF4	CUGBP Elav-like family member 4 [Source:HGNC Symbol;Acc:HGNC:14015]	1425	0.19474537670612335	-5.889096E-4	No	
+row_3	RBM15	RNA binding motif protein 15 [Source:HGNC Symbol;Acc:HGNC:14959]	1968	0.16659408807754517	-0.00967672	No	
+row_4	RBFOX1	RNA binding fox-1 homolog 1 [Source:HGNC Symbol;Acc:HGNC:18222]	2092	0.16107450425624847	0.0035864068	No	
+row_5	SRRM4	serine/arginine repetitive matrix 4 [Source:HGNC Symbol;Acc:HGNC:29389]	2128	0.15973997116088867	0.021521969	No	
+row_6	ESRP2	epithelial splicing regulatory protein 2 [Source:HGNC Symbol;Acc:HGNC:26152]	3437	0.11445415765047073	-0.036163896	No	
+row_7	KHDRBS2	KH RNA binding domain containing, signal transduction associated 2 [Source:HGNC Symbol;Acc:HGNC:18114]	3618	0.10988028347492218	-0.0323995	No	
+row_8	RBFOX3	RNA binding fox-1 homolog 3 [Source:HGNC Symbol;Acc:HGNC:27097]	3671	0.10823620855808258	-0.021801902	No	
+row_9	HNRNPL	heterogeneous nuclear ribonucleoprotein L [Source:HGNC Symbol;Acc:HGNC:5045]	3781	0.10516054183244705	-0.014720625	No	
+row_10	RBM8A	RNA binding motif protein 8A [Source:HGNC Symbol;Acc:HGNC:9905]	4290	0.09183697402477264	-0.03123336	No	
+row_11	ZBTB7A	zinc finger and BTB domain containing 7A [Source:HGNC Symbol;Acc:HGNC:18078]	5392	0.06736582517623901	-0.08339242	No	
+row_12	CELF5	CUGBP Elav-like family member 5 [Source:HGNC Symbol;Acc:HGNC:14058]	6169	0.0497698076069355	-0.11987021	No	
+row_13	SMU1	SMU1 DNA replication regulator and spliceosomal factor [Source:HGNC Symbol;Acc:HGNC:18247]	6302	0.04680169001221657	-0.12130905	No	
+row_14	PUF60	poly(U) binding splicing factor 60 [Source:HGNC Symbol;Acc:HGNC:17042]	6434	0.04418289288878441	-0.123018496	No	
+row_15	CELF2	CUGBP Elav-like family member 2 [Source:HGNC Symbol;Acc:HGNC:2550]	7645	0.01990635134279728	-0.187071	No	
+row_16	PTBP1	polypyrimidine tract binding protein 1 [Source:HGNC Symbol;Acc:HGNC:9583]	8274	0.007400862406939268	-0.22067913	No	
+row_17	RBM5	RNA binding motif protein 5 [Source:HGNC Symbol;Acc:HGNC:9902]	8494	0.0034136162139475346	-0.23229563	No	
+row_18	WTAP	WT1 associated protein [Source:HGNC Symbol;Acc:HGNC:16846]	8816	0.0	-0.24994463	No	
+row_19	ZC3H10	zinc finger CCCH-type containing 10 [Source:HGNC Symbol;Acc:HGNC:25893]	9100	0.0	-0.26550433	No	
+row_20	CELF6	CUGBP Elav-like family member 6 [Source:HGNC Symbol;Acc:HGNC:14059]	9364	0.0	-0.27996442	No	
+row_21	SRSF6	serine and arginine rich splicing factor 6 [Source:HGNC Symbol;Acc:HGNC:10788]	10893	-0.020620452240109444	-0.3614122	No	
+row_22	KDM1A	lysine demethylase 1A [Source:HGNC Symbol;Acc:HGNC:29079]	11417	-0.03118293732404709	-0.38629055	No	
+row_23	HNRNPM	heterogeneous nuclear ribonucleoprotein M [Source:HGNC Symbol;Acc:HGNC:5046]	11595	-0.0344436913728714	-0.39173996	No	
+row_24	DDX17	DEAD-box helicase 17 [Source:HGNC Symbol;Acc:HGNC:2740]	11674	-0.03637811169028282	-0.39150575	No	
+row_25	NOVA1	NOVA alternative splicing regulator 1 [Source:HGNC Symbol;Acc:HGNC:7886]	11687	-0.03664780780673027	-0.38760924	No	
+row_26	KHDRBS1	KH RNA binding domain containing, signal transduction associated 1 [Source:HGNC Symbol;Acc:HGNC:18116]	11899	-0.04121788963675499	-0.39408582	No	
+row_27	MBNL2	muscleblind like splicing regulator 2 [Source:HGNC Symbol;Acc:HGNC:16746]	13082	-0.0665680393576622	-0.45079756	Yes	
+row_28	SFSWAP	splicing factor SWAP [Source:HGNC Symbol;Acc:HGNC:10790]	13151	-0.06826332956552505	-0.44604933	Yes	
+row_29	CELF1	CUGBP Elav-like family member 1 [Source:HGNC Symbol;Acc:HGNC:2549]	13179	-0.06901216506958008	-0.4389538	Yes	
+row_30	RBM11	RNA binding motif protein 11 [Source:HGNC Symbol;Acc:HGNC:9897]	13342	-0.07294521480798721	-0.43879175	Yes	
+row_31	SLU7	SLU7 homolog, splicing factor [Source:HGNC Symbol;Acc:HGNC:16939]	13364	-0.07354459166526794	-0.43080282	Yes	
+row_32	DHX9	DExH-box helicase 9 [Source:HGNC Symbol;Acc:HGNC:2750]	13490	-0.07664824277162552	-0.42814606	Yes	
+row_33	SAP18	Sin3A associated protein 18 [Source:HGNC Symbol;Acc:HGNC:10530]	13566	-0.07827901095151901	-0.4225375	Yes	
+row_34	HNRNPU	heterogeneous nuclear ribonucleoprotein U [Source:HGNC Symbol;Acc:HGNC:5048]	13760	-0.08313699066638947	-0.42281276	Yes	
+row_35	SRSF9	serine and arginine rich splicing factor 9 [Source:HGNC Symbol;Acc:HGNC:10791]	14421	-0.10031722486019135	-0.44662833	Yes	
+row_36	FAM172A	family with sequence similarity 172 member A [Source:HGNC Symbol;Acc:HGNC:25365]	14672	-0.10692456364631653	-0.4470801	Yes	
+row_37	RSRC1	arginine and serine rich coiled-coil 1 [Source:HGNC Symbol;Acc:HGNC:24152]	14722	-0.10836080461740494	-0.4363021	Yes	
+row_38	RBM25	RNA binding motif protein 25 [Source:HGNC Symbol;Acc:HGNC:23244]	14910	-0.11368215829133987	-0.43244988	Yes	
+row_39	SRSF12	serine and arginine rich splicing factor 12 [Source:HGNC Symbol;Acc:HGNC:21220]	15133	-0.1201789453625679	-0.42971432	Yes	
+row_40	RBM17	RNA binding motif protein 17 [Source:HGNC Symbol;Acc:HGNC:16944]	15150	-0.12062850594520569	-0.4155967	Yes	
+row_41	SFPQ	splicing factor proline and glutamine rich [Source:HGNC Symbol;Acc:HGNC:10774]	15178	-0.12135795503854752	-0.4019932	Yes	
+row_42	REST	RE1 silencing transcription factor [Source:HGNC Symbol;Acc:HGNC:9966]	15356	-0.12664245069026947	-0.39597985	Yes	
+row_43	RBM24	RNA binding motif protein 24 [Source:HGNC Symbol;Acc:HGNC:21539]	15412	-0.12830474972724915	-0.38305214	Yes	
+row_44	FXR2	FMR1 autosomal homolog 2 [Source:HGNC Symbol;Acc:HGNC:4024]	15437	-0.1289772093296051	-0.3683364	Yes	
+row_45	RNPS1	RNA binding protein with serine rich domain 1 [Source:HGNC Symbol;Acc:HGNC:10080]	15511	-0.13125090301036835	-0.3560321	Yes	
+row_46	DDX5	DEAD-box helicase 5 [Source:HGNC Symbol;Acc:HGNC:2746]	15573	-0.1335313767194748	-0.34278446	Yes	
+row_47	RBM4	RNA binding motif protein 4 [Source:HGNC Symbol;Acc:HGNC:9901]	15656	-0.13620787858963013	-0.33035868	Yes	
+row_48	NSRP1	nuclear speckle splicing regulatory protein 1 [Source:HGNC Symbol;Acc:HGNC:25305]	15794	-0.14126920700073242	-0.3203276	Yes	
+row_49	DYRK1A	dual specificity tyrosine phosphorylation regulated kinase 1A [Source:HGNC Symbol;Acc:HGNC:3091]	15849	-0.14322839677333832	-0.30548954	Yes	
+row_50	MYOD1	myogenic differentiation 1 [Source:HGNC Symbol;Acc:HGNC:7611]	16010	-0.1493389904499054	-0.29571974	Yes	
+row_51	THRAP3	thyroid hormone receptor associated protein 3 [Source:HGNC Symbol;Acc:HGNC:22964]	16026	-0.15007495880126953	-0.27788618	Yes	
+row_52	KHDRBS3	KH RNA binding domain containing, signal transduction associated 3 [Source:HGNC Symbol;Acc:HGNC:18117]	16037	-0.15044257044792175	-0.259732	Yes	
+row_53	TRA2B	transformer 2 beta homolog [Source:HGNC Symbol;Acc:HGNC:10781]	16064	-0.15131425857543945	-0.24234913	Yes	
+row_54	FXR1	FMR1 autosomal homolog 1 [Source:HGNC Symbol;Acc:HGNC:4023]	16075	-0.15167295932769775	-0.22404198	Yes	
+row_55	RBFOX2	RNA binding fox-1 homolog 2 [Source:HGNC Symbol;Acc:HGNC:9906]	16216	-0.15718792378902435	-0.21219675	Yes	
+row_56	NOVA2	NOVA alternative splicing regulator 2 [Source:HGNC Symbol;Acc:HGNC:7887]	16791	-0.18351998925209045	-0.22093962	Yes	
+row_57	CDK13	cyclin dependent kinase 13 [Source:HGNC Symbol;Acc:HGNC:1733]	16874	-0.18781159818172455	-0.20209813	Yes	
+row_58	YTHDC1	YTH domain containing 1 [Source:HGNC Symbol;Acc:HGNC:30626]	17425	-0.22416158020496368	-0.20446864	Yes	
+row_59	RBM7	RNA binding motif protein 7 [Source:HGNC Symbol;Acc:HGNC:9904]	17601	-0.24389655888080597	-0.18376756	Yes	
+row_60	MBNL1	muscleblind like splicing regulator 1 [Source:HGNC Symbol;Acc:HGNC:6923]	17603	-0.24467632174491882	-0.15340279	Yes	
+row_61	MAGOH	mago homolog, exon junction complex subunit [Source:HGNC Symbol;Acc:HGNC:6815]	17730	-0.25944089889526367	-0.12807506	Yes	
+row_62	SCNM1	sodium channel modifier 1 [Source:HGNC Symbol;Acc:HGNC:23136]	18017	-0.3150155246257782	-0.10463495	Yes	
+row_63	HNRNPA1	heterogeneous nuclear ribonucleoprotein A1 [Source:HGNC Symbol;Acc:HGNC:5031]	18201	-0.41689082980155945	-0.06286596	Yes	
+row_64	SRSF1	serine and arginine rich splicing factor 1 [Source:HGNC Symbol;Acc:HGNC:10780]	18243	-0.5277645587921143	4.949222E-4	Yes	

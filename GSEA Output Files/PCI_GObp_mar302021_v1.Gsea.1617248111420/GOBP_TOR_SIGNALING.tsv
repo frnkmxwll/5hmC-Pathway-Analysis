@@ -1,0 +1,115 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TREM2	triggering receptor expressed on myeloid cells 2 [Source:HGNC Symbol;Acc:HGNC:17761]	395	0.29630133509635925	0.0020771592	No	
+row_1	LEP	leptin [Source:HGNC Symbol;Acc:HGNC:6553]	569	0.27135103940963745	0.014384543	No	
+row_2	FAM83D	family with sequence similarity 83 member D [Source:HGNC Symbol;Acc:HGNC:16122]	913	0.2307814210653305	0.014053838	No	
+row_3	FNIP1	folliculin interacting protein 1 [Source:HGNC Symbol;Acc:HGNC:29418]	1283	0.20373189449310303	0.010112163	No	
+row_4	PIH1D1	PIH1 domain containing 1 [Source:HGNC Symbol;Acc:HGNC:26075]	1367	0.19860604405403137	0.021524968	No	
+row_5	GPR137	G protein-coupled receptor 137 [Source:HGNC Symbol;Acc:HGNC:24300]	1534	0.18874868750572205	0.02756844	No	
+row_6	MINAR1	membrane integral NOTCH2 associated receptor 1 [Source:HGNC Symbol;Acc:HGNC:29172]	1795	0.17406922578811646	0.027247954	No	
+row_7	CASTOR1	cytosolic arginine sensor for mTORC1 subunit 1 [Source:HGNC Symbol;Acc:HGNC:34423]	2258	0.15439777076244354	0.014207611	No	
+row_8	LIN28A	lin-28 homolog A [Source:HGNC Symbol;Acc:HGNC:15986]	2429	0.14718951284885406	0.016684884	No	
+row_9	NPRL2	NPR2 like, GATOR1 complex subunit [Source:HGNC Symbol;Acc:HGNC:24969]	2814	0.13289949297904968	0.0062139696	No	
+row_10	HDAC3	histone deacetylase 3 [Source:HGNC Symbol;Acc:HGNC:4854]	2827	0.13248085975646973	0.01621765	No	
+row_11	PIP4P1	phosphatidylinositol-4,5-bisphosphate 4-phosphatase 1 [Source:HGNC Symbol;Acc:HGNC:19299]	2839	0.13215088844299316	0.026249897	No	
+row_12	GAS6	growth arrest specific 6 [Source:HGNC Symbol;Acc:HGNC:4168]	2916	0.12969829142093658	0.03250126	No	
+row_13	CARD11	caspase recruitment domain family member 11 [Source:HGNC Symbol;Acc:HGNC:16393]	3023	0.1255723237991333	0.036766574	No	
+row_14	GSK3A	glycogen synthase kinase 3 alpha [Source:HGNC Symbol;Acc:HGNC:4616]	3251	0.11959509551525116	0.033879984	No	
+row_15	KPTN	kaptin, actin binding protein [Source:HGNC Symbol;Acc:HGNC:6404]	3340	0.11705338209867477	0.038451824	No	
+row_16	MEAK7	MTOR associated protein, eak-7 homolog [Source:HGNC Symbol;Acc:HGNC:29325]	3486	0.11322692036628723	0.039573222	No	
+row_17	CASTOR2	cytosolic arginine sensor for mTORC1 subunit 2 [Source:HGNC Symbol;Acc:HGNC:37073]	3738	0.10615526884794235	0.034281556	No	
+row_18	GPR137B	G protein-coupled receptor 137B [Source:HGNC Symbol;Acc:HGNC:11862]	3991	0.09959685057401657	0.028406784	No	
+row_19	TNFAIP8L1	TNF alpha induced protein 8 like 1 [Source:HGNC Symbol;Acc:HGNC:28279]	3993	0.09956319630146027	0.036366887	No	
+row_20	PRR5L	proline rich 5 like [Source:HGNC Symbol;Acc:HGNC:25878]	4114	0.0963907465338707	0.03751115	No	
+row_21	NPRL3	NPR3 like, GATOR1 complex subunit [Source:HGNC Symbol;Acc:HGNC:14124]	4483	0.0875365287065506	0.024270413	No	
+row_22	TSC2	TSC complex subunit 2 [Source:HGNC Symbol;Acc:HGNC:12363]	4763	0.08150794357061386	0.015450906	No	
+row_23	KLHL22	kelch like family member 22 [Source:HGNC Symbol;Acc:HGNC:25888]	4857	0.07928116619586945	0.016706282	No	
+row_24	GATA3	GATA binding protein 3 [Source:HGNC Symbol;Acc:HGNC:4172]	5217	0.07075900584459305	0.0026110571	No	
+row_25	TBC1D7	TBC1 domain family member 7 [Source:HGNC Symbol;Acc:HGNC:21066]	5509	0.0644976794719696	-0.0082394015	No	
+row_26	DGKQ	diacylglycerol kinase theta [Source:HGNC Symbol;Acc:HGNC:2856]	5696	0.06026748940348625	-0.0136417765	No	
+row_27	SESN2	sestrin 2 [Source:HGNC Symbol;Acc:HGNC:20746]	5751	0.05888540670275688	-0.011878276	No	
+row_28	AKT1	AKT serine/threonine kinase 1 [Source:HGNC Symbol;Acc:HGNC:391]	5875	0.055935341864824295	-0.014156227	No	
+row_29	CLEC16A	C-type lectin domain containing 16A [Source:HGNC Symbol;Acc:HGNC:29013]	6122	0.05067126080393791	-0.023638926	No	
+row_30	MTOR	mechanistic target of rapamycin kinase [Source:HGNC Symbol;Acc:HGNC:3942]	6192	0.04916423559188843	-0.023484966	No	
+row_31	RPTOR	regulatory associated protein of MTOR complex 1 [Source:HGNC Symbol;Acc:HGNC:30287]	6249	0.047902267426252365	-0.022715913	No	
+row_32	PRR5	proline rich 5 [Source:HGNC Symbol;Acc:HGNC:31682]	6544	0.041677288711071014	-0.035568893	No	
+row_33	DDIT4	DNA damage inducible transcript 4 [Source:HGNC Symbol;Acc:HGNC:24944]	6751	0.03732459992170334	-0.04392086	No	
+row_34	DEPDC5	DEP domain containing 5, GATOR1 subcomplex subunit [Source:HGNC Symbol;Acc:HGNC:18423]	6767	0.03712787479162216	-0.041758865	No	
+row_35	LAMTOR4	late endosomal/lysosomal adaptor, MAPK and MTOR activator 4 [Source:HGNC Symbol;Acc:HGNC:33772]	6812	0.03622698411345482	-0.04126816	No	
+row_36	SMCR8	SMCR8-C9orf72 complex subunit [Source:HGNC Symbol;Acc:HGNC:17921]	7353	0.025794997811317444	-0.068961665	No	
+row_37	EIF4EBP1	eukaryotic translation initiation factor 4E binding protein 1 [Source:HGNC Symbol;Acc:HGNC:3288]	7529	0.022174827754497528	-0.076824225	No	
+row_38	LARP1	La ribonucleoprotein 1, translational regulator [Source:HGNC Symbol;Acc:HGNC:29531]	8015	0.012365361675620079	-0.102566734	No	
+row_39	WDR24	WD repeat domain 24 [Source:HGNC Symbol;Acc:HGNC:20852]	9317	0.0	-0.17429064	No	
+row_40	AKT1S1	AKT1 substrate 1 [Source:HGNC Symbol;Acc:HGNC:28426]	9344	0.0	-0.17572401	No	
+row_41	LAMTOR1	late endosomal/lysosomal adaptor, MAPK and MTOR activator 1 [Source:HGNC Symbol;Acc:HGNC:26068]	9399	0.0	-0.17870103	No	
+row_42	FLCN	folliculin [Source:HGNC Symbol;Acc:HGNC:27310]	9753	0.0	-0.19816186	No	
+row_43	TMEM127	transmembrane protein 127 [Source:HGNC Symbol;Acc:HGNC:26038]	9932	-0.0013469085097312927	-0.20786653	No	
+row_44	WDR59	WD repeat domain 59 [Source:HGNC Symbol;Acc:HGNC:25706]	10269	-0.007600452285259962	-0.22577828	No	
+row_45	GNA12	G protein subunit alpha 12 [Source:HGNC Symbol;Acc:HGNC:4380]	10337	-0.009083716198801994	-0.2287407	No	
+row_46	TTI1	TELO2 interacting protein 1 [Source:HGNC Symbol;Acc:HGNC:29029]	10351	-0.009386546909809113	-0.22870174	No	
+row_47	STK11	serine/threonine kinase 11 [Source:HGNC Symbol;Acc:HGNC:11389]	10358	-0.009535868652164936	-0.22826485	No	
+row_48	DYRK3	dual specificity tyrosine phosphorylation regulated kinase 3 [Source:HGNC Symbol;Acc:HGNC:3094]	10388	-0.010420843958854675	-0.2290247	No	
+row_49	DEPTOR	DEP domain containing MTOR interacting protein [Source:HGNC Symbol;Acc:HGNC:22953]	10421	-0.01103227399289608	-0.2299007	No	
+row_50	ITFG2	integrin alpha FG-GAP repeat containing 2 [Source:HGNC Symbol;Acc:HGNC:30879]	10493	-0.012686417438089848	-0.23279361	No	
+row_51	RPS6KB2	ribosomal protein S6 kinase B2 [Source:HGNC Symbol;Acc:HGNC:10437]	10643	-0.01539431232959032	-0.23976865	No	
+row_52	SZT2	SZT2 subunit of KICSTOR complex [Source:HGNC Symbol;Acc:HGNC:29040]	10658	-0.015669962391257286	-0.23927899	No	
+row_53	PKHD1	PKHD1 ciliary IPT domain containing fibrocystin/polyductin [Source:HGNC Symbol;Acc:HGNC:9016]	10816	-0.018958527594804764	-0.24640812	No	
+row_54	LAMTOR2	late endosomal/lysosomal adaptor, MAPK and MTOR activator 2 [Source:HGNC Symbol;Acc:HGNC:29796]	10834	-0.019305024296045303	-0.2457912	No	
+row_55	TSC1	TSC complex subunit 1 [Source:HGNC Symbol;Acc:HGNC:12362]	10940	-0.021699208766222	-0.24983296	No	
+row_56	SEH1L	SEH1 like nucleoporin [Source:HGNC Symbol;Acc:HGNC:30379]	11067	-0.023999249562621117	-0.2548473	No	
+row_57	HTR6	5-hydroxytryptamine receptor 6 [Source:HGNC Symbol;Acc:HGNC:5301]	11163	-0.025878699496388435	-0.25800127	No	
+row_58	PINK1	PTEN induced kinase 1 [Source:HGNC Symbol;Acc:HGNC:14581]	11513	-0.03287803754210472	-0.27459478	No	
+row_59	CASTOR3	CASTOR family member 3 [Source:HGNC Symbol;Acc:HGNC:29954]	11534	-0.03326432779431343	-0.27301946	No	
+row_60	MAPKAP1	MAPK associated protein 1 [Source:HGNC Symbol;Acc:HGNC:18752]	11741	-0.03777589648962021	-0.2813351	No	
+row_61	RHEB	Ras homolog, mTORC1 binding [Source:HGNC Symbol;Acc:HGNC:10011]	12067	-0.044539935886859894	-0.29566664	No	
+row_62	ZMPSTE24	zinc metallopeptidase STE24 [Source:HGNC Symbol;Acc:HGNC:12877]	12098	-0.04532472789287567	-0.29367173	No	
+row_63	BMT2	base methyltransferase of 25S rRNA 2 homolog [Source:HGNC Symbol;Acc:HGNC:26475]	12173	-0.046575650572776794	-0.2940018	No	
+row_64	RHEBL1	RHEB like 1 [Source:HGNC Symbol;Acc:HGNC:21166]	12439	-0.05172343552112579	-0.30444726	No	
+row_65	DISC1	DISC1 scaffold protein [Source:HGNC Symbol;Acc:HGNC:2888]	12520	-0.0535367913544178	-0.30454773	No	
+row_66	TELO2	telomere maintenance 2 [Source:HGNC Symbol;Acc:HGNC:29099]	12620	-0.055814750492572784	-0.30551228	No	
+row_67	SLC38A9	solute carrier family 38 member 9 [Source:HGNC Symbol;Acc:HGNC:26907]	12748	-0.05841080844402313	-0.30781144	No	
+row_68	PDCD6	programmed cell death 6 [Source:HGNC Symbol;Acc:HGNC:8765]	12864	-0.06158418580889702	-0.3091936	No	
+row_69	ARNTL	aryl hydrocarbon receptor nuclear translocator like [Source:HGNC Symbol;Acc:HGNC:701]	13141	-0.0679473727941513	-0.31893942	No	
+row_70	MAPKAPK5	MAPK activated protein kinase 5 [Source:HGNC Symbol;Acc:HGNC:6889]	13205	-0.06968126446008682	-0.31680295	No	
+row_71	GOLPH3	golgi phosphoprotein 3 [Source:HGNC Symbol;Acc:HGNC:15452]	13258	-0.07096459716558456	-0.31395677	No	
+row_72	EPM2A	EPM2A glucan phosphatase, laforin [Source:HGNC Symbol;Acc:HGNC:3413]	13278	-0.0714060440659523	-0.30925578	No	
+row_73	SIRT1	sirtuin 1 [Source:HGNC Symbol;Acc:HGNC:14929]	13442	-0.07527069747447968	-0.31218234	No	
+row_74	UBR1	ubiquitin protein ligase E3 component n-recognin 1 [Source:HGNC Symbol;Acc:HGNC:16808]	13461	-0.07576573640108109	-0.30707523	No	
+row_75	RPS6	ribosomal protein S6 [Source:HGNC Symbol;Acc:HGNC:10429]	13803	-0.08417024463415146	-0.31909847	No	
+row_76	SESN1	sestrin 1 [Source:HGNC Symbol;Acc:HGNC:21595]	14059	-0.0906311422586441	-0.3258604	No	
+row_77	GPR137C	G protein-coupled receptor 137C [Source:HGNC Symbol;Acc:HGNC:25445]	14319	-0.09745581448078156	-0.33229345	No	
+row_78	SEC13	SEC13 homolog, nuclear pore and COPII coat complex component [Source:HGNC Symbol;Acc:HGNC:10697]	14710	-0.1080222800374031	-0.34509787	Yes	
+row_79	GPAT3	glycerol-3-phosphate acyltransferase 3 [Source:HGNC Symbol;Acc:HGNC:28157]	14761	-0.10958770662546158	-0.3390321	Yes	
+row_80	LAMTOR5	late endosomal/lysosomal adaptor, MAPK and MTOR activator 5 [Source:HGNC Symbol;Acc:HGNC:17955]	14913	-0.11374115943908691	-0.3382001	Yes	
+row_81	TIPRL	TOR signaling pathway regulator [Source:HGNC Symbol;Acc:HGNC:30231]	15039	-0.11763273179531097	-0.33562142	Yes	
+row_82	AKT3	AKT serine/threonine kinase 3 [Source:HGNC Symbol;Acc:HGNC:393]	15093	-0.11922822892665863	-0.32894495	Yes	
+row_83	RNF152	ring finger protein 152 [Source:HGNC Symbol;Acc:HGNC:26811]	15110	-0.11972714215517044	-0.3201885	Yes	
+row_84	SMG1	SMG1 nonsense mediated mRNA decay associated PI3K related kinase [Source:HGNC Symbol;Acc:HGNC:30045]	15112	-0.11972786486148834	-0.31060505	Yes	
+row_85	SIK3	SIK family kinase 3 [Source:HGNC Symbol;Acc:HGNC:29165]	15151	-0.1206340342760086	-0.30298847	Yes	
+row_86	CRYBA1	crystallin beta A1 [Source:HGNC Symbol;Acc:HGNC:2394]	15375	-0.12707675993442535	-0.30505225	Yes	
+row_87	MIOS	meiosis regulator for oocyte development [Source:HGNC Symbol;Acc:HGNC:21905]	15435	-0.12888896465301514	-0.2979288	Yes	
+row_88	SH3BP4	SH3 domain binding protein 4 [Source:HGNC Symbol;Acc:HGNC:10826]	15525	-0.13162796199321747	-0.2922388	Yes	
+row_89	TBCK	TBC1 domain containing kinase [Source:HGNC Symbol;Acc:HGNC:28261]	15718	-0.13869889080524445	-0.29165792	Yes	
+row_90	LARS1	leucyl-tRNA synthetase 1 [Source:HGNC Symbol;Acc:HGNC:6512]	15868	-0.14377114176750183	-0.2882981	Yes	
+row_91	CCDC88A	coiled-coil domain containing 88A [Source:HGNC Symbol;Acc:HGNC:25523]	15929	-0.145962193608284	-0.27985534	Yes	
+row_92	ROS1	ROS proto-oncogene 1, receptor tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:10261]	15930	-0.14597655832767487	-0.26810366	Yes	
+row_93	RPS6KB1	ribosomal protein S6 kinase B1 [Source:HGNC Symbol;Acc:HGNC:10436]	16066	-0.15136848390102386	-0.2633604	Yes	
+row_94	EIF4EBP2	eukaryotic translation initiation factor 4E binding protein 2 [Source:HGNC Symbol;Acc:HGNC:3289]	16267	-0.15953178703784943	-0.26154342	Yes	
+row_95	PRKAA1	protein kinase AMP-activated catalytic subunit alpha 1 [Source:HGNC Symbol;Acc:HGNC:9376]	16651	-0.17602163553237915	-0.26848772	Yes	
+row_96	MLST8	MTOR associated protein, LST8 homolog [Source:HGNC Symbol;Acc:HGNC:24825]	16760	-0.1818457990884781	-0.25980243	Yes	
+row_97	MFSD8	major facilitator superfamily domain containing 8 [Source:HGNC Symbol;Acc:HGNC:28486]	16832	-0.18568001687526703	-0.24876866	Yes	
+row_98	RICTOR	RPTOR independent companion of MTOR complex 2 [Source:HGNC Symbol;Acc:HGNC:28611]	16916	-0.19078288972377777	-0.23798564	Yes	
+row_99	ATM	ATM serine/threonine kinase [Source:HGNC Symbol;Acc:HGNC:795]	16966	-0.19386275112628937	-0.22508028	Yes	
+row_100	UBR2	ubiquitin protein ligase E3 component n-recognin 2 [Source:HGNC Symbol;Acc:HGNC:21289]	16983	-0.19448746740818024	-0.21030533	Yes	
+row_101	RFFL	ring finger and FYVE like domain containing E3 ubiquitin protein ligase [Source:HGNC Symbol;Acc:HGNC:24821]	17122	-0.20316004753112793	-0.20155805	Yes	
+row_102	C12orf66	chromosome 12 open reading frame 66 [Source:HGNC Symbol;Acc:HGNC:26517]	17186	-0.20787081122398376	-0.18829681	Yes	
+row_103	PRKAA2	protein kinase AMP-activated catalytic subunit alpha 2 [Source:HGNC Symbol;Acc:HGNC:9377]	17247	-0.21241320669651031	-0.17450449	Yes	
+row_104	GBA	glucosylceramidase beta [Source:HGNC Symbol;Acc:HGNC:4177]	17358	-0.21935658156871796	-0.16290969	Yes	
+row_105	SESN3	sestrin 3 [Source:HGNC Symbol;Acc:HGNC:23060]	17474	-0.2285148948431015	-0.15085325	Yes	
+row_106	HIF1A	hypoxia inducible factor 1 subunit alpha [Source:HGNC Symbol;Acc:HGNC:4910]	17524	-0.2350134700536728	-0.13463509	Yes	
+row_107	PIK3CA	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [Source:HGNC Symbol;Acc:HGNC:8975]	17631	-0.2476421445608139	-0.12054267	Yes	
+row_108	RRAGD	Ras related GTP binding D [Source:HGNC Symbol;Acc:HGNC:19903]	17698	-0.25518283247947693	-0.103638	Yes	
+row_109	RRAGA	Ras related GTP binding A [Source:HGNC Symbol;Acc:HGNC:16963]	17708	-0.25645712018013	-0.083488345	Yes	
+row_110	FBXO9	F-box protein 9 [Source:HGNC Symbol;Acc:HGNC:13588]	17812	-0.27279460430145264	-0.06720566	Yes	
+row_111	RRAGC	Ras related GTP binding C [Source:HGNC Symbol;Acc:HGNC:19902]	18089	-0.33669978380203247	-0.05531582	Yes	
+row_112	LAMTOR3	late endosomal/lysosomal adaptor, MAPK and MTOR activator 3 [Source:HGNC Symbol;Acc:HGNC:15606]	18096	-0.3408227264881134	-0.028209005	Yes	
+row_113	C9orf72	C9orf72-SMCR8 complex subunit [Source:HGNC Symbol;Acc:HGNC:28337]	18225	-0.45654991269111633	0.0014884715	Yes	

@@ -1,0 +1,129 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	HCRT	hypocretin neuropeptide precursor [Source:HGNC Symbol;Acc:HGNC:4847]	1	0.8123461008071899	0.041179195	Yes	
+row_1	GABRA5	gamma-aminobutyric acid type A receptor subunit alpha5 [Source:HGNC Symbol;Acc:HGNC:4079]	12	0.6469990611076355	0.07346889	Yes	
+row_2	INSYN1	inhibitory synaptic factor 1 [Source:HGNC Symbol;Acc:HGNC:33753]	116	0.4882909059524536	0.09257159	Yes	
+row_3	CDK5	cyclin dependent kinase 5 [Source:HGNC Symbol;Acc:HGNC:1774]	322	0.4053416848182678	0.10183622	Yes	
+row_4	GSK3A	glycogen synthase kinase 3 alpha [Source:HGNC Symbol;Acc:HGNC:4616]	469	0.3692372441291809	0.112523384	Yes	
+row_5	GABRG3	gamma-aminobutyric acid type A receptor subunit gamma3 [Source:HGNC Symbol;Acc:HGNC:4088]	494	0.36418208479881287	0.12968498	Yes	
+row_6	GRID1	glutamate ionotropic receptor delta type subunit 1 [Source:HGNC Symbol;Acc:HGNC:4575]	601	0.34792667627334595	0.14149733	Yes	
+row_7	CELF4	CUGBP Elav-like family member 4 [Source:HGNC Symbol;Acc:HGNC:14015]	687	0.336149662733078	0.15387051	Yes	
+row_8	GRIK2	glutamate ionotropic receptor kainate type subunit 2 [Source:HGNC Symbol;Acc:HGNC:4580]	822	0.3165128231048584	0.16254346	Yes	
+row_9	NPAS4	neuronal PAS domain protein 4 [Source:HGNC Symbol;Acc:HGNC:18983]	828	0.3152221143245697	0.17826815	Yes	
+row_10	GRIN2A	glutamate ionotropic receptor NMDA type subunit 2A [Source:HGNC Symbol;Acc:HGNC:4585]	891	0.308047890663147	0.19048385	Yes	
+row_11	CHRNA4	cholinergic receptor nicotinic alpha 4 subunit [Source:HGNC Symbol;Acc:HGNC:1958]	898	0.3074214458465576	0.20575741	Yes	
+row_12	ADCYAP1	adenylate cyclase activating polypeptide 1 [Source:HGNC Symbol;Acc:HGNC:241]	906	0.3058968484401703	0.2208984	Yes	
+row_13	DRD2	dopamine receptor D2 [Source:HGNC Symbol;Acc:HGNC:3023]	929	0.30249178409576416	0.23503898	Yes	
+row_14	GLRA1	glycine receptor alpha 1 [Source:HGNC Symbol;Acc:HGNC:4326]	978	0.2971705198287964	0.24747497	Yes	
+row_15	TMEM25	transmembrane protein 25 [Source:HGNC Symbol;Acc:HGNC:25890]	981	0.297012060880661	0.26244083	Yes	
+row_16	GABRA6	gamma-aminobutyric acid type A receptor subunit alpha6 [Source:HGNC Symbol;Acc:HGNC:4080]	1044	0.29106539487838745	0.2737945	Yes	
+row_17	NETO1	neuropilin and tolloid like 1 [Source:HGNC Symbol;Acc:HGNC:13823]	1099	0.2862902581691742	0.28534716	Yes	
+row_18	RIMS1	regulating synaptic membrane exocytosis 1 [Source:HGNC Symbol;Acc:HGNC:17282]	1210	0.2754593789577484	0.29326043	Yes	
+row_19	CBLN1	cerebellin 1 precursor [Source:HGNC Symbol;Acc:HGNC:1543]	1264	0.2713202238082886	0.30410838	Yes	
+row_20	GABRG2	gamma-aminobutyric acid type A receptor subunit gamma2 [Source:HGNC Symbol;Acc:HGNC:4087]	1300	0.2680239677429199	0.31578216	Yes	
+row_21	RGS4	regulator of G protein signaling 4 [Source:HGNC Symbol;Acc:HGNC:10000]	1586	0.2475012093782425	0.3126211	Yes	
+row_22	GABRB1	gamma-aminobutyric acid type A receptor subunit beta1 [Source:HGNC Symbol;Acc:HGNC:4081]	1680	0.24160537123680115	0.31975383	Yes	
+row_23	SHANK1	SH3 and multiple ankyrin repeat domains 1 [Source:HGNC Symbol;Acc:HGNC:15474]	1705	0.23951181769371033	0.3305872	Yes	
+row_24	CHRNA6	cholinergic receptor nicotinic alpha 6 subunit [Source:HGNC Symbol;Acc:HGNC:15963]	1730	0.2372925877571106	0.34130797	Yes	
+row_25	GRIN2B	glutamate ionotropic receptor NMDA type subunit 2B [Source:HGNC Symbol;Acc:HGNC:4586]	1761	0.23524978756904602	0.35159397	Yes	
+row_26	GABRA2	gamma-aminobutyric acid type A receptor subunit alpha2 [Source:HGNC Symbol;Acc:HGNC:4076]	1965	0.2216709852218628	0.35164592	Yes	
+row_27	P2RX5	purinergic receptor P2X 5 [Source:HGNC Symbol;Acc:HGNC:8536]	2124	0.21286509931087494	0.3537336	Yes	
+row_28	GHRL	ghrelin and obestatin prepropeptide [Source:HGNC Symbol;Acc:HGNC:18129]	2152	0.21087969839572906	0.36294812	Yes	
+row_29	ADORA1	adenosine A1 receptor [Source:HGNC Symbol;Acc:HGNC:262]	2195	0.20890749990940094	0.37123495	Yes	
+row_30	WNT7A	Wnt family member 7A [Source:HGNC Symbol;Acc:HGNC:12786]	2204	0.2081739455461502	0.38136038	Yes	
+row_31	GRIN2C	glutamate ionotropic receptor NMDA type subunit 2C [Source:HGNC Symbol;Acc:HGNC:4587]	2230	0.20680740475654602	0.39047855	Yes	
+row_32	CHRNA10	cholinergic receptor nicotinic alpha 10 subunit [Source:HGNC Symbol;Acc:HGNC:13800]	2355	0.20107358694076538	0.3938436	Yes	
+row_33	SLC8A2	solute carrier family 8 member A2 [Source:HGNC Symbol;Acc:HGNC:11069]	2387	0.19935448467731476	0.4022524	Yes	
+row_34	RGS7BP	regulator of G protein signaling 7 binding protein [Source:HGNC Symbol;Acc:HGNC:23271]	2401	0.19857633113861084	0.4116148	Yes	
+row_35	MPP2	membrane palmitoylated protein 2 [Source:HGNC Symbol;Acc:HGNC:7220]	2550	0.1900232583284378	0.4130948	Yes	
+row_36	CUX2	cut like homeobox 2 [Source:HGNC Symbol;Acc:HGNC:19347]	2693	0.18298813700675964	0.41454872	Yes	
+row_37	P2RX6	purinergic receptor P2X 6 [Source:HGNC Symbol;Acc:HGNC:8538]	3013	0.16984352469444275	0.4055699	Yes	
+row_38	STX1A	syntaxin 1A [Source:HGNC Symbol;Acc:HGNC:11433]	3204	0.1607794463634491	0.40324825	Yes	
+row_39	NTSR1	neurotensin receptor 1 [Source:HGNC Symbol;Acc:HGNC:8039]	3259	0.1586511880159378	0.408322	Yes	
+row_40	GABRR2	gamma-aminobutyric acid type A receptor subunit rho2 [Source:HGNC Symbol;Acc:HGNC:4091]	3279	0.158050537109375	0.41529632	Yes	
+row_41	GABRA4	gamma-aminobutyric acid type A receptor subunit alpha4 [Source:HGNC Symbol;Acc:HGNC:4078]	3368	0.15498441457748413	0.4183081	Yes	
+row_42	P2RX2	purinergic receptor P2X 2 [Source:HGNC Symbol;Acc:HGNC:15459]	3379	0.15464019775390625	0.42560586	Yes	
+row_43	PRKCZ	protein kinase C zeta [Source:HGNC Symbol;Acc:HGNC:9412]	3468	0.15108521282672882	0.4284197	Yes	
+row_44	ARRB2	arrestin beta 2 [Source:HGNC Symbol;Acc:HGNC:712]	3528	0.14908944070339203	0.43273225	Yes	
+row_45	GRIK3	glutamate ionotropic receptor kainate type subunit 3 [Source:HGNC Symbol;Acc:HGNC:4581]	3575	0.14790642261505127	0.437702	Yes	
+row_46	GRIK5	glutamate ionotropic receptor kainate type subunit 5 [Source:HGNC Symbol;Acc:HGNC:4583]	3701	0.14351624250411987	0.43809026	Yes	
+row_47	TRPV1	transient receptor potential cation channel subfamily V member 1 [Source:HGNC Symbol;Acc:HGNC:12716]	3744	0.14180761575698853	0.44297114	Yes	
+row_48	CHRNG	cholinergic receptor nicotinic gamma subunit [Source:HGNC Symbol;Acc:HGNC:1967]	3757	0.14122720062732697	0.4494777	Yes	
+row_49	GLRA3	glycine receptor alpha 3 [Source:HGNC Symbol;Acc:HGNC:4328]	4008	0.13266780972480774	0.44241875	Yes	
+row_50	CACNB3	calcium voltage-gated channel auxiliary subunit beta 3 [Source:HGNC Symbol;Acc:HGNC:1403]	4237	0.12522225081920624	0.43619567	Yes	
+row_51	RIMS2	regulating synaptic membrane exocytosis 2 [Source:HGNC Symbol;Acc:HGNC:17283]	4312	0.12278976291418076	0.43834567	Yes	
+row_52	GRIN1	glutamate ionotropic receptor NMDA type subunit 1 [Source:HGNC Symbol;Acc:HGNC:4584]	4323	0.12246007472276688	0.44401	Yes	
+row_53	P2RX3	purinergic receptor P2X 3 [Source:HGNC Symbol;Acc:HGNC:8534]	4388	0.12065943330526352	0.44660357	Yes	
+row_54	GRM5	glutamate metabotropic receptor 5 [Source:HGNC Symbol;Acc:HGNC:4597]	4480	0.11735434830188751	0.44753975	Yes	
+row_55	CHRNA7	cholinergic receptor nicotinic alpha 7 subunit [Source:HGNC Symbol;Acc:HGNC:1960]	4559	0.11499578505754471	0.44907343	Yes	
+row_56	CHRNE	cholinergic receptor nicotinic epsilon subunit [Source:HGNC Symbol;Acc:HGNC:1966]	4578	0.11449616402387619	0.4538921	Yes	
+row_57	GRM1	glutamate metabotropic receptor 1 [Source:HGNC Symbol;Acc:HGNC:4593]	4627	0.11343119293451309	0.45700157	Yes	
+row_58	CHRND	cholinergic receptor nicotinic delta subunit [Source:HGNC Symbol;Acc:HGNC:1965]	4643	0.11284945905208588	0.46190217	Yes	
+row_59	CHRNA9	cholinergic receptor nicotinic alpha 9 subunit [Source:HGNC Symbol;Acc:HGNC:14079]	4694	0.11140922456979752	0.46479863	Yes	
+row_60	GABRB2	gamma-aminobutyric acid type A receptor subunit beta2 [Source:HGNC Symbol;Acc:HGNC:4082]	4766	0.10932669043540955	0.46643078	Yes	
+row_61	GABRR1	gamma-aminobutyric acid type A receptor subunit rho1 [Source:HGNC Symbol;Acc:HGNC:4090]	4866	0.1062355637550354	0.46636117	Yes	
+row_62	DLG4	discs large MAGUK scaffold protein 4 [Source:HGNC Symbol;Acc:HGNC:2903]	4924	0.10463783144950867	0.46852773	Yes	
+row_63	GRIN3A	glutamate ionotropic receptor NMDA type subunit 3A [Source:HGNC Symbol;Acc:HGNC:16767]	5211	0.09628566354513168	0.45763585	No	
+row_64	ADRB2	adrenoceptor beta 2 [Source:HGNC Symbol;Acc:HGNC:286]	5385	0.09087640047073364	0.45270386	No	
+row_65	NLGN1	neuroligin 1 [Source:HGNC Symbol;Acc:HGNC:14291]	5414	0.09017498046159744	0.45573628	No	
+row_66	OPRM1	opioid receptor mu 1 [Source:HGNC Symbol;Acc:HGNC:8156]	5697	0.08170995861291885	0.4443252	No	
+row_67	KCND2	potassium voltage-gated channel subfamily D member 2 [Source:HGNC Symbol;Acc:HGNC:6238]	5726	0.0810156837105751	0.4468927	No	
+row_68	DRD4	dopamine receptor D4 [Source:HGNC Symbol;Acc:HGNC:3025]	6000	0.07330797612667084	0.43555173	No	
+row_69	GRIK1	glutamate ionotropic receptor kainate type subunit 1 [Source:HGNC Symbol;Acc:HGNC:4579]	6087	0.07128652930259705	0.43442538	No	
+row_70	GRIK4	glutamate ionotropic receptor kainate type subunit 4 [Source:HGNC Symbol;Acc:HGNC:4582]	6210	0.06809581816196442	0.43115085	No	
+row_71	FGF14	fibroblast growth factor 14 [Source:HGNC Symbol;Acc:HGNC:3671]	6374	0.06397560983896255	0.42540514	No	
+row_72	SLC8A3	solute carrier family 8 member A3 [Source:HGNC Symbol;Acc:HGNC:11070]	6389	0.06363450735807419	0.4278628	No	
+row_73	GRID2	glutamate ionotropic receptor delta type subunit 2 [Source:HGNC Symbol;Acc:HGNC:4576]	6516	0.060553379356861115	0.42398474	No	
+row_74	MAPK8IP2	mitogen-activated protein kinase 8 interacting protein 2 [Source:HGNC Symbol;Acc:HGNC:6883]	6545	0.05993190035223961	0.425482	No	
+row_75	CHRNB2	cholinergic receptor nicotinic beta 2 subunit [Source:HGNC Symbol;Acc:HGNC:1962]	6617	0.05814659222960472	0.42451626	No	
+row_76	NRXN1	neurexin 1 [Source:HGNC Symbol;Acc:HGNC:8008]	6673	0.056520313024520874	0.42435074	No	
+row_77	STX1B	syntaxin 1B [Source:HGNC Symbol;Acc:HGNC:18539]	6906	0.050600986927747726	0.4141192	No	
+row_78	CHRNA3	cholinergic receptor nicotinic alpha 3 subunit [Source:HGNC Symbol;Acc:HGNC:1957]	6911	0.05044151470065117	0.41645893	No	
+row_79	NPY2R	neuropeptide Y receptor Y2 [Source:HGNC Symbol;Acc:HGNC:7957]	7045	0.04739934578537941	0.41152698	No	
+row_80	KCNA1	potassium voltage-gated channel subfamily A member 1 [Source:HGNC Symbol;Acc:HGNC:6218]	7046	0.04735521227121353	0.4139307	No	
+row_81	DMPK	DM1 protein kinase [Source:HGNC Symbol;Acc:HGNC:2933]	7063	0.046808574348688126	0.41542393	No	
+row_82	IGSF11	immunoglobulin superfamily member 11 [Source:HGNC Symbol;Acc:HGNC:16669]	7170	0.04428837448358536	0.41182372	No	
+row_83	SLC29A1	solute carrier family 29 member 1 (Augustine blood group) [Source:HGNC Symbol;Acc:HGNC:11003]	7226	0.043058544397354126	0.41097486	No	
+row_84	SH3GL1	SH3 domain containing GRB2 like 1, endophilin A2 [Source:HGNC Symbol;Acc:HGNC:10830]	7419	0.03804896026849747	0.4023131	No	
+row_85	RELN	reelin [Source:HGNC Symbol;Acc:HGNC:9957]	7597	0.033085521310567856	0.394227	No	
+row_86	CHRNB4	cholinergic receptor nicotinic beta 4 subunit [Source:HGNC Symbol;Acc:HGNC:1964]	7954	0.02544964663684368	0.37587744	No	
+row_87	DVL1	dishevelled segment polarity protein 1 [Source:HGNC Symbol;Acc:HGNC:3084]	8088	0.022486217319965363	0.36968088	No	
+row_88	GRIN2D	glutamate ionotropic receptor NMDA type subunit 2D [Source:HGNC Symbol;Acc:HGNC:4588]	8122	0.021734347566962242	0.36896342	No	
+row_89	P2RX7	purinergic receptor P2X 7 [Source:HGNC Symbol;Acc:HGNC:8537]	8177	0.019841790199279785	0.36699128	No	
+row_90	EIF4A3	eukaryotic translation initiation factor 4A3 [Source:HGNC Symbol;Acc:HGNC:18683]	8315	0.016501307487487793	0.36027026	No	
+row_91	P2RX1	purinergic receptor P2X 1 [Source:HGNC Symbol;Acc:HGNC:8533]	8583	0.009959358721971512	0.34604475	No	
+row_92	GLRB	glycine receptor beta [Source:HGNC Symbol;Acc:HGNC:4329]	8708	0.007331377360969782	0.33957553	No	
+row_93	S1PR2	sphingosine-1-phosphate receptor 2 [Source:HGNC Symbol;Acc:HGNC:3169]	9383	0.0	0.30238932	No	
+row_94	NPFF	neuropeptide FF-amide peptide precursor [Source:HGNC Symbol;Acc:HGNC:7901]	9468	0.0	0.29775482	No	
+row_95	INSYN2A	inhibitory synaptic factor 2A [Source:HGNC Symbol;Acc:HGNC:33859]	9640	0.0	0.28832033	No	
+row_96	SEZ6	seizure related 6 homolog [Source:HGNC Symbol;Acc:HGNC:15955]	9691	0.0	0.2855617	No	
+row_97	AKT1	AKT serine/threonine kinase 1 [Source:HGNC Symbol;Acc:HGNC:391]	10435	-0.004881765227764845	0.24481642	No	
+row_98	SHANK2	SH3 and multiple ankyrin repeat domains 2 [Source:HGNC Symbol;Acc:HGNC:14295]	10442	-0.005143540911376476	0.24474646	No	
+row_99	CHRNB3	cholinergic receptor nicotinic beta 3 subunit [Source:HGNC Symbol;Acc:HGNC:1963]	10657	-0.009945956990122795	0.23344442	No	
+row_100	GABRG1	gamma-aminobutyric acid type A receptor subunit gamma1 [Source:HGNC Symbol;Acc:HGNC:4086]	10671	-0.01027502492070198	0.23324874	No	
+row_101	SHANK3	SH3 and multiple ankyrin repeat domains 3 [Source:HGNC Symbol;Acc:HGNC:14294]	10689	-0.010661852546036243	0.232852	No	
+row_102	UNC13B	unc-13 homolog B [Source:HGNC Symbol;Acc:HGNC:12566]	10750	-0.01209179311990738	0.23015542	No	
+row_103	GABBR1	gamma-aminobutyric acid type B receptor subunit 1 [Source:HGNC Symbol;Acc:HGNC:4070]	10986	-0.018044395372271538	0.21810584	No	
+row_104	P2RX4	purinergic receptor P2X 4 [Source:HGNC Symbol;Acc:HGNC:8535]	11115	-0.02073933742940426	0.21209648	No	
+row_105	CHRNB1	cholinergic receptor nicotinic beta 1 subunit [Source:HGNC Symbol;Acc:HGNC:1961]	11276	-0.02486792951822281	0.2045312	No	
+row_106	GRIA1	glutamate ionotropic receptor AMPA type subunit 1 [Source:HGNC Symbol;Acc:HGNC:4571]	11370	-0.026979204267263412	0.2007696	No	
+row_107	GABRA1	gamma-aminobutyric acid type A receptor subunit alpha1 [Source:HGNC Symbol;Acc:HGNC:4075]	11412	-0.027942724525928497	0.1999259	No	
+row_108	CHRNA5	cholinergic receptor nicotinic alpha 5 subunit [Source:HGNC Symbol;Acc:HGNC:1959]	11432	-0.028469791635870934	0.20032273	No	
+row_109	SSH1	slingshot protein phosphatase 1 [Source:HGNC Symbol;Acc:HGNC:30579]	11554	-0.03153551369905472	0.1952476	No	
+row_110	CHRM1	cholinergic receptor muscarinic 1 [Source:HGNC Symbol;Acc:HGNC:1950]	11624	-0.03345918655395508	0.19313909	No	
+row_111	PTK2B	protein tyrosine kinase 2 beta [Source:HGNC Symbol;Acc:HGNC:9612]	11968	-0.042431775480508804	0.17636877	No	
+row_112	NLGN2	neuroligin 2 [Source:HGNC Symbol;Acc:HGNC:14290]	12272	-0.04905950278043747	0.16214177	No	
+row_113	ZMYND8	zinc finger MYND-type containing 8 [Source:HGNC Symbol;Acc:HGNC:9397]	13095	-0.07177671790122986	0.1204334	No	
+row_114	TMEM108	transmembrane protein 108 [Source:HGNC Symbol;Acc:HGNC:28451]	14478	-0.11193302273750305	0.0498668	No	
+row_115	PPP1R9A	protein phosphatase 1 regulatory subunit 9A [Source:HGNC Symbol;Acc:HGNC:14946]	14489	-0.11226233839988708	0.055013467	No	
+row_116	RAB3GAP1	RAB3 GTPase activating protein catalytic subunit 1 [Source:HGNC Symbol;Acc:HGNC:17063]	14515	-0.1129458099603653	0.05936724	No	
+row_117	CHRNA2	cholinergic receptor nicotinic alpha 2 subunit [Source:HGNC Symbol;Acc:HGNC:1956]	15578	-0.1498391330242157	0.008379911	No	
+row_118	MTMR2	myotubularin related protein 2 [Source:HGNC Symbol;Acc:HGNC:7450]	15705	-0.15462423861026764	0.009276852	No	
+row_119	CHRNA1	cholinergic receptor nicotinic alpha 1 subunit [Source:HGNC Symbol;Acc:HGNC:1955]	16210	-0.17695923149585724	-0.009547665	No	
+row_120	APP	amyloid beta precursor protein [Source:HGNC Symbol;Acc:HGNC:620]	16243	-0.17847619950771332	-0.0022538002	No	
+row_121	GSK3B	glycogen synthase kinase 3 beta [Source:HGNC Symbol;Acc:HGNC:4617]	16467	-0.1895199567079544	-0.00493729	No	
+row_122	LRRK2	leucine rich repeat kinase 2 [Source:HGNC Symbol;Acc:HGNC:18618]	16761	-0.20302848517894745	-0.010797162	No	
+row_123	PTEN	phosphatase and tensin homolog [Source:HGNC Symbol;Acc:HGNC:9588]	17613	-0.2710222005844116	-0.04399191	No	
+row_124	ADRB1	adrenoceptor beta 1 [Source:HGNC Symbol;Acc:HGNC:285]	17713	-0.2838901877403259	-0.03504382	No	
+row_125	PPP3CA	protein phosphatase 3 catalytic subunit alpha [Source:HGNC Symbol;Acc:HGNC:9314]	17911	-0.3171774744987488	-0.029812984	No	
+row_126	MEF2C	myocyte enhancer factor 2C [Source:HGNC Symbol;Acc:HGNC:6996]	18207	-0.45449644327163696	-0.023018787	No	
+row_127	ADORA2A	adenosine A2a receptor [Source:HGNC Symbol;Acc:HGNC:263]	18231	-0.5013062953948975	0.0011583564	No	

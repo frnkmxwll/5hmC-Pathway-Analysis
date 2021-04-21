@@ -1,0 +1,53 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TARDBP	TAR DNA binding protein [Source:HGNC Symbol;Acc:HGNC:11571]	292	0.3211214244365692	0.039947413	No	
+row_1	ZFP36L2	ZFP36 ring finger protein like 2 [Source:HGNC Symbol;Acc:HGNC:1108]	2152	0.1590530425310135	-0.034457464	No	
+row_2	RIDA	reactive intermediate imine deaminase A homolog [Source:HGNC Symbol;Acc:HGNC:16897]	2612	0.14010286331176758	-0.03524763	No	
+row_3	MEX3D	mex-3 RNA binding family member D [Source:HGNC Symbol;Acc:HGNC:16734]	3498	0.11301673948764801	-0.064165816	No	
+row_4	TRIM71	tripartite motif containing 71 [Source:HGNC Symbol;Acc:HGNC:32669]	4030	0.09833506494760513	-0.07619441	No	
+row_5	PRR5L	proline rich 5 like [Source:HGNC Symbol;Acc:HGNC:25878]	4114	0.0963907465338707	-0.06394798	No	
+row_6	ZFP36	ZFP36 ring finger protein [Source:HGNC Symbol;Acc:HGNC:12862]	4174	0.09450360387563705	-0.050711986	No	
+row_7	ZC3H12D	zinc finger CCCH-type containing 12D [Source:HGNC Symbol;Acc:HGNC:21175]	4219	0.09346537292003632	-0.036832884	No	
+row_8	POLR2G	RNA polymerase II subunit G [Source:HGNC Symbol;Acc:HGNC:9194]	5194	0.07141920179128647	-0.07789383	No	
+row_9	ZFP36L1	ZFP36 ring finger protein like 1 [Source:HGNC Symbol;Acc:HGNC:1107]	5876	0.05592471733689308	-0.105558366	No	
+row_10	KHSRP	KH-type splicing regulatory protein [Source:HGNC Symbol;Acc:HGNC:6316]	6245	0.04799041524529457	-0.11740946	No	
+row_11	ZC3H12A	zinc finger CCCH-type containing 12A [Source:HGNC Symbol;Acc:HGNC:26259]	6566	0.04120846465229988	-0.12780583	No	
+row_12	YTHDF1	YTH N6-methyladenosine RNA binding protein 1 [Source:HGNC Symbol;Acc:HGNC:15867]	6960	0.033469680696725845	-0.1435623	No	
+row_13	BTG2	BTG anti-proliferation factor 2 [Source:HGNC Symbol;Acc:HGNC:1131]	7236	0.027926137670874596	-0.15380219	No	
+row_14	NANOS3	nanos C2HC-type zinc finger 3 [Source:HGNC Symbol;Acc:HGNC:22048]	7445	0.023865336552262306	-0.16106899	No	
+row_15	TNRC6C	trinucleotide repeat containing adaptor 6C [Source:HGNC Symbol;Acc:HGNC:29318]	8134	0.010052228346467018	-0.1971164	No	
+row_16	DND1	DND microRNA-mediated repression inhibitor 1 [Source:HGNC Symbol;Acc:HGNC:23799]	9183	0.0	-0.25469565	No	
+row_17	EIF4ENIF1	eukaryotic translation initiation factor 4E nuclear import factor 1 [Source:HGNC Symbol;Acc:HGNC:16687]	9521	0.0	-0.27321112	No	
+row_18	GTPBP1	GTP binding protein 1 [Source:HGNC Symbol;Acc:HGNC:4669]	10170	-0.0055102016776800156	-0.3078528	No	
+row_19	METTL16	methyltransferase like 16 [Source:HGNC Symbol;Acc:HGNC:28484]	10680	-0.01609247922897339	-0.33301243	No	
+row_20	AGO2	argonaute RISC catalytic component 2 [Source:HGNC Symbol;Acc:HGNC:3263]	11127	-0.025027897208929062	-0.35315275	No	
+row_21	ZC3HAV1	zinc finger CCCH-type containing, antiviral 1 [Source:HGNC Symbol;Acc:HGNC:23721]	11556	-0.033637553453445435	-0.3708029	No	
+row_22	MOV10	Mov10 RISC complex RNA helicase [Source:HGNC Symbol;Acc:HGNC:7200]	11923	-0.04161262884736061	-0.38365614	No	
+row_23	UPF1	UPF1 RNA helicase and ATPase [Source:HGNC Symbol;Acc:HGNC:9962]	12282	-0.04874636232852936	-0.39482602	No	
+row_24	FTO	FTO alpha-ketoglutarate dependent dioxygenase [Source:HGNC Symbol;Acc:HGNC:24678]	12561	-0.05447245016694069	-0.40060213	No	
+row_25	PNPT1	polyribonucleotide nucleotidyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:23166]	12898	-0.06233437731862068	-0.4081941	No	
+row_26	PLEKHN1	pleckstrin homology domain containing N1 [Source:HGNC Symbol;Acc:HGNC:25284]	13154	-0.06831793487071991	-0.41029245	No	
+row_27	CELF1	CUGBP Elav-like family member 1 [Source:HGNC Symbol;Acc:HGNC:2549]	13179	-0.06901216506958008	-0.39957815	No	
+row_28	YTHDF2	YTH N6-methyladenosine RNA binding protein 2 [Source:HGNC Symbol;Acc:HGNC:31675]	14163	-0.09299937635660172	-0.43737087	Yes	
+row_29	PUM1	pumilio RNA binding family member 1 [Source:HGNC Symbol;Acc:HGNC:14957]	14462	-0.1009892150759697	-0.4361352	Yes	
+row_30	NANOS1	nanos C2HC-type zinc finger 1 [Source:HGNC Symbol;Acc:HGNC:23044]	14571	-0.10417670756578445	-0.42390475	Yes	
+row_31	TNRC6B	trinucleotide repeat containing adaptor 6B [Source:HGNC Symbol;Acc:HGNC:29190]	14613	-0.10538002848625183	-0.4077834	Yes	
+row_32	CNOT8	CCR4-NOT transcription complex subunit 8 [Source:HGNC Symbol;Acc:HGNC:9207]	14643	-0.10599610209465027	-0.3908953	Yes	
+row_33	PABPC1	poly(A) binding protein cytoplasmic 1 [Source:HGNC Symbol;Acc:HGNC:8554]	14763	-0.10973748564720154	-0.37829968	Yes	
+row_34	ROCK2	Rho associated coiled-coil containing protein kinase 2 [Source:HGNC Symbol;Acc:HGNC:10252]	14781	-0.11032599210739136	-0.35999733	Yes	
+row_35	CPEB3	cytoplasmic polyadenylation element binding protein 3 [Source:HGNC Symbol;Acc:HGNC:21746]	14933	-0.11454189568758011	-0.34832215	Yes	
+row_36	METTL3	methyltransferase like 3 [Source:HGNC Symbol;Acc:HGNC:17563]	15277	-0.12448516488075256	-0.3454621	Yes	
+row_37	GIGYF2	GRB10 interacting GYF protein 2 [Source:HGNC Symbol;Acc:HGNC:11960]	15374	-0.12705406546592712	-0.3285835	Yes	
+row_38	RBM24	RNA binding motif protein 24 [Source:HGNC Symbol;Acc:HGNC:21539]	15412	-0.12830474972724915	-0.30824524	Yes	
+row_39	CNOT1	CCR4-NOT transcription complex subunit 1 [Source:HGNC Symbol;Acc:HGNC:7877]	15415	-0.12834961712360382	-0.28597617	Yes	
+row_40	TNRC6A	trinucleotide repeat containing adaptor 6A [Source:HGNC Symbol;Acc:HGNC:11969]	15684	-0.13734106719493866	-0.27675396	Yes	
+row_41	RC3H1	ring finger and CCCH-type domains 1 [Source:HGNC Symbol;Acc:HGNC:29434]	16260	-0.15915487706661224	-0.2805955	Yes	
+row_42	HNRNPD	heterogeneous nuclear ribonucleoprotein D [Source:HGNC Symbol;Acc:HGNC:5036]	16382	-0.16455063223838806	-0.25855258	Yes	
+row_43	METTL14	methyltransferase like 14 [Source:HGNC Symbol;Acc:HGNC:29330]	16659	-0.1765465885400772	-0.24293405	Yes	
+row_44	HNRNPR	heterogeneous nuclear ribonucleoprotein R [Source:HGNC Symbol;Acc:HGNC:5047]	16853	-0.18672114610671997	-0.22098131	Yes	
+row_45	NANOS2	nanos C2HC-type zinc finger 2 [Source:HGNC Symbol;Acc:HGNC:23292]	17193	-0.20855803787708282	-0.20324263	Yes	
+row_46	TOB1	transducer of ERBB2, 1 [Source:HGNC Symbol;Acc:HGNC:11979]	17286	-0.21472391486167908	-0.1708582	Yes	
+row_47	ROCK1	Rho associated coiled-coil containing protein kinase 1 [Source:HGNC Symbol;Acc:HGNC:10251]	17378	-0.22061941027641296	-0.1373909	Yes	
+row_48	DHX36	DEAH-box helicase 36 [Source:HGNC Symbol;Acc:HGNC:14410]	17637	-0.24804595112800598	-0.10831683	Yes	
+row_49	CNOT6L	CCR4-NOT transcription complex subunit 6 like [Source:HGNC Symbol;Acc:HGNC:18042]	17678	-0.2524448037147522	-0.06649843	Yes	
+row_50	YTHDF3	YTH N6-methyladenosine RNA binding protein 3 [Source:HGNC Symbol;Acc:HGNC:26465]	17707	-0.25641068816185	-0.023329234	Yes	
+row_51	CNOT7	CCR4-NOT transcription complex subunit 7 [Source:HGNC Symbol;Acc:HGNC:14101]	17996	-0.30521994829177856	0.014065377	Yes	

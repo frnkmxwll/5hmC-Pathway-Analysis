@@ -1,0 +1,84 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	RAB6C	RAB6C, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:16525]	377	0.29938244819641113	0.0144347865	No	
+row_1	MAGEL2	MAGE family member L2 [Source:HGNC Symbol;Acc:HGNC:6814]	1498	0.191163569688797	-0.024739834	No	
+row_2	PLEKHJ1	pleckstrin homology domain containing J1 [Source:HGNC Symbol;Acc:HGNC:18211]	1652	0.1817699819803238	-0.011798792	No	
+row_3	VPS52	VPS52 subunit of GARP complex [Source:HGNC Symbol;Acc:HGNC:10518]	2824	0.1325872540473938	-0.060664095	No	
+row_4	TBC1D17	TBC1 domain family member 17 [Source:HGNC Symbol;Acc:HGNC:25699]	3019	0.12568488717079163	-0.056570612	No	
+row_5	PHETA2	PH domain containing endocytic trafficking adaptor 2 [Source:HGNC Symbol;Acc:HGNC:27161]	3102	0.12360024452209473	-0.04655811	No	
+row_6	RAB6B	RAB6B, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:14902]	3201	0.1208573654294014	-0.037748516	No	
+row_7	DCTN1	dynactin subunit 1 [Source:HGNC Symbol;Acc:HGNC:2711]	3349	0.11673136800527573	-0.032120563	No	
+row_8	RGP1	RGP1 homolog, RAB6A GEF complex partner 1 [Source:HGNC Symbol;Acc:HGNC:21965]	3968	0.10022993385791779	-0.0543537	No	
+row_9	VPS51	VPS51 subunit of GARP complex [Source:HGNC Symbol;Acc:HGNC:1172]	3986	0.09972651302814484	-0.043569498	No	
+row_10	BAIAP3	BAI1 associated protein 3 [Source:HGNC Symbol;Acc:HGNC:948]	4531	0.086175337433815	-0.06338168	No	
+row_11	EHD3	EH domain containing 3 [Source:HGNC Symbol;Acc:HGNC:3244]	4710	0.08254996687173843	-0.063476816	No	
+row_12	RNF126	ring finger protein 126 [Source:HGNC Symbol;Acc:HGNC:21151]	5082	0.07385003566741943	-0.07521627	No	
+row_13	DENND2A	DENN domain containing 2A [Source:HGNC Symbol;Acc:HGNC:22212]	5187	0.0714794248342514	-0.07253976	No	
+row_14	TBC1D14	TBC1 domain family member 14 [Source:HGNC Symbol;Acc:HGNC:29246]	5873	0.055996451526880264	-0.103658594	No	
+row_15	UBE2O	ubiquitin conjugating enzyme E2 O [Source:HGNC Symbol;Acc:HGNC:29554]	6078	0.051706522703170776	-0.10880937	No	
+row_16	BET1L	Bet1 golgi vesicular membrane trafficking protein like [Source:HGNC Symbol;Acc:HGNC:19348]	6104	0.051139142364263535	-0.10417542	No	
+row_17	CLN5	CLN5 intracellular trafficking protein [Source:HGNC Symbol;Acc:HGNC:2076]	6286	0.047184452414512634	-0.108591795	No	
+row_18	SNX8	sorting nexin 8 [Source:HGNC Symbol;Acc:HGNC:14972]	6330	0.04623110219836235	-0.10552528	No	
+row_19	SGSM2	small G protein signaling modulator 2 [Source:HGNC Symbol;Acc:HGNC:29026]	6415	0.0446651317179203	-0.104899265	No	
+row_20	PHETA1	PH domain containing endocytic trafficking adaptor 1 [Source:HGNC Symbol;Acc:HGNC:26509]	6669	0.039040371775627136	-0.114235304	No	
+row_21	YKT6	YKT6 v-SNARE homolog [Source:HGNC Symbol;Acc:HGNC:16959]	6740	0.03752635419368744	-0.11367773	No	
+row_22	TBC1D10B	TBC1 domain family member 10B [Source:HGNC Symbol;Acc:HGNC:24510]	6911	0.034374311566352844	-0.11899416	No	
+row_23	TRAPPC10	trafficking protein particle complex 10 [Source:HGNC Symbol;Acc:HGNC:11868]	7406	0.024560539051890373	-0.1432955	No	
+row_24	EIPR1	EARP complex and GARP complex interacting protein 1 [Source:HGNC Symbol;Acc:HGNC:12383]	7752	0.01774527132511139	-0.16019742	No	
+row_25	GGA1	golgi associated, gamma adaptin ear containing, ARF binding protein 1 [Source:HGNC Symbol;Acc:HGNC:17842]	7782	0.01698163151741028	-0.15979779	No	
+row_26	RHOBTB3	Rho related BTB domain containing 3 [Source:HGNC Symbol;Acc:HGNC:18757]	8063	0.011454506777226925	-0.17386167	No	
+row_27	WASHC2C	WASH complex subunit 2C [Source:HGNC Symbol;Acc:HGNC:23414]	8225	0.008342863991856575	-0.18174198	No	
+row_28	ARFRP1	ADP ribosylation factor related protein 1 [Source:HGNC Symbol;Acc:HGNC:662]	8332	0.006222628057003021	-0.1868445	No	
+row_29	SNX32	sorting nexin 32 [Source:HGNC Symbol;Acc:HGNC:26423]	8968	0.0	-0.2217922	No	
+row_30	GOSR2	golgi SNAP receptor complex member 2 [Source:HGNC Symbol;Acc:HGNC:4431]	9384	0.0	-0.24463205	No	
+row_31	TBC1D10C	TBC1 domain family member 10C [Source:HGNC Symbol;Acc:HGNC:24702]	9742	0.0	-0.2642798	No	
+row_32	TBC1D5	TBC1 domain family member 5 [Source:HGNC Symbol;Acc:HGNC:19166]	9992	-0.0023758853785693645	-0.2777045	No	
+row_33	SNX1	sorting nexin 1 [Source:HGNC Symbol;Acc:HGNC:11172]	10167	-0.005482531618326902	-0.28663644	No	
+row_34	RIC1	RIC1 homolog, RAB6A GEF complex partner 1 [Source:HGNC Symbol;Acc:HGNC:17686]	10624	-0.015014993958175182	-0.3099682	No	
+row_35	USP7	ubiquitin specific peptidase 7 [Source:HGNC Symbol;Acc:HGNC:12630]	11206	-0.02676641196012497	-0.3387984	No	
+row_36	VTI1B	vesicle transport through interaction with t-SNAREs 1B [Source:HGNC Symbol;Acc:HGNC:17793]	11211	-0.026800649240612984	-0.33586895	No	
+row_37	VTI1A	vesicle transport through interaction with t-SNAREs 1A [Source:HGNC Symbol;Acc:HGNC:17792]	11229	-0.027154793962836266	-0.33361334	No	
+row_38	WASHC1	WASH complex subunit 1 [Source:HGNC Symbol;Acc:HGNC:24361]	11244	-0.027412796393036842	-0.3311623	No	
+row_39	CLTCL1	clathrin heavy chain like 1 [Source:HGNC Symbol;Acc:HGNC:2093]	11433	-0.03157544136047363	-0.3377983	No	
+row_40	RAB7A	RAB7A, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:9788]	11618	-0.03492681682109833	-0.3438203	No	
+row_41	ANKFY1	ankyrin repeat and FYVE domain containing 1 [Source:HGNC Symbol;Acc:HGNC:20763]	11668	-0.036216914653778076	-0.34226087	No	
+row_42	VPS53	VPS53 subunit of GARP complex [Source:HGNC Symbol;Acc:HGNC:25608]	11942	-0.041976384818553925	-0.3523526	No	
+row_43	SLC66A2	solute carrier family 66 member 2 [Source:HGNC Symbol;Acc:HGNC:26188]	11963	-0.04251060262322426	-0.3484575	No	
+row_44	GBF1	golgi brefeldin A resistant guanine nucleotide exchange factor 1 [Source:HGNC Symbol;Acc:HGNC:4181]	12568	-0.054608654230833054	-0.3752815	No	
+row_45	VPS26B	VPS26, retromer complex component B [Source:HGNC Symbol;Acc:HGNC:28119]	12584	-0.055026717483997345	-0.36964032	No	
+row_46	GOSR1	golgi SNAP receptor complex member 1 [Source:HGNC Symbol;Acc:HGNC:4430]	13025	-0.0652046650648117	-0.38619325	No	
+row_47	TBC1D10A	TBC1 domain family member 10A [Source:HGNC Symbol;Acc:HGNC:23609]	13218	-0.07005998492240906	-0.3885267	No	
+row_48	RBSN	rabenosyn, RAB effector [Source:HGNC Symbol;Acc:HGNC:20759]	13602	-0.07908324152231216	-0.4003116	No	
+row_49	VPS26A	VPS26, retromer complex component A [Source:HGNC Symbol;Acc:HGNC:12711]	13696	-0.08153696358203888	-0.39584774	No	
+row_50	RAB6A	RAB6A, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:9786]	13925	-0.08727283775806427	-0.39813963	No	
+row_51	PRKN	parkin RBR E3 ubiquitin protein ligase [Source:HGNC Symbol;Acc:HGNC:8607]	14212	-0.09437384456396103	-0.4027891	Yes	
+row_52	TBC1D23	TBC1 domain family member 23 [Source:HGNC Symbol;Acc:HGNC:25622]	14285	-0.09657435864210129	-0.39540228	Yes	
+row_53	DENND5A	DENN domain containing 5A [Source:HGNC Symbol;Acc:HGNC:19344]	14577	-0.10426560789346695	-0.39916447	Yes	
+row_54	CLTC	clathrin heavy chain [Source:HGNC Symbol;Acc:HGNC:2092]	14663	-0.10659998655319214	-0.39131492	Yes	
+row_55	TMEM87B	transmembrane protein 87B [Source:HGNC Symbol;Acc:HGNC:25913]	14740	-0.1087975800037384	-0.3827118	Yes	
+row_56	SNX3	sorting nexin 3 [Source:HGNC Symbol;Acc:HGNC:11174]	14915	-0.11384951323270798	-0.3789085	Yes	
+row_57	SNX6	sorting nexin 6 [Source:HGNC Symbol;Acc:HGNC:14970]	15239	-0.12308882921934128	-0.3822197	Yes	
+row_58	ARL1	ADP ribosylation factor like GTPase 1 [Source:HGNC Symbol;Acc:HGNC:692]	15298	-0.12517546117305756	-0.37070122	Yes	
+row_59	ERC1	ELKS/RAB6-interacting/CAST family member 1 [Source:HGNC Symbol;Acc:HGNC:17072]	15368	-0.12691186368465424	-0.3595841	Yes	
+row_60	WASHC2A	WASH complex subunit 2A [Source:HGNC Symbol;Acc:HGNC:23416]	15451	-0.12948919832706451	-0.34887952	Yes	
+row_61	ARFIP1	ADP ribosylation factor interacting protein 1 [Source:HGNC Symbol;Acc:HGNC:21496]	15764	-0.14006055891513824	-0.34959084	Yes	
+row_62	HEATR5B	HEAT repeat containing 5B [Source:HGNC Symbol;Acc:HGNC:29273]	15777	-0.1404361128807068	-0.33374727	Yes	
+row_63	SNX2	sorting nexin 2 [Source:HGNC Symbol;Acc:HGNC:11173]	16138	-0.1540513038635254	-0.33545613	Yes	
+row_64	HEATR5A	HEAT repeat containing 5A [Source:HGNC Symbol;Acc:HGNC:20276]	16153	-0.15458151698112488	-0.31806028	Yes	
+row_65	SPAG9	sperm associated antigen 9 [Source:HGNC Symbol;Acc:HGNC:14524]	16219	-0.15724815428256989	-0.3031579	Yes	
+row_66	TMEM87A	transmembrane protein 87A [Source:HGNC Symbol;Acc:HGNC:24522]	16270	-0.1596474051475525	-0.287148	Yes	
+row_67	TRIM27	tripartite motif containing 27 [Source:HGNC Symbol;Acc:HGNC:9975]	16414	-0.16571013629436493	-0.27554393	Yes	
+row_68	VPS54	VPS54 subunit of GARP complex [Source:HGNC Symbol;Acc:HGNC:18652]	16471	-0.16804687678813934	-0.25887716	Yes	
+row_69	VPS29	VPS29 retromer complex component [Source:HGNC Symbol;Acc:HGNC:14340]	16515	-0.16953681409358978	-0.24131982	Yes	
+row_70	VAMP3	vesicle associated membrane protein 3 [Source:HGNC Symbol;Acc:HGNC:12644]	16654	-0.17624595761299133	-0.22820242	Yes	
+row_71	STX10	syntaxin 10 [Source:HGNC Symbol;Acc:HGNC:11428]	16712	-0.17939843237400055	-0.21025664	Yes	
+row_72	PIKFYVE	phosphoinositide kinase, FYVE-type zinc finger containing [Source:HGNC Symbol;Acc:HGNC:23785]	16737	-0.18068735301494598	-0.19034322	Yes	
+row_73	STX5	syntaxin 5 [Source:HGNC Symbol;Acc:HGNC:11440]	16768	-0.18229685723781586	-0.17057085	Yes	
+row_74	VPS35	VPS35 retromer complex component [Source:HGNC Symbol;Acc:HGNC:13487]	16844	-0.18623849749565125	-0.15281188	Yes	
+row_75	GCC2	GRIP and coiled-coil domain containing 2 [Source:HGNC Symbol;Acc:HGNC:23218]	16861	-0.18698540329933167	-0.13171802	Yes	
+row_76	SNX5	sorting nexin 5 [Source:HGNC Symbol;Acc:HGNC:14969]	17049	-0.19822394847869873	-0.11871454	Yes	
+row_77	PREPL	prolyl endopeptidase like [Source:HGNC Symbol;Acc:HGNC:30228]	17095	-0.20098605751991272	-0.09757137	Yes	
+row_78	EVI5	ecotropic viral integration site 5 [Source:HGNC Symbol;Acc:HGNC:3501]	17377	-0.22054775059223175	-0.08711776	Yes	
+row_79	STX6	syntaxin 6 [Source:HGNC Symbol;Acc:HGNC:11441]	17450	-0.22590787708759308	-0.06453176	Yes	
+row_80	LRRK2	leucine rich repeat kinase 2 [Source:HGNC Symbol;Acc:HGNC:18618]	17741	-0.2610011100769043	-0.049819417	Yes	
+row_81	RAB29	RAB29, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:9789]	17897	-0.28459376096725464	-0.024904648	Yes	
+row_82	STX16	syntaxin 16 [Source:HGNC Symbol;Acc:HGNC:11431]	18160	-0.37770211696624756	0.005063339	Yes	

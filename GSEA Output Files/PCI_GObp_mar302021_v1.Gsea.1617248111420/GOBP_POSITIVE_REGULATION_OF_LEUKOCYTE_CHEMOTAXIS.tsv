@@ -1,0 +1,90 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	EDN2	endothelin 2 [Source:HGNC Symbol;Acc:HGNC:3177]	128	0.38584303855895996	0.03213369	Yes	
+row_1	DEFB124	defensin beta 124 [Source:HGNC Symbol;Acc:HGNC:18104]	360	0.3028176426887512	0.050165974	Yes	
+row_2	RARRES2	retinoic acid receptor responder 2 [Source:HGNC Symbol;Acc:HGNC:9868]	376	0.29945677518844604	0.07974863	Yes	
+row_3	CXCL14	C-X-C motif chemokine ligand 14 [Source:HGNC Symbol;Acc:HGNC:10640]	431	0.2914566397666931	0.1063718	Yes	
+row_4	CCL21	C-C motif chemokine ligand 21 [Source:HGNC Symbol;Acc:HGNC:10620]	594	0.2684731185436249	0.124715276	Yes	
+row_5	F7	coagulation factor VII [Source:HGNC Symbol;Acc:HGNC:3544]	597	0.26836860179901123	0.15185677	Yes	
+row_6	IL6	interleukin 6 [Source:HGNC Symbol;Acc:HGNC:6018]	624	0.26449698209762573	0.17728382	Yes	
+row_7	CCL5	C-C motif chemokine ligand 5 [Source:HGNC Symbol;Acc:HGNC:10632]	647	0.2614396810531616	0.20262064	Yes	
+row_8	CCL4	C-C motif chemokine ligand 4 [Source:HGNC Symbol;Acc:HGNC:10630]	850	0.2373599410057068	0.21560256	Yes	
+row_9	SERPINE1	serpin family E member 1 [Source:HGNC Symbol;Acc:HGNC:8583]	867	0.2354481965303421	0.23863038	Yes	
+row_10	IL12A	interleukin 12A [Source:HGNC Symbol;Acc:HGNC:5969]	869	0.2350585013628006	0.26244444	Yes	
+row_11	CCL1	C-C motif chemokine ligand 1 [Source:HGNC Symbol;Acc:HGNC:10609]	899	0.2321944385766983	0.28442615	Yes	
+row_12	PGF	placental growth factor [Source:HGNC Symbol;Acc:HGNC:8893]	1109	0.21613404154777527	0.2948673	Yes	
+row_13	EDN3	endothelin 3 [Source:HGNC Symbol;Acc:HGNC:3178]	1200	0.20958279073238373	0.31119463	Yes	
+row_14	LGALS9	galectin 9 [Source:HGNC Symbol;Acc:HGNC:6570]	1407	0.19591058790683746	0.31974733	Yes	
+row_15	F2RL1	F2R like trypsin receptor 1 [Source:HGNC Symbol;Acc:HGNC:3538]	1417	0.19521376490592957	0.3390749	Yes	
+row_16	TNFSF18	TNF superfamily member 18 [Source:HGNC Symbol;Acc:HGNC:11932]	1956	0.1671406328678131	0.32642826	Yes	
+row_17	CSF1R	colony stimulating factor 1 receptor [Source:HGNC Symbol;Acc:HGNC:2433]	1985	0.1657145470380783	0.3417143	Yes	
+row_18	IL4	interleukin 4 [Source:HGNC Symbol;Acc:HGNC:6014]	2516	0.1439073383808136	0.32714882	Yes	
+row_19	CXCL12	C-X-C motif chemokine ligand 12 [Source:HGNC Symbol;Acc:HGNC:10672]	2604	0.14038024842739105	0.3366141	Yes	
+row_20	CREB3	cAMP responsive element binding protein 3 [Source:HGNC Symbol;Acc:HGNC:2347]	2614	0.14002451300621033	0.35033748	Yes	
+row_21	GPSM3	G protein signaling modulator 3 [Source:HGNC Symbol;Acc:HGNC:13945]	2865	0.13133400678634644	0.34991035	Yes	
+row_22	CCR7	C-C motif chemokine receptor 7 [Source:HGNC Symbol;Acc:HGNC:1608]	2908	0.12988384068012238	0.36078718	Yes	
+row_23	GAS6	growth arrest specific 6 [Source:HGNC Symbol;Acc:HGNC:4168]	2916	0.12969829142093658	0.37357208	Yes	
+row_24	CCL27	C-C motif chemokine ligand 27 [Source:HGNC Symbol;Acc:HGNC:10626]	2917	0.1296953558921814	0.38674206	Yes	
+row_25	CCL3	C-C motif chemokine ligand 3 [Source:HGNC Symbol;Acc:HGNC:10627]	3158	0.12199945747852325	0.3859176	Yes	
+row_26	VEGFA	vascular endothelial growth factor A [Source:HGNC Symbol;Acc:HGNC:12680]	3304	0.11813563108444214	0.3899309	Yes	
+row_27	LBP	lipopolysaccharide binding protein [Source:HGNC Symbol;Acc:HGNC:6517]	3777	0.10526083409786224	0.3746342	No	
+row_28	CCR2	C-C motif chemokine receptor 2 [Source:HGNC Symbol;Acc:HGNC:1603]	4445	0.08852868527173996	0.34690288	No	
+row_29	CALR	calreticulin [Source:HGNC Symbol;Acc:HGNC:1455]	4498	0.08695627748966217	0.3528701	No	
+row_30	IL34	interleukin 34 [Source:HGNC Symbol;Acc:HGNC:28529]	4665	0.08358276635408401	0.3522186	No	
+row_31	LGMN	legumain [Source:HGNC Symbol;Acc:HGNC:9472]	4793	0.08077370375394821	0.35342893	No	
+row_32	XCL1	X-C motif chemokine ligand 1 [Source:HGNC Symbol;Acc:HGNC:10645]	4817	0.08013708144426346	0.36030024	No	
+row_33	RAC2	Rac family small GTPase 2 [Source:HGNC Symbol;Acc:HGNC:9802]	5078	0.07388431578874588	0.35348883	No	
+row_34	MAPK3	mitogen-activated protein kinase 3 [Source:HGNC Symbol;Acc:HGNC:6877]	5144	0.07262516766786575	0.35728508	No	
+row_35	XCL2	X-C motif chemokine ligand 2 [Source:HGNC Symbol;Acc:HGNC:10646]	5204	0.07129289209842682	0.36127636	No	
+row_36	CSF1	colony stimulating factor 1 [Source:HGNC Symbol;Acc:HGNC:2432]	5270	0.06985870748758316	0.3647917	No	
+row_37	THBS1	thrombospondin 1 [Source:HGNC Symbol;Acc:HGNC:11785]	5500	0.0647316724061966	0.35875753	No	
+row_38	WNT5A	Wnt family member 5A [Source:HGNC Symbol;Acc:HGNC:12784]	5725	0.059431008994579315	0.3524604	No	
+row_39	VEGFB	vascular endothelial growth factor B [Source:HGNC Symbol;Acc:HGNC:12681]	6072	0.05200178921222687	0.33869228	No	
+row_40	DAPK2	death associated protein kinase 2 [Source:HGNC Symbol;Acc:HGNC:2675]	6190	0.049207281321287155	0.33724773	No	
+row_41	EDN1	endothelin 1 [Source:HGNC Symbol;Acc:HGNC:3176]	6416	0.044656552374362946	0.32939526	No	
+row_42	PRSS56	serine protease 56 [Source:HGNC Symbol;Acc:HGNC:39433]	6883	0.03479321300983429	0.3072732	No	
+row_43	STK39	serine/threonine kinase 39 [Source:HGNC Symbol;Acc:HGNC:17717]	7423	0.024309316650032997	0.28006765	No	
+row_44	ADAM17	ADAM metallopeptidase domain 17 [Source:HGNC Symbol;Acc:HGNC:195]	7768	0.017281312495470047	0.26288393	No	
+row_45	RIPOR2	RHO family interacting cell polarization regulator 2 [Source:HGNC Symbol;Acc:HGNC:13872]	7817	0.016267403960227966	0.2618932	No	
+row_46	NCKAP1L	NCK associated protein 1 like [Source:HGNC Symbol;Acc:HGNC:4862]	8032	0.011980081908404827	0.2513282	No	
+row_47	CAMK1D	calcium/calmodulin dependent protein kinase ID [Source:HGNC Symbol;Acc:HGNC:19341]	8086	0.010998883284628391	0.24952722	No	
+row_48	CCL19	C-C motif chemokine ligand 19 [Source:HGNC Symbol;Acc:HGNC:10617]	8249	0.007831558585166931	0.24140373	No	
+row_49	DNM1L	dynamin 1 like [Source:HGNC Symbol;Acc:HGNC:2973]	8265	0.007623535580933094	0.24135205	No	
+row_50	TMEM102	transmembrane protein 102 [Source:HGNC Symbol;Acc:HGNC:26722]	8626	5.333147710189223E-4	0.2215868	No	
+row_51	MSTN	myostatin [Source:HGNC Symbol;Acc:HGNC:4223]	8706	0.0	0.21723753	No	
+row_52	FPR2	formyl peptide receptor 2 [Source:HGNC Symbol;Acc:HGNC:3827]	9068	0.0	0.19736305	No	
+row_53	CXCL10	C-X-C motif chemokine ligand 10 [Source:HGNC Symbol;Acc:HGNC:10637]	9361	0.0	0.1812873	No	
+row_54	CCR1	C-C motif chemokine receptor 1 [Source:HGNC Symbol;Acc:HGNC:1602]	9792	0.0	0.1576141	No	
+row_55	IL23A	interleukin 23 subunit alpha [Source:HGNC Symbol;Acc:HGNC:15488]	9983	-0.0022525498643517494	0.14738259	No	
+row_56	C3AR1	complement C3a receptor 1 [Source:HGNC Symbol;Acc:HGNC:1319]	10066	-0.003731525968760252	0.14324708	No	
+row_57	CD74	CD74 molecule [Source:HGNC Symbol;Acc:HGNC:1697]	10164	-0.005471641663461924	0.13846247	No	
+row_58	THBS4	thrombospondin 4 [Source:HGNC Symbol;Acc:HGNC:11788]	10387	-0.010418910533189774	0.12729847	No	
+row_59	IL6R	interleukin 6 receptor [Source:HGNC Symbol;Acc:HGNC:6019]	10467	-0.011989531107246876	0.1241667	No	
+row_60	PTK2B	protein tyrosine kinase 2 beta [Source:HGNC Symbol;Acc:HGNC:9612]	10525	-0.013081083074212074	0.12235695	No	
+row_61	CMKLR1	chemerin chemokine-like receptor 1 [Source:HGNC Symbol;Acc:HGNC:2121]	10887	-0.020515695214271545	0.10456575	No	
+row_62	AIF1	allograft inflammatory factor 1 [Source:HGNC Symbol;Acc:HGNC:352]	10945	-0.021886153146624565	0.10365011	No	
+row_63	C5AR1	complement C5a receptor 1 [Source:HGNC Symbol;Acc:HGNC:1338]	11318	-0.0288432277739048	0.08609894	No	
+row_64	C1QBP	complement C1q binding protein [Source:HGNC Symbol;Acc:HGNC:1243]	11456	-0.031927768141031265	0.081798665	No	
+row_65	PTK2	protein tyrosine kinase 2 [Source:HGNC Symbol;Acc:HGNC:9611]	11529	-0.03315361589193344	0.08120138	No	
+row_66	TIRAP	TIR domain containing adaptor protein [Source:HGNC Symbol;Acc:HGNC:17192]	11547	-0.033449798822402954	0.08366214	No	
+row_67	PLA2G7	phospholipase A2 group VII [Source:HGNC Symbol;Acc:HGNC:9040]	12585	-0.05502694845199585	0.032158922	No	
+row_68	PTN	pleiotrophin [Source:HGNC Symbol;Acc:HGNC:9630]	13236	-0.07043793052434921	0.0035265046	No	
+row_69	MAPK1	mitogen-activated protein kinase 1 [Source:HGNC Symbol;Acc:HGNC:6871]	13239	-0.07057186961174011	0.010582646	No	
+row_70	S100A7	S100 calcium binding protein A7 [Source:HGNC Symbol;Acc:HGNC:10497]	13257	-0.07094530761241913	0.016850902	No	
+row_71	CXCL13	C-X-C motif chemokine ligand 13 [Source:HGNC Symbol;Acc:HGNC:10639]	13653	-0.08049329370260239	0.0032783155	No	
+row_72	HMGB1	high mobility group box 1 [Source:HGNC Symbol;Acc:HGNC:4983]	13808	-0.08438078314065933	0.0033684894	No	
+row_73	RAC1	Rac family small GTPase 1 [Source:HGNC Symbol;Acc:HGNC:9801]	13989	-0.08883022516965866	0.0024790806	No	
+row_74	S100A14	S100 calcium binding protein A14 [Source:HGNC Symbol;Acc:HGNC:18901]	14072	-0.09086164087057114	0.0071912403	No	
+row_75	AKIRIN1	akirin 1 [Source:HGNC Symbol;Acc:HGNC:25744]	14085	-0.09119827300310135	0.01579136	No	
+row_76	ANO6	anoctamin 6 [Source:HGNC Symbol;Acc:HGNC:25240]	14680	-0.10712726414203644	-0.0060324036	No	
+row_77	SWAP70	switching B cell complex subunit SWAP70 [Source:HGNC Symbol;Acc:HGNC:17070]	14992	-0.11610397696495056	-0.011364355	No	
+row_78	MCU	mitochondrial calcium uniporter [Source:HGNC Symbol;Acc:HGNC:23526]	15048	-0.1179039254784584	-0.002419718	No	
+row_79	CCR6	C-C motif chemokine receptor 6 [Source:HGNC Symbol;Acc:HGNC:1607]	15326	-0.12580431997776031	-0.0048948093	No	
+row_80	VEGFC	vascular endothelial growth factor C [Source:HGNC Symbol;Acc:HGNC:12682]	15429	-0.12873677909374237	0.0025623178	No	
+row_81	ZNF580	zinc finger protein 580 [Source:HGNC Symbol;Acc:HGNC:29473]	15633	-0.1354999840259552	0.005145769	No	
+row_82	ADAM10	ADAM metallopeptidase domain 10 [Source:HGNC Symbol;Acc:HGNC:188]	15741	-0.13943633437156677	0.0134141175	No	
+row_83	WNK1	WNK lysine deficient protein kinase 1 [Source:HGNC Symbol;Acc:HGNC:14540]	16028	-0.15008114278316498	0.01290874	No	
+row_84	CXCL8	C-X-C motif chemokine ligand 8 [Source:HGNC Symbol;Acc:HGNC:6025]	16493	-0.16857656836509705	0.004481885	No	
+row_85	CXCL17	C-X-C motif chemokine ligand 17 [Source:HGNC Symbol;Acc:HGNC:19232]	16848	-0.18630029261112213	0.0039107287	No	
+row_86	OXSR1	oxidative stress responsive kinase 1 [Source:HGNC Symbol;Acc:HGNC:8508]	16984	-0.19452503323554993	0.016231572	No	
+row_87	CCL7	C-C motif chemokine ligand 7 [Source:HGNC Symbol;Acc:HGNC:10634]	17701	-0.2558126449584961	0.002789546	No	
+row_88	MDK	midkine [Source:HGNC Symbol;Acc:HGNC:6972]	17794	-0.2707197070121765	0.025214931	No	

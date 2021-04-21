@@ -1,0 +1,54 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	INPP5J	inositol polyphosphate-5-phosphatase J [Source:HGNC Symbol;Acc:HGNC:8956]	244	0.37453457713127136	0.03981284	No	
+row_1	MIOX	myo-inositol oxygenase [Source:HGNC Symbol;Acc:HGNC:14522]	2450	0.18380287289619446	-0.055223566	No	
+row_2	PLCE1	phospholipase C epsilon 1 [Source:HGNC Symbol;Acc:HGNC:17175]	2727	0.17394506931304932	-0.045671705	No	
+row_3	ITPK1	inositol-tetrakisphosphate 1-kinase [Source:HGNC Symbol;Acc:HGNC:6177]	3136	0.15804171562194824	-0.045632374	No	
+row_4	INPP5E	inositol polyphosphate-5-phosphatase E [Source:HGNC Symbol;Acc:HGNC:21474]	3220	0.15522828698158264	-0.028135672	No	
+row_5	PIK3C2B	phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 beta [Source:HGNC Symbol;Acc:HGNC:8972]	3392	0.14961692690849304	-0.016271483	No	
+row_6	PIP5K1A	phosphatidylinositol-4-phosphate 5-kinase type 1 alpha [Source:HGNC Symbol;Acc:HGNC:8994]	4098	0.12636367976665497	-0.03705212	No	
+row_7	IMPA2	inositol monophosphatase 2 [Source:HGNC Symbol;Acc:HGNC:6051]	4217	0.12290391325950623	-0.026071623	No	
+row_8	PLCB2	phospholipase C beta 2 [Source:HGNC Symbol;Acc:HGNC:9055]	4473	0.11610561609268188	-0.0235846	No	
+row_9	PIP4K2B	phosphatidylinositol-5-phosphate 4-kinase type 2 beta [Source:HGNC Symbol;Acc:HGNC:8998]	4522	0.11460278928279877	-0.009937499	No	
+row_10	IPPK	inositol-pentakisphosphate 2-kinase [Source:HGNC Symbol;Acc:HGNC:14645]	4572	0.11325223743915558	0.0034627533	No	
+row_11	PLCD4	phospholipase C delta 4 [Source:HGNC Symbol;Acc:HGNC:9062]	5416	0.09120950847864151	-0.029895527	No	
+row_12	ITPKA	inositol-trisphosphate 3-kinase A [Source:HGNC Symbol;Acc:HGNC:6178]	5817	0.08179555833339691	-0.040250823	No	
+row_13	PLCG1	phospholipase C gamma 1 [Source:HGNC Symbol;Acc:HGNC:9065]	6362	0.0672871321439743	-0.060579777	No	
+row_14	PLCB3	phospholipase C beta 3 [Source:HGNC Symbol;Acc:HGNC:9056]	6579	0.06203165277838707	-0.06363353	No	
+row_15	INPPL1	inositol polyphosphate phosphatase like 1 [Source:HGNC Symbol;Acc:HGNC:6080]	6588	0.06176082789897919	-0.055297196	No	
+row_16	INPP5K	inositol polyphosphate-5-phosphatase K [Source:HGNC Symbol;Acc:HGNC:33882]	6822	0.05653835088014603	-0.060065586	No	
+row_17	PLCD3	phospholipase C delta 3 [Source:HGNC Symbol;Acc:HGNC:9061]	7073	0.05007404461503029	-0.066686586	No	
+row_18	PI4KA	phosphatidylinositol 4-kinase alpha [Source:HGNC Symbol;Acc:HGNC:8983]	7213	0.047054264694452286	-0.06763778	No	
+row_19	PIP5K1C	phosphatidylinositol-4-phosphate 5-kinase type 1 gamma [Source:HGNC Symbol;Acc:HGNC:8996]	7330	0.04422058165073395	-0.067727886	No	
+row_20	PLCZ1	phospholipase C zeta 1 [Source:HGNC Symbol;Acc:HGNC:19218]	7409	0.0424497090280056	-0.065981716	No	
+row_21	PLCD1	phospholipase C delta 1 [Source:HGNC Symbol;Acc:HGNC:9060]	7521	0.040016088634729385	-0.06639454	No	
+row_22	PI4KB	phosphatidylinositol 4-kinase beta [Source:HGNC Symbol;Acc:HGNC:8984]	7796	0.03325997665524483	-0.07672341	No	
+row_23	PIP4K2C	phosphatidylinositol-5-phosphate 4-kinase type 2 gamma [Source:HGNC Symbol;Acc:HGNC:23786]	8286	0.022093158215284348	-0.10045222	No	
+row_24	PIK3C2G	phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 gamma [Source:HGNC Symbol;Acc:HGNC:8973]	8792	0.01040162518620491	-0.12672146	No	
+row_25	SYNJ2	synaptojanin 2 [Source:HGNC Symbol;Acc:HGNC:11504]	10528	-0.0034470020327717066	-0.22156133	No	
+row_26	ISYNA1	inositol-3-phosphate synthase 1 [Source:HGNC Symbol;Acc:HGNC:29821]	11003	-0.014424548484385014	-0.24555564	No	
+row_27	CDIPT	CDP-diacylglycerol--inositol 3-phosphatidyltransferase [Source:HGNC Symbol;Acc:HGNC:1769]	11165	-0.018855687230825424	-0.25172248	No	
+row_28	INPP5A	inositol polyphosphate-5-phosphatase A [Source:HGNC Symbol;Acc:HGNC:6076]	11217	-0.020318202674388885	-0.25163758	No	
+row_29	INPP5B	inositol polyphosphate-5-phosphatase B [Source:HGNC Symbol;Acc:HGNC:6077]	11383	-0.024591650813817978	-0.25720915	No	
+row_30	INPP4A	inositol polyphosphate-4-phosphatase type I A [Source:HGNC Symbol;Acc:HGNC:6074]	12847	-0.06563331931829453	-0.32826763	No	
+row_31	ALDH6A1	aldehyde dehydrogenase 6 family member A1 [Source:HGNC Symbol;Acc:HGNC:7179]	13233	-0.07709965854883194	-0.33846602	No	
+row_32	PLCG2	phospholipase C gamma 2 [Source:HGNC Symbol;Acc:HGNC:9066]	13267	-0.0780392438173294	-0.32919022	No	
+row_33	PIK3CB	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta [Source:HGNC Symbol;Acc:HGNC:8976]	13626	-0.08927727490663528	-0.3361747	No	
+row_34	PIK3CD	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [Source:HGNC Symbol;Acc:HGNC:8977]	14078	-0.10282886773347855	-0.3463435	No	
+row_35	PIK3C2A	phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 alpha [Source:HGNC Symbol;Acc:HGNC:8971]	14271	-0.10870110243558884	-0.34144706	No	
+row_36	ITPKB	inositol-trisphosphate 3-kinase B [Source:HGNC Symbol;Acc:HGNC:6179]	14568	-0.11892429739236832	-0.34081227	No	
+row_37	PIP4K2A	phosphatidylinositol-5-phosphate 4-kinase type 2 alpha [Source:HGNC Symbol;Acc:HGNC:8997]	15549	-0.15429240465164185	-0.37273428	Yes	
+row_38	MINPP1	multiple inositol-polyphosphate phosphatase 1 [Source:HGNC Symbol;Acc:HGNC:7102]	15786	-0.16485141217708588	-0.36227676	Yes	
+row_39	IPMK	inositol polyphosphate multikinase [Source:HGNC Symbol;Acc:HGNC:20739]	16136	-0.18092398345470428	-0.3557442	Yes	
+row_40	SYNJ1	synaptojanin 1 [Source:HGNC Symbol;Acc:HGNC:11503]	16549	-0.20272640883922577	-0.3495752	Yes	
+row_41	IMPA1	inositol monophosphatase 1 [Source:HGNC Symbol;Acc:HGNC:6050]	16641	-0.20827080309391022	-0.324981	Yes	
+row_42	PIK3CG	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma [Source:HGNC Symbol;Acc:HGNC:8978]	16927	-0.226335808634758	-0.3084792	Yes	
+row_43	PIKFYVE	phosphoinositide kinase, FYVE-type zinc finger containing [Source:HGNC Symbol;Acc:HGNC:23785]	17077	-0.23559144139289856	-0.28318965	Yes	
+row_44	INPP4B	inositol polyphosphate-4-phosphatase type II B [Source:HGNC Symbol;Acc:HGNC:6075]	17152	-0.24156084656715393	-0.25293106	Yes	
+row_45	PLCB4	phospholipase C beta 4 [Source:HGNC Symbol;Acc:HGNC:9059]	17260	-0.24983170628547668	-0.22331037	Yes	
+row_46	INPP1	inositol polyphosphate-1-phosphatase [Source:HGNC Symbol;Acc:HGNC:6071]	17264	-0.2504737973213196	-0.18788417	Yes	
+row_47	TPI1	triosephosphate isomerase 1 [Source:HGNC Symbol;Acc:HGNC:12009]	17291	-0.2528700828552246	-0.1533812	Yes	
+row_48	PLCB1	phospholipase C beta 1 [Source:HGNC Symbol;Acc:HGNC:15917]	17309	-0.25496211647987366	-0.11808647	Yes	
+row_49	PTEN	phosphatase and tensin homolog [Source:HGNC Symbol;Acc:HGNC:9588]	17474	-0.2692851722240448	-0.08883342	Yes	
+row_50	PIP5K1B	phosphatidylinositol-4-phosphate 5-kinase type 1 beta [Source:HGNC Symbol;Acc:HGNC:8995]	17544	-0.27734434604644775	-0.05321543	Yes	
+row_51	PIK3C3	phosphatidylinositol 3-kinase catalytic subunit type 3 [Source:HGNC Symbol;Acc:HGNC:8974]	17867	-0.32243412733078003	-0.02509151	Yes	
+row_52	PIK3CA	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha [Source:HGNC Symbol;Acc:HGNC:8975]	17880	-0.3250686228275299	0.020439724	Yes	

@@ -1,0 +1,102 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	KRT18	keratin 18 [Source:HGNC Symbol;Acc:HGNC:6430]	501	0.2803567349910736	0.0031401096	No	
+row_1	RNF215	ring finger protein 215 [Source:HGNC Symbol;Acc:HGNC:33434]	1151	0.212538480758667	-0.009309243	No	
+row_2	RAB34	RAB34, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:16519]	1432	0.1945447325706482	-0.003403226	No	
+row_3	AP4M1	adaptor related protein complex 4 subunit mu 1 [Source:HGNC Symbol;Acc:HGNC:574]	2150	0.15913328528404236	-0.025454462	No	
+row_4	VPS52	VPS52 subunit of GARP complex [Source:HGNC Symbol;Acc:HGNC:10518]	2824	0.1325872540473938	-0.047992427	No	
+row_5	SCAMP3	secretory carrier membrane protein 3 [Source:HGNC Symbol;Acc:HGNC:10565]	3114	0.12331157177686691	-0.050392747	No	
+row_6	CLN3	CLN3 lysosomal/endosomal transmembrane protein, battenin [Source:HGNC Symbol;Acc:HGNC:2074]	3765	0.10559070855379105	-0.074623734	No	
+row_7	RAB26	RAB26, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:14259]	3801	0.10483072698116302	-0.06505749	No	
+row_8	C16orf70	chromosome 16 open reading frame 70 [Source:HGNC Symbol;Acc:HGNC:29564]	3966	0.10030334442853928	-0.0630943	No	
+row_9	SYS1	SYS1 golgi trafficking protein [Source:HGNC Symbol;Acc:HGNC:16162]	4629	0.0843343660235405	-0.09031708	No	
+row_10	BBS2	Bardet-Biedl syndrome 2 [Source:HGNC Symbol;Acc:HGNC:967]	4662	0.08366313576698303	-0.08290652	No	
+row_11	EHD3	EH domain containing 3 [Source:HGNC Symbol;Acc:HGNC:3244]	4710	0.08254996687173843	-0.07644439	No	
+row_12	CSK	C-terminal Src kinase [Source:HGNC Symbol;Acc:HGNC:2444]	4970	0.07626768946647644	-0.08235023	No	
+row_13	SORCS1	sortilin related VPS10 domain containing receptor 1 [Source:HGNC Symbol;Acc:HGNC:16697]	6145	0.050186995416879654	-0.14152344	No	
+row_14	GAK	cyclin G associated kinase [Source:HGNC Symbol;Acc:HGNC:4113]	6270	0.04746696725487709	-0.14315	No	
+row_15	LAPTM5	lysosomal protein transmembrane 5 [Source:HGNC Symbol;Acc:HGNC:29612]	6472	0.04341201111674309	-0.14946316	No	
+row_16	LLGL1	LLGL scribble cell polarity complex component 1 [Source:HGNC Symbol;Acc:HGNC:6628]	6840	0.035691455006599426	-0.16576785	No	
+row_17	GGA3	golgi associated, gamma adaptin ear containing, ARF binding protein 3 [Source:HGNC Symbol;Acc:HGNC:17079]	6890	0.034697409719228745	-0.1646628	No	
+row_18	AP2A1	adaptor related protein complex 2 subunit alpha 1 [Source:HGNC Symbol;Acc:HGNC:561]	7089	0.030934683978557587	-0.17217878	No	
+row_19	AMN	amnion associated transmembrane protein [Source:HGNC Symbol;Acc:HGNC:14604]	7146	0.029987577348947525	-0.17197578	No	
+row_20	SCAMP2	secretory carrier membrane protein 2 [Source:HGNC Symbol;Acc:HGNC:10564]	7359	0.02570694498717785	-0.18083623	No	
+row_21	SEC16A	SEC16 homolog A, endoplasmic reticulum export factor [Source:HGNC Symbol;Acc:HGNC:29006]	7505	0.022596601396799088	-0.18634667	No	
+row_22	ARL3	ADP ribosylation factor like GTPase 3 [Source:HGNC Symbol;Acc:HGNC:694]	7534	0.022065771743655205	-0.18546975	No	
+row_23	SNAP23	synaptosome associated protein 23 [Source:HGNC Symbol;Acc:HGNC:11131]	7593	0.02086576819419861	-0.18637711	No	
+row_24	GGA1	golgi associated, gamma adaptin ear containing, ARF binding protein 1 [Source:HGNC Symbol;Acc:HGNC:17842]	7782	0.01698163151741028	-0.19487211	No	
+row_25	VPS35L	VPS35 endosomal protein sorting factor like [Source:HGNC Symbol;Acc:HGNC:24641]	8131	0.010115589946508408	-0.2129344	No	
+row_26	COMMD1	copper metabolism domain containing 1 [Source:HGNC Symbol;Acc:HGNC:23024]	8154	0.00967269018292427	-0.2130858	No	
+row_27	AP3D1	adaptor related protein complex 3 subunit delta 1 [Source:HGNC Symbol;Acc:HGNC:568]	8282	0.007171425502747297	-0.21929595	No	
+row_28	ARFRP1	ADP ribosylation factor related protein 1 [Source:HGNC Symbol;Acc:HGNC:662]	8332	0.006222628057003021	-0.22131309	No	
+row_29	ARFGEF2	ADP ribosylation factor guanine nucleotide exchange factor 2 [Source:HGNC Symbol;Acc:HGNC:15853]	8522	0.0027380657847970724	-0.23142494	No	
+row_30	BBS1	Bardet-Biedl syndrome 1 [Source:HGNC Symbol;Acc:HGNC:966]	9023	0.0	-0.2589701	No	
+row_31	RSC1A1	regulator of solute carriers 1 [Source:HGNC Symbol;Acc:HGNC:10458]	9323	0.0	-0.27544212	No	
+row_32	GOSR2	golgi SNAP receptor complex member 2 [Source:HGNC Symbol;Acc:HGNC:4431]	9384	0.0	-0.27874756	No	
+row_33	GGA2	golgi associated, gamma adaptin ear containing, ARF binding protein 2 [Source:HGNC Symbol;Acc:HGNC:16064]	9893	-6.402356084436178E-4	-0.30666324	No	
+row_34	VAMP2	vesicle associated membrane protein 2 [Source:HGNC Symbol;Acc:HGNC:12643]	10213	-0.0064203981310129166	-0.3235331	No	
+row_35	LYPLA1	lysophospholipase 1 [Source:HGNC Symbol;Acc:HGNC:6737]	10384	-0.010388283990323544	-0.3317594	No	
+row_36	OSBPL5	oxysterol binding protein like 5 [Source:HGNC Symbol;Acc:HGNC:16392]	10730	-0.01705329865217209	-0.34889573	No	
+row_37	MYO5A	myosin VA [Source:HGNC Symbol;Acc:HGNC:7602]	10846	-0.019549071788787842	-0.3530876	No	
+row_38	RABEP1	rabaptin, RAB GTPase binding effector protein 1 [Source:HGNC Symbol;Acc:HGNC:17677]	10939	-0.021697500720620155	-0.35577685	No	
+row_39	AP1G2	adaptor related protein complex 1 subunit gamma 2 [Source:HGNC Symbol;Acc:HGNC:556]	10964	-0.022207586094737053	-0.354664	No	
+row_40	ANK3	ankyrin 3 [Source:HGNC Symbol;Acc:HGNC:494]	11001	-0.022868668660521507	-0.35413978	No	
+row_41	SORT1	sortilin 1 [Source:HGNC Symbol;Acc:HGNC:11186]	11068	-0.024041978642344475	-0.35513958	No	
+row_42	EXOC2	exocyst complex component 2 [Source:HGNC Symbol;Acc:HGNC:24968]	11069	-0.024044951424002647	-0.35250312	No	
+row_43	SORL1	sortilin related receptor 1 [Source:HGNC Symbol;Acc:HGNC:11185]	11202	-0.026678133755922318	-0.35684988	No	
+row_44	VTI1B	vesicle transport through interaction with t-SNAREs 1B [Source:HGNC Symbol;Acc:HGNC:17793]	11211	-0.026800649240612984	-0.35435197	No	
+row_45	VTI1A	vesicle transport through interaction with t-SNAREs 1A [Source:HGNC Symbol;Acc:HGNC:17792]	11229	-0.027154793962836266	-0.35231104	No	
+row_46	KIF16B	kinesin family member 16B [Source:HGNC Symbol;Acc:HGNC:15869]	11328	-0.029047781601548195	-0.3545249	No	
+row_47	EXOC8	exocyst complex component 8 [Source:HGNC Symbol;Acc:HGNC:24659]	11384	-0.030453257262706757	-0.35421574	No	
+row_48	RACK1	receptor for activated C kinase 1 [Source:HGNC Symbol;Acc:HGNC:4399]	11501	-0.03266623243689537	-0.35702446	No	
+row_49	LAMP1	lysosomal associated membrane protein 1 [Source:HGNC Symbol;Acc:HGNC:6499]	11524	-0.03306366503238678	-0.3546111	No	
+row_50	ANKFY1	ankyrin repeat and FYVE domain containing 1 [Source:HGNC Symbol;Acc:HGNC:20763]	11668	-0.036216914653778076	-0.35851794	No	
+row_51	KLHL20	kelch like family member 20 [Source:HGNC Symbol;Acc:HGNC:25056]	11946	-0.04206687584519386	-0.36916545	No	
+row_52	NSF	N-ethylmaleimide sensitive factor, vesicle fusing ATPase [Source:HGNC Symbol;Acc:HGNC:8016]	12000	-0.043133947998285294	-0.3673557	No	
+row_53	VAMP5	vesicle associated membrane protein 5 [Source:HGNC Symbol;Acc:HGNC:12646]	12239	-0.0478062704205513	-0.3752254	No	
+row_54	GBF1	golgi brefeldin A resistant guanine nucleotide exchange factor 1 [Source:HGNC Symbol;Acc:HGNC:4181]	12568	-0.054608654230833054	-0.38730732	No	
+row_55	DNM2	dynamin 2 [Source:HGNC Symbol;Acc:HGNC:2974]	12766	-0.058715857565402985	-0.39172208	Yes	
+row_56	RAB10	RAB10, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:9759]	12818	-0.06034988909959793	-0.38791448	Yes	
+row_57	CNST	consortin, connexin sorting protein [Source:HGNC Symbol;Acc:HGNC:26486]	12821	-0.060495223850011826	-0.38139153	Yes	
+row_58	MACF1	microtubule actin crosslinking factor 1 [Source:HGNC Symbol;Acc:HGNC:13664]	12992	-0.0644834041595459	-0.38368645	Yes	
+row_59	EXOC4	exocyst complex component 4 [Source:HGNC Symbol;Acc:HGNC:30389]	13089	-0.06674831360578537	-0.38165635	Yes	
+row_60	WIPI1	WD repeat domain, phosphoinositide interacting 1 [Source:HGNC Symbol;Acc:HGNC:25471]	13094	-0.06687384843826294	-0.37454417	Yes	
+row_61	STX4	syntaxin 4 [Source:HGNC Symbol;Acc:HGNC:11439]	13189	-0.06926679611206055	-0.37212774	Yes	
+row_62	GOLPH3	golgi phosphoprotein 3 [Source:HGNC Symbol;Acc:HGNC:15452]	13258	-0.07096459716558456	-0.3680928	Yes	
+row_63	GOLGA7	golgin A7 [Source:HGNC Symbol;Acc:HGNC:24876]	13290	-0.07163835316896439	-0.36194563	Yes	
+row_64	EXOC6B	exocyst complex component 6B [Source:HGNC Symbol;Acc:HGNC:17085]	13316	-0.07222456485033035	-0.35540366	Yes	
+row_65	DOP1B	DOP1 leucine zipper like protein B [Source:HGNC Symbol;Acc:HGNC:1291]	13453	-0.07552973181009293	-0.35461432	Yes	
+row_66	MYO1B	myosin IB [Source:HGNC Symbol;Acc:HGNC:7596]	13496	-0.07682152837514877	-0.34850484	Yes	
+row_67	STEAP2	STEAP2 metalloreductase [Source:HGNC Symbol;Acc:HGNC:17885]	13579	-0.07863641530275345	-0.34439996	Yes	
+row_68	RBSN	rabenosyn, RAB effector [Source:HGNC Symbol;Acc:HGNC:20759]	13602	-0.07908324152231216	-0.3369407	Yes	
+row_69	CCDC93	coiled-coil domain containing 93 [Source:HGNC Symbol;Acc:HGNC:25611]	13759	-0.08303320407867432	-0.3364304	Yes	
+row_70	CCDC91	coiled-coil domain containing 91 [Source:HGNC Symbol;Acc:HGNC:24855]	13772	-0.08337584882974625	-0.32794955	Yes	
+row_71	VAMP8	vesicle associated membrane protein 8 [Source:HGNC Symbol;Acc:HGNC:12647]	14044	-0.09021519124507904	-0.3329872	Yes	
+row_72	KIF13A	kinesin family member 13A [Source:HGNC Symbol;Acc:HGNC:14566]	14317	-0.09743780642747879	-0.33728796	Yes	
+row_73	SCFD1	sec1 family domain containing 1 [Source:HGNC Symbol;Acc:HGNC:20726]	14537	-0.10301553457975388	-0.33805737	Yes	
+row_74	OPTN	optineurin [Source:HGNC Symbol;Acc:HGNC:17142]	14631	-0.10572072863578796	-0.33158877	Yes	
+row_75	VPS13A	vacuolar protein sorting 13 homolog A [Source:HGNC Symbol;Acc:HGNC:1908]	14735	-0.10873374342918396	-0.32534072	Yes	
+row_76	BLZF1	basic leucine zipper nuclear factor 1 [Source:HGNC Symbol;Acc:HGNC:1065]	14785	-0.11038842797279358	-0.31593633	Yes	
+row_77	SPTBN1	spectrin beta, non-erythrocytic 1 [Source:HGNC Symbol;Acc:HGNC:11275]	15300	-0.12524619698524475	-0.33051986	Yes	
+row_78	GOPC	golgi associated PDZ and coiled-coil motif containing [Source:HGNC Symbol;Acc:HGNC:17643]	15417	-0.12837450206279755	-0.3228344	Yes	
+row_79	STXBP6	syntaxin binding protein 6 [Source:HGNC Symbol;Acc:HGNC:19666]	15688	-0.13750304281711578	-0.32263196	Yes	
+row_80	GOLPH3L	golgi phosphoprotein 3 like [Source:HGNC Symbol;Acc:HGNC:24882]	15743	-0.13957352936267853	-0.31030297	Yes	
+row_81	PKDCC	protein kinase domain containing, cytoplasmic [Source:HGNC Symbol;Acc:HGNC:25123]	15765	-0.140074223279953	-0.2961011	Yes	
+row_82	RAB31	RAB31, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:9771]	15881	-0.1442769467830658	-0.28661692	Yes	
+row_83	AP1G1	adaptor related protein complex 1 subunit gamma 1 [Source:HGNC Symbol;Acc:HGNC:555]	15921	-0.14580433070659637	-0.27277836	Yes	
+row_84	EXOC6	exocyst complex component 6 [Source:HGNC Symbol;Acc:HGNC:23196]	15962	-0.14732755720615387	-0.2588279	Yes	
+row_85	SCAMP1	secretory carrier membrane protein 1 [Source:HGNC Symbol;Acc:HGNC:10563]	15994	-0.14843255281448364	-0.24426048	Yes	
+row_86	EPS15	epidermal growth factor receptor pathway substrate 15 [Source:HGNC Symbol;Acc:HGNC:3419]	16133	-0.15392626821994781	-0.23498534	Yes	
+row_87	VPS13C	vacuolar protein sorting 13 homolog C [Source:HGNC Symbol;Acc:HGNC:23594]	16190	-0.15598054230213165	-0.22096753	Yes	
+row_88	VPS54	VPS54 subunit of GARP complex [Source:HGNC Symbol;Acc:HGNC:18652]	16471	-0.16804687678813934	-0.21796694	Yes	
+row_89	DOP1A	DOP1 leucine zipper like protein A [Source:HGNC Symbol;Acc:HGNC:21194]	16506	-0.1691731959581375	-0.20129062	Yes	
+row_90	VAMP3	vesicle associated membrane protein 3 [Source:HGNC Symbol;Acc:HGNC:12644]	16654	-0.17624595761299133	-0.190064	Yes	
+row_91	RAB14	RAB14, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:16524]	16699	-0.1787535548210144	-0.17288812	Yes	
+row_92	GOLGA4	golgin A4 [Source:HGNC Symbol;Acc:HGNC:4427]	16704	-0.17892423272132874	-0.1534899	Yes	
+row_93	AP1AR	adaptor related protein complex 1 associated regulatory protein [Source:HGNC Symbol;Acc:HGNC:28808]	16818	-0.18479935824871063	-0.13945235	Yes	
+row_94	PREPL	prolyl endopeptidase like [Source:HGNC Symbol;Acc:HGNC:30228]	17095	-0.20098605751991272	-0.13261971	Yes	
+row_95	MON2	MON2 homolog, regulator of endosome-to-Golgi trafficking [Source:HGNC Symbol;Acc:HGNC:29177]	17163	-0.2060137838125229	-0.113721885	Yes	
+row_96	EXOC1	exocyst complex component 1 [Source:HGNC Symbol;Acc:HGNC:30380]	17607	-0.24486763775348663	-0.111277826	Yes	
+row_97	EXOC5	exocyst complex component 5 [Source:HGNC Symbol;Acc:HGNC:10696]	17665	-0.25164470076560974	-0.086825795	Yes	
+row_98	ACSL3	acyl-CoA synthetase long chain family member 3 [Source:HGNC Symbol;Acc:HGNC:3570]	17924	-0.29013800621032715	-0.06922624	Yes	
+row_99	CORO7	coronin 7 [Source:HGNC Symbol;Acc:HGNC:26161]	18133	-0.3634791076183319	-0.04083051	Yes	
+row_100	RABIF	RAB interacting factor [Source:HGNC Symbol;Acc:HGNC:9797]	18211	-0.43166840076446533	0.0022588316	Yes	
