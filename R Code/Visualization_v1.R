@@ -19,7 +19,7 @@ library(M3C)
 
 ###CONFIGURATION
 #set working directory, select where you extracted folder
-setwd("C:/Users/ymali/Google Drive/Personal Documents/Chuan Lab/Peritoneal Disease/Data Analysis")
+setwd("C:/Users/ymali/Google Drive/Personal Documents/Chuan Lab/Peritoneal Disease/Data Analysis/DESeq2_Visualization")
 
 #read in data, define what counts & conditions files
 counts_data <- read.csv("./Input/counts_pm_v1.csv",row.names = 1)
@@ -29,7 +29,7 @@ conditions <-  read.csv("./Input/conditions_pm_v1.csv",row.names = 1)
 padj.cutoff <- 0.05
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
-ver <- 4
+ver <- 5
 
 ###VALIDATION
 #check columns are equal
@@ -87,10 +87,10 @@ norm_sig <- normalized_counts[,c(1,2:nsamples)] %>%
 
 
 ### SAVE RESULTS TABLES TO TEXT FILES ###
-write.table(res_table, file=paste("./DESeq2_Visualization/Results/all_results_",contrast[2],contrast[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
+write.table(res_table, file=paste("./Output/all_results_",contrast[2],contrast[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
 write.table(sig, file=paste("./DESeq2_Visualization/Results/significant_results_",contrast[2],contrast[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
 ### save normalized counts to file. Un-comment this line if you need a normalized counts file to be used in GSEA
-#write.table(normalized_counts_data, file=paste("normalized_counts_PM_",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
+#write.table(normalized_counts_data, file=paste("./Output/normalized_counts_PM_",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
 
 ### GENERATE HEATMAP ###
 #Annotate our heatmap (optional)
@@ -100,7 +100,7 @@ annotation <- conditions %>%
 #Save heatmap to png
 chart_title <- paste(contrast[2],"/",contrast[3],"padj<",padj.cutoff)
 chart_title
-png(paste("./DESeq2_Visualization/Heatmaps/sig_heatmap_",contrast[2],contrast[3],"_v",ver,".png", sep = ""), width = 900, height = 1200)
+png(paste("./Output/Heatmaps/sig_heatmap_",contrast[2],contrast[3],"_v",ver,".png", sep = ""), width = 900, height = 1200)
 pheatmap(norm_sig, 
          main = chart_title,
          color = diverging_hcl(15,"Blue-Red2"), 
@@ -125,7 +125,7 @@ sig_genes <-  sig$gene
 
 #save PCA plot to png
 #In the below replace sig_genes with res_genes if you want to perform PCA analysis on all genes rather than just on significant genes.
-png(paste("./DESeq2_Visualization/PCA/sig_PCA_",contrast[2],contrast[3],"_v",ver,".png", sep = ""), width = 900, height = 1200)
+png(paste("./Output/PCA/sig_PCA_",contrast[2],contrast[3],"_v",ver,".png", sep = ""), width = 900, height = 1200)
 plotPCA(
   rld[sig_genes,], 
   intgroup = "condition"
@@ -135,7 +135,7 @@ dev.off()
 
 ### GENERATE UMAP PLOT
 #save UMAP plot to png
-png(paste("./DESeq2_Visualization/UMAP/sig_UMAP_",contrast[2],contrast[3],"_v",ver,".png", sep = ""), width = 900, height = 1200)
+png(paste("./Output/UMAP/sig_UMAP_",contrast[2],contrast[3],"_v",ver,".png", sep = ""), width = 900, height = 1200)
 umap(norm_sig, labels=as.factor(conditions$condition),printres = FALSE, seed = FALSE,
      axistextsize = 18, legendtextsize = 18, dotsize = 5,
      textlabelsize = 4, legendtitle = "Group", controlscale = FALSE,
