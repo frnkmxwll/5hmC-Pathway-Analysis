@@ -18,14 +18,14 @@ library(colorspace)
 library(M3C)
 
 ###CONFIGURATION
-#set working directory
+#set working directory, select where you extracted folder
 setwd("C:/Users/ymali/Google Drive/Personal Documents/Chuan Lab/Peritoneal Disease/Data Analysis")
 
 #read in data, define what counts & conditions files
-counts_data <- read.csv("./Normalization/Input/counts_pm_v1.csv",row.names = 1)
-conditions <-  read.csv("./Normalization/Input/conditions_pm_v1.csv",row.names = 1)
+counts_data <- read.csv("./Input/counts_pm_v1.csv",row.names = 1)
+conditions <-  read.csv("./Input/conditions_pm_v1.csv",row.names = 1)
 
-#define padj cutoff
+#define padj cutoff, you may need to run with several padj values until you have an appropriate number of significant results.
 padj.cutoff <- 0.05
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
