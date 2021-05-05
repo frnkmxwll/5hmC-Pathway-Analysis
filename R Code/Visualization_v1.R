@@ -22,14 +22,15 @@ library(M3C)
 setwd("C:/Users/ymali/Google Drive/Personal Documents/Chuan Lab/Peritoneal Disease/Data Analysis/DESeq2_Visualization")
 
 #read in data, define what counts & conditions files
-counts_data <- read.csv("./Input/counts_pm_v1.csv",row.names = 1)
-conditions <-  read.csv("./Input/conditions_pm_v1.csv",row.names = 1)
+counts_data <- read.csv("./Input/counts_PM_v1.csv",row.names = 1)
+conditions <-  read.csv("./Input/conditions_PM_v1.csv",row.names = 1)
 
 #define padj cutoff, you may need to run with several padj values until you have an appropriate number of significant results.
+#used to select significant genes for results tables, PCA plots, heatmaps and UMAP plots.
 padj.cutoff <- 0.05
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
-ver <- 5
+ver <- 2
 
 ###VALIDATION
 #check columns are equal
@@ -63,22 +64,23 @@ res_table_tb <- res_table %>%
 sig <- res_table_tb %>% 
   filter(padj < padj.cutoff)
 
-normalized_counts <- normalized_counts %>% 
+normalized_counts_tb <- normalized_counts %>% 
   data.frame() %>%
   rownames_to_column(var="gene") %>% 
   as_tibble()
 
-#determine number of samples
-nsamples <- ncol(normalized_counts)
+#determine number of samples and significant genes
+nsamples <- ncol(normalized_counts_tb)
+nsig <- nrow(sig)
 
 #Extract normalized expression for significant genes from the two comparison groups and set the gene column (1) to row names
-norm_sig <- normalized_counts[,c(1,2:nsamples)] %>% 
+norm_sig <- normalized_counts_tb[,c(1,2:nsamples)] %>% 
   filter(gene %in% sig$gene) %>% 
   data.frame() %>%
   column_to_rownames(var = "gene") 
 
-
-### DISPLAY KEY TABLES (uncomment specific rows for debugging)
+###DISPLAY KEY TABLES (uncomment specific rows for debugging)
+#normalized_counts_tb
 #norm_sig
 #sig
 #res_table
@@ -86,23 +88,51 @@ norm_sig <- normalized_counts[,c(1,2:nsamples)] %>%
 #summary(res_table)
 
 
-### SAVE RESULTS TABLES TO TEXT FILES ###
+###SAVE RESULTS TABLES TO TEXT FILES ###
 write.table(res_table, file=paste("./Output/all_results_",contrast[2],contrast[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
 write.table(sig, file=paste("./DESeq2_Visualization/Results/significant_results_",contrast[2],contrast[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
-### save normalized counts to file. Un-comment this line if you need a normalized counts file to be used in GSEA
-#write.table(normalized_counts_data, file=paste("./Output/normalized_counts_PM_",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
+##save normalized counts to file. Un-comment this line if you need a normalized counts file to be used in GSEA
+#write.table(normalized_counts, file=paste("./Output/normalized_counts_PM_",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
 
-### GENERATE HEATMAP ###
+###GENERATE VOLCANO PLOTS
+#Obtain logical vector where TRUE values denote padj values < cutoff and fold change > 1.5 in either direction
+
+#working with log2 fold changes so this translates to an actual fold change of 2^lfc.cutoff. used in volcano plots
+lfc.cutoff <- 0.1
+
+res_table_tb
+res_table_tb_volcano <- res_table_tb %>% 
+  mutate(threshold_OE = padj < padj.cutoff & abs(log2FoldChange) >= lfc.cutoff)
+res_table_tb_volcano
+
+res_table_tb_volcano <- res_table_tb_volcano %>% arrange(padj) %>% mutate(genelabels = "")
+res_table_tb_volcano
+
+res_table_tb_volcano$genelabels[1:nsig] <- res_table_tb_volcano$gene[1:nsig]
+
+png(paste("./Output/Volcano/volcano_",contrast[2],contrast[3],"_v",ver,".png", sep = ""), width = 900, height = 900)
+ggplot(res_table_tb_volcano, aes(x = log2FoldChange, y = -log10(padj))) +
+  geom_point(aes(colour = threshold_OE)) +
+  ggtitle(paste(contrast[2],"/",contrast[3],"Enrichment")) +
+  geom_text_repel(aes(label = genelabels,size=20)) +
+  xlab("log2 fold change") + 
+  ylab("-log10 adjusted p-value") +
+  theme(legend.position = "none",
+        plot.title = element_text(size = rel(1.5), hjust = 0.5),
+        axis.title = element_text(size = rel(1.25))) 
+dev.off()
+
+###GENERATE HEATMAP
 #Annotate our heatmap (optional)
 annotation <- conditions %>% 
   select(condition)
 
 #Save heatmap to png
-chart_title <- paste(contrast[2],"/",contrast[3],"padj<",padj.cutoff)
+heatmap_title <- paste(contrast[2],"/",contrast[3],"padj<",padj.cutoff)
 chart_title
 png(paste("./Output/Heatmaps/sig_heatmap_",contrast[2],contrast[3],"_v",ver,".png", sep = ""), width = 900, height = 1200)
 pheatmap(norm_sig, 
-         main = chart_title,
+         main = heatmap_title,
          color = diverging_hcl(15,"Blue-Red2"), 
          cluster_rows = T,
          cluster_cols = T,
@@ -133,7 +163,7 @@ plotPCA(
 dev.off()
 
 
-### GENERATE UMAP PLOT
+###GENERATE UMAP PLOT
 #save UMAP plot to png
 png(paste("./Output/UMAP/sig_UMAP_",contrast[2],contrast[3],"_v",ver,".png", sep = ""), width = 900, height = 1200)
 umap(norm_sig, labels=as.factor(conditions$condition),printres = FALSE, seed = FALSE,
