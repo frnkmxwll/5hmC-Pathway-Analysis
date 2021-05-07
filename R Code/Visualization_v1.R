@@ -30,7 +30,7 @@ conditions <-  read.csv("./Input/conditions_PM_v1.csv",row.names = 1)
 padj.cutoff <- 0.05
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
-ver <- 2
+ver <- 4
 
 ###VALIDATION
 #check columns are equal
@@ -89,7 +89,7 @@ norm_sig <- normalized_counts_tb[,c(1,2:nsamples)] %>%
 
 
 ###SAVE RESULTS TABLES TO TEXT FILES ###
-write.table(res_table, file=paste("./Output/all_results_",contrast[2],contrast[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
+write.table(res_table, file=paste("./DESeq2_Visualization/Results/all_results_",contrast[2],contrast[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
 write.table(sig, file=paste("./DESeq2_Visualization/Results/significant_results_",contrast[2],contrast[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
 ##save normalized counts to file. Un-comment this line if you need a normalized counts file to be used in GSEA
 #write.table(normalized_counts, file=paste("./Output/normalized_counts_PM_",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
