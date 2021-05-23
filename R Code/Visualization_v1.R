@@ -1,7 +1,7 @@
 #PURPOSE OF THIS SCRIPT IS TO VISUALIZE DGE HEATMAPS & PCA PLOTS BETWEEN TWO COMPARISON GROUPS
 #tutorial taken from here: https://github.com/hbctraining/DGE_workshop/tree/master/lessons
 
-###LIBRARIES INSTALL ALL IF FIRST TIME RUNNING###
+###LIBRARIES INSTALL ALL IF FIRST TIME RUNNING
 #install.packages("package_name")
 library(DESeq2)
 library(magrittr)
@@ -23,15 +23,15 @@ library(ashr)
 setwd("C:/Users/ymali/Google Drive/Personal Documents/Chuan Lab/Peritoneal Disease/Data Analysis/DESeq2_Visualization")
 
 #read in data, define what counts & conditions files
-counts_data <- read.csv("./Input/counts_CRC_v1.csv",row.names = 1)
-meta <-  read.csv("./Input/conditions_CRC_v1.csv",row.names = 1)
+counts_data <- read.csv("./Input/counts_pm_ssGSEA_genes_v1.csv",row.names = 1)
+meta <-  read.csv("./Input/conditions_pm_v1.csv",row.names = 1)
 
 #define padj cutoff, you may need to run with several padj values until you have an appropriate number of significant results.
 #used to select significant genes for results tables, PCA plots, heatmaps and UMAP plots.
-padj.cutoff <- 0.05
+padj.cutoff <- 0.01
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
-ver <- 3
+ver <- "v4ssGSEA"
 
 ###VALIDATION
 #check columns are equal
@@ -45,7 +45,6 @@ dds <- DESeqDataSetFromMatrix(countData = counts_data, colData = meta, design = 
 #load up size factors into dds object in order to normalize using median of ratios method
 dds <- DESeq(dds)
 
-
 #use counts 'normalized=true' function to pull out normalized counts
 normalized_counts <- counts(dds,normalized=TRUE)
 
@@ -54,11 +53,11 @@ groups <- unique(meta[c("condition")])
 #Define contrasts, extract results table, and shrink the log2 fold changes
 contrast_groups <- c("condition",groups[1,1], groups[2,1])
 
-#res_table <- results(dds, contrast=contrast_groups, alpha = padj.cutoff)
+res_table <- results(dds, contrast=contrast_groups, alpha = padj.cutoff)
 
 #Consider replacing above line with shrunken values for fold change below:
-res_table_unshrunken <- results(dds, contrast=contrast_groups, alpha = padj.cutoff)
-res_table <- lfcShrink(dds, coef = 2, res=res_table_unshrunken)
+#res_table_unshrunken <- results(dds, contrast=contrast_groups, alpha = padj.cutoff)
+#res_table <- lfcShrink(dds, coef = 2, res=res_table_unshrunken)
 
 #convert the results table into a tibble:
 res_table_tb <- res_table %>%
@@ -95,9 +94,9 @@ norm_sig <- normalized_counts_tb[,c(1,2:nsamples)] %>%
 #summary(res_table)
 
 
-###SAVE RESULTS TABLES TO TEXT FILES ###
-write.table(res_table, file=paste("./Output/all_results_",contrast_groups[2],contrast_groups[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
-write.table(sig, file=paste("./DESeq2_Visualization/Results/significant_results_",contrast_groups[2],contrast_groups[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
+###SAVE RESULTS TABLES TO TEXT FILES
+write.table(res_table, file=paste("./Output/Results/all_results_",contrast_groups[2],contrast_groups[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
+write.table(sig, file=paste("./Output/Results/significant_results_",contrast_groups[2],contrast_groups[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
 ##save normalized counts to file. Un-comment this line if you need a normalized counts file to be used in GSEA
 #write.table(normalized_counts, file=paste("./Output/normalized_counts_PM_",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
 
@@ -123,7 +122,8 @@ ggplot(res_table_tb_volcano, aes(x = log2FoldChange, y = -log10(padj))) +
   ylab("-log10 adjusted p-value") +
   theme(legend.position = "none",
         plot.title = element_text(size = rel(1.5), hjust = 0.5),
-        axis.title = element_text(size = rel(1.25))) 
+        axis.title = element_text(size = rel(1.25))) +
+  xlim(-0.5, 0.5)
 dev.off()
 
 ###GENERATE HEATMAP
@@ -133,8 +133,6 @@ annotation <- meta %>%
 
 #Save heatmap to png
 heatmap_title <- paste(contrast_groups[2],"/",contrast_groups[3],"padj <",padj.cutoff)
-heatmap_title
-contrast
 png(paste("./Output/Heatmaps/sig_heatmap_",contrast_groups[2],contrast_groups[3],"_v",ver,".png", sep = ""), width = 900, height = 1200)
 pheatmap(norm_sig, 
          main = heatmap_title,
