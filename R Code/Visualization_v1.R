@@ -22,16 +22,19 @@ library(ashr)
 #set working directory, select where you extracted folder
 setwd("C:/Users/ymali/Google Drive/Personal Documents/Chuan Lab/Peritoneal Disease/Data Analysis/DESeq2_Visualization")
 
+
+counts_name <- "./Input/counts_pmprom_ssGSEA_v1.csv"
+meta_name <- "./Input/conditions_pm_v1.csv"
 #read in data, define what counts & conditions files
-counts_data <- read.csv("./Input/counts_pm_ssGSEA_genes_v1.csv",row.names = 1)
-meta <-  read.csv("./Input/conditions_pm_v1.csv",row.names = 1)
+counts_data <- read.csv(counts_name,row.names = 1)
+meta <-  read.csv(meta_name,row.names = 1)
 
 #define padj cutoff, you may need to run with several padj values until you have an appropriate number of significant results.
 #used to select significant genes for results tables, PCA plots, heatmaps and UMAP plots.
-padj.cutoff <- 0.01
+padj.cutoff <- 0.25
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
-ver <- "v4ssGSEA"
+ver <- "prom_ssGSEA_v1"
 
 ###VALIDATION
 #check columns are equal
@@ -174,3 +177,9 @@ umap(norm_sig, labels=as.factor(meta$condition),printres = FALSE, seed = FALSE,
      textlabelsize = 4, legendtitle = "Group", controlscale = FALSE,
      scale = 1,     printwidth = 22, text = FALSE)
 dev.off()
+
+
+###SAVE CONFIG TABLES TO TEXT FILES
+config <- c(paste("counts file name:", counts_name), paste("conditions file name:", meta_name), paste("padj cut off",padj.cutoff),paste("output file name:", ver),paste("volcano lfc cutoff:", lfc.cutoff))
+config_frame <- config
+write.table(config, file=paste("./Output/Config/config_",contrast_groups[2],contrast_groups[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
