@@ -34,7 +34,9 @@ meta <-  read.csv(meta_name,row.names = 1)
 padj.cutoff <- 0.25
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
+
 ver <- "pm_deseq2genesonly_proms_counts_v1"
+
 
 ###VALIDATION
 #check columns are equal
@@ -106,9 +108,11 @@ norm_sig <- normalized_counts_tb[,c(1,2:nsamples)] %>%
 #summary(res_table)
 
 
+
 ###SAVE RESULTS TABLES TO TEXT FILES
 write.table(res_table, file=paste("./Output/Results/all_results_",contrast_groups[2],contrast_groups[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
 write.table(sig, file=paste("./Output/Results/significant_results_",contrast_groups[2],contrast_groups[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
+
 ##save normalized counts to file. Un-comment this line if you need a normalized counts file to be used in GSEA
 #write.table(normalized_counts, file=paste("./Output/normalized_counts_PM_",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
 
