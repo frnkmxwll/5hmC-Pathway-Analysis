@@ -23,7 +23,7 @@ library(ashr)
 setwd("C:/Users/ymali/Google Drive/Personal Documents/Chuan Lab/Peritoneal Disease/Data Analysis/ssGSEA")
 
 
-data_name <- "./Outputs/ssGSEA_sigonly.csv"
+data_name <- "./Outputs/ssGSEA_sigonly_tpm_v3.csv"
 meta_name <- "./Inputs/conditions_pm_v1.csv"
 heatmap_data <- read.csv(data_name,row.names = 1)
 #read in data, define what counts & conditions files
@@ -34,7 +34,7 @@ heatmap_data
 
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
-ver <- "ssGSEA_sigonly_v1"
+ver <- "ssGSEA_sigonly_tpm_v2"
 
 
 
@@ -46,7 +46,7 @@ annotation <- meta %>%
 annotation
 
 #Save heatmap to png
-heatmap_title <- paste("PM+ / PM- ssGSEA","padj < 0.1")
+heatmap_title <- paste("PM+ / PM- ssGSEA","FDR(BH) < 0.2")
 png(paste("./Outputs/sig_heatmap_ssGSEA_sigonly","_v",ver,".png", sep = ""), width = 1500, height = 1200)
 pheatmap(heatmap_data, 
          main = heatmap_title,

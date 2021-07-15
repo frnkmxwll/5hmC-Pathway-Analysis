@@ -1,3 +1,7 @@
+#Per this documentation, ssGSEA requires TPM and not counts.
+#https://software.broadinstitute.org/cancer/software/gsea/wiki/index.php/Using_RNA-seq_Datasets_with_GSEA
+#This blog post proposed solution for converting counts to TPM equivalent.
+#https://www.biostars.org/p/335187/
 
 setwd("C:/Users/ymali/Google Drive/Personal Documents/Chuan Lab/Peritoneal Disease/Data Analysis/ssGSEA/Inputs/Normalization")
 
@@ -19,4 +23,4 @@ tpm
 
 counts_data
 
-write.csv(tpm,'genebodies_pm_TPM_v1.csv')
+write.table(tpm,file='genebodies_pm_TPM_v2.tsv', quote=FALSE, sep='\t', col.names = NA)

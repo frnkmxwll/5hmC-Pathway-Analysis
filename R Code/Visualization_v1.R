@@ -23,7 +23,7 @@ library(ashr)
 setwd("C:/Users/ymali/Google Drive/Personal Documents/Chuan Lab/Peritoneal Disease/Data Analysis/DESeq2_Visualization")
 
 
-counts_name <- "./Input/counts_pmprom_ssGSEA_v1.csv"
+counts_name <- "./Input/counts_pm_ssgsea_deseq2only_counts_proms_v1.csv"
 meta_name <- "./Input/conditions_pm_v1.csv"
 #read in data, define what counts & conditions files
 counts_data <- read.csv(counts_name,row.names = 1)
@@ -34,7 +34,7 @@ meta <-  read.csv(meta_name,row.names = 1)
 padj.cutoff <- 0.25
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
-ver <- "prom_ssGSEA_v1"
+ver <- "pm_deseq2genesonly_proms_counts_v1"
 
 ###VALIDATION
 #check columns are equal
@@ -61,6 +61,15 @@ res_table <- results(dds, contrast=contrast_groups, alpha = padj.cutoff)
 #Consider replacing above line with shrunken values for fold change below:
 #res_table_unshrunken <- results(dds, contrast=contrast_groups, alpha = padj.cutoff)
 #res_table <- lfcShrink(dds, coef = 2, res=res_table_unshrunken)
+
+metadata(res_table)$filterThreshold
+
+plot(metadata(res_table)$filterNumRej, 
+     type="b", ylab="number of rejections",
+     xlab="quantiles of filter")
+lines(metadata(res_table)$lo.fit, col="red")
+abline(v=metadata(res_table)$filterTheta)
+dev.off()
 
 #convert the results table into a tibble:
 res_table_tb <- res_table %>%
