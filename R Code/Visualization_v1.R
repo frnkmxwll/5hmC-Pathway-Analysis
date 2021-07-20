@@ -20,22 +20,23 @@ library(ashr)
 
 ###CONFIGURATION
 #set working directory, select where you extracted folder
-setwd("C:/Users/ymali/Google Drive/Personal Documents/Chuan Lab/Peritoneal Disease/Data Analysis/DESeq2_Visualization")
+setwd("C:/Users/ymali/Google Drive/Personal Documents/Chuan Lab/Peritoneal Disease/Data Analysis/ssGSEA/Inputs/Normalization/survival jul 15/")
 
 
-counts_name <- "./Input/counts_pm_ssgsea_deseq2only_counts_proms_v1.csv"
-meta_name <- "./Input/conditions_pm_v1.csv"
+counts_name <- "./Input/genebodies_PROG_raw_counts_v2.csv"
+meta_name <- "./Input/conditions_PROG_v1.csv"
 #read in data, define what counts & conditions files
 counts_data <- read.csv(counts_name,row.names = 1)
 meta <-  read.csv(meta_name,row.names = 1)
 
 #define padj cutoff, you may need to run with several padj values until you have an appropriate number of significant results.
 #used to select significant genes for results tables, PCA plots, heatmaps and UMAP plots.
-padj.cutoff <- 0.25
+padj.cutoff <- 0.5
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
 
-ver <- "pm_deseq2genesonly_proms_counts_v1"
+ver <- "PROG_v4"
+gene_number <- 19100
 
 
 ###VALIDATION
@@ -107,14 +108,21 @@ norm_sig <- normalized_counts_tb[,c(1,2:nsamples)] %>%
 #res_table %>% data.frame() %>% View()
 #summary(res_table)
 
+##save normalized counts to file. Un-comment this line if you need a normalized counts file to be used in GSEA
 
+normalized_counts_GSEA <- as.data.frame(normalized_counts)
+
+description = matrix(c(rep("na",gene_number)),gene_number,1)
+
+normalized_counts_GSEA <- add_column(normalized_counts_GSEA,description, .before=1)
+
+normalized_counts_GSEA <- rownames_to_column(normalized_counts_GSEA, var = "NAME")
+write.table(normalized_counts_GSEA, file=paste("./Output/Normalized/normalized_counts_",ver,".txt", sep = ""), sep="\t", quote=F, row.names=FALSE)
 
 ###SAVE RESULTS TABLES TO TEXT FILES
 write.table(res_table, file=paste("./Output/Results/all_results_",contrast_groups[2],contrast_groups[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
 write.table(sig, file=paste("./Output/Results/significant_results_",contrast_groups[2],contrast_groups[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
 
-##save normalized counts to file. Un-comment this line if you need a normalized counts file to be used in GSEA
-#write.table(normalized_counts, file=paste("./Output/normalized_counts_PM_",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
 
 ###GENERATE VOLCANO PLOTS
 #Obtain logical vector where TRUE values denote padj values < cutoff and fold change > 1.5 in either direction

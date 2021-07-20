@@ -3,11 +3,15 @@
 #This blog post proposed solution for converting counts to TPM equivalent.
 #https://www.biostars.org/p/335187/
 
-setwd("C:/Users/ymali/Google Drive/Personal Documents/Chuan Lab/Peritoneal Disease/Data Analysis/ssGSEA/Inputs/Normalization")
+library(tibble)
+
+setwd("C:/Users/ymali/Google Drive/Personal Documents/Chuan Lab/Peritoneal Disease/Data Analysis/ssGSEA/Inputs/Normalization/survival jul 15/")
 
 
-counts_name <- "./genebodies_pm_raw_counts_v1.csv"
+counts_name <- "./genebodies_PROG_raw_counts_v2.csv"
 length_name <- "./genebodies_length.csv"
+gene_number <- 19100
+
 #read in data, define what counts & conditions files
 
 counts_data <- read.csv(counts_name,row.names = 1)
@@ -21,6 +25,16 @@ counts_to_tpm <- function (counts_data,length_data) {
 tpm <- counts_to_tpm (counts_data, length_data[,1])
 tpm
 
-counts_data
+tpm_dataframe <- as.data.frame(tpm)
 
-write.table(tpm,file='genebodies_pm_TPM_v2.tsv', quote=FALSE, sep='\t', col.names = NA)
+description = matrix(c(rep("na",gene_number)),gene_number,1)
+description
+
+tpm_genepattern <- add_column(tpm_dataframe,description, .before=1)
+tpm_genepattern
+
+tpm_genepattern <-rownames_to_column(tpm_genepattern, var = "NAME")
+
+#counts_data
+
+write.table(tpm_genepattern,file='genebodies_PROG_TPM_v2.tsv', quote=FALSE, sep='\t', row.names=FALSE)
