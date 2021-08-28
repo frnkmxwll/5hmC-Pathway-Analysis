@@ -19,8 +19,8 @@ setwd("G:/My Drive/Graduate School/Chuan Lab/Peritoneal Disease/Raw data prepara
 combine_files = TRUE #set to TRUE to combine multiple counts files, FALSE if working with a single counts file.
 
 # counts file expected to be in featureCounts default export format
-raw_counts_file_1 <- "./Input/ReadsCount_AutosomeGenes_ProteinCoding_wholeGB.txt"
-raw_counts_file_2 <- "./Input/ReadsCount_AutosomeGenes_ProteinCoding_wholeGB.txt" #if applicable
+raw_counts_file_1 <- "./Raw Input/ReadsCount_AutosomeGenes_ProteinCoding_wholeGB.txt"
+raw_counts_file_2 <- "./Raw Input/ReadsCount_AutosomeGenes_ProteinCoding_wholeGB.txt" #if applicable
 
 # The following variables will simplify the sample names to eliminate any leading pathname and trailing extensions.
 # e.g. the feature counts columns sometimes look like "/media/CLab3b/xiaolong/cfPeri/Bam/KT19.bam"
@@ -32,7 +32,7 @@ counts2_sample_pathname <- "X.media.CLab3b.xiaolong.cfPeri.Bam."
 counts2_sample_extension <- ".bam"
 
 # sample file expected to be in here: shorturl.at/qCU19
-sample_file <- "./Input/SAMPLE_FILE.csv"
+sample_file <- "./Raw Input/SAMPLE_FILE.csv"
 
 #read in data
 raw_counts_data_1 <- read.table(
@@ -205,22 +205,22 @@ normalized_counts_GSEA <- rownames_to_column(normalized_counts_GSEA, var = "NAME
 
 ### OUTPUT RESUTLING FILES
 # output counts .csv file for DESeq2 normalization followed by GSEA -or- counts to TPM conversion for ssGSEA
-write.csv(counts_final_ordered,file = paste("./Output/",class1_name,"_",class2_name,"_DESeq2_rawcounts.csv",sep = ""),row.names = FALSE,quote=FALSE)
+write.csv(counts_final_ordered,file = paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"_DESeq2_rawcounts.csv",sep = ""),row.names = FALSE,quote=FALSE)
 
 # output conditions .csv file for DESeq2 normalization
-write.csv(sample_data_ordered,file = paste("./Output/",class1_name,"_",class2_name,"_DESeq2_conditions.csv",sep = ""),row.names = FALSE,quote=FALSE)
+write.csv(sample_data_ordered,file = paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"_DESeq2_conditions.csv",sep = ""),row.names = FALSE,quote=FALSE)
 
 # output phenotype .cls file for GSEA 
-write.table(GSEA_cls, file=paste("./Output/",class1_name,"_",class2_name,"_GSEA_phenotype.cls",sep = ""), quote=FALSE, sep='\t', row.names = FALSE, col.names = FALSE)
+write.table(GSEA_cls, file=paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"_GSEA_phenotype.cls",sep = ""), quote=FALSE, sep='\t', row.names = FALSE, col.names = FALSE)
 
 # output normalized counts .txt file for GSEA
-write.table(normalized_counts_GSEA, file=paste("./Output/",class1_name,"_",class2_name,"_GSEA_normcounts.txt", sep = ""), sep="\t", quote=F, row.names=FALSE)
+write.table(normalized_counts_GSEA, file=paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"_GSEA_normcounts.txt", sep = ""), sep="\t", quote=F, row.names=FALSE)
 
 # output phenotype .cls file for ssGSEA 
-write.table(ssGSEA_cls, file=paste("./Output/",class1_name,"_",class2_name,"_ssGSEA_phenotype.cls",sep = ""), quote=FALSE, sep='\t', row.names = FALSE, col.names = FALSE)
+write.table(ssGSEA_cls, file=paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"_ssGSEA_phenotype.cls",sep = ""), quote=FALSE, sep='\t', row.names = FALSE, col.names = FALSE)
 
 # output gene length .csv file for ssGSEA counts to TPM normalization, no longer required as tpm conversion has been built in here.
-# write.csv(gene_length,file = "./Output/gene_length.csv",row.names = FALSE,quote=FALSE)
+# write.csv(gene_length,file = "./Output/Raw Data Processing/gene_length.csv",row.names = FALSE,quote=FALSE)
 
 #output tpm tsv file
-write.table(tpm_genepattern,file=paste("./Output/",class1_name,"_",class2_name,"_ssGSEA_tpm.tsv",sep = ""), quote=FALSE, sep='\t', row.names=FALSE)
+write.table(tpm_genepattern,file=paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"_ssGSEA_tpm.tsv",sep = ""), quote=FALSE, sep='\t', row.names=FALSE)
