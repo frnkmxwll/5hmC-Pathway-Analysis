@@ -1,0 +1,5 @@
+# ignore all files in "Working Inputs" folder
+Working Inputs/
+
+# ignore all files in "Output" folder
+Output/
