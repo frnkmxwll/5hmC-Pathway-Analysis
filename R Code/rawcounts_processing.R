@@ -10,43 +10,48 @@
 
 library(dplyr) # note: dply is necessary as data frames are too large for R's native merge function, need dplyr's inner join function.
 library(DESeq2)
+library (tibble)
 
 ### CONFIGURATION
 # set working directory
-setwd("G:/My Drive/Graduate School/Chuan Lab/Peritoneal Disease/Raw data preparation")
+setwd("~/5hmC-Pathway-Analysis/")
 
 # settings
 combine_files = TRUE #set to TRUE to combine multiple counts files, FALSE if working with a single counts file.
 
 # counts file expected to be in featureCounts default export format
-raw_counts_file_1 <- "./Raw Input/ReadsCount_AutosomeGenes_ProteinCoding_wholeGB.txt"
-raw_counts_file_2 <- "./Raw Input/ReadsCount_AutosomeGenes_ProteinCoding_wholeGB.txt" #if applicable
+raw_counts_file_1 <- "./Raw Input/Working Inputs/ReadsCount_AutosomeGenes_ProteinCoding_Large_Dataset.txt"
+raw_counts_file_2 <- "./Raw Input/Working Inputs/ReadsCount_AutosomeGenes_ProteinCoding_Pilot_Dataset_added0.txt" #if applicable
 
 # The following variables will simplify the sample names to eliminate any leading pathname and trailing extensions.
 # e.g. the feature counts columns sometimes look like "/media/CLab3b/xiaolong/cfPeri/Bam/KT19.bam"
 # define these variables for script to trim this text, and simplify column names to "KT19" in above example
-counts1_sample_pathname <- "X.media.CLab3b.xiaolong.cfPeri.Bam."
+counts1_sample_pathname <- "../../peritoneal_processing/trimmed_data/"
 counts1_sample_extension <- ".bam"
 
-counts2_sample_pathname <- "X.media.CLab3b.xiaolong.cfPeri.Bam."
+counts2_sample_pathname <- "/media/CLab3b/xiaolong/cfPeri/Bam/"
 counts2_sample_extension <- ".bam"
 
 # sample file expected to be in here: shorturl.at/qCU19
-sample_file <- "./Raw Input/SAMPLE_FILE.csv"
+sample_file <- "./Raw Input/Sample Inputs/pilot_largerset_sample_file.csv"
+excluded_samples <- c("KT026","KT027")
+
 
 #read in data
 raw_counts_data_1 <- read.table(
   raw_counts_file_1,
   sep = "\t",
   header = TRUE,
-  skip = 1
+  skip = 1,
+  check.names = F
   )
 
 raw_counts_data_2 <- read.table(
   raw_counts_file_2,
   sep = "\t",
   header = TRUE,
-  skip = 1
+  skip = 1,
+  check.names = F
   )
 
 sample_data <- read.csv(
@@ -96,7 +101,6 @@ if(combine_files==TRUE && counts2_sample_pathname != counts1_sample_pathname){
 sample_names <- select(sample_data,c(1))
 sample_names <- sample_names[sample_names != 'X']
 
-
 if(all(sample_names %in% colnames(counts_final))==FALSE){
   print("Error: Some sample in your conditions file, do not exist in your counts file. Please correct this and re-run.")
   stop()
@@ -104,6 +108,8 @@ if(all(sample_names %in% colnames(counts_final))==FALSE){
 
 # Eliminate unnecessary samples in count file
 counts_final_sample <- counts_final[c('Geneid',sample_names)]
+counts_final_sample <- counts_final_sample[,!colnames(counts_final_sample) %in% excluded_samples]
+
 
 ### RE-ORDER SAMPLE BASED ON CLASS
 # Create lookup vector that includes all sample and their class from the sample_data input file
@@ -123,6 +129,7 @@ counts_final_ordered <- counts_final_sample[,colnames(class_vector_ordered)]
 
 ### RE-ORDER SAMPLE DATA FILE
 sample_data_ordered <- sample_data[order(sample_data$condition,sample_data$X),]
+sample_data_ordered <- sample_data_ordered[!sample_data_ordered$X %in% excluded_samples,]
 
 #when important sample_data, the blank header over the sample names got filled in with an "X" this needs to be removed for GSEA.
 colnames(sample_data_ordered)[1] <- ""

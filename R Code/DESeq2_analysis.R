@@ -19,22 +19,21 @@ library(ashr)
 
 ###CONFIGURATION
 #set working directory, select where you extracted folder
-setwd("G:/My Drive/Graduate School/Chuan Lab/Peritoneal Disease/Raw data preparation")
+setwd("~/5hmC-Pathway-Analysis/")
 
-
-counts_name <- "./Output/PMneg_PMpos_DESeq2_rawcounts.csv"
-meta_name <- "./Output/PMneg_PMpos_DESeq2_conditions.csv"
+counts_name <- "./Output/Raw Data Processing/LARGERset_PILOT_DESeq2_rawcounts.csv"
+meta_name <- "./Output/Raw Data Processing/LARGERset_PILOT_DESeq2_conditions.csv"
 #read in data, define what counts & conditions files
 counts_data <- read.csv(counts_name,row.names = 1)
 meta <-  read.csv(meta_name,row.names = 1)
 
 #define padj cutoff, you may need to run with several padj values until you have an appropriate number of significant results.
 #used to select significant genes for results tables, PCA plots, heatmaps and UMAP plots.
-padj.cutoff <- 0.5
+padj.cutoff <- 0.1
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
 
-ver <- "v1"
+ver <- "v2"
 gene_number <- nrow(counts_data)
 
 ###VALIDATION
@@ -107,8 +106,8 @@ norm_sig <- normalized_counts_tb[,c(1,2:nsamples)] %>%
 #summary(res_table)
 
 ###SAVE RESULTS TABLES TO TEXT FILES
-write.table(res_table, file=paste("./Output_DESeq/Results/all_results_",contrast_groups[2],contrast_groups[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
-write.table(sig, file=paste("./Output_DESeq/Results/significant_results_",contrast_groups[2],contrast_groups[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
+write.table(res_table, file=paste("./Output/DESeq2/Results/all_results_",contrast_groups[2],contrast_groups[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
+write.table(sig, file=paste("./Output/DESeq2/Results/significant_results_",contrast_groups[2],contrast_groups[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
 
 
 ###GENERATE VOLCANO PLOTS
@@ -124,7 +123,7 @@ res_table_tb_volcano <- res_table_tb_volcano %>% arrange(padj) %>% mutate(genela
 
 res_table_tb_volcano$genelabels[1:nsig] <- res_table_tb_volcano$gene[1:nsig]
 
-png(paste("./Output_DESeq/Volcano/volcano_",contrast_groups[2],contrast_groups[3],"_v",ver,".png", sep = ""), width = 900, height = 900)
+png(paste("./Output/DESeq2/Volcano/volcano_",contrast_groups[2],contrast_groups[3],"_v",ver,".png", sep = ""), width = 900, height = 900)
 ggplot(res_table_tb_volcano, aes(x = log2FoldChange, y = -log10(padj))) +
   geom_point(aes(colour = threshold_OE)) +
   ggtitle(paste(contrast_groups[2],"/",contrast_groups[3],"Enrichment")) +
@@ -144,7 +143,7 @@ annotation <- meta %>%
 
 #Save heatmap to png
 heatmap_title <- paste(contrast_groups[2],"/",contrast_groups[3],"padj <",padj.cutoff)
-png(paste("./Output_DESeq/Heatmaps/sig_heatmap_",contrast_groups[2],contrast_groups[3],"_v",ver,".png", sep = ""), width = 900, height = 1200)
+png(paste("./Output/DESeq2/Heatmaps/sig_heatmap_",contrast_groups[2],contrast_groups[3],"_v",ver,".png", sep = ""), width = 900, height = 1200)
 pheatmap(norm_sig, 
          main = heatmap_title,
          color = diverging_hcl(15,"Blue-Red2"), 
@@ -169,7 +168,7 @@ sig_genes <-  sig$gene
 
 #save PCA plot to png
 #In the below replace sig_genes with res_genes if you want to perform PCA analysis on all genes rather than just on significant genes.
-png(paste("./Output_DESeq/PCA/sig_PCA_",contrast_groups[2],contrast_groups[3],"_v",ver,".png", sep = ""), width = 900, height = 1200)
+png(paste("./Output/DESeq2/PCA/sig_PCA_",contrast_groups[2],contrast_groups[3],"_v",ver,".png", sep = ""), width = 900, height = 1200)
 plotPCA(
   rld[sig_genes,], 
   intgroup = "condition"
@@ -179,7 +178,7 @@ dev.off()
 
 ###GENERATE UMAP PLOT
 #save UMAP plot to png
-png(paste("./Output_DESeq/UMAP/sig_UMAP_",contrast_groups[2],contrast_groups[3],"_v",ver,".png", sep = ""), width = 900, height = 1200)
+png(paste("./Output/DESeq2/UMAP/sig_UMAP_",contrast_groups[2],contrast_groups[3],"_v",ver,".png", sep = ""), width = 900, height = 1200)
 umap(norm_sig, labels=as.factor(meta$condition),printres = FALSE, seed = FALSE,
      axistextsize = 18, legendtextsize = 18, dotsize = 5,
      textlabelsize = 4, legendtitle = "Group", controlscale = FALSE,
@@ -190,4 +189,4 @@ dev.off()
 ###SAVE CONFIG TABLES TO TEXT FILES
 config <- c(paste("counts file name:", counts_name), paste("conditions file name:", meta_name), paste("padj cut off",padj.cutoff),paste("output file name:", ver),paste("volcano lfc cutoff:", lfc.cutoff))
 config_frame <- config
-write.table(config, file=paste("./Output_DESeq/Config/config_",contrast_groups[2],contrast_groups[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
+write.table(config, file=paste("./Output/DESeq2/Config/config_",contrast_groups[2],contrast_groups[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
