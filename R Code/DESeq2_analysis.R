@@ -21,8 +21,8 @@ library(ashr)
 #set working directory, select where you extracted folder
 setwd("~/5hmC-Pathway-Analysis/")
 
-counts_name <- "./Output/Raw Data Processing/LARGERset_PILOT_DESeq2_rawcounts.csv"
-meta_name <- "./Output/Raw Data Processing/LARGERset_PILOT_DESeq2_conditions.csv"
+counts_name <- "./Output/Raw Data Processing/CRClu_CRCpilot_v6/CRClu_CRCpilot_DESeq2_rawcounts.csv"
+meta_name <- "./Output/Raw Data Processing/CRClu_CRCpilot_v6/CRClu_CRCpilot_DESeq2_conditions.csv"
 #read in data, define what counts & conditions files
 counts_data <- read.csv(counts_name,row.names = 1)
 meta <-  read.csv(meta_name,row.names = 1)
@@ -33,7 +33,7 @@ padj.cutoff <- 0.1
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
 
-ver <- "v2"
+ver <- "7"
 gene_number <- nrow(counts_data)
 
 ###VALIDATION
@@ -168,10 +168,10 @@ sig_genes <-  sig$gene
 
 #save PCA plot to png
 #In the below replace sig_genes with res_genes if you want to perform PCA analysis on all genes rather than just on significant genes.
-png(paste("./Output/DESeq2/PCA/sig_PCA_",contrast_groups[2],contrast_groups[3],"_v",ver,".png", sep = ""), width = 900, height = 1200)
+png(paste("./Output/DESeq2/PCA/sig_PCA_",contrast_groups[2],contrast_groups[3],"_vlabel",ver,".png", sep = ""), width = 900, height = 1200)
 plotPCA(
   rld[sig_genes,], 
-  intgroup = "condition"
+  intgroup = "condition",
   )
 dev.off()
 

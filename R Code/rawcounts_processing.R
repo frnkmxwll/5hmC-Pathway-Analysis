@@ -17,24 +17,26 @@ library (tibble)
 setwd("~/5hmC-Pathway-Analysis/")
 
 # settings
-combine_files = TRUE #set to TRUE to combine multiple counts files, FALSE if working with a single counts file.
+combine_files = FALSE #set to TRUE to combine multiple counts files, FALSE if working with a single counts file.
 
 # counts file expected to be in featureCounts default export format
-raw_counts_file_1 <- "./Raw Input/Working Inputs/ReadsCount_AutosomeGenes_ProteinCoding_Large_Dataset.txt"
+raw_counts_file_1 <- "./Raw Input/Working Inputs/ReadsCount_AutosomeGenes_ProteinCoding_v4run3.txt"
 raw_counts_file_2 <- "./Raw Input/Working Inputs/ReadsCount_AutosomeGenes_ProteinCoding_Pilot_Dataset_added0.txt" #if applicable
 
 # The following variables will simplify the sample names to eliminate any leading pathname and trailing extensions.
 # e.g. the feature counts columns sometimes look like "/media/CLab3b/xiaolong/cfPeri/Bam/KT19.bam"
 # define these variables for script to trim this text, and simplify column names to "KT19" in above example
-counts1_sample_pathname <- "../../peritoneal_processing/trimmed_data/"
-counts1_sample_extension <- ".bam"
+counts1_sample_pathname <- "../../peritoneal_processing/trimmed_data_bam/"
+counts1_sample_extension <- "_bowtie2.bam"
 
 counts2_sample_pathname <- "/media/CLab3b/xiaolong/cfPeri/Bam/"
 counts2_sample_extension <- ".bam"
 
 # sample file expected to be in here: shorturl.at/qCU19
-sample_file <- "./Raw Input/Sample Inputs/pilot_largerset_sample_file.csv"
+sample_file <- "./Raw Input/Working Inputs/conditions_CRCtech_v1.csv"
 excluded_samples <- c("KT026","KT027")
+
+file_version <- "v6"
 
 
 #read in data
@@ -80,7 +82,7 @@ if(combine_files==FALSE){
 counts_trimmed <- subset(raw_counts,select=-c(Chr,Start,End,Strand,Length))
 counts_final <- subset(raw_counts,select=-c(Chr,Start,End,Strand,Length))
 
-# Simplify sample names in count file
+# Simplify sample names in count file to remove pathname and extensions
 
 colnames(counts_final) <- gsub(counts1_sample_extension, "", colnames(counts_trimmed))
 
@@ -91,7 +93,6 @@ if(combine_files==TRUE && counts2_sample_extension != counts1_sample_extension){
   colnames(counts_final) <- gsub(counts2_sample_extension, "", colnames(counts_final))
 } 
 
-#this runs only if you are combining 2 files with different sample pathnames
 if(combine_files==TRUE && counts2_sample_pathname != counts1_sample_pathname){
   colnames(counts_final) <- gsub(counts2_sample_pathname, "", colnames(counts_final))
 } 
@@ -160,6 +161,7 @@ rownames(GSEA_cls) <- c()
 names(GSEA_cls) <- NULL
 GSEA_cls [1,4:ncol(GSEA_cls)] <- c(rep("",ncol(GSEA_cls)-3))
 GSEA_cls [2,4:ncol(GSEA_cls)] <- c(rep("",ncol(GSEA_cls)-3))
+#Note: if error regarding "number of columns", this is due to having >2 classes. This is not an issue if you are not doing GSEA
 
 ### CREATE TPM FILE FOR ssGSEA
 # Need tables with row names for tpm conversion, clunky but gets job done
@@ -211,24 +213,24 @@ normalized_counts_GSEA <- add_column(normalized_counts_GSEA,description, .before
 normalized_counts_GSEA <- rownames_to_column(normalized_counts_GSEA, var = "NAME")
 
 ### OUTPUT RESUTLING FILES
-dir.create(paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,sep=""))
+dir.create(paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"_",file_version,sep=""))
 # output counts .csv file for DESeq2 normalization followed by GSEA -or- counts to TPM conversion for ssGSEA
-write.csv(counts_final_ordered,file = paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"/",class1_name,"_",class2_name,"_DESeq2_rawcounts.csv",sep = ""),row.names = FALSE,quote=FALSE)
+write.csv(counts_final_ordered,file = paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"_",file_version,"/",class1_name,"_",class2_name,"_DESeq2_rawcounts.csv",sep = ""),row.names = FALSE,quote=FALSE)
 
 # output conditions .csv file for DESeq2 normalization
-write.csv(sample_data_ordered,file = paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"/",class1_name,"_",class2_name,"_DESeq2_conditions.csv",sep = ""),row.names = FALSE,quote=FALSE)
+write.csv(sample_data_ordered,file = paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"_",file_version,"/",class1_name,"_",class2_name,"_DESeq2_conditions.csv",sep = ""),row.names = FALSE,quote=FALSE)
 
 # output phenotype .cls file for GSEA 
-write.table(GSEA_cls, file=paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"/",class1_name,"_",class2_name,"_GSEA_phenotype.cls",sep = ""), quote=FALSE, sep='\t', row.names = FALSE, col.names = FALSE)
+write.table(GSEA_cls, file=paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"_",file_version,"/",class1_name,"_",class2_name,"_GSEA_phenotype.cls",sep = ""), quote=FALSE, sep='\t', row.names = FALSE, col.names = FALSE)
 
 # output normalized counts .txt file for GSEA
-write.table(normalized_counts_GSEA, file=paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"/",class1_name,"_",class2_name,"_GSEA_normcounts.txt", sep = ""), sep="\t", quote=F, row.names=FALSE)
+write.table(normalized_counts_GSEA, file=paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"_",file_version,"/",class1_name,"_",class2_name,"_GSEA_normcounts.txt", sep = ""), sep="\t", quote=F, row.names=FALSE)
 
 # output phenotype .cls file for ssGSEA 
-write.table(ssGSEA_cls, file=paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"/",class1_name,"_",class2_name,"_ssGSEA_phenotype.cls",sep = ""), quote=FALSE, sep='\t', row.names = FALSE, col.names = FALSE)
+write.table(ssGSEA_cls, file=paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"_",file_version,"/",class1_name,"_",class2_name,"_ssGSEA_phenotype.cls",sep = ""), quote=FALSE, sep='\t', row.names = FALSE, col.names = FALSE)
 
 # output gene length .csv file for ssGSEA counts to TPM normalization, no longer required as tpm conversion has been built in here.
 # write.csv(gene_length,file = "./Output/Raw Data Processing/gene_length.csv",row.names = FALSE,quote=FALSE)
 
 #output tpm tsv file
-write.table(tpm_genepattern,file=paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"/",class1_name,"_",class2_name,"_ssGSEA_tpm.tsv",sep = ""), quote=FALSE, sep='\t', row.names=FALSE)
+write.table(tpm_genepattern,file=paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"_",file_version,"/",class1_name,"_",class2_name,"_ssGSEA_tpm.tsv",sep = ""), quote=FALSE, sep='\t', row.names=FALSE)
