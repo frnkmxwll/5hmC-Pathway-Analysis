@@ -1,7 +1,6 @@
 #PURPOSE OF THIS SCRIPT IS TO VISUALIZE DGE HEATMAPS & PCA PLOTS BETWEEN TWO COMPARISON GROUPS
 #tutorial taken from here: https://github.com/hbctraining/DGE_workshop/tree/master/lessons
 
-###LIBRARIES INSTALL ALL IF FIRST TIME RUNNING
 library(DESeq2)
 library(magrittr)
 library(tibble)
@@ -171,7 +170,7 @@ sig_genes <-  sig$gene
 png(paste("./Output/DESeq2/PCA/sig_PCA_",contrast_groups[2],contrast_groups[3],"_vlabel",ver,".png", sep = ""), width = 900, height = 1200)
 plotPCA(
   rld[sig_genes,], 
-  intgroup = "condition",
+  intgroup = "condition"
   )
 dev.off()
 
