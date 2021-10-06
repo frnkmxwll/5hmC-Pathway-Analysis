@@ -156,8 +156,10 @@ if (batch_normalization == TRUE){
     counts_final_matrix = as.matrix(counts_final_matrix, rownames = TRUE)
 
     #Run combat function to normalize based on sample batch (e.g. makes sure each batch mean and variance are the same)
-    combat_counts = ComBat(dat = counts_final_matrix, batch = batch_vector, mod = NULL, par.prior = TRUE, prior.plots = FALSE)
-
+    # note: currently ComBat leaves negative values. Using ComBat-seq instead.
+    # combat_counts = ComBat(dat = counts_final_matrix, batch = batch_vector, mod = NULL, par.prior = TRUE, prior.plots = FALSE)
+    combat_counts = ComBat_seq(counts_final_matrix, batch = batch_vector, group=NULL)
+    
     #Convert numeric matrix back into dataframe, with no row names
     combat_counts = as.data.frame(combat_counts,row.names=NULL)
     combat_counts = tibble::rownames_to_column(combat_counts,"Geneid")
@@ -247,7 +249,21 @@ normalized_counts_GSEA <- add_column(normalized_counts_GSEA,description, .before
 normalized_counts_GSEA <- rownames_to_column(normalized_counts_GSEA, var = "NAME")
 
 ### OUTPUT RESUTLING FILES
+#Create root output folder if it doesn't exist.
+if (file.exists("./Output/")) {
+  cat("The folder already exists")
+} else {
+  dir.create("./Output/")
+}
+
+if (file.exists("./Output/Raw Data Processing/")) {
+  cat("The folder already exists")
+} else {
+  dir.create("./Output/Raw Data Processing/")
+}
+
 dir.create(paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"_",file_version,sep=""))
+
 # output counts .csv file for DESeq2 normalization followed by GSEA -or- counts to TPM conversion for ssGSEA
 write.csv(counts_final_ordered,file = paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"_",file_version,"/",class1_name,"_",class2_name,"_DESeq2_rawcounts.csv",sep = ""),row.names = FALSE,quote=FALSE)
 
@@ -268,3 +284,22 @@ write.table(ssGSEA_cls, file=paste("./Output/Raw Data Processing/",class1_name,"
 
 #output tpm tsv file
 write.table(tpm_genepattern,file=paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"_",file_version,"/",class1_name,"_",class2_name,"_ssGSEA_tpm.tsv",sep = ""), quote=FALSE, sep='\t', row.names=FALSE)
+
+#output config file
+config <- c(
+  paste("combine files:", combine_files), 
+  paste("batch_normalization using ComBat_seq:", batch_normalization), 
+  paste("first input counts file name:", raw_counts_file_1), 
+  paste("second input counts file name (ignoed if combine files set to FALSE):", raw_counts_file_2),
+  paste("metadata conditions file name:", sample_file), 
+  paste("excluded samples:",excluded_samples),
+  paste("file version:",file_version)
+  )
+
+write.table(
+  config, 
+  file=paste("./Output/Raw Data Processing/",class1_name,"_",class2_name,"_",file_version,"/",class1_name,"_",class2_name,"_",file_version,"_config",".txt", sep = ""), 
+  sep="\t", 
+  quote=F, 
+  col.names=NA
+  )
