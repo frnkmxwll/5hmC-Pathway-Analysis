@@ -7,10 +7,14 @@
 #  install.packages("BiocManager")
 # BiocManager::install("DESeq2")
 # install.packages("dplyr")
+#  install.packages("BiocManager")
+# BiocManager::install("sva")
+
 
 library(dplyr) # note: dply is necessary as data frames are too large for R's native merge function, need dplyr's inner join function.
 library(DESeq2)
 library (tibble)
+library(sva)
 
 ### CONFIGURATION
 # set working directory
@@ -18,6 +22,7 @@ setwd("~/5hmC-Pathway-Analysis/")
 
 # settings
 combine_files = FALSE #set to TRUE to combine multiple counts files, FALSE if working with a single counts file.
+batch_normalization = TRUE # set to TRUE if your sample
 
 # counts file expected to be in featureCounts default export format
 raw_counts_file_1 <- "./Raw Input/Working Inputs/ReadsCount_AutosomeGenes_ProteinCoding_v4run3.txt"
@@ -33,10 +38,10 @@ counts2_sample_pathname <- "/media/CLab3b/xiaolong/cfPeri/Bam/"
 counts2_sample_extension <- ".bam"
 
 # sample file expected to be in here: shorturl.at/qCU19
-sample_file <- "./Raw Input/Working Inputs/conditions_CRCtech_v1.csv"
+sample_file <- "./Raw Input/Working Inputs/conditions_PMpos_METneg_v1.csv"
 excluded_samples <- c("KT026","KT027")
 
-file_version <- "v6"
+file_version <- "v1"
 
 
 #read in data
@@ -62,8 +67,6 @@ sample_data <- read.csv(
   )
 
 ### COMBINE COUNT FILES (if applicable)
-
-
 if(combine_files==TRUE){
   if (all(raw_counts_data_1[,1] %in% raw_counts_data_2[,1])==0){
     print("Error: List of genes in your two input counts files are different. Please correct an re-run.")
@@ -107,12 +110,14 @@ if(all(sample_names %in% colnames(counts_final))==FALSE){
   stop()
 }
 
-# Eliminate unnecessary samples in count file
+# Eliminate unnecessary samples in count file and sample data file
 counts_final_sample <- counts_final[c('Geneid',sample_names)]
 counts_final_sample <- counts_final_sample[,!colnames(counts_final_sample) %in% excluded_samples]
 
+sample_data <- sample_data[! sample_data$X %in% excluded_samples, ]
 
-### RE-ORDER SAMPLE BASED ON CLASS
+
+### RE-ORDER SAMPLES IN COUNTS FILE BY SAMPLE NAME AND BY CLASS IN ASCENDING ORDER
 # Create lookup vector that includes all sample and their class from the sample_data input file
 class_vector <- counts_final_sample[1,]
 class_vector[1,] <- names(counts_final_sample)
@@ -128,12 +133,41 @@ class_vector_ordered <- class_vector_ordered [,c(1,order(unlist(class_vector_ord
 # then select columns in this order and feed into new dataframe
 counts_final_ordered <- counts_final_sample[,colnames(class_vector_ordered)]
 
-### RE-ORDER SAMPLE DATA FILE
+### RE-ORDER SAMPLE DATA FILE BY SAMPLE NAME AND BY CLASS IN ASCENDING ORDER
 sample_data_ordered <- sample_data[order(sample_data$condition,sample_data$X),]
 sample_data_ordered <- sample_data_ordered[!sample_data_ordered$X %in% excluded_samples,]
 
-#when important sample_data, the blank header over the sample names got filled in with an "X" this needs to be removed for GSEA.
+#when importing sample_data, the blank header over the sample names got filled in with an "X" this needs to be removed for GSEA.
 colnames(sample_data_ordered)[1] <- ""
+
+### NORMALIZE RAW COUNTS FILE BY BATCH IF APPLICABLE
+if (batch_normalization == TRUE){
+  if (is.null(sample_data_ordered$batch)){
+    print("Error: sample_data file is missing column with header 'batch'")
+    stop()
+  } else {
+    #define vector containing batch number for each sample
+    batch_vector = as.numeric(factor(sample_data_ordered$batch))
+    
+    #combat takes a numerical matrix as input, convert counts table to a matrix with rownames = first column.
+    counts_final_matrix <- counts_final_ordered
+    rownames(counts_final_matrix) <- counts_final_matrix[,1]
+    counts_final_matrix[,1] <- NULL
+    counts_final_matrix = as.matrix(counts_final_matrix, rownames = TRUE)
+
+    #Run combat function to normalize based on sample batch (e.g. makes sure each batch mean and variance are the same)
+    combat_counts = ComBat(dat = counts_final_matrix, batch = batch_vector, mod = NULL, par.prior = TRUE, prior.plots = FALSE)
+
+    #Convert numeric matrix back into dataframe, with no row names
+    combat_counts = as.data.frame(combat_counts,row.names=NULL)
+    combat_counts = tibble::rownames_to_column(combat_counts,"Geneid")
+    counts_final_ordered = combat_counts
+    }
+}
+
+if(batch_normalization==FALSE){
+  print("Proceeding without normalizing raw counts file by batch.")
+}
 
 ### CREATE ssGSEA CLASS FILES
 sample_count <- nrow(sample_data_ordered)
