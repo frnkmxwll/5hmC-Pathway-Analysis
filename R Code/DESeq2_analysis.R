@@ -19,8 +19,8 @@ library(ashr)
 ###CONFIGURATION
 #set working directory, select where you extracted folder
 setwd("~/5hmC-Pathway-Analysis/")
-counts_name <- "./Output/Raw Data Processing/CRClu_CRCpilot_v6/CRClu_CRCpilot_DESeq2_rawcounts.csv"
-meta_name <- "./Output/Raw Data Processing/CRClu_CRCpilot_v6/CRClu_CRCpilot_DESeq2_conditions.csv"
+counts_name <- "./Output/Randomization/METneg_PMpos_DESeq2_v2/METneg_PMpos_validation_counts.csv"
+meta_name <- "./Output/Randomization/METneg_PMpos_DESeq2_v2/METneg_PMpos_validation_conditions.csv"
 
 #read in data, define what counts & conditions files
 counts_data <- read.csv(counts_name,row.names = 1)
@@ -32,7 +32,7 @@ padj.cutoff <- 0.1
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
 
-ver <- "7"
+ver <- "v8"
 gene_number <- nrow(counts_data)
 
 ###VALIDATION
@@ -124,8 +124,8 @@ if (file.exists("./Output/DESeq2/Results/")) {
   dir.create("./Output/DESeq2/Results/")
 }
 
-write.table(res_table, file=paste("./Output/DESeq2/Results/all_results_",contrast_groups[2],contrast_groups[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
-write.table(sig, file=paste("./Output/DESeq2/Results/significant_results_",contrast_groups[2],contrast_groups[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
+write.table(res_table, file=paste("./Output/DESeq2/Results/all_results_",contrast_groups[2],contrast_groups[3],"_",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
+write.table(sig, file=paste("./Output/DESeq2/Results/significant_results_",contrast_groups[2],contrast_groups[3],"_",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
 
 
 ###GENERATE VOLCANO PLOTS
@@ -147,7 +147,7 @@ res_table_tb_volcano <- res_table_tb_volcano %>% arrange(padj) %>% mutate(genela
 
 res_table_tb_volcano$genelabels[1:nsig] <- res_table_tb_volcano$gene[1:nsig]
 
-png(paste("./Output/DESeq2/Volcano/volcano_",contrast_groups[2],contrast_groups[3],"_v",ver,".png", sep = ""), width = 900, height = 900)
+png(paste("./Output/DESeq2/Volcano/volcano_",contrast_groups[2],contrast_groups[3],"_",ver,".png", sep = ""), width = 900, height = 900)
 ggplot(res_table_tb_volcano, aes(x = log2FoldChange, y = -log10(padj))) +
   geom_point(aes(colour = threshold_OE)) +
   ggtitle(paste(contrast_groups[2],"/",contrast_groups[3],"Enrichment")) +
@@ -173,7 +173,7 @@ annotation <- meta %>%
 
 #Save heatmap to png
 heatmap_title <- paste(contrast_groups[2],"/",contrast_groups[3],"padj <",padj.cutoff)
-png(paste("./Output/DESeq2/Heatmaps/sig_heatmap_",contrast_groups[2],contrast_groups[3],"_v",ver,".png", sep = ""), width = 900, height = 1200)
+png(paste("./Output/DESeq2/Heatmaps/sig_heatmap_",contrast_groups[2],contrast_groups[3],"_",ver,".png", sep = ""), width = 900, height = 1200)
 pheatmap(norm_sig, 
          main = heatmap_title,
          color = diverging_hcl(15,"Blue-Red2"), 
@@ -203,7 +203,7 @@ sig_genes <-  sig$gene
 
 #save PCA plot to png
 #In the below replace sig_genes with res_genes if you want to perform PCA analysis on all genes rather than just on significant genes.
-png(paste("./Output/DESeq2/PCA/sig_PCA_",contrast_groups[2],contrast_groups[3],"_vlabel",ver,".png", sep = ""), width = 900, height = 1200)
+png(paste("./Output/DESeq2/PCA/sig_PCA_",contrast_groups[2],contrast_groups[3],"_",ver,".png", sep = ""), width = 900, height = 1200)
 plotPCA(
   rld[sig_genes,], 
   intgroup = "condition"
@@ -219,7 +219,7 @@ if (file.exists("./Output/DESeq2/UMAP/")) {
 }
 
 #save UMAP plot to png
-png(paste("./Output/DESeq2/UMAP/sig_UMAP_",contrast_groups[2],contrast_groups[3],"_v",ver,".png", sep = ""), width = 900, height = 1200)
+png(paste("./Output/DESeq2/UMAP/sig_UMAP_",contrast_groups[2],contrast_groups[3],"_",ver,".png", sep = ""), width = 900, height = 1200)
 umap(norm_sig, labels=as.factor(meta$condition),printres = FALSE, seed = FALSE,
      axistextsize = 18, legendtextsize = 18, dotsize = 5,
      textlabelsize = 4, legendtitle = "Group", controlscale = FALSE,
@@ -236,4 +236,4 @@ if (file.exists("./Output/DESeq2/Config/")) {
 
 config <- c(paste("counts file name:", counts_name), paste("conditions file name:", meta_name), paste("padj cut off",padj.cutoff),paste("output file name:", ver),paste("volcano lfc cutoff:", lfc.cutoff))
 config_frame <- config
-write.table(config, file=paste("./Output/DESeq2/Config/config_",contrast_groups[2],contrast_groups[3],"_v",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
+write.table(config, file=paste("./Output/DESeq2/Config/config_",contrast_groups[2],contrast_groups[3],"_",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
