@@ -19,8 +19,8 @@ library(ashr)
 ###CONFIGURATION
 #set working directory, select where you extracted folder
 setwd("~/5hmC-Pathway-Analysis/")
-counts_name <- "./Output/Randomization/METneg_PMpos_DESeq2_v2/METneg_PMpos_validation_counts.csv"
-meta_name <- "./Output/Randomization/METneg_PMpos_DESeq2_v2/METneg_PMpos_validation_conditions.csv"
+counts_name <- "./Output/Randomization/CRCmetNEG_CRCpmonlyPOS_DESeq2_v1/CRCmetNEG_CRCpmonlyPOS_training_counts.csv"
+meta_name <- "./Output/Randomization/CRCmetNEG_CRCpmonlyPOS_DESeq2_v1/CRCmetNEG_CRCpmonlyPOS_training_conditions.csv"
 
 #read in data, define what counts & conditions files
 counts_data <- read.csv(counts_name,row.names = 1)
@@ -32,7 +32,7 @@ padj.cutoff <- 0.1
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
 
-ver <- "v8"
+ver <- "v4"
 gene_number <- nrow(counts_data)
 
 ###VALIDATION

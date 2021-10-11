@@ -23,6 +23,7 @@ setwd("~/5hmC-Pathway-Analysis/")
 # settings
 combine_files = FALSE #set to TRUE to combine multiple counts files, FALSE if working with a single counts file.
 batch_normalization = TRUE # set to TRUE if your sample
+batch_norm_type = 0 # 0="combat-seq" | 1= "combat" with removal of rows with counts <0
 
 # counts file expected to be in featureCounts default export format
 raw_counts_file_1 <- "./Raw Input/Working Inputs/ReadsCount_AutosomeGenes_ProteinCoding_v4run3.txt"
@@ -38,10 +39,10 @@ counts2_sample_pathname <- "/media/CLab3b/xiaolong/cfPeri/Bam/"
 counts2_sample_extension <- ".bam"
 
 # sample file expected to be in here: shorturl.at/qCU19
-sample_file <- "./Raw Input/Working Inputs/conditions_PMpos_METneg_v1.csv"
+sample_file <- "./Raw Input/Working Inputs/conditions_CRCpmonlyPOS_CRCmetNEG_v1.csv"
 excluded_samples <- c("KT026","KT027")
 
-file_version <- "v1"
+file_version <- "v3"
 
 
 #read in data
@@ -157,8 +158,20 @@ if (batch_normalization == TRUE){
 
     #Run combat function to normalize based on sample batch (e.g. makes sure each batch mean and variance are the same)
     # note: currently ComBat leaves negative values. Using ComBat-seq instead.
-    # combat_counts = ComBat(dat = counts_final_matrix, batch = batch_vector, mod = NULL, par.prior = TRUE, prior.plots = FALSE)
-    combat_counts = ComBat_seq(counts_final_matrix, batch = batch_vector, group=NULL)
+
+    if(batch_norm_type == 0){
+       combat_counts = ComBat_seq(counts_final_matrix, batch = batch_vector, group=NULL)
+    }
+    
+    if(batch_norm_type == 1){
+      combat_counts = ComBat(dat = counts_final_matrix, batch = batch_vector, mod = NULL, par.prior = TRUE, prior.plots = FALSE)
+
+      #we need to remove any genes that have a negative value as a result of this normalization otherwise DESeq2 will choke.
+      combat_counts = as.data.frame(combat_counts,row.names=NULL)
+      combat_counts = tibble::rownames_to_column(combat_counts,"Geneid")
+      combat_counts[combat_counts <0] <- NA
+      combat_counts <- combat_counts[complete.cases(combat_counts),]
+    }
     
     #Convert numeric matrix back into dataframe, with no row names
     combat_counts = as.data.frame(combat_counts,row.names=NULL)
@@ -293,7 +306,8 @@ config <- c(
   paste("second input counts file name (ignoed if combine files set to FALSE):", raw_counts_file_2),
   paste("metadata conditions file name:", sample_file), 
   paste("excluded samples:",excluded_samples),
-  paste("file version:",file_version)
+  paste("file version:",file_version),
+  paste("batch normalization type (0=ComBat-seq, 1=ComBat with rows <0 removed): ", batch_norm_type)
   )
 
 write.table(
