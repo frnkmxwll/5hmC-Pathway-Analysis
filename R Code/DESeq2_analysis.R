@@ -42,7 +42,7 @@ all(colnames(counts_data) == rownames(meta))
 
 ###CREATE DESeq2 OBJECT
 #load data into DESeq2 object dds
-dds <- DESeqDataSetFromMatrix(countData = counts_data, colData = meta, design = ~ condition + batch + primary_present)
+dds <- DESeqDataSetFromMatrix(countData = counts_data, colData = meta, design = ~ condition)
 
 #load up size factors into dds object in order to normalize using median of ratios method
 dds <- DESeq(dds)
