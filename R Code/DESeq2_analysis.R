@@ -19,8 +19,8 @@ library(ashr)
 ###CONFIGURATION
 #set working directory, select where you extracted folder
 setwd("~/5hmC-Pathway-Analysis/")
-counts_name <- "./Output/Randomization/CRCmetNEG_CRCpmonlyPOS_DESeq2_v1/CRCmetNEG_CRCpmonlyPOS_training_counts.csv"
-meta_name <- "./Output/Randomization/CRCmetNEG_CRCpmonlyPOS_DESeq2_v1/CRCmetNEG_CRCpmonlyPOS_training_conditions.csv"
+counts_name <- "./Output/Raw Data Processing/CRCmetNEG_CRCpmonlyPOS_no_norm/CRCmetNEG_CRCpmonlyPOS_DESeq2_rawcounts.csv"
+meta_name <- "./Output/Raw Data Processing/CRCmetNEG_CRCpmonlyPOS_no_norm/CRCmetNEG_CRCpmonlyPOS_DESeq2_conditions.csv"
 
 #read in data, define what counts & conditions files
 counts_data <- read.csv(counts_name,row.names = 1)
@@ -32,7 +32,7 @@ padj.cutoff <- 0.1
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
 
-ver <- "v4"
+ver <- "no_norm"
 gene_number <- nrow(counts_data)
 
 ###VALIDATION
@@ -42,7 +42,7 @@ all(colnames(counts_data) == rownames(meta))
 
 ###CREATE DESeq2 OBJECT
 #load data into DESeq2 object dds
-dds <- DESeqDataSetFromMatrix(countData = counts_data, colData = meta, design = ~ condition)
+dds <- DESeqDataSetFromMatrix(countData = counts_data, colData = meta, design = ~ condition + batch + primary_present)
 
 #load up size factors into dds object in order to normalize using median of ratios method
 dds <- DESeq(dds)
