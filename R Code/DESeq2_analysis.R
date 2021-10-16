@@ -19,8 +19,8 @@ library(ashr)
 ###CONFIGURATION
 #set working directory, select where you extracted folder
 setwd("~/5hmC-Pathway-Analysis/")
-counts_name <- "./Output/Raw Data Processing/CRCmetNEG_CRCpmonlyPOS_no_norm/CRCmetNEG_CRCpmonlyPOS_DESeq2_rawcounts.csv"
-meta_name <- "./Output/Raw Data Processing/CRCmetNEG_CRCpmonlyPOS_no_norm/CRCmetNEG_CRCpmonlyPOS_DESeq2_conditions.csv"
+counts_name <- "./Output/Randomization/METneg_PMpos_DESeq2_v3/METneg_PMpos_training_rawcounts.csv"
+meta_name <- "./Output/Randomization/METneg_PMpos_DESeq2_v3/METneg_PMpos_training_conditions.csv"
 
 #read in data, define what counts & conditions files
 counts_data <- read.csv(counts_name,row.names = 1)
@@ -28,11 +28,14 @@ meta <-  read.csv(meta_name,row.names = 1)
 
 #define padj cutoff, you may need to run with several padj values until you have an appropriate number of significant results.
 #used to select significant genes for results tables, PCA plots, heatmaps and UMAP plots.
-padj.cutoff <- 0.1
+cutoff_type = 1 # 0=padj cutoff, default; 1=lfc & pvalue cutoff
+padj.cutoff = 0.1 # 0.1 default
+pvalue.cutoff = 0.01
+lfc.cutoff = 0.5
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
 
-ver <- "no_norm"
+ver <- "lfc_v9"
 gene_number <- nrow(counts_data)
 
 ###VALIDATION
@@ -77,9 +80,15 @@ res_table_tb <- res_table %>%
   as_tibble()
 
 #subset table to only keep significant genes using cutoff
-sig <- res_table_tb %>% 
-  filter(padj < padj.cutoff)
+if(cutoff_type == 0){
+  sig <- res_table_tb %>% 
+    filter(padj < padj.cutoff)
+}
 
+if(cutoff_type == 1){
+  sig <- res_table_tb %>% 
+    filter(abs(log2FoldChange) > lfc.cutoff, pvalue < pvalue.cutoff)
+}
 
 normalized_counts_tb <- normalized_counts %>% 
   data.frame() %>%
@@ -138,8 +147,6 @@ if (file.exists("./Output/DESeq2/Volcano/")) {
 #Obtain logical vector where TRUE values denote padj values < cutoff and fold change > 1.5 in either direction
 
 #working with log2 fold changes so this translates to an actual fold change of 2^lfc.cutoff. used in volcano plots
-lfc.cutoff <- 0.1
-
 res_table_tb_volcano <- res_table_tb %>% 
   mutate(threshold_OE = padj < padj.cutoff & abs(log2FoldChange) >= lfc.cutoff)
 
@@ -172,7 +179,14 @@ annotation <- meta %>%
   select(condition)
 
 #Save heatmap to png
+if(cutoff_type == 0){
 heatmap_title <- paste(contrast_groups[2],"/",contrast_groups[3],"padj <",padj.cutoff)
+}
+
+if(cutoff_type == 1){
+  heatmap_title <- paste(contrast_groups[2],"/",contrast_groups[3],"pvalue <",pvalue.cutoff,"|lfc|>",lfc.cutoff)
+}
+
 png(paste("./Output/DESeq2/Heatmaps/sig_heatmap_",contrast_groups[2],contrast_groups[3],"_",ver,".png", sep = ""), width = 900, height = 1200)
 pheatmap(norm_sig, 
          main = heatmap_title,
@@ -234,6 +248,17 @@ if (file.exists("./Output/DESeq2/Config/")) {
   dir.create("./Output/DESeq2/Config/")
 }
 
-config <- c(paste("counts file name:", counts_name), paste("conditions file name:", meta_name), paste("padj cut off",padj.cutoff),paste("output file name:", ver),paste("volcano lfc cutoff:", lfc.cutoff))
+config <- c(
+  paste("counts file name:", counts_name), 
+  paste("conditions file name:", meta_name), 
+  paste("padj cut off",padj.cutoff),
+  paste("output file name:", ver),
+  paste("volcano lfc cutoff:", lfc.cutoff),
+  paste("cutoff type (0=padj cutoff, default; 1=lfc & pvalue cutoff):", cutoff_type),
+  paste("padj cutoff (if type=0):", padj.cutoff),
+  paste("pvalue cutoff (if type=1):", pvalue.cutoff),
+  paste("lfc cutoff (if type=1):", lfc.cutoff)
+  )
+
 config_frame <- config
 write.table(config, file=paste("./Output/DESeq2/Config/config_",contrast_groups[2],contrast_groups[3],"_",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
