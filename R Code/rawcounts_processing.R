@@ -7,7 +7,6 @@
 #  install.packages("BiocManager")
 # BiocManager::install("DESeq2")
 # install.packages("dplyr")
-#  install.packages("BiocManager")
 # BiocManager::install("sva")
 
 

@@ -1,6 +1,14 @@
 #PURPOSE OF THIS SCRIPT IS TO VISUALIZE DGE HEATMAPS & PCA PLOTS BETWEEN TWO COMPARISON GROUPS
 #tutorial taken from here: https://github.com/hbctraining/DGE_workshop/tree/master/lessons
 
+### INSTALL LIBRARIES
+# Setup, uncomment follow
+# if (!requireNamespace("BiocManager", quietly = TRUE))
+#  install.packages("BiocManager")
+# BiocManager::install("DESeq2")
+# install.packages("dplyr")
+# BiocManager::install("sva")
+
 library(DESeq2)
 library(magrittr)
 library(tibble)
@@ -31,11 +39,11 @@ meta <-  read.csv(meta_name,row.names = 1)
 cutoff_type = 1 # 0=padj cutoff, default; 1=lfc & pvalue cutoff
 padj.cutoff = 0.1 # 0.1 default
 pvalue.cutoff = 0.01
-lfc.cutoff = 0.5
+lfc.cutoff = 0.3
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
 
-ver <- "lfc_v9"
+ver <- "training_v2"
 gene_number <- nrow(counts_data)
 
 ###VALIDATION
@@ -164,7 +172,7 @@ ggplot(res_table_tb_volcano, aes(x = log2FoldChange, y = -log10(padj))) +
   theme(legend.position = "none",
         plot.title = element_text(size = rel(1.5), hjust = 0.5),
         axis.title = element_text(size = rel(1.25))) +
-  xlim(-0.5, 0.5)
+  xlim(-0.6, 0.6)
 dev.off()
 
 ###GENERATE HEATMAP
