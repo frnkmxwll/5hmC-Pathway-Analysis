@@ -1,6 +1,7 @@
 # 5hmc_Pathway_Analysis
 
 **This code base contains 2 Bash scripts:**
+
 1- ~/fastq_processing/Scripts/hmCSeal_v4.sh
    This script takes as input .fastq files and a list of sample names, uses trimgalor & bowtie 2 to trim & align reads to a refence genome. It outputs a readcounts file for use in DESeq2 and other sequencing QC data which is output to a log file.
    
@@ -8,6 +9,7 @@
    This script takes as input the hg19 reference genome, and creates the necessary reference genome files for use by bowtie2. This is a pre-requisite for script 1.
    
 **This code base contains 4 R scripts:**
+
 3- rawcounts_processing.R
 This script takes as input raw counts file(s) outputted from script 1, as well as a sample conditions or phenotype file, and outputs a formatted ReadCounts file for use in DESeq2 analysis in script 3 as well as use in downstream tools such as GSEA and ssGSEA. It has several options to allow the combining of multiple ReadCounts files, as well as several normalization options.
 
