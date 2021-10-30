@@ -1,6 +1,4 @@
-#PURPOSE OF THIS SCRIPT IS TO COMPARE SIMILARITY OF TWO ORDERED GENE LISTS
-#Documentation from this link: https://bioconductor.org/packages/release/bioc/manuals/OrderedList/man/OrderedList.pdf
-#Tutorial on OrderedList with examples: https://mirrors.nju.edu.cn/bioconductor/bioc/1.9/vignettes/OrderedList/inst/doc/tr_2006_01.pdf
+#Purpose of this script is to compare the similarity between two different ordered gene lists.
 
 ### INSTALL LIBRARIES
 # Setup, uncomment follow
