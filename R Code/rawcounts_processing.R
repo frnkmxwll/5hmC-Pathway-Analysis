@@ -38,10 +38,10 @@ counts2_sample_pathname <- "/media/CLab3b/xiaolong/cfPeri/Bam/"
 counts2_sample_extension <- ".bam"
 
 # sample file expected to be in here: shorturl.at/qCU19
-sample_file <- "./Raw Input/Working Inputs/conditions_PMpos_PMneg_PilotOnly_v1.csv"
+sample_file <- "./Raw Input/Working Inputs/conditions_PMpos_PMneg_largercohort_v1.csv"
 excluded_samples <- c("KT026","KT027")
 
-file_version <- "Pilot"
+file_version <- "largecohort"
 
 
 #read in data

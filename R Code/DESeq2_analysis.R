@@ -27,8 +27,8 @@ library(ashr)
 ###CONFIGURATION
 #set working directory, select where you extracted folder
 setwd("~/5hmC-Pathway-Analysis/")
-counts_name <- "./Output/Raw Data Processing/PMneg_PMpos_Pilot/PMneg_PMpos_DESeq2_rawcounts.csv"
-meta_name <- "./Output/Raw Data Processing/PMneg_PMpos_Pilot/PMneg_PMpos_DESeq2_conditions.csv"
+counts_name <- "./Output/Randomization/METneg_PMpos_DESeq2_v3/METneg_PMpos_validation_rawcounts.csv"
+meta_name <- "./Output/Randomization/METneg_PMpos_DESeq2_v3/METneg_PMpos_validation_conditions.csv"
 
 #read in data, define what counts & conditions files
 counts_data <- read.csv(counts_name,row.names = 1)
@@ -36,14 +36,14 @@ meta <-  read.csv(meta_name,row.names = 1)
 
 #define padj cutoff, you may need to run with several padj values until you have an appropriate number of significant results.
 #used to select significant genes for results tables, PCA plots, heatmaps and UMAP plots.
-cutoff_type = 0 # 0=padj cutoff, default; 1=lfc & pvalue cutoff
+cutoff_type = 1 # 0=padj cutoff, default; 1=lfc & pvalue cutoff
 padj.cutoff = 0.1 # 0.1 default
-pvalue.cutoff = 0.01
-lfc.cutoff = 0.3
+pvalue.cutoff = 0.1
+lfc.cutoff = 0.15 #0.3 ~ 20% change, 0.15 ~ 10%
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
 
-ver <- "Pilot_PMpos_PM_neg"
+ver <- "training_PMpos_neg_loose"
 gene_number <- nrow(counts_data)
 
 ###VALIDATION
