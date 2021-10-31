@@ -4,7 +4,7 @@
 Location: ~/fastq_processing/Scripts/hmCSeal_v4.sh
    This script takes as input .fastq files and a list of sample names, uses trimgalor & bowtie 2 to trim & align reads to a refence genome. It outputs a readcounts file for use in DESeq2 and other sequencing QC data which is output to a log file.
 
-### 2- Bowtie2 referene genome creation
+### 2- Bowtie2 reference genome creation
 Location: ~/fastq_processing/Reference_genomes/bowtie2/make_hg19.sh
    This script takes as input the hg19 reference genome, and creates the necessary reference genome files for use by bowtie2. This is a pre-requisite for script 1.
    
