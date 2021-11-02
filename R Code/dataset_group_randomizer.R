@@ -17,18 +17,19 @@
 ### CONFIGURATION
 # set working directory
 setwd("~/5hmC-Pathway-Analysis/")
-counts_name <- "./Output/Raw Data Processing/METneg_PMpos_combat-seq/METneg_PMpos_DESeq2_rawcounts.csv"
-meta_name <- "./Output/Raw Data Processing/METneg_PMpos_combat-seq/METneg_PMpos_DESeq2_conditions.csv"
+counts_name <- "./Output/Raw Data Processing/METneg_PMpos_whole_combatseq/METneg_PMpos_DESeq2_rawcounts.csv"
+meta_name <- "./Output/Raw Data Processing/METneg_PMpos_whole_combatseq/METneg_PMpos_DESeq2_conditions.csv"
 
 
 
-file_version <- "v3"
+file_version <- "whole_combatseq"
 random_seed=150
 
 # settings
 # recommend 70-30 or 80-20 split between training and validation.
 training_fraction = 70
-create_sig_training_counts = TRUE #SET TO TRUE ONLY AFTER HAVING RUN DESEQ2, WHEN RUNNING FOR FIRST TIME SET TO FALSE
+create_sig_training_counts = FALSE #SET TO TRUE ONLY AFTER HAVING RUN DESEQ2, WHEN RUNNING FOR FIRST TIME SET TO FALSE.
+#When set to TRUE, outputs counts files with rows only for genes found to be significantly enriched.
 
 #read in data, define what counts & conditions files
 counts_data <- read.csv(counts_name,row.names = 1)
@@ -139,10 +140,17 @@ if(create_sig_training_counts==FALSE){
 
 if(create_sig_training_counts==TRUE){
   validation_counts_sigonly = validation_counts[row.names(validation_counts) %in% sig_counts$gene,]
+  training_counts_sigonly = training_counts[row.names(training_counts) %in% sig_counts$gene,]
   
   write.csv(
     validation_counts_sigonly,
     file = paste("./Output/Randomization/",first_condition,"_",second_condition,"_","DESeq2_",file_version,"/",first_condition,"_",second_condition,"_validation_sigonlycounts.csv",sep = ""),
+    row.names = TRUE,
+    quote=FALSE)
+  
+  write.csv(
+    training_counts_sigonly,
+    file = paste("./Output/Randomization/",first_condition,"_",second_condition,"_","DESeq2_",file_version,"/",first_condition,"_",second_condition,"_training_sigonlycounts.csv",sep = ""),
     row.names = TRUE,
     quote=FALSE)
 }
