@@ -21,7 +21,7 @@ setwd("~/5hmC-Pathway-Analysis/")
 
 # settings
 combine_files = FALSE #set to TRUE to combine multiple counts files, FALSE if working with a single counts file.
-batch_normalization = FALSE # set to TRUE if your sample
+batch_normalization = TRUE # set to TRUE if you need batch normalization.
 batch_norm_type = 0 # 0="combat-seq" | 1= "combat" with removal of rows with counts <0
 
 # counts file expected to be in featureCounts default export format
@@ -38,10 +38,10 @@ counts2_sample_pathname <- "/media/CLab3b/xiaolong/cfPeri/Bam/"
 counts2_sample_extension <- ".bam"
 
 # sample file expected to be in here: shorturl.at/qCU19
-sample_file <- "./Raw Input/Working Inputs/conditions_PMpos_PMneg_largercohort_v1.csv"
+sample_file <- "./Raw Input/Working Inputs/conditions_PMpos_METneg_v1.csv"
 excluded_samples <- c("KT026","KT027")
 
-file_version <- "largecohort"
+file_version <- "whole_combatseq"
 
 
 #read in data

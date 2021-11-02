@@ -11,7 +11,7 @@ Location: ~/fastq_processing/Reference_genomes/bowtie2/make_hg19.sh
 ## R scripts:
 ### 3- RawCounts file creation
 Location: ~/R Code/rawcounts_processing.R
-This script takes as input raw counts file(s) outputted from script 1, as well as a sample conditions or phenotype file, and outputs a formatted ReadCounts file for use in DESeq2 analysis in script 3 as well as use in downstream tools such as GSEA and ssGSEA. It has several options to allow the combining of multiple ReadCounts files, as well as several normalization options.
+This script takes as input raw counts file(s) outputted from script 1, as well as a sample conditions or phenotype file, and outputs a formatted ReadCounts file for use in DESeq2 analysis in script 5 as well as use in downstream tools such as GSEA and ssGSEA. It has several options to allow the combining of multiple ReadCounts files, as well as several normalization options.
 
 ### 4- Group randomizer 
 Location: ~/R Code/dataset_group_randomizer.R
@@ -28,6 +28,10 @@ This script takes as input two rank-ordered gene lists (ranked by log2foldchange
 ### 7- GSEA results heatmap chart
 Location: ~/R Code/GeneSet_heatmap.R
 This script takes as input a list of gene sets, as a result of GSEA analysis, and provides a heatmap of the results with each row representing a specifi gene set.
+
+### 8 - Elastic net regularization to the multivariate logistic regression models using glmnet
+Location: ~/R Code/glmnet_prediction.R
+This script takes as input the training and validation sets output by script 4, and uses the training group to generate a logistic regression model which is then tested against the validation set.
 
 ## References:
 https://github.com/hbctraining/DGE_workshop/tree/master/lessons
