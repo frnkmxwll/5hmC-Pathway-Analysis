@@ -17,10 +17,8 @@
 ### CONFIGURATION
 # set working directory
 setwd("~/5hmC-Pathway-Analysis/")
-counts_name <- "./Output/Raw Data Processing/METneg_PMpos_whole_combatseq/METneg_PMpos_DESeq2_rawcounts.csv"
-meta_name <- "./Output/Raw Data Processing/METneg_PMpos_whole_combatseq/METneg_PMpos_DESeq2_conditions.csv"
-
-
+counts_name <- "./Output/Raw Data Processing/CRCmetNEG_CRCpmonlyPOS_combat-seq/CRCmetNEG_CRCpmonlyPOS_DESeq2_rawcounts.csv"
+meta_name <- "./Output/Raw Data Processing/CRCmetNEG_CRCpmonlyPOS_combat-seq/CRCmetNEG_CRCpmonlyPOS_DESeq2_conditions.csv"
 
 file_version <- "whole_combatseq"
 random_seed=150

@@ -21,12 +21,15 @@ library(svMisc)
 ###CONFIGURATION
 #set working directory, select where you extracted folder
 setwd("~/5hmC-Pathway-Analysis/")
-counts_name_training <- "./Output/Randomization/METneg_PMpos_DESeq2_whole_combatseq/METneg_PMpos_training_rawcounts.csv"
-counts_name_validation <- "./Output/Randomization/METneg_PMpos_DESeq2_whole_combatseq/METneg_PMpos_validation_rawcounts.csv"
-meta_name_training <- "./Output/Randomization/METneg_PMpos_DESeq2_whole_combatseq/METneg_PMpos_training_conditions.csv"
-meta_name_validation <- "./Output/Randomization/METneg_PMpos_DESeq2_whole_combatseq/METneg_PMpos_validation_conditions.csv"
-ver <- "v3"
+counts_name_training <- "./Output/Randomization/METneg_PMonlyPOS_DESeq2_whole_combatseq/METneg_PMonlyPOS_training_rawcounts.csv"
+counts_name_validation <- "./Output/Randomization/METneg_PMonlyPOS_DESeq2_whole_combatseq/METneg_PMonlyPOS_validation_rawcounts.csv"
+meta_name_training <- "./Output/Randomization/METneg_PMonlyPOS_DESeq2_whole_combatseq/METneg_PMonlyPOS_training_conditions.csv"
+meta_name_validation <- "./Output/Randomization/METneg_PMonlyPOS_DESeq2_whole_combatseq/METneg_PMonlyPOS_validation_conditions.csv"
+ver <- "v1_a05_c9"
 alpha_value <- 0.5
+cv_folds <- 5 #number of folds to run in each cross validation
+cv_runs <- 200 #number of cross validations to run to build model
+run_cutoff <- 0.9 #genes must feature in this percent of cross-validation run to feature in the model
 
 #read in data, define what counts & conditions files
 #note: glmnet expects a matrix as input, not a dataframe, 
@@ -48,11 +51,11 @@ conditions_vector=c(rep(0,class1_count_training),rep(1,class2_count_training))
 #create glmnet object
 #fit <- glmnet(counts_data_training,conditions_vector, family = "binomial")
 
-#run cross validation 200 times and save coefficients to an external file.
-for (i in 1:50) {
+#run cross validation the number of times defined in config cv_runs value and save coefficients to an external file.
+for (i in 1:cv_runs) {
   progress(i,progress.bar=TRUE)
   set.seed(i)
-  cvfit <- cv.glmnet(counts_data_training, conditions_vector, family = "binomial", type.measure = "auc", nfolds=7, alpha=alpha_value)
+  cvfit <- cv.glmnet(counts_data_training, conditions_vector, family = "binomial", type.measure = "auc", nfolds=cv_folds, alpha=alpha_value)
   tmp_coeffs <- coef(cvfit, s = "lambda.min")
   new_results <- data.frame(name = tmp_coeffs@Dimnames[[1]][tmp_coeffs@i + 1], coefficient = tmp_coeffs@x)
   if(i==1){
@@ -63,22 +66,28 @@ for (i in 1:50) {
   }
 }
 
-#Save coefficients from 200 runs of cross validation models to file. 
-#Ideally script woul be expanded to find all predictors present in >X% of runs. 
-#It does not currently do this.
-write.table(
-  compiled_results, 
-  file=paste("./Output/glmnet/",class1_name,"_",class2_name,"_",ver,"_coef",".txt", sep = ""), 
-  sep="\t",
-  quote = F
-)
+#Save coefficients from cv_runs of cross validation models to file. if necessary for debugging
+#write.table(
+#  compiled_results, 
+#  file=paste("./Output/glmnet/",class1_name,"_",class2_name,"_",ver,"_all_coef",".txt", sep = ""), 
+#  sep="\t",
+#  quote = F
+#)
 
-counts_data_training_subset = counts_data_training[,c("IL12A","HOXA10","RPL19","P2RX5-TAX1BP3","IQCF5","CD1C")]
-counts_data_validation_subset = counts_data_validation[,c("IL12A","HOXA10","RPL19","P2RX5-TAX1BP3","IQCF5","CD1C")]
+#Count occurences of each unique gene across all runs, and count their occurences
+compiled_results <- compiled_results[!(compiled_results$name=="(Intercept)"),] #remove unnecessary "Intercept" rows
+unique_gene_occurences <- table(compiled_results$name) #count number of unique occurrences of each gene
+unique_gene_occurences_df <- as.data.frame(rbind(unique_gene_occurences)) #convert table to dataframe
+unique_gene_occurences_df <- rbind(unique_gene_occurences_df,unique_gene_occurences_df[c("unique_gene_occurences"),]/cv_runs) #Add row calculating occurence rate of each gene
+rownames(unique_gene_occurences_df) <- c("occurence_count","occurence_rate") #update occurence rate row name
+subset_meeting_cutoff <- colnames(unique_gene_occurences_df[,c(unique_gene_occurences_df[2,]>= run_cutoff)]) #select only genes meeting inclusing cutoff run_cutoff
+unique_gene_occurences_df[2,]>= run_cutoff
+counts_data_training_subset = counts_data_training[,subset_meeting_cutoff]
+counts_data_validation_subset = counts_data_validation[,subset_meeting_cutoff]
 
 set.seed(3)
 fit <- glmnet(counts_data_training_subset,conditions_vector, family = "binomial", alpha = alpha_value)
-cvfit <- cv.glmnet(counts_data_training_subset, conditions_vector, family = "binomial", type.measure = "auc", nfolds=7, alpha = alpha_value)
+cvfit <- cv.glmnet(counts_data_training_subset, conditions_vector, family = "binomial", type.measure = "auc", nfolds=cv_folds, alpha = alpha_value)
 #plot(fit, xvar = "lambda", label = TRUE)
 
 cvfit.predict.prob = predict(fit, counts_data_validation_subset, type = "response", s = cvfit$lambda.min)
@@ -90,23 +99,63 @@ predicted_labels = as.data.frame(cvfit.predict.prob)
 ###PREDICT RESULTS FROM MODEL
 #Set labels to 1 / 0, this is required to compare prediction results against ground truth.
 actual_labels = meta_validation$condition
-actual_labels [actual_labels == "PMpos"] <- 1
-actual_labels [actual_labels == "METneg"] <- 0
+actual_labels [actual_labels == class2_name] <- 1
+actual_labels [actual_labels == class1_name] <- 0
 
 prediction_results=prediction(predicted_labels[,1],actual_labels)
 prediction_results
 
 ###PLOT ROC CURVE
 perf <- performance(prediction_results,"tpr", "fpr")
-plot(perf,colorize=FALSE,col="black")
-lines(c(1,0),c(1,0),col="gray",lty=4)
 
 #Determine AUC
 auc_ROCR <- performance(prediction_results,"auc")
-auc_ROCR@y.values[[1]]
 
 #Display final model coefficients
 tmp_coeffs <- coef(cvfit, s = "lambda.min")
-tmp_coeffs
 new_results <- data.frame(name = tmp_coeffs@Dimnames[[1]][tmp_coeffs@i + 1], coefficient = tmp_coeffs@x)
 
+###OUTPUT ALL FILES
+#ROC curve
+png(paste("./Output/glmnet/",class1_name,"_",class2_name,"_",ver,"_ROC",".png", sep = ""), width = 900, height = 900)
+plot(
+  perf,colorize=FALSE,
+  col="black", 
+  main = paste(
+    class2_name," vs ",class1_name,"|",
+    "Alpha=",alpha_value,"|",
+    "AUC=",round(auc_ROCR@y.values[[1]],2)
+    )
+  )
+lines(c(1,0),c(1,0),col="gray",lty=4)
+dev.off()
+
+#all coeffiecients
+#write.table(
+#  tmp_coeffs, 
+#  file=paste("./Output/glmnet/",class1_name,"_",class2_name,"_",ver,"_final_coefs",".txt", sep = ""), 
+#  sep="\t",
+#  quote = F
+#)
+
+#Config file
+config <- c(
+  paste("training counts file name:", counts_name_training), 
+  paste("training conditions file name:", meta_name_training), 
+  paste("validation counts file name:", counts_name_validation), 
+  paste("validation conditions file name:", meta_name_validation), 
+  paste("output file name:", ver),
+  paste("alpha value (1=lasso regression, 0.5=elastic net , 0=ridge regression:", alpha_value),
+  paste("number of folds to run in each cross validation:", cv_folds),
+  paste("number of cross validations ran to build model:", cv_runs),
+  paste("genes must feature in this percent of cross-validation run to feature in the model:", run_cutoff)
+)
+write.table(config, file=paste("./Output/glmnet/",class1_name,"_",class2_name,"_",ver,"_config",".txt", sep = ""), sep="\t", quote=F, col.names=NA)
+
+#final coefficients
+write.table(
+  new_results, 
+  file=paste("./Output/glmnet/",class1_name,"_",class2_name,"_",ver,"_final_coefs",".txt", sep = ""), 
+  sep="\t",
+  quote = F
+)
