@@ -21,15 +21,15 @@ library(svMisc)
 ###CONFIGURATION
 #set working directory, select where you extracted folder
 setwd("~/5hmC-Pathway-Analysis/")
-counts_name_training <- "./Output/Randomization/METneg_PMonlyPOS_DESeq2_whole_combatseq/METneg_PMonlyPOS_training_rawcounts.csv"
-counts_name_validation <- "./Output/Randomization/METneg_PMonlyPOS_DESeq2_whole_combatseq/METneg_PMonlyPOS_validation_rawcounts.csv"
-meta_name_training <- "./Output/Randomization/METneg_PMonlyPOS_DESeq2_whole_combatseq/METneg_PMonlyPOS_training_conditions.csv"
-meta_name_validation <- "./Output/Randomization/METneg_PMonlyPOS_DESeq2_whole_combatseq/METneg_PMonlyPOS_validation_conditions.csv"
-ver <- "v1_a05_c9"
+counts_name_training <- "./Output/Randomization/METneg_PMonlyPOS_DESeq2_whole_combatseq_50/METneg_PMonlyPOS_training_rawcounts.csv"
+counts_name_validation <- "./Output/Randomization/METneg_PMonlyPOS_DESeq2_whole_combatseq_50/METneg_PMonlyPOS_validation_rawcounts.csv"
+meta_name_training <- "./Output/Randomization/METneg_PMonlyPOS_DESeq2_whole_combatseq_50/METneg_PMonlyPOS_training_conditions.csv"
+meta_name_validation <- "./Output/Randomization/METneg_PMonlyPOS_DESeq2_whole_combatseq_50/METneg_PMonlyPOS_validation_conditions.csv"
+ver <- "v3_a05_50"
 alpha_value <- 0.5
-cv_folds <- 5 #number of folds to run in each cross validation
+cv_folds <- 3 #number of folds to run in each cross validation
 cv_runs <- 200 #number of cross validations to run to build model
-run_cutoff <- 0.9 #genes must feature in this percent of cross-validation run to feature in the model
+run_cutoff <- 0.8 #genes must feature in this percent of cross-validation run to feature in the model
 
 #read in data, define what counts & conditions files
 #note: glmnet expects a matrix as input, not a dataframe, 
@@ -53,9 +53,10 @@ conditions_vector=c(rep(0,class1_count_training),rep(1,class2_count_training))
 
 #run cross validation the number of times defined in config cv_runs value and save coefficients to an external file.
 for (i in 1:cv_runs) {
-  progress(i,progress.bar=TRUE)
+  progress(i, max.value = cv_runs)
   set.seed(i)
-  cvfit <- cv.glmnet(counts_data_training, conditions_vector, family = "binomial", type.measure = "auc", nfolds=cv_folds, alpha=alpha_value)
+  cvfit <- cv.glmnet(counts_data_training, conditions_vector, family = "binomial", nfolds=cv_folds, alpha=alpha_value, type.measure = "auc")
+
   tmp_coeffs <- coef(cvfit, s = "lambda.min")
   new_results <- data.frame(name = tmp_coeffs@Dimnames[[1]][tmp_coeffs@i + 1], coefficient = tmp_coeffs@x)
   if(i==1){
@@ -65,6 +66,8 @@ for (i in 1:cv_runs) {
     compiled_results = rbind(compiled_results,new_results)
   }
 }
+
+#plot(cvfit)
 
 #Save coefficients from cv_runs of cross validation models to file. if necessary for debugging
 #write.table(
@@ -81,9 +84,10 @@ unique_gene_occurences_df <- as.data.frame(rbind(unique_gene_occurences)) #conve
 unique_gene_occurences_df <- rbind(unique_gene_occurences_df,unique_gene_occurences_df[c("unique_gene_occurences"),]/cv_runs) #Add row calculating occurence rate of each gene
 rownames(unique_gene_occurences_df) <- c("occurence_count","occurence_rate") #update occurence rate row name
 subset_meeting_cutoff <- colnames(unique_gene_occurences_df[,c(unique_gene_occurences_df[2,]>= run_cutoff)]) #select only genes meeting inclusing cutoff run_cutoff
-unique_gene_occurences_df[2,]>= run_cutoff
+#unique_gene_occurences_df[2,]>= run_cutoff
 counts_data_training_subset = counts_data_training[,subset_meeting_cutoff]
 counts_data_validation_subset = counts_data_validation[,subset_meeting_cutoff]
+subset_meeting_cutoff
 
 set.seed(3)
 fit <- glmnet(counts_data_training_subset,conditions_vector, family = "binomial", alpha = alpha_value)
@@ -117,7 +121,7 @@ new_results <- data.frame(name = tmp_coeffs@Dimnames[[1]][tmp_coeffs@i + 1], coe
 
 ###OUTPUT ALL FILES
 #ROC curve
-png(paste("./Output/glmnet/",class1_name,"_",class2_name,"_",ver,"_ROC",".png", sep = ""), width = 900, height = 900)
+png(paste("./Output/glmnet/",class1_name,"_",class2_name,"_",ver,"_2ROC",".png", sep = ""), width = 900, height = 900)
 plot(
   perf,colorize=FALSE,
   col="black", 
@@ -159,3 +163,4 @@ write.table(
   sep="\t",
   quote = F
 )
+

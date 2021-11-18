@@ -28,8 +28,8 @@ library(ashr)
 #set working directory, select where you extracted folder
 setwd("~/5hmC-Pathway-Analysis/")
 
-counts_name <- "./Output/Raw Data Processing/METneg_PMpos_whole_combatseq/METneg_PMpos_DESeq2_rawcounts.csv"
-meta_name <- "./Output/Raw Data Processing/METneg_PMpos_whole_combatseq/METneg_PMpos_DESeq2_conditions.csv"
+counts_name <- "./Output/Raw Data Processing/CRCmetNEG_CRCpmonlyPOS_combat-seq/CRCmetNEG_CRCpmonlyPOS_DESeq2_rawcounts.csv"
+meta_name <- "./Output/Raw Data Processing/CRCmetNEG_CRCpmonlyPOS_combat-seq/CRCmetNEG_CRCpmonlyPOS_DESeq2_conditions.csv"
 
 #read in data, define what counts & conditions files
 counts_data <- read.csv(counts_name,row.names = 1)
@@ -39,12 +39,12 @@ meta <-  read.csv(meta_name,row.names = 1)
 #used to select significant genes for results tables, PCA plots, heatmaps and UMAP plots.
 cutoff_type = 1 # 0=padj cutoff, default; 1=lfc & pvalue cutoff
 padj.cutoff = 0.1 # 0.1 default
-pvalue.cutoff = 0.01
+pvalue.cutoff = 0.05
 lfc.cutoff = 0.27 #0.3 ~ 20% change, 0.15 ~ 10%
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
 
-ver <- "whole_v5"
+ver <- "whole_0p05_v2"
 gene_number <- nrow(counts_data)
 
 ###VALIDATION
@@ -227,10 +227,12 @@ sig_genes <-  sig$gene
 #save PCA plot to png
 #In the below replace sig_genes with res_genes if you want to perform PCA analysis on all genes rather than just on significant genes.
 png(paste("./Output/DESeq2/PCA/sig_PCA_",contrast_groups[2],contrast_groups[3],"_",ver,".png", sep = ""), width = 900, height = 1200)
-plotPCA(
+plotPCA_labels <- plotPCA(
   rld[sig_genes,], 
-  intgroup = "condition"
+  #rownames(c(row.names(meta)))
   )
+plotPCA_labels + geom_text(aes(label = name),position=position_nudge(y = 0.07))
+
 dev.off()
 
 
