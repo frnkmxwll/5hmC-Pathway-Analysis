@@ -28,8 +28,8 @@ library(ashr)
 #set working directory, select where you extracted folder
 setwd("~/5hmC-Pathway-Analysis/")
 
-counts_name <- "./Output/Raw Data Processing/CRCmetNEG_CRCpmonlyPOS_combat-seq/CRCmetNEG_CRCpmonlyPOS_DESeq2_rawcounts.csv"
-meta_name <- "./Output/Raw Data Processing/CRCmetNEG_CRCpmonlyPOS_combat-seq/CRCmetNEG_CRCpmonlyPOS_DESeq2_conditions.csv"
+counts_name <- "./Output/Raw Data Processing/1or3pdONLYpos_8or11metNEGtumorNEG_whole_combatseq/1or3pdONLYpos_8or11metNEGtumorNEG_DESeq2_rawcounts.csv"
+meta_name <- "./Output/Raw Data Processing/1or3pdONLYpos_8or11metNEGtumorNEG_whole_combatseq/1or3pdONLYpos_8or11metNEGtumorNEG_DESeq2_conditions_bin.csv"
 
 #read in data, define what counts & conditions files
 counts_data <- read.csv(counts_name,row.names = 1)
@@ -39,12 +39,12 @@ meta <-  read.csv(meta_name,row.names = 1)
 #used to select significant genes for results tables, PCA plots, heatmaps and UMAP plots.
 cutoff_type = 1 # 0=padj cutoff, default; 1=lfc & pvalue cutoff
 padj.cutoff = 0.1 # 0.1 default
-pvalue.cutoff = 0.05
-lfc.cutoff = 0.27 #0.3 ~ 20% change, 0.15 ~ 10%
+pvalue.cutoff = 0.01
+lfc.cutoff = 0.15 #0.3 ~ 20% change, 0.15 ~ 10%
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
 
-ver <- "whole_0p05_v2"
+ver <- "1o3vs8o11_p0p01lfc0p1batchonly"
 gene_number <- nrow(counts_data)
 
 ###VALIDATION
@@ -54,7 +54,10 @@ all(colnames(counts_data) == rownames(meta))
 
 ###CREATE DESeq2 OBJECT
 #load data into DESeq2 object dds
-dds <- DESeqDataSetFromMatrix(countData = counts_data, colData = meta, design = ~ condition)
+design_formula <- ~ condition + batch# + sex + age + race
+design_formula
+
+dds <- DESeqDataSetFromMatrix(countData = counts_data, colData = meta, design = design_formula)
 
 #load up size factors into dds object in order to normalize using median of ratios method
 dds <- DESeq(dds)
@@ -227,11 +230,16 @@ sig_genes <-  sig$gene
 #save PCA plot to png
 #In the below replace sig_genes with res_genes if you want to perform PCA analysis on all genes rather than just on significant genes.
 png(paste("./Output/DESeq2/PCA/sig_PCA_",contrast_groups[2],contrast_groups[3],"_",ver,".png", sep = ""), width = 900, height = 1200)
+
 plotPCA_labels <- plotPCA(
-  rld[sig_genes,], 
+  rld[sig_genes,],
   #rownames(c(row.names(meta)))
   )
-plotPCA_labels + geom_text(aes(label = name),position=position_nudge(y = 0.07))
+
+#reverse order of labels to match heatmap labelling
+plotPCA_labels$data$group<-factor(plotPCA_labels$data$group,levels = rev(levels(plotPCA_labels$data$group)))
+
+plotPCA_labels + geom_text(aes(label = name),position=position_nudge(y = 0.07),) + ggtitle(heatmap_title)
 
 dev.off()
 
@@ -268,7 +276,8 @@ config <- c(
   paste("cutoff type (0=padj cutoff, default; 1=lfc & pvalue cutoff):", cutoff_type),
   paste("padj cutoff (if type=0):", padj.cutoff),
   paste("pvalue cutoff (if type=1):", pvalue.cutoff),
-  paste("lfc cutoff (if type=1):", lfc.cutoff)
+  paste("lfc cutoff (if type=1):", lfc.cutoff),
+  paste("design formula:", c(design_formula))
   )
 
 config_frame <- config
