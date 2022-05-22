@@ -38,10 +38,10 @@ counts2_sample_pathname <- "/media/CLab3b/xiaolong/cfPeri/Bam/"
 counts2_sample_extension <- ".bam"
 
 # sample file expected to be in here: shorturl.at/qCU19
-sample_file <- "./Raw Input/Working Inputs/conditions_PMpos_METneg_v1.csv"
+sample_file <- "./Raw Input/Working Inputs/1o2vs3o4_CRC_HGA.csv"
 excluded_samples <- c("KT026","KT027")
 
-file_version <- "whole_combatseq"
+file_version <- "CRC_HGA_INCLprimTUMOR"
 
 
 #read in data
