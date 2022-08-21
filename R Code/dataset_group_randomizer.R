@@ -17,17 +17,15 @@
 ### CONFIGURATION
 # set working directory
 setwd("~/5hmC-Pathway-Analysis/")
-counts_name <- "./Output/Raw Data Processing/METneg_PMpos_whole_combatseq/METneg_PMpos_DESeq2_rawcounts.csv"
-meta_name <- "./Output/Raw Data Processing/METneg_PMpos_whole_combatseq/METneg_PMpos_DESeq2_conditions.csv"
+counts_name <- "./Output/Raw Data Processing/1-2-3-4PMpos_8-9-11PMneg__combatseq/1-2-3-4PMpos_8-9-11PMneg_DESeq2_rawcounts.csv"
+meta_name <- "./Output/Raw Data Processing/1-2-3-4PMpos_8-9-11PMneg__combatseq/1-2-3-4PMpos_8-9-11PMneg_DESeq2_conditions.csv"
 
-
-
-file_version <- "whole_combatseq"
-random_seed=150
+file_version <- "_final"
+random_seed=151
 
 # settings
 # recommend 70-30 or 80-20 split between training and validation.
-training_fraction = 70
+training_fraction = 60
 create_sig_training_counts = FALSE #SET TO TRUE ONLY AFTER HAVING RUN DESEQ2, WHEN RUNNING FOR FIRST TIME SET TO FALSE.
 #When set to TRUE, outputs counts files with rows only for genes found to be significantly enriched.
 

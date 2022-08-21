@@ -38,10 +38,10 @@ counts2_sample_pathname <- "/media/CLab3b/xiaolong/cfPeri/Bam/"
 counts2_sample_extension <- ".bam"
 
 # sample file expected to be in here: shorturl.at/qCU19
-sample_file <- "./Raw Input/Working Inputs/1o2vs3o4_CRC_HGA.csv"
+sample_file <- "./Raw Input/Working Inputs/PMposALL.csv"
 excluded_samples <- c("KT026","KT027")
 
-file_version <- "CRC_HGA_INCLprimTUMOR"
+file_version <- "v1"
 
 
 #read in data
@@ -248,7 +248,7 @@ tpm_genepattern <- rownames_to_column(tpm_genepattern, var = "NAME")
 ### CREATE GSEA NORMALIZED COUNTS FILE
 
 #load data into DESeq2 object dds
-dds <- DESeqDataSetFromMatrix(countData = counts_final_ordered_rownames, colData = sample_data_ordered, design = ~ condition)
+dds <- DESeqDataSetFromMatrix(countData = counts_final_ordered_rownames, colData = sample_data_ordered, design = ~ 1)
 
 #load up size factors into dds object in order to normalize using median of ratios method
 dds <- DESeq(dds)
