@@ -3,12 +3,15 @@
 
 ### INSTALL LIBRARIES
 # Setup, uncomment follow
-# if (!requireNamespace("BiocManager", quietly = TRUE))
+if (!requireNamespace("BiocManager", quietly = TRUE))
 #  install.packages("CGPfunctions")
-# BiocManager::install("DESeq2")
+#install.packages("DEGreport") 
+install.packages("lasso2")
+BiocManager::install("DEGreport")
 # install.packages("broom")
 # BiocManager::install("CGPfunctions", force = TRUE)
-
+remove.packages(lib="DEGreport")
+library(BiocManager)
 library(DESeq2) #for DESeq2 analysis
 library(magrittr)
 library(tibble)
@@ -28,6 +31,19 @@ library(ggpubr) # needed for whisker plot charting
 library(aod) #for logistic regression
 library(broom)
 library(leaps) #for logistic regression optimizaton
+library(devtools) #used for complex heatmaps
+library(ComplexHeatmap)#used for complex heatmaps
+library(circlize)
+
+### Used for distance clustering
+robust_dist = function(x, y) {
+  qx = quantile(x, c(0.1, 0.9))
+  qy = quantile(y, c(0.1, 0.9))
+  l = x > qx[1] & x < qx[2] & y > qy[1] & y < qy[2]
+  x = x[l]
+  y = y[l]
+  sqrt(sum((x - y)^2))
+}
 
 
 ###CONFIGURATION
@@ -37,11 +53,11 @@ setwd("~/5hmC-Pathway-Analysis/")
 #counts_name <- "./Output/Randomization/1-2-3-4PMpos_8-9-11PMneg_DESeq2__final/1-2-3-4PMpos_8-9-11PMneg_training_rawcounts.csv"
 #meta_name <- "./Output/Randomization/1-2-3-4PMpos_8-9-11PMneg_DESeq2__final/1-2-3-4PMpos_8-9-11PMneg_training_conditions.csv"
 #validation
-counts_name <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_v3/1o3_pdONLYpos_8o11_metNEGtumNEG_training_rawcounts.csv"
-meta_name <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_v3/1o3_pdONLYpos_8o11_metNEGtumNEG_training_conditions.csv"
+#counts_name <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_v3/1o3_pdONLYpos_8o11_metNEGtumNEG_training_rawcounts.csv"
+#meta_name <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_v3/1o3_pdONLYpos_8o11_metNEGtumNEG_training_conditions.csv"
 #whole dataset
-#counts_name <- "./Output/Raw Data Processing/1-2-3-4PMpos_8-9-11PMneg__combatseq/1-2-3-4PMpos_8-9-11PMneg_DESeq2_rawcounts.csv"
-#meta_name <- "./Output/Raw Data Processing/1-2-3-4PMpos_8-9-11PMneg__combatseq/1-2-3-4PMpos_8-9-11PMneg_DESeq2_conditions.csv"
+counts_name <- "./Output/Raw Data Processing/1-2-3-4PMpos_8-9-11PMneg__combatseq/1-2-3-4PMpos_8-9-11PMneg_DESeq2_rawcounts.csv"
+meta_name <- "./Output/Raw Data Processing/1-2-3-4PMpos_8-9-11PMneg__combatseq/1-2-3-4PMpos_8-9-11PMneg_DESeq2_conditions.csv"
 #read in data, define what counts & conditions files
 counts_data <- read.csv(counts_name,row.names = 1)
 meta <-  read.csv(meta_name,row.names = 1)
@@ -54,12 +70,12 @@ meta <-  read.csv(meta_name,row.names = 1)
 #used to select significant genes for results tables, PCA plots, heatmaps and UMAP plots.
 cutoff_type = 1 # 0=padj cutoff, default; 1=lfc & pvalue cutoff
 padj.cutoff = 0.05 # 0.1 default
-pvalue.cutoff = 0.1
-lfc.cutoff = 0.263034 # 0.137504 ~ 10%, 0.263034 ~ 20% change, 0.584963 ~ 50% change, 
+pvalue.cutoff = 0.001
+lfc.cutoff = 0.137504 # 0.137504 ~ 10%, 0.263034 ~ 20% change, 0.584963 ~ 50% change, 
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
 
-ver <- "pvalue0p1_lfc0p26_training_csarb"
+ver <- "pvalue0p001_lfc0p213_newchart_nocont"
 gene_number <- nrow(counts_data)
 
 #Set desired outputs:
@@ -82,7 +98,7 @@ all(colnames(counts_data) == rownames(meta))
 
 ###CREATE DESeq2 OBJECT
 #load data into DESeq2 object dds
-design_formula <- ~ condition + sex + age + race + batch
+design_formula <- ~ condition #+ sex + age + race + batch
 #design_formula <- ~ condition + batch
 dds <- DESeqDataSetFromMatrix(countData = counts_data, colData = meta, design = design_formula)
 
@@ -283,22 +299,33 @@ if(output_heatmap == 1){
     heatmap_title <- paste(contrast_groups[2],"/",contrast_groups[3],"pvalue <",pvalue.cutoff,"|lfc|>",lfc.cutoff)
   }
   
+  log_counts_data_mat = data.matrix(norm_sig, rownames.force = NA)
+  log_counts_data_mat = t(scale(t(log_counts_data_mat)))
+  ha = HeatmapAnnotation(condition=annotation$condition,col = list(condition = c("8-9-11PMneg" = "#ff9289", "1-2-3-4PMpos" = "#00dae0")))
+  
+  
   png(paste("./Output/DESeq2/Heatmaps/sig_heatmap_",contrast_groups[2],contrast_groups[3],"_",ver,".png", sep = ""), width = 900, height = 1200)
-  pheatmap(norm_sig, 
-           main = heatmap_title,
- #         color = diverging_hcl(15,"Blue-Red2"), 
-           cluster_rows = T,
-           clustering_distance_cols = "euclidean",
-#           clustering_distance_rows = "manhattan",
-           cluster_cols = T,
-           show_rownames = T,
-           show_colnames = F,
-           annotation = annotation, 
-           border_color = NA, 
-           fontsize = 10, 
-           scale = "row", 
-           fontsize_row = 10, 
-           height = 20,
+  Heatmap(log_counts_data_mat, 
+          top_annotation = ha,
+          #col = colorRampPalette(rev(brewer.pal(n = 7, name ="RdYlBu")))(100),
+          col = colorRamp2(c(-4, -2,-1,0,1, 2,4), c("#4676b5", "#82b1d3","#dbeff6","#fefebd","#fee395", "#fc9961","#d73027")),
+          clustering_distance_rows = "pearson",
+          clustering_distance_columns = robust_dist
+#  pheatmap(norm_sig, 
+#           main = heatmap_title,
+# #         color = diverging_hcl(15,"Blue-Red2"), 
+#           cluster_rows = T,
+#           clustering_distance_cols = "euclidean",
+##           clustering_distance_rows = "manhattan",
+#           cluster_cols = T,
+#           show_rownames = T,
+#           show_colnames = F,
+#           annotation = annotation, 
+#           border_color = NA, 
+#           fontsize = 10, 
+#           scale = "row", 
+#           fontsize_row = 10, 
+#           height = 20,
   )
   dev.off()
 }
@@ -312,12 +339,12 @@ if(output_PCA == 1) {
   
   #save PCA plot to png
   #In the below replace sig_genes with res_genes if you want to perform PCA analysis on all genes rather than just on significant genes.
-  plotPCA_labels <- plotPCA(rld[sig_genes,], intgroup = c("condition")) #rownames(c(row.names(meta)))
+  plotPCA_labels <- plotPCA(rld[sig_genes,], intgroup = c("primary_site")) #rownames(c(row.names(meta)))
   #reverse order of labels to match heatmap labelling
-  plotPCA_labels$data$group<-factor(plotPCA_labels$data$group,levels = rev(levels(plotPCA_labels$data$group)))
-  plotPCA_labels$data$condition<-factor(plotPCA_labels$data$condition,levels = rev(levels(plotPCA_labels$data$condition)))
+  #plotPCA_labels$data$group<-factor(plotPCA_labels$data$group,levels = rev(levels(plotPCA_labels$data$group)))
+  #plotPCA_labels$data$condition<-factor(plotPCA_labels$data$condition,levels = rev(levels(plotPCA_labels$data$condition)))
   
-  png(paste("./Output/DESeq2/PCA/sig_PCA_",contrast_groups[2],contrast_groups[3],"_",ver,"_condition",".png", sep = ""), width = 900, height = 1200)
+  png(paste("./Output/DESeq2/PCA/sig_PCA_",contrast_groups[2],contrast_groups[3],"_",ver,"primary_site",".png", sep = ""), width = 900, height = 1200)
     #plotPCA_labels + geom_text(aes(label = name),position=position_nudge(y = 0.07),) + ggtitle(heatmap_title) 
   print({plotPCA_labels + ggtitle(heatmap_title) + stat_ellipse(level=0.9)}, cex.main=3)
   dev.off()
