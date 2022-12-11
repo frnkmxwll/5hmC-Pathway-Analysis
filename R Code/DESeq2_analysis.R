@@ -3,14 +3,14 @@
 
 ### INSTALL LIBRARIES
 # Setup, uncomment follow
-if (!requireNamespace("BiocManager", quietly = TRUE))
+#if (!requireNamespace("BiocManager", quietly = TRUE))
 #  install.packages("CGPfunctions")
 #install.packages("DEGreport") 
-install.packages("lasso2")
-BiocManager::install("DEGreport")
-# install.packages("broom")
+#install.packages("lasso2")
+#BiocManager::install("DEGreport")
+ install.packages("svglite")
 # BiocManager::install("CGPfunctions", force = TRUE)
-remove.packages(lib="DEGreport")
+#remove.packages(lib="DEGreport")
 library(BiocManager)
 library(DESeq2) #for DESeq2 analysis
 library(magrittr)
@@ -19,7 +19,7 @@ library(dplyr)
 library(tidyverse)
 library(ggplot2) #for plotting
 library(ggrepel)
-library(DEGreport)
+#library(DEGreport)
 library(RColorBrewer)
 library(pheatmap) #for heatmaps
 library(viridis)
@@ -56,8 +56,8 @@ setwd("~/5hmC-Pathway-Analysis/")
 #counts_name <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_v3/1o3_pdONLYpos_8o11_metNEGtumNEG_training_rawcounts.csv"
 #meta_name <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_v3/1o3_pdONLYpos_8o11_metNEGtumNEG_training_conditions.csv"
 #whole dataset
-counts_name <- "./Output/Raw Data Processing/1-2-3-4PMpos_8-9-11PMneg__combatseq/1-2-3-4PMpos_8-9-11PMneg_DESeq2_rawcounts.csv"
-meta_name <- "./Output/Raw Data Processing/1-2-3-4PMpos_8-9-11PMneg__combatseq/1-2-3-4PMpos_8-9-11PMneg_DESeq2_conditions.csv"
+counts_name <- "./Output/Raw Data Processing/1-2-3-4PMpos_8-9-11PMneg_vFINAL/1-2-3-4PMpos_8-9-11PMneg_DESeq2_rawcounts.csv"
+meta_name <- "./Output/Raw Data Processing/1-2-3-4PMpos_8-9-11PMneg_vFINAL/1-2-3-4PMpos_8-9-11PMneg_DESeq2_conditions.csv"
 #read in data, define what counts & conditions files
 counts_data <- read.csv(counts_name,row.names = 1)
 meta <-  read.csv(meta_name,row.names = 1)
@@ -72,10 +72,12 @@ cutoff_type = 1 # 0=padj cutoff, default; 1=lfc & pvalue cutoff
 padj.cutoff = 0.05 # 0.1 default
 pvalue.cutoff = 0.001
 lfc.cutoff = 0.137504 # 0.137504 ~ 10%, 0.263034 ~ 20% change, 0.584963 ~ 50% change, 
+min_samples = 0.8
+min_count = 5
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
 
-ver <- "pvalue0p001_lfc0p213_newchart_nocont"
+ver <- "pvalue0p001_lfc0p213_FINAL_wF"
 gene_number <- nrow(counts_data)
 
 #Set desired outputs:
@@ -110,6 +112,9 @@ keep <- rowSums( counts(dds) >= 1 ) >= 2
 
 #use counts 'normalized=true' function to pull out normalized counts
 normalized_counts <- counts(dds,normalized=TRUE)
+
+#drop genes with insufficient counts
+normalized_counts <- normalized_counts[rowSums(normalized_counts >= min_count) >= min_samples, ]
 
 #Save normalized counts (uncommment if desired, will save to results folder.)
 write.csv(normalized_counts, file=paste("./Output/DESeq2/Results/normalized_counts_",contrast_groups[2],contrast_groups[3],"_",ver,".csv", sep = ""))
@@ -303,14 +308,13 @@ if(output_heatmap == 1){
   log_counts_data_mat = t(scale(t(log_counts_data_mat)))
   ha = HeatmapAnnotation(condition=annotation$condition,col = list(condition = c("8-9-11PMneg" = "#ff9289", "1-2-3-4PMpos" = "#00dae0")))
   
-  
-  png(paste("./Output/DESeq2/Heatmaps/sig_heatmap_",contrast_groups[2],contrast_groups[3],"_",ver,".png", sep = ""), width = 900, height = 1200)
+  svg(paste("./Output/DESeq2/Heatmaps/sig_heatmap_",contrast_groups[2],contrast_groups[3],"_",ver,".svg", sep = ""), width = 1500, height = 1200)
   Heatmap(log_counts_data_mat, 
           top_annotation = ha,
           #col = colorRampPalette(rev(brewer.pal(n = 7, name ="RdYlBu")))(100),
           col = colorRamp2(c(-4, -2,-1,0,1, 2,4), c("#4676b5", "#82b1d3","#dbeff6","#fefebd","#fee395", "#fc9961","#d73027")),
           clustering_distance_rows = "pearson",
-          clustering_distance_columns = robust_dist
+          clustering_distance_columns = robust_dist,
 #  pheatmap(norm_sig, 
 #           main = heatmap_title,
 # #         color = diverging_hcl(15,"Blue-Red2"), 
@@ -337,17 +341,19 @@ if(output_PCA == 1) {
   res_genes <- row.names(res_table)
   sig_genes <-  sig$gene
   
-  #save PCA plot to png
-  #In the below replace sig_genes with res_genes if you want to perform PCA analysis on all genes rather than just on significant genes.
-  plotPCA_labels <- plotPCA(rld[sig_genes,], intgroup = c("primary_site")) #rownames(c(row.names(meta)))
-  #reverse order of labels to match heatmap labelling
-  #plotPCA_labels$data$group<-factor(plotPCA_labels$data$group,levels = rev(levels(plotPCA_labels$data$group)))
-  #plotPCA_labels$data$condition<-factor(plotPCA_labels$data$condition,levels = rev(levels(plotPCA_labels$data$condition)))
-  
-  png(paste("./Output/DESeq2/PCA/sig_PCA_",contrast_groups[2],contrast_groups[3],"_",ver,"primary_site",".png", sep = ""), width = 900, height = 1200)
-    #plotPCA_labels + geom_text(aes(label = name),position=position_nudge(y = 0.07),) + ggtitle(heatmap_title) 
-  print({plotPCA_labels + ggtitle(heatmap_title) + stat_ellipse(level=0.9)}, cex.main=3)
-  dev.off()
+  for(each in c(cols,"condition")){
+    #In the below replace sig_genes with res_genes if you want to perform PCA analysis on all genes rather than just on significant genes.
+    plotPCA_labels <- plotPCA(rld[sig_genes,], intgroup = c(each)) #rownames(c(row.names(meta)))
+    #reverse order of labels to match heatmap labelling
+    #plotPCA_labels$data$group<-factor(plotPCA_labels$data$group,levels = rev(levels(plotPCA_labels$data$group)))
+    #plotPCA_labels$data$condition<-factor(plotPCA_labels$data$condition,levels = rev(levels(plotPCA_labels$data$condition)))
+    
+    
+    svg(paste("./Output/DESeq2/PCA/sig_PCA_",contrast_groups[2],contrast_groups[3],"_",ver,each,".svg", sep = ""))
+      #plotPCA_labels + geom_text(aes(label = name),position=position_nudge(y = 0.07),) + ggtitle(heatmap_title) 
+    print({plotPCA_labels + ggtitle(heatmap_title) + stat_ellipse(level=0.9)}, cex.main=3)
+    dev.off()
+  }
 }
 
 ###GENERATE UMAP PLOT (Curent issues with M3C library)
@@ -416,3 +422,4 @@ if(output_config == 1){
   
   write.table(config, file=paste("./Output/DESeq2/Config/config_",contrast_groups[2],contrast_groups[3],"_",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
 }
+
