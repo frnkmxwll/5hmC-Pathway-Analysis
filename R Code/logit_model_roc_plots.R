@@ -38,6 +38,7 @@ library(cluster) #used for pca clustering
 library(devtools) #used for complex heatmaps
 library(ComplexHeatmap)#used for complex heatmaps
 library(circlize)
+library(reshape2) # Needed for multiple boxplots
 
 ### Used for distance clustering
 robust_dist = function(x, y) {
@@ -341,3 +342,43 @@ Heatmap(log_counts_data_mat,
         clustering_distance_columns = robust_dist,
 )
 dev.off()
+
+
+### Boxplot of model scores
+predictors_validation_scores = predictors_validation
+predictors_validation_scores["full_score"]=pred_full_val
+predictors_validation_scores$condition[predictors_validation_scores$condition ==0]='PM Neg'
+predictors_validation_scores$condition[predictors_validation_scores$condition ==1]='PM Pos'
+predictors_validation_scores$chemo_6weeks = as.numeric(predictors_validation_scores$chemo_6weeks)
+predictors_validation_scores$chemo_6weeks[predictors_validation_scores$chemo_6weeks ==2]=' Chemo < 6weeks'
+predictors_validation_scores$chemo_6weeks[predictors_validation_scores$chemo_6weeks ==1]=' No Chemo < 6weeks'
+predictors_validation_scores["set"] = "validation"
+t_counts_data_validation=as.data.frame(t(counts_data_validation))
+predictors_validation_scores["FERD3L"] = t_counts_data_validation$FERD3L
+predictors_validation_scores$FERD3L[predictors_validation_scores$FERD3L > 4.39]='FERD3L High'
+predictors_validation_scores$FERD3L[predictors_validation_scores$FERD3L < 4.39]='FERD3L Low'
+
+predictors_training_scores = predictors_training
+predictors_training_scores["full_score"]=pred_full_tra
+predictors_training_scores$condition[predictors_training_scores$condition ==0]='PM Neg'
+predictors_training_scores$condition[predictors_training_scores$condition ==1]='PM Pos'
+predictors_training_scores$chemo_6weeks = as.numeric(predictors_training_scores$chemo_6weeks)
+predictors_training_scores$chemo_6weeks[predictors_training_scores$chemo_6weeks ==2]=' Chemo < 6weeks'
+predictors_training_scores$chemo_6weeks[predictors_training_scores$chemo_6weeks ==1]=' No Chemo < 6weeks'
+predictors_training_scores["set"] = "training"
+t_counts_data_training=as.data.frame(t(counts_data_training))
+predictors_training_scores["FERD3L"] = t_counts_data_training$FERD3L
+predictors_training_scores$FERD3L[predictors_training_scores$FERD3L > 4.39]='FERD3L High'
+predictors_training_scores$FERD3L[predictors_training_scores$FERD3L < 4.39]='FERD3L Low'
+
+predictors_scores = rbind(predictors_validation_scores,predictors_training_scores)
+
+ggplot() +
+  # Whole
+  geom_boxplot(data=predictors_scores,aes(x= condition,y=full_score,color=condition)) +
+  geom_point(data=predictors_scores,aes(x= condition,y=full_score,color=condition),position=position_jitterdodge()) +
+  geom_boxplot(data=predictors_scores,aes(x= primary_site,y=full_score,color=primary_site))+
+  geom_point(data=predictors_scores,aes(x= primary_site,y=full_score,color=primary_site),position=position_jitterdodge())+
+  geom_boxplot(data=predictors_scores,aes(x= FERD3L,y=full_score,color=FERD3L))+
+  geom_point(data=predictors_scores,aes(x= FERD3L,y=full_score,color=FERD3L),position=position_jitterdodge())+
+  facet_wrap(~set)
