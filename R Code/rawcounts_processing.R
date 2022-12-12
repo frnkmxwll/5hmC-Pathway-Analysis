@@ -38,7 +38,7 @@ counts2_sample_pathname <- "/media/CLab3b/xiaolong/cfPeri/Bam/"
 counts2_sample_extension <- ".bam"
 
 # sample file expected to be in here: shorturl.at/qCU19
-sample_file <- "./Raw Input/Working Inputs/1-2-3-4vs8-9-11.csv"
+sample_file <- "./Raw Input/Working Inputs/1o3vs8o11.csv"
 excluded_samples <- c("KT026","KT027", "KT357", "KT13")
 
 file_version <- "vFINAL"

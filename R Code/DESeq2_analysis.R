@@ -229,7 +229,17 @@ if (file.exists("./Output/DESeq2/Config/")) {
 if(output_results_tables == 1){
   write.table(res_table, file=paste("./Output/DESeq2/Results/all_results_",contrast_groups[2],contrast_groups[3],"_",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
   write.table(sig, file=paste("./Output/DESeq2/Results/significant_results_",contrast_groups[2],contrast_groups[3],"_",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
-}
+  
+  # Output gene list for use on http://www.webgestalt.org/#
+  res_table_filt = res_table_tb[order(res_table$log2FoldChange),]
+  drops = c("baseMean","lfcSE","stat","pvalue","padj")
+  res_table_filt = res_table_filt[, !(names(res_table_filt) %in% drops)]
+  write.table(res_table_filt, file=paste("./Output/DESeq2/Results/GSEA_",contrast_groups[2],contrast_groups[3],"_",ver,".rnk", sep = ""), sep="\t", quote=F, row.names = FALSE)
+  drops = c("log2FoldChange")
+  res_table_filt = res_table_filt[, !(names(res_table_filt) %in% drops)]
+  write.table(res_table_filt, file=paste("./Output/DESeq2/Results/ORA_",contrast_groups[2],contrast_groups[3],"_",ver,".txt", sep = ""), sep="\t", quote=F, row.names = FALSE)
+  
+  }
 
 ###GENERATE VOLCANO PLOTS
 
