@@ -50,8 +50,8 @@ robust_dist = function(x, y) {
 #set working directory, select where you extracted folder
 setwd("~/5hmC-Pathway-Analysis/")
 #training
-#counts_name <- "./Output/Randomization/1-2-3-4PMpos_8-9-11PMneg_DESeq2__final/1-2-3-4PMpos_8-9-11PMneg_training_rawcounts.csv"
-#meta_name <- "./Output/Randomization/1-2-3-4PMpos_8-9-11PMneg_DESeq2__final/1-2-3-4PMpos_8-9-11PMneg_training_conditions.csv"
+#counts_name <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_final/1o3_pdONLYpos_8o11_metNEGtumNEG_validation_rawcounts.csv"
+#meta_name <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_final/1o3_pdONLYpos_8o11_metNEGtumNEG_validation_conditions.csv"
 #validation
 #counts_name <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_v3/1o3_pdONLYpos_8o11_metNEGtumNEG_training_rawcounts.csv"
 #meta_name <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_v3/1o3_pdONLYpos_8o11_metNEGtumNEG_training_conditions.csv"
@@ -77,7 +77,7 @@ min_count = 5
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
 
-ver <- "pvalue0p001_lfc0p213_FINAL_wF"
+ver <- "pvalue0p001_lfc0p13_FINALvalidation"
 gene_number <- nrow(counts_data)
 
 #Set desired outputs:
@@ -231,13 +231,15 @@ if(output_results_tables == 1){
   write.table(sig, file=paste("./Output/DESeq2/Results/significant_results_",contrast_groups[2],contrast_groups[3],"_",ver,".txt", sep = ""), sep="\t", quote=F, col.names=NA)
   
   # Output gene list for use on http://www.webgestalt.org/#
+  sig_table_filt = sig[order(res_table$log2FoldChange),]
   res_table_filt = res_table_tb[order(res_table$log2FoldChange),]
   drops = c("baseMean","lfcSE","stat","pvalue","padj")
   res_table_filt = res_table_filt[, !(names(res_table_filt) %in% drops)]
+  sig_table_filt = sig[, !(names(sig_table_filt) %in% drops)]
   write.table(res_table_filt, file=paste("./Output/DESeq2/Results/GSEA_",contrast_groups[2],contrast_groups[3],"_",ver,".rnk", sep = ""), sep="\t", quote=F, row.names = FALSE)
   drops = c("log2FoldChange")
-  res_table_filt = res_table_filt[, !(names(res_table_filt) %in% drops)]
-  write.table(res_table_filt, file=paste("./Output/DESeq2/Results/ORA_",contrast_groups[2],contrast_groups[3],"_",ver,".txt", sep = ""), sep="\t", quote=F, row.names = FALSE)
+  sig_table_filt = sig_table_filt[, !(names(sig_table_filt) %in% drops)]
+  write.table(sig_table_filt, file=paste("./Output/DESeq2/Results/ORA_",contrast_groups[2],contrast_groups[3],"_",ver,".txt", sep = ""), sep="\t", quote=F, row.names = FALSE)
   
   }
 
@@ -316,15 +318,21 @@ if(output_heatmap == 1){
   
   log_counts_data_mat = data.matrix(norm_sig, rownames.force = NA)
   log_counts_data_mat = t(scale(t(log_counts_data_mat)))
-  ha = HeatmapAnnotation(condition=annotation$condition,col = list(condition = c("8-9-11PMneg" = "#ff9289", "1-2-3-4PMpos" = "#00dae0")))
+  group1 = paste(contrast_groups[[2]])
+  group2 = paste(contrast_groups[[3]])
+  condition_table = c()
+  condition_table <- c("#ff9289","#00dae0")
+  names(condition_table) = c(group2,group1)
+  ha = HeatmapAnnotation(condition=annotation$condition,col = list(condition = condition_table))
   
-  svg(paste("./Output/DESeq2/Heatmaps/sig_heatmap_",contrast_groups[2],contrast_groups[3],"_",ver,".svg", sep = ""), width = 1500, height = 1200)
+  png(paste("./Output/DESeq2/Heatmaps/sig_heatmap_",contrast_groups[2],contrast_groups[3],"_",ver,".png", sep = ""), width = 900, height = 1200)
   Heatmap(log_counts_data_mat, 
           top_annotation = ha,
           #col = colorRampPalette(rev(brewer.pal(n = 7, name ="RdYlBu")))(100),
           col = colorRamp2(c(-4, -2,-1,0,1, 2,4), c("#4676b5", "#82b1d3","#dbeff6","#fefebd","#fee395", "#fc9961","#d73027")),
-          clustering_distance_rows = "pearson",
-          clustering_distance_columns = robust_dist,
+          clustering_distance_rows = "euclidean",
+          clustering_distance_columns = "euclidean")
+
 #  pheatmap(norm_sig, 
 #           main = heatmap_title,
 # #         color = diverging_hcl(15,"Blue-Red2"), 
@@ -340,7 +348,16 @@ if(output_heatmap == 1){
 #           scale = "row", 
 #           fontsize_row = 10, 
 #           height = 20,
-  )
+
+  Sys.sleep(5)
+  dev.off()
+  svg(paste("./Output/DESeq2/Heatmaps/sig_heatmap_",contrast_groups[2],contrast_groups[3],"_",ver,".svg", sep = ""))
+  Heatmap(log_counts_data_mat, 
+          top_annotation = ha,
+          #col = colorRampPalette(rev(brewer.pal(n = 7, name ="RdYlBu")))(100),
+          col = colorRamp2(c(-4, -2,-1,0,1, 2,4), c("#4676b5", "#82b1d3","#dbeff6","#fefebd","#fee395", "#fc9961","#d73027")),
+          clustering_distance_rows = "euclidean",
+          clustering_distance_columns = "euclidean")
   dev.off()
 }
 
@@ -350,6 +367,7 @@ if(output_PCA == 1) {
   rld <- vst(dds, blind=TRUE)
   res_genes <- row.names(res_table)
   sig_genes <-  sig$gene
+  cols <- c(colnames(meta[,!(names(meta) %in% c("condition","age"))]))
   
   for(each in c(cols,"condition")){
     #In the below replace sig_genes with res_genes if you want to perform PCA analysis on all genes rather than just on significant genes.
@@ -384,7 +402,6 @@ if(output_PCA == 1) {
 ### SAVE CROSS TABULATION CHARTS
 if(output_xtabs == 1){
   # Convert meta columns to factors (except for condition and age)
-  cols <- c(colnames(meta[,!(names(meta) %in% c("condition","age"))]))
   meta_factor <- meta
   meta_factor[cols] <- lapply(meta_factor[cols],factor)
   summary(meta_factor)

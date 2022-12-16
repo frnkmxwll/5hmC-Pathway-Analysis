@@ -31,10 +31,10 @@ library(broom)
 library(leaps) #for logistic regression optimizaton
 library(pROC)
 library(boot)
-library(ggfortify) #used for pca clustering
+#library(ggfortify) #used for pca clustering
 library(cluster) #used for pca clustering
-library(ggiraph)
-library(ggiraphExtra)
+#library(ggiraph)
+#library(ggiraphExtra)
 library(devtools) #used for complex heatmaps
 library(ComplexHeatmap)#used for complex heatmaps
 library(circlize)
@@ -54,11 +54,11 @@ robust_dist = function(x, y) {
 #counts_name_validation <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_v3/1o3_pdONLYpos_8o11_metNEGtumNEG_validation_rawcounts.csv"
 
 ### Norm counts
-counts_name_training <- "./Output/DESeq2/Results/normalized_counts_1o3_pdONLYpos8o11_metNEGtumNEG_pvalue0p1_lfc0p26_training_csarb.csv"
-counts_name_validation <- "./Output/DESeq2/Results/normalized_counts_1o3_pdONLYpos8o11_metNEGtumNEG_pvalue0p005_lfc0p13_validation_csarb.csv"
+counts_name_training <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_final/1o3_pdONLYpos_8o11_metNEGtumNEG_training_rawcounts.csv"
+counts_name_validation <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_final/1o3_pdONLYpos_8o11_metNEGtumNEG_validation_rawcounts.csv"
 
-meta_name_training <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_v3/1o3_pdONLYpos_8o11_metNEGtumNEG_training_conditions.csv"
-meta_name_validation <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_v3/1o3_pdONLYpos_8o11_metNEGtumNEG_validation_conditions.csv"
+meta_name_training <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_final/1o3_pdONLYpos_8o11_metNEGtumNEG_training_conditions.csv"
+meta_name_validation <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_final/1o3_pdONLYpos_8o11_metNEGtumNEG_validation_conditions.csv"
 counts_data_training <- read.csv(counts_name_training,row.names = 1)
 counts_data_validation <- read.csv(counts_name_validation,row.names = 1)
 
@@ -101,14 +101,14 @@ setwd("~/5hmC-Pathway-Analysis/")
 #define padj cutoff, you may need to run with several padj values until you have an appropriate number of significant results.
 #used to select significant genes for results tables, PCA plots, heatmaps and UMAP plots.
 data_set_var = 2 # 1=full dataset, 2 = training only, 3 = validation only
-cutoff_type = 3 # 0=padj cutoff, default; 1=lfc & pvalue cutoff; 2 = no cutoff (genome wide); 3=gene list; 4=previously run sig list;
-padj.cutoff = 0.05 # 0.1 default
-pvalue.cutoff = 0.01
+cutoff_type = 2 # 0=padj cutoff, default; 1=lfc & pvalue cutoff; 2 = no cutoff (genome wide); 3=gene list; 4=previously run sig list;
+padj.cutoff = 0.1 # 0.1 default
+pvalue.cutoff = 0.1
 lfc.cutoff = 0.137504 #0.263034 ~ 20% change, 0.137504 ~ 10%, 0.584963 ~ 50% change, 
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
 
-ver <- "model_genes_v1"
+ver <- "training_vFINAL"
 gene_number <- nrow(counts_data)
 
 #Set desired outputs:
@@ -127,11 +127,6 @@ if (file.exists(paste("./Output/DESeq2/logit/",contrast_groups[2],contrast_group
   dir.create(paste("./Output/DESeq2/logit/",contrast_groups[2],contrast_groups[3],"_",ver,"/",sep=""))
 }
 
-###VALIDATION
-#check columns are equal
-all(colnames(counts_data) %in% rownames(meta))
-all(colnames(counts_data) == rownames(meta))
-
 ### Define datasets
 if (data_set_var == 1){
   counts_data = counts_data
@@ -147,6 +142,12 @@ if (data_set_var == 3){
   counts_data = counts_data_validation
   meta = meta_validation
 }
+
+
+###VALIDATION
+#check columns are equal
+all(colnames(counts_data) %in% rownames(meta))
+all(colnames(counts_data) == rownames(meta))
 
 ###CREATE DESeq2 OBJECT
 #load data into DESeq2 object dds
@@ -292,30 +293,31 @@ predictors_validation <- subset(predictors_validation,select=-c(peritoneal_mets,
 
 predictor_count <- ncol(predictors)
 
-# Plot all predictors individually
-for (single_predictor_index in 2:predictor_count) {
-#  logit_variables = paste(colnames(predictors[-1]), collapse=" + ")
-  logit_variables = colnames(predictors[single_predictor_index])
-  logit_formula = as.formula(paste("condition ~ ",logit_variables, collapse=""))
-  
-  mylogit <- glm(logit_formula, data = predictors, family = "binomial")
-  logistic_results <- summary(mylogit)
-  #print(single_predictor_index)
-  #print(summary(mylogit))
-  if (!exists("tidy_glm")){
-    tidy_glm = tidy(mylogit)
-    } 
-  else{
-    tidy_glm <- rbind(tidy_glm,tidy(mylogit))
-    #print(tidy_glm)
-  }
-  if(single_predictor_index == predictor_count){
-    tidy_glm = tidy_glm[!(tidy_glm$term == "(Intercept)"),]
-    write.csv(tidy_glm, paste("./Output/DESeq2/logit/",contrast_groups[2],contrast_groups[3],"_",ver,"/","individual_predictors.csv",sep=""))
-    rm(tidy_glm)
+if(cutoff_type != 2){
+  # Plot all predictors individually
+  for (single_predictor_index in 2:predictor_count) {
+  #  logit_variables = paste(colnames(predictors[-1]), collapse=" + ")
+    logit_variables = colnames(predictors[single_predictor_index])
+    logit_formula = as.formula(paste("condition ~ ",logit_variables, collapse=""))
+    
+    mylogit <- glm(logit_formula, data = predictors, family = "binomial")
+    logistic_results <- summary(mylogit)
+    #print(single_predictor_index)
+    #print(summary(mylogit))
+    if (!exists("tidy_glm")){
+      tidy_glm = tidy(mylogit)
+      } 
+    else{
+      tidy_glm <- rbind(tidy_glm,tidy(mylogit))
+      #print(tidy_glm)
+    }
+    if(single_predictor_index == predictor_count){
+      tidy_glm = tidy_glm[!(tidy_glm$term == "(Intercept)"),]
+      write.csv(tidy_glm, paste("./Output/DESeq2/logit/",contrast_groups[2],contrast_groups[3],"_",ver,"/","individual_predictors.csv",sep=""))
+      rm(tidy_glm)
+    }
   }
 }
-
 # Plot clinical confounding variables
 logit_variables = paste("batch","chemo_6weeks", "primary_site", "age", "sex", sep = " + ")
 print(logit_variables)
@@ -342,38 +344,39 @@ roc(predictors$condition ~ test_prob, plot = TRUE, print.auc = TRUE,main = paste
 dev.off()
 
 
-# Plot clinical confounding variables & 1 Gene at a time.
-for (single_predictor_index in 8:predictor_count) {
-#  logit_variables = paste("batch", "sex", "age", "chemo_6weeks", "primary_site", colnames(predictors[single_predictor_index]), sep = " + ") # all clinical variables
-  logit_variables = paste("chemo_6weeks", colnames(predictors[single_predictor_index]), sep = " + ") # chemo only
-  print(logit_variables)
-  logit_formula = as.formula(paste("condition ~ ",logit_variables, collapse=""))
-  
-  mylogit <- glm(logit_formula, data = predictors, family = "binomial")
-  logistic_results <- summary(mylogit)
-  print(single_predictor_index)
-  print(summary(mylogit))
-  
-  test_prob = predict(mylogit, type = "response")
-  
-  png(paste("./Output/DESeq2/logit/",contrast_groups[2],contrast_groups[3],"_",ver,"/","ROC_fullmodel_",single_predictor_index,"_",contrast_groups[2],contrast_groups[3],ver,".png",sep=""), width = 900, height = 900)
-  roc(predictors$condition ~ test_prob, plot = TRUE, print.auc = TRUE,main = paste("Clinical Variables +",colnames(predictors[single_predictor_index])), cex.lab=2, cex.axis=2, cex.main=2, cex.sub=2,ci=TRUE)
-  dev.off()
-  
-  if (!exists("tidy_glm")){
-    tidy_glm = tidy(mylogit)
-  } else{
-    tidy_glm <- rbind(tidy_glm,tidy(mylogit))
-    print(tidy_glm)
-  }
-  if(single_predictor_index == predictor_count){
-    tidy_glm = tidy_glm[!(tidy_glm$term == "(Intercept)"),]
-    tidy_glm = tidy_glm[!duplicated(tidy_glm$term),]
-    write.csv(tidy_glm, paste("./Output/DESeq2/logit/",contrast_groups[2],contrast_groups[3],"_",ver,"/","individual_genes_with_confounders_v6.csv",sep=""))
-    rm(tidy_glm)
+if(cutoff_type != 2){
+  # Plot clinical confounding variables & 1 Gene at a time.
+  for (single_predictor_index in 8:predictor_count) {
+  #  logit_variables = paste("batch", "sex", "age", "chemo_6weeks", "primary_site", colnames(predictors[single_predictor_index]), sep = " + ") # all clinical variables
+    logit_variables = paste("chemo_6weeks", colnames(predictors[single_predictor_index]), sep = " + ") # chemo only
+    print(logit_variables)
+    logit_formula = as.formula(paste("condition ~ ",logit_variables, collapse=""))
+    
+    mylogit <- glm(logit_formula, data = predictors, family = "binomial")
+    logistic_results <- summary(mylogit)
+    print(single_predictor_index)
+    print(summary(mylogit))
+    
+    test_prob = predict(mylogit, type = "response")
+    
+    png(paste("./Output/DESeq2/logit/",contrast_groups[2],contrast_groups[3],"_",ver,"/","ROC_fullmodel_",single_predictor_index,"_",contrast_groups[2],contrast_groups[3],ver,".png",sep=""), width = 900, height = 900)
+    roc(predictors$condition ~ test_prob, plot = TRUE, print.auc = TRUE,main = paste("Clinical Variables +",colnames(predictors[single_predictor_index])), cex.lab=2, cex.axis=2, cex.main=2, cex.sub=2,ci=TRUE)
+    dev.off()
+    
+    if (!exists("tidy_glm")){
+      tidy_glm = tidy(mylogit)
+    } else{
+      tidy_glm <- rbind(tidy_glm,tidy(mylogit))
+      print(tidy_glm)
+    }
+    if(single_predictor_index == predictor_count){
+      tidy_glm = tidy_glm[!(tidy_glm$term == "(Intercept)"),]
+      tidy_glm = tidy_glm[!duplicated(tidy_glm$term),]
+      write.csv(tidy_glm, paste("./Output/DESeq2/logit/",contrast_groups[2],contrast_groups[3],"_",ver,"/","individual_genes_with_confounders_v6.csv",sep=""))
+      rm(tidy_glm)
+    }
   }
 }
-
 
 
 

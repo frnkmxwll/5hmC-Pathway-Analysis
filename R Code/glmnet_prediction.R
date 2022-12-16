@@ -22,10 +22,10 @@ library (glmnetUtils)
 ###CONFIGURATION
 #set working directory, select where you extracted folder
 setwd("~/5hmC-Pathway-Analysis/")
-counts_name_training <- "./Output/Randomization/1-2-3-4PMpos_8-9-11PMneg_DESeq2__final/1-2-3-4PMpos_8-9-11PMneg_training_rawcounts.csv"
-counts_name_validation <- "./Output/Randomization/1-2-3-4PMpos_8-9-11PMneg_DESeq2__final/1-2-3-4PMpos_8-9-11PMneg_validation_rawcounts.csv"
-meta_name_training <- "./Output/Randomization/1-2-3-4PMpos_8-9-11PMneg_DESeq2__final/1-2-3-4PMpos_8-9-11PMneg_training_conditions.csv"
-meta_name_validation <- "./Output/Randomization/1-2-3-4PMpos_8-9-11PMneg_DESeq2__final/1-2-3-4PMpos_8-9-11PMneg_validation_conditions.csv"
+counts_name_training <- "./Output/DESeq2/Results/normalized_counts_1o3_pdONLYpos8o11_metNEGtumNEG_pvalue0p01_lfc0p13_FINALtraining.csv"
+counts_name_validation <- "./Output/DESeq2/Results/normalized_counts_1o3_pdONLYpos8o11_metNEGtumNEG_pvalue0p01_lfc0p13_FINALvalidation.csv"
+meta_name_training <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_final/1o3_pdONLYpos_8o11_metNEGtumNEG_training_conditions.csv"
+meta_name_validation <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_final/1o3_pdONLYpos_8o11_metNEGtumNEG_training_conditions.csv"
 #sig_results_file <- "./Output/DESeq2/Results/significant_results_1o3_pdONLYpos8o11_metNEGtumNEG__pvalue0p05_lfc0p13_training.txt"
 sig_results_file <- "./Output/DESeq2/logit/1-2-3-4PMpos8-9-11PMneg_training_genomewide_0p01_lfc0p13/individual_predictors_0p01.txt"
 ver <- "whole_dataset_genomewide_logit_0p01_lfc0p13_nfold10"
@@ -83,7 +83,7 @@ if (file.exists(paste("./Output/glmnet/",class1_name,class2_name,"_",ver,"/",sep
 #run cross validation 200 times and save coefficients to an external file.
 pb <- progress_bar$new(
   format = " downloading [:bar] :percent eta: :eta",
-  total = number_of_runs, clear = FALSE, width= 60)
+  total = number_of_runs, clear = FALSE, width= 200)
 
 for (i in 1:number_of_runs) {
   pb$tick()
