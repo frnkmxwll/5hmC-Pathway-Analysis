@@ -64,14 +64,15 @@ counts_data_validation <- read.csv(counts_name_validation,row.names = 1)
 
 counts_name <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_v3/1o3_pdONLYpos_8o11_metNEGtumNEG_training_rawcounts.csv"
 meta_name <- "./Output/Randomization/1o3_pdONLYpos_8o11_metNEGtumNEG_DESeq2_v3/1o3_pdONLYpos_8o11_metNEGtumNEG_training_conditions.csv"
-previous_results_name <- "./Output/DESeq2/logit/1o3_pdONLYpos8o11_metNEGtumNEG_genome_wide_v1/individual_predictors.csv"
+previous_results_name <- "./Output/DESeq2/logit/1o3_pdONLYpos8o11_metNEGtumNEG_training_vFINAL/individual_predictors.csv"
 
 #read in data, define what counts & conditions files
 counts_data <- read.csv(counts_name,row.names = 1)
 meta <-  read.csv(meta_name,row.names = 1)
 previous_logit_results <- read.csv(previous_results_name)
-previous_results_cutoff <- 0.025
+previous_results_cutoff <- 0.01
 previous_logit_results <- previous_logit_results[previous_logit_results$`p.value` < previous_results_cutoff, ]
+previous_logit_results <- previous_logit_results[complete.cases(previous_logit_results), ]
 
 rownames(counts_data_training) <- str_replace(c(rownames(counts_data_training)),'\\-',"_")
 rownames(counts_data_training) <- str_replace(c(rownames(counts_data_training)),'\\.',"_")
@@ -293,29 +294,27 @@ predictors_validation <- subset(predictors_validation,select=-c(peritoneal_mets,
 
 predictor_count <- ncol(predictors)
 
-if(cutoff_type != 2){
-  # Plot all predictors individually
-  for (single_predictor_index in 2:predictor_count) {
-  #  logit_variables = paste(colnames(predictors[-1]), collapse=" + ")
-    logit_variables = colnames(predictors[single_predictor_index])
-    logit_formula = as.formula(paste("condition ~ ",logit_variables, collapse=""))
-    
-    mylogit <- glm(logit_formula, data = predictors, family = "binomial")
-    logistic_results <- summary(mylogit)
-    #print(single_predictor_index)
-    #print(summary(mylogit))
-    if (!exists("tidy_glm")){
-      tidy_glm = tidy(mylogit)
-      } 
-    else{
-      tidy_glm <- rbind(tidy_glm,tidy(mylogit))
-      #print(tidy_glm)
-    }
-    if(single_predictor_index == predictor_count){
-      tidy_glm = tidy_glm[!(tidy_glm$term == "(Intercept)"),]
-      write.csv(tidy_glm, paste("./Output/DESeq2/logit/",contrast_groups[2],contrast_groups[3],"_",ver,"/","individual_predictors.csv",sep=""))
-      rm(tidy_glm)
-    }
+# Plot all predictors individually
+for (single_predictor_index in 2:predictor_count) {
+#  logit_variables = paste(colnames(predictors[-1]), collapse=" + ")
+  logit_variables = colnames(predictors[single_predictor_index])
+  logit_formula = as.formula(paste("condition ~ ",logit_variables, collapse=""))
+  
+  mylogit <- glm(logit_formula, data = predictors, family = "binomial")
+  logistic_results <- summary(mylogit)
+  #print(single_predictor_index)
+  #print(summary(mylogit))
+  if (!exists("tidy_glm")){
+    tidy_glm = tidy(mylogit)
+    } 
+  else{
+    tidy_glm <- rbind(tidy_glm,tidy(mylogit))
+    #print(tidy_glm)
+  }
+  if(single_predictor_index == predictor_count){
+    tidy_glm = tidy_glm[!(tidy_glm$term == "(Intercept)"),]
+    write.csv(tidy_glm, paste("./Output/DESeq2/logit/",contrast_groups[2],contrast_groups[3],"_",ver,"/","individual_predictors.csv",sep=""))
+    rm(tidy_glm)
   }
 }
 # Plot clinical confounding variables
@@ -582,7 +581,7 @@ heatmap_title <- paste(contrast_groups[2],"/",contrast_groups[3],"logistic regre
 annotation <- meta_training %>% 
   select(condition)
 
-log_counts_data_mat = data.matrix(log_counts_data, rownames.force = NA)
+log_counts_data_mat = data.matrix(log_counts_data[rownames(log_counts_data) %in% previous_logit_results$term,], rownames.force = NA)
 log_counts_data_mat = t(scale(t(log_counts_data_mat)))
 ha = HeatmapAnnotation(condition=annotation$condition,col = list(condition = c("1o3_pdONLYpos" = "#ff9289", "8o11_metNEGtumNEG" = "#00dae0")))
 
@@ -607,7 +606,7 @@ Heatmap(log_counts_data_mat,
         #col = colorRampPalette(rev(brewer.pal(n = 7, name ="RdYlBu")))(100),
         col = colorRamp2(c(-4, -2,-1,0,1, 2,4), c("#4676b5", "#82b1d3","#dbeff6","#fefebd","#fee395", "#fc9961","#d73027")),
         clustering_distance_rows = "pearson",
-        clustering_distance_columns = "euclidean",
+        clustering_distance_columns = "pearson",
 )
 dev.off()
 

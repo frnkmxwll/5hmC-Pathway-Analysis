@@ -77,7 +77,7 @@ min_count = 5
 
 #Select version for all output files (e.g. 1, 2, 3, ...)
 
-ver <- "pvalue0p001_lfc0p13_FINALvalidation"
+ver <- "pvalue0p001_lfc0p13_FINAL"
 gene_number <- nrow(counts_data)
 
 #Set desired outputs:
@@ -318,8 +318,8 @@ if(output_heatmap == 1){
   
   log_counts_data_mat = data.matrix(norm_sig, rownames.force = NA)
   log_counts_data_mat = t(scale(t(log_counts_data_mat)))
-  group1 = paste(contrast_groups[[2]])
-  group2 = paste(contrast_groups[[3]])
+  group1 = paste(contrast_groups[[3]])
+  group2 = paste(contrast_groups[[2]])
   condition_table = c()
   condition_table <- c("#ff9289","#00dae0")
   names(condition_table) = c(group2,group1)
